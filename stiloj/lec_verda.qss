@@ -1,0 +1,77 @@
+
+
+ QTabWidget::pane { /* The tab widget frame */ 
+	 background-color: white;
+ 	 border-left: 1px solid #C4BEB0;
+	 border-bottom: 1px solid #C1C1C1;
+	 border-right: 0px;
+	 border-top: 0px;}
+
+ QTabBar::tab {
+	height: 0px;
+	width:  0px;
+ }
+
+
+neklakebla {
+     border: 0px;
+     min-width: 10px;
+	 min-height: 1.2em;
+	 max-height: 1.5em;
+	 margin-right: 6px;
+	 font-weight: bold;
+	 color: #B7D7A5;
+ }
+
+ klakbutono {
+     border: 0px;
+     min-width: 20px;
+	 /* min-height: 9ex; */
+	 
+	 margin: 5px;
+	 font-weight: bold;
+	 text-align: left; 
+	 color: #B7D7A5;
+	 padding: 2px;
+ }
+ 
+ klakbutono:hover {
+   	 background: qlineargradient( x1:0, y1:0.2, x2:0, y2:1, stop:0 transparent, stop:0.89 transparent, stop:0.9 #B7D7A5, stop:1 #B7D7A5); 
+}
+
+klakbutono:pressed {
+    padding-left: 4px;
+	padding-top: 4px;
+}
+
+ panelo {
+	background-color: #F0F5E1;
+	border-right: 1px solid #DFE0E4;
+    border-bottom: 1px solid #C1C1C1;
+}
+
+QFrame[tipo="markebla"] {
+   border: 2px solid #B7D7A5;
+   border-radius: 5px;
+   }
+
+QFrame[tipo="ekzerca"] {
+   border: 1px solid lightGrey;
+   border-radius: 5px;
+	background-color: #F0F5E1;
+   }
+
+QLabel[tipo="teksta"] {
+   border: 1px solid lightGrey;
+   border-radius: 5px;
+	background-color: #F0F5E1;
+	padding: 8px;
+   }
+
+label_sago_reversa {
+   max-height: 24px;
+   max-width: 24px;
+   margin-left: 10px;
+   border-image: url(:ikonoj/sago_revena.png) 0;
+   }
+

@@ -1,0 +1,32 @@
+<RCC>
+    <qresource prefix="/">
+        <file>paneloj/dividilo.png</file>
+        <file>paneloj/sendas.png</file>
+        <file>paneloj/lec-01-parto.png</file>
+        <file>paneloj/lec-01-titolo.png</file>
+        <file>paneloj/lec-02-parto.png</file>
+        <file>paneloj/lec-02-titolo.png</file>
+        <file>paneloj/lec-03-parto.png</file>
+        <file>paneloj/lec-03-titolo.png</file>
+        <file>paneloj/lec-04-parto.png</file>
+        <file>paneloj/lec-04-titolo.png</file>
+        <file>paneloj/lec-05-parto.png</file>
+        <file>paneloj/lec-05-titolo.png</file>
+        <file>paneloj/lec-06-parto.png</file>
+        <file>paneloj/lec-06-titolo.png</file>
+        <file>paneloj/lec-07-parto.png</file>
+        <file>paneloj/lec-07-titolo.png</file>
+        <file>paneloj/lec-08-parto.png</file>
+        <file>paneloj/lec-08-titolo.png</file>
+        <file>paneloj/lec-09-parto.png</file>
+        <file>paneloj/lec-09-titolo.png</file>
+        <file>paneloj/lec-10-parto.png</file>
+        <file>paneloj/lec-10-titolo.png</file>
+        <file>paneloj/lec-11-parto.png</file>
+        <file>paneloj/lec-11-titolo.png</file>
+        <file>paneloj/lec-12-parto.png</file>
+        <file>paneloj/lec-12-titolo.png</file>
+        <file>paneloj/lec-13-parto.png</file>
+        <file>paneloj/lec-13-titolo.png</file>
+    </qresource>
+</RCC>

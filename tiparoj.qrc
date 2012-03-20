@@ -1,0 +1,6 @@
+<RCC>
+    <qresource prefix="/">
+        <file>tiparoj/DejaVuSans.ttf</file>
+        <file>tiparoj/DejaVuSans-Bold.ttf</file>
+    </qresource>
+</RCC>

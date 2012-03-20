@@ -1,0 +1,30 @@
+<RCC>
+    <qresource prefix="/">
+        <file>pagxopiedo/agordo.png</file>
+        <file>pagxopiedo/agordo-hover.png</file>
+        <file>pagxopiedo/agordo-pressed.png</file>
+        <file>pagxopiedo/bildeto-cx.png</file>
+        <file>pagxopiedo/bildeto-muziko.png</file>
+        <file>pagxopiedo/bildeto-paroloj.png</file>
+        <file>pagxopiedo/checkbox.png</file>
+        <file>pagxopiedo/checkbox-checked.png</file>
+        <file>pagxopiedo/fono.png</file>
+        <file>pagxopiedo/hejmen.png</file>
+        <file>pagxopiedo/hejmen-hover.png</file>
+        <file>pagxopiedo/hejmen-pressed.png</file>
+        <file>pagxopiedo/helpo.png</file>
+        <file>pagxopiedo/helpo-hover.png</file>
+        <file>pagxopiedo/helpo-pressed.png</file>
+        <file>pagxopiedo/printi-pagxon.png</file>
+        <file>pagxopiedo/printi-pagxon-hover.png</file>
+        <file>pagxopiedo/printi-pagxon-pressed.png</file>
+        <file>pagxopiedo/hejmen-disabled.png</file>
+        <file>pagxopiedo/printi-pagxon-disabled.png</file>
+        <file>pagxopiedo/sendi-mesagxon.png</file>
+        <file>pagxopiedo/sendi-mesagxon-disabled.png</file>
+        <file>pagxopiedo/sendi-mesagxon-over.png</file>
+        <file>pagxopiedo/sendi-mesagxon-pressed.png</file>
+        <file>pagxopiedo/kurso_fono.png</file>
+        <file>pagxopiedo/Esperanto_125.png</file>
+    </qresource>
+</RCC>

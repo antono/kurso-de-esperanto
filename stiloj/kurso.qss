@@ -1,0 +1,694 @@
+QWidget#ChefaPagho {
+	background-color: #DCF0F7;
+/*	background-image: url(:pagxopiedo/kurso_fono.png);
+	background-position: top right;
+	background-repeat: none; */
+    border-bottom: 1px solid #C1C1C1;
+	}
+QWidget#Pagho_Kreditoj {
+    border-bottom: 1px solid #C1C1C1;
+	background-color: #DCF0F7;
+	}
+
+QLabel[tipo="titolo_alia"] {
+	font-size: 20px;
+	font-weight: bold;
+	}
+
+QSpinBox[tipo="shilda"] {
+	min-height: 32px;
+	font-size: 24px;
+	font-weight: bold;
+	}
+	
+cx_plainedit {
+	border: 1px solid Grey;
+}
+
+klakbutono {
+		color: #0000B9;
+		}
+		
+klakbutono:hover {
+   	 background: qlineargradient( x1:0, y1:0.2, x2:0, y2:1, stop:0 transparent, stop:0.89 transparent, 
+	 stop:0.9 #0000B9, 
+	 stop:1   #0000B9); 
+}
+
+neklakebla {
+	 color: #FF6333;
+}
+
+neklakebla[tipo="akuzativa"] {
+	 color: black;
+}
+
+QLabel#ligilo, QPushButton#KieButono, QPushButton#KioEstas, QPushButton#Kreditoj, QPushButton#Eliri {
+	min-height: 42px;
+	max-height: 42px;
+}
+
+QPushButton[tipo="leciona"] {
+	min-width: 147px;
+	min-height: 42px;
+	max-width: 147px;
+	max-height: 42px;
+}
+
+QPushButton#Leciono1 {
+	 border-image: url(:ikonoj/hejmo/leciono01.png) 0;
+	 }
+
+QPushButton#Leciono2 {
+	 border-image: url(:ikonoj/hejmo/leciono02.png) 0;
+	 }
+
+QPushButton#Leciono3 {
+	 border-image: url(:ikonoj/hejmo/leciono03.png) 0;
+	 }
+
+QPushButton#Leciono4 {
+	 border-image: url(:ikonoj/hejmo/leciono04.png) 0;
+	 }
+
+QPushButton#Leciono5 {
+	 border-image: url(:ikonoj/hejmo/leciono05.png) 0;
+	 }
+
+QPushButton#Leciono6 {
+	 border-image: url(:ikonoj/hejmo/leciono06.png) 0;
+	 }
+
+QPushButton#Leciono7 {
+	 border-image: url(:ikonoj/hejmo/leciono07.png) 0;
+	 }
+
+QPushButton#Leciono8 {
+	 border-image: url(:ikonoj/hejmo/leciono08.png) 0;
+	 }
+
+QPushButton#Leciono9 {
+	 border-image: url(:ikonoj/hejmo/leciono09.png) 0;
+	 }
+
+QPushButton#Leciono10 {
+	 border-image: url(:ikonoj/hejmo/leciono10.png) 0;
+	 }
+
+QPushButton#Leciono11 {
+	 border-image: url(:ikonoj/hejmo/leciono11.png) 0;
+	 }
+
+QPushButton#Leciono12 {
+	 border-image: url(:ikonoj/hejmo/leciono12.png) 0;
+	 }
+
+QPushButton#Leciono13 {
+	 border-image: url(:ikonoj/hejmo/leciono13.png) 0;
+	 }
+
+QPushButton:hover#Leciono1 {
+	 border-image: url(:ikonoj/hejmo/leciono01-over.png) 0;
+	 }
+
+QPushButton:hover#Leciono2 {
+	 border-image: url(:ikonoj/hejmo/leciono02-over.png) 0;
+	 }
+
+QPushButton:hover#Leciono3 {
+	 border-image: url(:ikonoj/hejmo/leciono03-over.png) 0;
+	 }
+
+QPushButton:hover#Leciono4 {
+	 border-image: url(:ikonoj/hejmo/leciono04-over.png) 0;
+	 }
+
+QPushButton:hover#Leciono5 {
+	 border-image: url(:ikonoj/hejmo/leciono05-over.png) 0;
+	 }
+
+QPushButton:hover#Leciono6 {
+	 border-image: url(:ikonoj/hejmo/leciono06-over.png) 0;
+	 }
+
+QPushButton:hover#Leciono7 {
+	 border-image: url(:ikonoj/hejmo/leciono07-over.png) 0;
+	 }
+
+QPushButton:hover#Leciono8 {
+	 border-image: url(:ikonoj/hejmo/leciono08-over.png) 0;
+	 }
+
+QPushButton:hover#Leciono9 {
+	 border-image: url(:ikonoj/hejmo/leciono09-over.png) 0;
+	 }
+
+QPushButton:hover#Leciono10 {
+	 border-image: url(:ikonoj/hejmo/leciono10-over.png) 0;
+	 }
+
+QPushButton:hover#Leciono11 {
+	 border-image: url(:ikonoj/hejmo/leciono11-over.png) 0;
+	 }
+
+QPushButton:hover#Leciono12 {
+	 border-image: url(:ikonoj/hejmo/leciono12-over.png) 0;
+	 }
+
+QPushButton:hover#Leciono13 {
+	 border-image: url(:ikonoj/hejmo/leciono13-over.png) 0;
+	 }
+
+
+QPushButton:pressed#Leciono1 {
+	 border-image: url(:ikonoj/hejmo/leciono01-pressed.png) 0;
+	 }
+
+QPushButton:pressed#Leciono2 {
+	 border-image: url(:ikonoj/hejmo/leciono02-pressed.png) 0;
+	 }
+
+QPushButton:pressed#Leciono3 {
+	 border-image: url(:ikonoj/hejmo/leciono03-pressed.png) 0;
+	 }
+
+QPushButton:pressed#Leciono4 {
+	 border-image: url(:ikonoj/hejmo/leciono04-pressed.png) 0;
+	 }
+
+QPushButton:pressed#Leciono5 {
+	 border-image: url(:ikonoj/hejmo/leciono05-pressed.png) 0;
+	 }
+
+QPushButton:pressed#Leciono6 {
+	 border-image: url(:ikonoj/hejmo/leciono06-pressed.png) 0;
+	 }
+
+QPushButton:pressed#Leciono7 {
+	 border-image: url(:ikonoj/hejmo/leciono07-pressed.png) 0;
+	 }
+
+QPushButton:pressed#Leciono8 {
+	 border-image: url(:ikonoj/hejmo/leciono08-pressed.png) 0;
+	 }
+
+QPushButton:pressed#Leciono9 {
+	 border-image: url(:ikonoj/hejmo/leciono09-pressed.png) 0;
+	 }
+
+QPushButton:pressed#Leciono10 {
+	 border-image: url(:ikonoj/hejmo/leciono10-pressed.png) 0;
+	 }
+
+QPushButton:pressed#Leciono11 {
+	 border-image: url(:ikonoj/hejmo/leciono11-pressed.png) 0;
+	 }
+
+QPushButton:pressed#Leciono12 {
+	 border-image: url(:ikonoj/hejmo/leciono12-pressed.png) 0;
+	 }
+
+QPushButton:pressed#Leciono13 {
+	 border-image: url(:ikonoj/hejmo/leciono13-pressed.png) 0;
+	 }
+
+/* FINO DE LA HEJMAJ BUTONOJ ----------------- */
+	 
+QCheckBox::indicator {
+    width: 15px;
+    height: 14px;
+}
+
+QCheckBox::indicator:unchecked {
+    image: url(:pagxopiedo/checkbox.png);
+}
+
+QCheckBox::indicator:checked {
+    image: url(:pagxopiedo/checkbox-checked.png);
+}
+
+QFrame#paghopiedo {
+	background-color: #EDEDED;
+	max-height: 44px;
+	}
+	
+QWidget#centralWidget {
+	background-color: #EDEDED;
+	}
+	
+QPushButton#Hejmo {
+	width: 35px;
+	max-width: 35px;
+	height: 34px;
+	}
+
+
+QPushButton:enabled#Hejmo {
+    border-image: url(:pagxopiedo/hejmen.png) 0;
+}
+
+QPushButton:disabled#Hejmo {
+    border-image: url(:pagxopiedo/hejmen-disabled.png) 0;
+}
+
+QPushButton:hover#Hejmo {
+    border-image: url(:pagxopiedo/hejmen-hover.png) 0;
+	}
+
+	
+QPushButton:pressed#Hejmo {
+    border-image: url(:pagxopiedo/hejmen-pressed.png) 0;
+	}
+
+QPushButton#KielUzi {
+    border-image: url(:pagxopiedo/helpo.png) 0;
+	width: 35px;
+	max-width: 35px;
+	height: 34px;
+	}
+
+QPushButton:hover#KielUzi {
+    border-image: url(:pagxopiedo/helpo-hover.png) 0;
+	}
+	
+QPushButton:pressed#KielUzi {
+    border-image: url(:pagxopiedo/helpo-pressed.png) 0;
+	}
+
+QPushButton#Konfigurado {
+    border-image: url(:pagxopiedo/agordo.png) 0;
+	width: 35px;
+	max-width: 35px;
+	height: 34px;
+	}
+
+QPushButton:hover#Konfigurado {
+    border-image: url(:pagxopiedo/agordo-hover.png) 0;
+	}
+	
+QPushButton:pressed#Konfigurado {
+    border-image: url(:pagxopiedo/agordo-pressed.png) 0;
+	}
+
+QPushButton#printilo {
+	width: 81px;
+	max-width: 81px;
+	height: 34px;
+	}
+
+/* -------------------------------------------------------- */
+
+QPushButton:enabled#printilo {
+    border-image: url(:pagxopiedo/printi-pagxon.png) 0;
+}
+
+QPushButton:disabled#printilo {
+    border-image: url(:pagxopiedo/printi-pagxon-disabled.png) 0;
+}
+
+QPushButton:hover#printilo {
+    border-image: url(:pagxopiedo/printi-pagxon-hover.png) 0;
+	}
+
+	
+QPushButton:pressed#printilo {
+    border-image: url(:pagxopiedo/printi-pagxon-pressed.png) 0;
+	}
+
+/* -------------------------------------------------------- */
+
+QPushButton#Sendas {
+	width: 36px;
+	max-width: 36px;
+	height: 33px;
+	}
+
+QPushButton:enabled#Sendas {
+    border-image: url(:pagxopiedo/sendi-mesagxon.png) 0;
+}
+
+QPushButton:disabled#Sendas {
+    border-image: url(:pagxopiedo/sendi-mesagxon-disabled.png) 0;
+}
+
+QPushButton:hover#Sendas {
+    border-image: url(:pagxopiedo/sendi-mesagxon-over.png) 0;
+	}
+
+	
+QPushButton:pressed#Sendas {
+    border-image: url(:pagxopiedo/sendi-mesagxon-pressed.png) 0;
+	}
+
+/* -------------------------------------------------------- */
+
+QLabel#titolo_leciono {
+ 	margin-bottom: 15px;
+	margin-top:     5px;
+}	
+
+QFrame[tipo="senborda"] {
+	border: none;
+	}
+
+titolo {
+	font-size: 20px; 
+	font-weight: bold;
+	min-height: 25px;
+	max-height: 28px;
+}
+
+panelo_klak {
+    padding-top: 5px;
+	padding-bottom: 5px;
+	border: none;
+	}
+
+klakbutono {
+     border: 0px;
+     min-width: 20px;
+	 min-height: 1em; 
+	 max-height: 1.5em;
+	 margin: 5px;
+	 font-weight: bold;
+	 text-align: left; 
+	 padding-top: 2px; /* minimuma alteco por MacOsX */
+	 padding-bottom: 2px;
+}
+
+
+klakbutono:pressed {
+    padding-left: 4px;
+	padding-top: 4px;
+}
+
+neklakebla {
+     border: 0px;
+     min-width: 20px;
+	 min-height: 1em;
+	 max-height: 1.5em;
+	 margin: 5px;
+	 font-weight: bold;
+ }
+
+
+panelo {
+	border-right: 1px solid #DFE0E4;
+    border-bottom: 1px solid #C1C1C1;
+	border-top: none;
+	border-left: none;
+}
+
+label_sago_reversa {
+	margin-left: 15px;
+	background-image: url(:ikonoj/sago_revena.png);
+	max-height: 24px;
+	min-height: 24px;
+	max-width:  24px;
+	min-width:  24px;
+	}
+	
+QLabel[tipo="egala"] {
+	margin-left: 15px;
+	}
+	 
+QLabel[tipo="teksta"] {
+   border-left: 1px solid lightGrey;
+   border-right: 1px solid lightGrey;
+   border-radius: 5px;
+   padding: 11px;
+}
+
+QFrame[tipo="shilda"] {
+	border: 1px solid lightGrey;
+	border-radius: 3px;
+}
+
+QFrame[tipo="ekzerca"] {
+   border-width: 1px;
+   border-style: solid;
+   border-radius: 3px;
+}
+
+QFrame[tipo="markebla"] {
+   border-width: 2px;
+   border-style: solid;
+   border-radius: 5px;
+}
+
+QLabel#titolo_leciono {
+	min-width: 192px;
+	min-height: 37px;
+    background-color: transparent;
+    background-repeat: none;
+    background-position: center center;
+}
+
+indikilo {
+    background-color: transparent;
+    background-repeat: none;
+    background-position: center center;
+	min-height: 23px;
+	min-width: 23px;
+	}
+
+/* EKZERCOJ -------------------------------------------------------- */
+
+mp3ludilo {
+	max-height: 34px;
+	max-width:  71px;
+	min-height: 34px;
+	max-width:  71px;
+	}
+
+QPushButton[tipo="komenci"] {
+	width: 35px;
+	max-width: 35px;
+	height: 33px;
+	max-height: 33px;
+	}
+
+QPushButton:enabled[tipo="komenci"] {
+    border-image: url(:ikonoj/ekzercoj/komenci.png) 0;
+}
+
+QPushButton:disabled[tipo="komenci"] {
+    border-image: url(:ikonoj/ekzercoj/komenci-disabled.png) 0;
+}
+
+QPushButton:hover[tipo="komenci"] {
+    border-image: url(:ikonoj/ekzercoj/komenci-over.png) 0;
+	}
+
+	
+QPushButton:pressed[tipo="komenci"] {
+    border-image: url(:ikonoj/ekzercoj/komenci-pressed.png) 0;
+	}
+
+/* -------------------------------------------------------- */
+
+QRadioButton::indicator::unchecked {
+     image: url(:ikonoj/ekzercoj/radio-off.png);
+ }
+
+ QRadioButton::indicator::checked {
+     image: url(:ikonoj/ekzercoj/radio-on.png);
+ }
+ 
+ /* -------------------------------------------------------- */
+
+QPushButton[tipo="halti"] {
+	width: 35px;
+	max-width: 35px;
+	height: 33px;
+	max-height: 33px;
+	}
+
+QPushButton:enabled[tipo="halti"] {
+    border-image: url(:ikonoj/ekzercoj/halti.png) 0;
+}
+
+QPushButton:disabled[tipo="halti"] {
+    border-image: url(:ikonoj/ekzercoj/halti-disabled.png) 0;
+}
+
+QPushButton:hover[tipo="halti"] {
+    border-image: url(:ikonoj/ekzercoj/halti-over.png) 0;
+	}
+
+	
+QPushButton:pressed[tipo="halti"] {
+    border-image: url(:ikonoj/ekzercoj/halti-pressed.png) 0;
+	}
+
+/* -------------------------------------------------------- */
+
+
+QPushButton[tipo="pauzi"] {
+	width: 35px;
+	max-width: 35px;
+	height: 33px;
+	max-height: 33px;
+	}
+
+QPushButton:enabled[tipo="pauzi"] {
+    border-image: url(:ikonoj/ekzercoj/pauzo.png) 0;
+}
+
+QPushButton:disabled[tipo="pauzi"] {
+    border-image: url(:ikonoj/ekzercoj/pauzo-disabled.png) 0;
+}
+
+QPushButton:hover[tipo="pauzi"] {
+    border-image: url(:ikonoj/ekzercoj/pauzo-over.png) 0;
+	}
+
+	
+QPushButton:pressed[tipo="pauzi"] {
+    border-image: url(:ikonoj/ekzercoj/pauzo-pressed.png) 0;
+	}
+
+/* -------------------------------------------------------- */
+QPushButton[tipo="validigi"] {
+	width: 35px;
+	max-width: 35px;
+	height: 33px;
+	max-height: 33px;
+	}
+
+QPushButton:enabled[tipo="validigi"] {
+    border-image: url(:ikonoj/ekzercoj/validi.png) 0;
+}
+
+QPushButton:disabled[tipo="validigi"] {
+    border-image: url(:ikonoj/ekzercoj/validi-disabled.png) 0;
+}
+
+QPushButton:hover[tipo="validigi"] {
+    border-image: url(:ikonoj/ekzercoj/validi-over.png) 0;
+	}
+
+	
+QPushButton:pressed[tipo="validigi"] {
+    border-image: url(:ikonoj/ekzercoj/validi-pressed.png) 0;
+	}
+
+/* -------------------------------------------------------- */
+
+QPushButton[tipo="auskulti"] {
+	width: 81px;
+	max-width: 81px;
+	height: 33px;
+	max-height: 33px;
+	}
+
+QPushButton:enabled[tipo="auskulti"] {
+    border-image: url(:ikonoj/ekzercoj/auskultu-denove.png) 0;
+}
+
+QPushButton:disabled[tipo="auskulti"] {
+    border-image: url(:ikonoj/ekzercoj/auskultu-denove-disabled.png) 0;
+}
+
+QPushButton:hover[tipo="auskulti"] {
+    border-image: url(:ikonoj/ekzercoj/auskultu-denove-over.png) 0;
+	}
+
+	
+QPushButton:pressed[tipo="auskulti"] {
+    border-image: url(:ikonoj/ekzercoj/auskultu-denove-pressed.png) 0;
+	}
+
+/* -------------------------------------------------------- */
+
+QPushButton[tipo="paroli"] {
+	width: 81px;
+	max-width: 81px;
+	height: 33px;
+	max-height: 33px;
+	}
+
+QPushButton:enabled[tipo="paroli"] {
+    border-image: url(:ikonoj/ekzercoj/paroli-denove.png) 0;
+}
+
+QPushButton:disabled[tipo="paroli"] {
+    border-image: url(:ikonoj/ekzercoj/paroli-denove-disabled.png) 0;
+}
+
+QPushButton:hover[tipo="paroli"] {
+    border-image: url(:ikonoj/ekzercoj/paroli-denove-over.png) 0;
+	}
+
+	
+QPushButton:pressed[tipo="paroli"] {
+    border-image: url(:ikonoj/ekzercoj/paroli-denove-pressed.png) 0;
+	}
+
+/* -------------------------------------------------------- */
+
+QPushButton[tipo="antauen"] {
+	width: 81px;
+	max-width: 81px;
+	height: 33px;
+	max-height: 33px;
+	}
+
+QPushButton:enabled[tipo="antauen"] {
+    border-image: url(:ikonoj/ekzercoj/antauen.png) 0;
+}
+
+QPushButton:disabled[tipo="antauen"] {
+    border-image: url(:ikonoj/ekzercoj/antauen-disabled.png) 0;
+}
+
+QPushButton:hover[tipo="antauen"] {
+    border-image: url(:ikonoj/ekzercoj/antauen-over.png) 0;
+	}
+
+	
+QPushButton:pressed[tipo="antauen"] {
+    border-image: url(:ikonoj/ekzercoj/antauen-pressed.png) 0;
+	}
+
+/* -------------------------------------------------------- */
+
+ QProgressBar[tipo="progreso"] {
+     border: 1px solid #c9c9c9;
+     border-radius: 5px;
+	 background: #efefef;
+	 height: 14px;
+ }
+
+ QProgressBar::chunk {
+     background-image: url(:ikonoj/ekzercoj/progreso.png);
+     width: 13px;
+ }
+ 
+/* -------------------------------------------------------- */
+ 
+QPushButton#printilo_ps {
+	width: 81px;
+	max-width: 81px;
+	height: 33px;
+	max-height: 33px;
+	}
+
+QPushButton:enabled#printilo_ps {
+    border-image: url(:ikonoj/ekzercoj/printi-ekzercon.png) 0;
+}
+
+QPushButton:disabled#printilo_ps {
+    border-image: url(:ikonoj/ekzercoj/printi-ekzercon-disabled.png) 0;
+}
+
+QPushButton:hover#printilo_ps {
+    border-image: url(:ikonoj/ekzercoj/printi-ekzercon-over.png) 0;
+	}
+
+	
+QPushButton:pressed#printilo_ps {
+    border-image: url(:ikonoj/ekzercoj/printi-ekzercon-pressed.png) 0;
+	}
+
+/* -------------------------------------------------------- */

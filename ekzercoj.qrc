@@ -1,0 +1,17 @@
+<RCC>
+    <qresource prefix="/">
+        <file>ekzercoj/ekz01.dat</file>
+        <file>ekzercoj/ekz02.dat</file>
+        <file>ekzercoj/ekz03.dat</file>
+        <file>ekzercoj/ekz04.dat</file>
+        <file>ekzercoj/ekz05.dat</file>
+        <file>ekzercoj/ekz06.dat</file>
+        <file>ekzercoj/ekz07.dat</file>
+        <file>ekzercoj/ekz08.dat</file>
+        <file>ekzercoj/ekz09.dat</file>
+        <file>ekzercoj/ekz10.dat</file>
+        <file>ekzercoj/ekz11.dat</file>
+        <file>ekzercoj/ekz12.dat</file>
+        <file>ekzercoj/menuo.ini</file>
+    </qresource>
+</RCC>

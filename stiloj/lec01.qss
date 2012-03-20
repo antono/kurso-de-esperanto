@@ -1,0 +1,93 @@
+QTabWidget::pane {
+	 background-color: white;
+ 	 border-left: 1px solid #C4BEB0;
+	 border-bottom: 1px solid #C1C1C1;
+	 border-right: 0px;
+	 border-top: 0px;
+	 }
+
+QTabBar::tab {
+	height: 0px;
+	width:  0px;
+ }
+
+indikilo {
+    background-image: url(:paneloj/lec-01-parto.png);
+}
+
+QLabel#titolo_leciono {
+    background-image: url(:paneloj/lec-01-titolo.png);
+}
+
+/*
+neklakebla {
+	 color: #996651;
+}
+
+ klakbutono {
+	 color: #996651;
+}
+ 
+klakbutono:hover {
+   	 background: qlineargradient( x1:0, y1:0.2, x2:0, y2:1, stop:0 transparent, stop:0.89 transparent, 
+	 stop:0.9 #996651, 
+	 stop:1   #996651); 
+}
+*/
+panelo {
+	background-color: #FDEAE4;
+}
+
+QWidget#Pagho01 {
+	background-color: #FDEAE4;
+}
+
+QFrame[tipo="markebla"] {
+   border-color: #DB9375;
+}
+
+QFrame[tipo="ekzerca"] {
+   border-top-color: #e5b39e;
+   border-left-color: #e5b39e;
+   border-right-color: #f4ded5;
+   border-bottom-color: #f4ded5;
+   background-color: #fbf4f1;
+}
+
+QLabel[tipo="teksta"] {
+   	 background: qlineargradient( x1:0, y1:0, x2:0, y2:1, 
+	 stop:0 #FDEAE4, 
+	 stop:0.15 #fbf4f1, 
+	 stop:0.85 #fbf4f1, 
+	 stop:1   #FDEAE4); 
+	 }
+	 
+QPushButton[tipo="speciala"] {
+	border: 1px solid #DB9375;
+	border-radius: 5px;
+	min-height: 2em;
+	}
+	
+QPushButton[tipo="speciala"]:enabled {
+   	 background: qlineargradient( x1:0, y1:0, x2:0, y2:1, 
+	 stop:0 #FDF8F5, 
+	 stop:1 #DB9375); 
+	 }
+    
+QPushButton[tipo="speciala"]:disabled {
+   	 background-color: white;
+	 color: #666666;
+	 }
+
+QPushButton[tipo="speciala"]:pressed {
+	 padding-top: 5px;
+	 padding-left: 5px;
+	 }
+
+QPushButton[tipo="speciala"]:hover {
+   	 background: qlineargradient( x1:0, y1:0, x2:0, y2:1, 
+	 stop:0 #DB9375, 
+	 stop:0.2 #FDF8F5, 
+	 stop:0.8 #FDF8F5, 
+	 stop:1   #DB9375); 
+	 }

@@ -1,0 +1,124 @@
+LECIONO  1
+Baza: DB9375
+klakbutono (130%): 996651
+ekzerca_bordo (70%): e5b39e
+ekzerca_bordo_malhela (30%): f4ded5
+ekzerca_fono (10%): fbf4f1
+
+ ------------------------- 
+
+LECIONO  2
+Baza: E2AA7E
+klakbutono (130%): 9e7658
+ekzerca_bordo (70%): eac3a4
+ekzerca_bordo_malhela (30%): f6e5d8
+ekzerca_fono (10%): fcf6f2
+
+ ------------------------- 
+
+LECIONO  3
+Baza: EDC589
+klakbutono (130%): a5895f
+ekzerca_bordo (70%): f2d6ac
+ekzerca_bordo_malhela (30%): f9eddb
+ekzerca_fono (10%): fdf9f3
+
+ ------------------------- 
+
+LECIONO  4
+Baza: FFF79C
+klakbutono (130%): b2ac6d
+ekzerca_bordo (70%): fff9b9
+ekzerca_bordo_malhela (30%): fffce1
+ekzerca_fono (10%): fffef5
+
+ ------------------------- 
+
+LECIONO  5
+Baza: CDDC9A
+klakbutono (130%): 8f996b
+ekzerca_bordo (70%): dbe6b8
+ekzerca_bordo_malhela (30%): eff4e0
+ekzerca_fono (10%): fafbf4
+
+ ------------------------- 
+
+LECIONO  6
+Baza: B2CD96
+klakbutono (130%): 7c8f68
+ekzerca_bordo (70%): c9dbb5
+ekzerca_bordo_malhela (30%): e7efdf
+ekzerca_fono (10%): f7faf4
+
+ ------------------------- 
+
+LECIONO  7
+Baza: 97C4C0
+klakbutono (130%): 698986
+ekzerca_bordo (70%): b6d5d2
+ekzerca_bordo_malhela (30%): dfedec
+ekzerca_fono (10%): f4f9f8
+
+ ------------------------- 
+
+LECIONO  8
+Baza: 95C8ED
+klakbutono (130%): 688ba5
+ekzerca_bordo (70%): b4d8f2
+ekzerca_bordo_malhela (30%): dfeef9
+ekzerca_fono (10%): f4f9fd
+
+ ------------------------- 
+
+LECIONO  9
+Baza: 8DA3D0
+klakbutono (130%): 627291
+ekzerca_bordo (70%): afbede
+ekzerca_bordo_malhela (30%): dce3f0
+ekzerca_fono (10%): f3f5fa
+
+ ------------------------- 
+
+LECIONO  10
+Baza: 8B91C2
+klakbutono (130%): 616587
+ekzerca_bordo (70%): adb1d4
+ekzerca_bordo_malhela (30%): dcddec
+ekzerca_fono (10%): f3f4f8
+
+ ------------------------- 
+
+LECIONO  11
+Baza: 8980B5
+klakbutono (130%): 5f597e
+ekzerca_bordo (70%): aca6cb
+ekzerca_bordo_malhela (30%): dbd8e8
+ekzerca_fono (10%): f3f2f7
+
+ ------------------------- 
+
+LECIONO  12
+Baza: 9B85B6
+klakbutono (130%): 6c5d7f
+ekzerca_bordo (70%): b8a9cb
+ekzerca_bordo_malhela (30%): e0dae9
+ekzerca_fono (10%): f5f2f7
+
+ ------------------------- 
+
+LECIONO  13
+Baza: BFBFBF
+klakbutono (130%): 858585
+ekzerca_bordo (70%): d2d2d2
+ekzerca_bordo_malhela (30%): ebebeb
+ekzerca_fono (10%): f8f8f8
+
+
+LECIONO  12
+Baza: 9B85B6
+klakbutono (130%): 2e2736
+ekzerca_bordo (70%): b8a9cb
+ekzerca_bordo_malhela (30%): e0dae9
+ekzerca_fono (10%): f5f2f7
+
+ ------------------------- 

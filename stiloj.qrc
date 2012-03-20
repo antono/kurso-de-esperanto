@@ -1,0 +1,18 @@
+<RCC>
+    <qresource prefix="/">
+        <file>stiloj/kurso.qss</file>
+        <file>stiloj/lec01.qss</file>
+        <file>stiloj/lec02.qss</file>
+        <file>stiloj/lec03.qss</file>
+        <file>stiloj/lec04.qss</file>
+        <file>stiloj/lec05.qss</file>
+        <file>stiloj/lec06.qss</file>
+        <file>stiloj/lec07.qss</file>
+        <file>stiloj/lec08.qss</file>
+        <file>stiloj/lec09.qss</file>
+        <file>stiloj/lec10.qss</file>
+        <file>stiloj/lec11.qss</file>
+        <file>stiloj/lec12.qss</file>
+        <file>stiloj/lec13.qss</file>
+    </qresource>
+</RCC>

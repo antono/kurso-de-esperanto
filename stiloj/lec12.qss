@@ -1,0 +1,62 @@
+QTabWidget::pane {
+	 background-color: white;
+ 	 border-left: 1px solid #C4BEB0;
+	 border-bottom: 1px solid #C1C1C1;
+	 border-right: 0px;
+	 border-top: 0px;
+	 }
+
+QTabBar::tab {
+	height: 0px;
+	width:  0px;
+ }
+
+indikilo {
+    background-image: url(:paneloj/lec-12-parto.png);
+}
+
+QLabel#titolo_leciono {
+    background-image: url(:paneloj/lec-12-titolo.png);
+}
+/*
+neklakebla {
+	 color: #4d425b;
+}
+
+ klakbutono {
+	 color: #4d425b;
+}
+ 
+klakbutono:hover {
+   	 background: qlineargradient( x1:0, y1:0.2, x2:0, y2:1, stop:0 transparent, stop:0.89 transparent, 
+	 stop:0.9 #4d425b, 
+	 stop:1   #4d425b); 
+}
+*/
+panelo {
+	background-color: #E8E6F1;
+}
+
+QWidget#Pagho12 {
+	background-color: #E8E6F1;
+}
+
+QFrame[tipo="markebla"] {
+   border-color: #9B85B6;
+}
+
+QFrame[tipo="ekzerca"] {
+   border-top-color: #b8a9cb;
+   border-left-color: #b8a9cb;
+   border-right-color: #e0dae9;
+   border-bottom-color: #e0dae9;
+   background-color: #f5f2f7;
+}
+
+QLabel[tipo="teksta"] {
+   	 background: qlineargradient( x1:0, y1:0, x2:0, y2:1, 
+	 stop:0 #E8E6F1, 
+	 stop:0.15 #f5f2f7, 
+	 stop:0.85 #f5f2f7, 
+	 stop:1   #E8E6F1); 
+	 }
