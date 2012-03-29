@@ -56,6 +56,13 @@ kurso::kurso(QWidget *parent) :
 
     ludilo =  Phonon::createPlayer(Phonon::MusicCategory,
                                    Phonon::MediaSource());
+
+    alteco_originala = this->minimumHeight();
+    largheco_originala = this->minimumWidth();
+    int alteco = QApplication::desktop()->height();
+    int largheco = QApplication::desktop()->width();
+    this->setMaximumSize(largheco,alteco);
+
     komencakonfiguro();
     Traduku();
     Konfiguru();
@@ -126,7 +133,7 @@ void kurso::komencakonfiguro()
     LastaPagxo  = Konfiguro.value("LastaPagxo", 0).toInt();
     lSxaltilo   = Konfiguro.value("Sxaltilo", true).toBool();
     lNoteto     = Konfiguro.value("Noteto", true).toBool();
-    iLiterGrando= Konfiguro.value("LiterGrando", 10).toInt();
+    iLiterGrando= Konfiguro.value("LiterGrando", 13).toInt();
 
 }
 
@@ -453,6 +460,7 @@ void kurso::Stilo()
     file5.open(QFile::ReadOnly);
     QString kurso = QLatin1String(file5.readAll());
 
+    this->setUpdatesEnabled(false);
     ui->centralWidget->setStyleSheet(kurso);
     int i;
     QString pagho, stilo;
@@ -469,12 +477,38 @@ void kurso::Stilo()
 
         }
     }
+    this->setUpdatesEnabled(true);
+
 
 }
 
 void kurso::on_Tiparo_currentIndexChanged(const QString &arg1)
 {
-    this->setStyleSheet("font-family: \"" + arg1 + "\"; font-size: " + QString::number(qRound(ui->LiterGrando->value() * 1.333333)) + "px;");
+    this->setUpdatesEnabled(false);
+    //this->setStyleSheet("font-family: \"" + arg1 + "\"; font-size: " + QString::number(qRound(ui->LiterGrando->value() * 1.333333)) + "px;");
+    int alteco = QApplication::desktop()->height();
+    int largheco = QApplication::desktop()->width();
+    int kroma_alteco = ( ui->LiterGrando->value() - 14 ) * 15;
+    int kroma_largheco = ( ui->LiterGrando->value() - 14 ) * 24;
+    if (kroma_alteco > 0)
+    {
+        if ( ( (alteco_originala + kroma_alteco) < alteco)  && ( (largheco_originala + kroma_largheco) < largheco) )
+        {
+            this->setMinimumSize(largheco_originala + kroma_largheco, alteco_originala + kroma_alteco);
+            this->resize(1,1);
+        }
+    }
+    else
+        if (this->minimumHeight() > alteco_originala)
+        {
+            this->setMinimumSize(largheco_originala,alteco_originala);
+            this->resize(1,1);
+        }
+
+    this->setUpdatesEnabled(true);
+
+    this->setStyleSheet("font-family: \"" + arg1 + "\"; font-size: " + QString::number(ui->LiterGrando->value()) + "px;");
+
 }
 
 /* CHI TIU PARTO ENIROS EN ESTONTA VERSIO
@@ -733,3 +767,4 @@ void kurso::on_butono_listo_clicked()
 
 }
 */
+

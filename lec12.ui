@@ -7,7 +7,7 @@
     <x>0</x>
     <y>0</y>
     <width>962</width>
-    <height>576</height>
+    <height>675</height>
    </rect>
   </property>
   <property name="font">
@@ -51,7 +51,7 @@
       </sizepolicy>
      </property>
      <property name="currentIndex">
-      <number>9</number>
+      <number>7</number>
      </property>
      <property name="iconSize">
       <size>
@@ -90,25 +90,9 @@
          <item>
           <layout class="QHBoxLayout" name="horizontalLayout_44">
            <item>
-            <spacer name="horizontalSpacer_5">
-             <property name="orientation">
-              <enum>Qt::Horizontal</enum>
-             </property>
-             <property name="sizeType">
-              <enum>QSizePolicy::Fixed</enum>
-             </property>
-             <property name="sizeHint" stdset="0">
-              <size>
-               <width>40</width>
-               <height>20</height>
-              </size>
-             </property>
-            </spacer>
-           </item>
-           <item>
             <layout class="QVBoxLayout" name="verticalLayout_20">
              <item>
-              <layout class="QHBoxLayout" name="horizontalLayout_32">
+              <layout class="QHBoxLayout" name="horizontalLayout_32" stretch="3,1">
                <item>
                 <widget class="neklakebla" name="pushButton_25">
                  <property name="sizePolicy">
@@ -135,7 +119,7 @@
               </layout>
              </item>
              <item>
-              <layout class="QHBoxLayout" name="horizontalLayout_39">
+              <layout class="QHBoxLayout" name="horizontalLayout_39" stretch="3,0,3,1">
                <item>
                 <widget class="neklakebla" name="pushButton_32">
                  <property name="sizePolicy">
@@ -194,7 +178,7 @@
               </layout>
              </item>
              <item>
-              <layout class="QHBoxLayout" name="horizontalLayout_33">
+              <layout class="QHBoxLayout" name="horizontalLayout_33" stretch="3,1">
                <item>
                 <widget class="neklakebla" name="pushButton_26">
                  <property name="sizePolicy">
@@ -221,7 +205,7 @@
               </layout>
              </item>
              <item>
-              <layout class="QHBoxLayout" name="horizontalLayout_34">
+              <layout class="QHBoxLayout" name="horizontalLayout_34" stretch="3,1">
                <item>
                 <widget class="neklakebla" name="pushButton_27">
                  <property name="sizePolicy">
@@ -268,22 +252,6 @@
        </item>
        <item>
         <layout class="QHBoxLayout" name="horizontalLayout_45">
-         <item>
-          <spacer name="horizontalSpacer_6">
-           <property name="orientation">
-            <enum>Qt::Horizontal</enum>
-           </property>
-           <property name="sizeType">
-            <enum>QSizePolicy::Fixed</enum>
-           </property>
-           <property name="sizeHint" stdset="0">
-            <size>
-             <width>40</width>
-             <height>20</height>
-            </size>
-           </property>
-          </spacer>
-         </item>
          <item>
           <widget class="QFrame" name="frame_2">
            <property name="frameShape">
@@ -340,7 +308,7 @@
               <item>
                <layout class="QVBoxLayout" name="verticalLayout_19">
                 <item>
-                 <layout class="QHBoxLayout" name="horizontalLayout_35">
+                 <layout class="QHBoxLayout" name="horizontalLayout_35" stretch="3,1">
                   <item>
                    <widget class="neklakebla" name="pushButton_28">
                     <property name="sizePolicy">
@@ -367,7 +335,7 @@
                  </layout>
                 </item>
                 <item>
-                 <layout class="QHBoxLayout" name="horizontalLayout_36">
+                 <layout class="QHBoxLayout" name="horizontalLayout_36" stretch="3,1">
                   <item>
                    <widget class="neklakebla" name="pushButton_29">
                     <property name="sizePolicy">
@@ -428,7 +396,7 @@
               <item>
                <layout class="QVBoxLayout" name="verticalLayout_38">
                 <item>
-                 <layout class="QHBoxLayout" name="horizontalLayout_37">
+                 <layout class="QHBoxLayout" name="horizontalLayout_37" stretch="3,1">
                   <item>
                    <widget class="neklakebla" name="pushButton_30">
                     <property name="sizePolicy">
@@ -455,7 +423,7 @@
                  </layout>
                 </item>
                 <item>
-                 <layout class="QHBoxLayout" name="horizontalLayout_38">
+                 <layout class="QHBoxLayout" name="horizontalLayout_38" stretch="3,1">
                   <item>
                    <widget class="neklakebla" name="pushButton_31">
                     <property name="sizePolicy">
@@ -539,25 +507,9 @@
          <item>
           <layout class="QHBoxLayout" name="horizontalLayout_41">
            <item>
-            <spacer name="horizontalSpacer_4">
-             <property name="orientation">
-              <enum>Qt::Horizontal</enum>
-             </property>
-             <property name="sizeType">
-              <enum>QSizePolicy::Fixed</enum>
-             </property>
-             <property name="sizeHint" stdset="0">
-              <size>
-               <width>40</width>
-               <height>20</height>
-              </size>
-             </property>
-            </spacer>
-           </item>
-           <item>
             <layout class="QVBoxLayout" name="verticalLayout_22">
              <item>
-              <layout class="QHBoxLayout" name="horizontalLayout_40">
+              <layout class="QHBoxLayout" name="horizontalLayout_40" stretch="3,1">
                <item>
                 <widget class="neklakebla" name="pushButton_34">
                  <property name="sizePolicy">
@@ -584,7 +536,7 @@
               </layout>
              </item>
              <item>
-              <layout class="QHBoxLayout" name="horizontalLayout_42">
+              <layout class="QHBoxLayout" name="horizontalLayout_42" stretch="3,1">
                <item>
                 <widget class="neklakebla" name="pushButton_37">
                  <property name="sizePolicy">
@@ -611,7 +563,7 @@
               </layout>
              </item>
              <item>
-              <layout class="QHBoxLayout" name="horizontalLayout_43">
+              <layout class="QHBoxLayout" name="horizontalLayout_43" stretch="3,1">
                <item>
                 <widget class="neklakebla" name="pushButton_38">
                  <property name="sizePolicy">
@@ -669,22 +621,6 @@
        <item>
         <layout class="QHBoxLayout" name="horizontalLayout_95">
          <item>
-          <spacer name="horizontalSpacer_11">
-           <property name="orientation">
-            <enum>Qt::Horizontal</enum>
-           </property>
-           <property name="sizeType">
-            <enum>QSizePolicy::Fixed</enum>
-           </property>
-           <property name="sizeHint" stdset="0">
-            <size>
-             <width>40</width>
-             <height>20</height>
-            </size>
-           </property>
-          </spacer>
-         </item>
-         <item>
           <layout class="QVBoxLayout" name="verticalLayout_29">
            <item>
             <layout class="QVBoxLayout" name="verticalLayout_28">
@@ -721,28 +657,15 @@
              <item>
               <layout class="QHBoxLayout" name="horizontalLayout_46">
                <item>
-                <spacer name="horizontalSpacer_7">
-                 <property name="orientation">
-                  <enum>Qt::Horizontal</enum>
-                 </property>
-                 <property name="sizeType">
-                  <enum>QSizePolicy::Fixed</enum>
-                 </property>
-                 <property name="sizeHint" stdset="0">
-                  <size>
-                   <width>30</width>
-                   <height>20</height>
-                  </size>
-                 </property>
-                </spacer>
-               </item>
-               <item>
                 <widget class="QLabel" name="Lec12_Label25">
                  <property name="text">
                   <string>TextLabel</string>
                  </property>
                  <property name="wordWrap">
                   <bool>true</bool>
+                 </property>
+                 <property name="tipo" stdset="0">
+                  <string>suba</string>
                  </property>
                 </widget>
                </item>
@@ -785,28 +708,15 @@
              <item>
               <layout class="QHBoxLayout" name="horizontalLayout_47">
                <item>
-                <spacer name="horizontalSpacer_8">
-                 <property name="orientation">
-                  <enum>Qt::Horizontal</enum>
-                 </property>
-                 <property name="sizeType">
-                  <enum>QSizePolicy::Fixed</enum>
-                 </property>
-                 <property name="sizeHint" stdset="0">
-                  <size>
-                   <width>30</width>
-                   <height>20</height>
-                  </size>
-                 </property>
-                </spacer>
-               </item>
-               <item>
                 <widget class="QLabel" name="Lec12_Label26">
                  <property name="text">
                   <string>TextLabel</string>
                  </property>
                  <property name="wordWrap">
                   <bool>true</bool>
+                 </property>
+                 <property name="tipo" stdset="0">
+                  <string>suba</string>
                  </property>
                 </widget>
                </item>
@@ -849,28 +759,15 @@
              <item>
               <layout class="QHBoxLayout" name="horizontalLayout_48">
                <item>
-                <spacer name="horizontalSpacer_9">
-                 <property name="orientation">
-                  <enum>Qt::Horizontal</enum>
-                 </property>
-                 <property name="sizeType">
-                  <enum>QSizePolicy::Fixed</enum>
-                 </property>
-                 <property name="sizeHint" stdset="0">
-                  <size>
-                   <width>30</width>
-                   <height>20</height>
-                  </size>
-                 </property>
-                </spacer>
-               </item>
-               <item>
                 <widget class="QLabel" name="Lec12_Label27">
                  <property name="text">
                   <string>TextLabel</string>
                  </property>
                  <property name="wordWrap">
                   <bool>true</bool>
+                 </property>
+                 <property name="tipo" stdset="0">
+                  <string>suba</string>
                  </property>
                 </widget>
                </item>
@@ -913,28 +810,15 @@
              <item>
               <layout class="QHBoxLayout" name="horizontalLayout_49">
                <item>
-                <spacer name="horizontalSpacer_10">
-                 <property name="orientation">
-                  <enum>Qt::Horizontal</enum>
-                 </property>
-                 <property name="sizeType">
-                  <enum>QSizePolicy::Fixed</enum>
-                 </property>
-                 <property name="sizeHint" stdset="0">
-                  <size>
-                   <width>30</width>
-                   <height>20</height>
-                  </size>
-                 </property>
-                </spacer>
-               </item>
-               <item>
                 <widget class="QLabel" name="Lec12_Label28">
                  <property name="text">
                   <string>TextLabel</string>
                  </property>
                  <property name="wordWrap">
                   <bool>true</bool>
+                 </property>
+                 <property name="tipo" stdset="0">
+                  <string>suba</string>
                  </property>
                 </widget>
                </item>
@@ -1003,7 +887,7 @@
            <item>
             <layout class="QVBoxLayout" name="verticalLayout_33">
              <item>
-              <layout class="QHBoxLayout" name="horizontalLayout_52">
+              <layout class="QHBoxLayout" name="horizontalLayout_52" stretch="3,1">
                <item>
                 <widget class="neklakebla" name="pushButton_35">
                  <property name="sizePolicy">
@@ -1030,7 +914,7 @@
               </layout>
              </item>
              <item>
-              <layout class="QHBoxLayout" name="horizontalLayout_53">
+              <layout class="QVBoxLayout" name="verticalLayout_52">
                <item>
                 <widget class="neklakebla" name="pushButton_43">
                  <property name="sizePolicy">
@@ -1052,12 +936,15 @@
                  <property name="wordWrap">
                   <bool>true</bool>
                  </property>
+                 <property name="tipo" stdset="0">
+                  <string>suba</string>
+                 </property>
                 </widget>
                </item>
               </layout>
              </item>
              <item>
-              <layout class="QHBoxLayout" name="horizontalLayout_54">
+              <layout class="QVBoxLayout" name="verticalLayout_53">
                <item>
                 <widget class="neklakebla" name="pushButton_44">
                  <property name="sizePolicy">
@@ -1078,6 +965,9 @@
                  </property>
                  <property name="wordWrap">
                   <bool>true</bool>
+                 </property>
+                 <property name="tipo" stdset="0">
+                  <string>suba</string>
                  </property>
                 </widget>
                </item>
@@ -1135,7 +1025,7 @@
            <item>
             <layout class="QVBoxLayout" name="verticalLayout_35">
              <item>
-              <layout class="QHBoxLayout" name="horizontalLayout_56">
+              <layout class="QHBoxLayout" name="horizontalLayout_56" stretch="3,1">
                <item>
                 <widget class="neklakebla" name="pushButton_36">
                  <property name="sizePolicy">
@@ -1162,7 +1052,7 @@
               </layout>
              </item>
              <item>
-              <layout class="QHBoxLayout" name="horizontalLayout_57">
+              <layout class="QVBoxLayout" name="verticalLayout_54">
                <item>
                 <widget class="neklakebla" name="pushButton_45">
                  <property name="sizePolicy">
@@ -1184,12 +1074,15 @@
                  <property name="wordWrap">
                   <bool>true</bool>
                  </property>
+                 <property name="tipo" stdset="0">
+                  <string>suba</string>
+                 </property>
                 </widget>
                </item>
               </layout>
              </item>
              <item>
-              <layout class="QHBoxLayout" name="horizontalLayout_58">
+              <layout class="QVBoxLayout" name="verticalLayout_55">
                <item>
                 <widget class="neklakebla" name="pushButton_46">
                  <property name="sizePolicy">
@@ -1210,6 +1103,9 @@
                  </property>
                  <property name="wordWrap">
                   <bool>true</bool>
+                 </property>
+                 <property name="tipo" stdset="0">
+                  <string>suba</string>
                  </property>
                 </widget>
                </item>
@@ -1322,7 +1218,7 @@
       <attribute name="title">
        <string>5</string>
       </attribute>
-      <layout class="QVBoxLayout" name="verticalLayout_42">
+      <layout class="QVBoxLayout" name="verticalLayout_42" stretch="0,0,0,0,1,2">
        <item>
         <widget class="titolo" name="Lec12_Label40">
          <property name="text">
@@ -1373,6 +1269,9 @@
          </item>
          <item>
           <layout class="QVBoxLayout" name="verticalLayout_31">
+           <property name="spacing">
+            <number>0</number>
+           </property>
            <item>
             <layout class="QHBoxLayout" name="horizontalLayout_61">
              <item>
@@ -1469,6 +1368,12 @@
        </item>
        <item>
         <widget class="QFrame" name="frame_4">
+         <property name="sizePolicy">
+          <sizepolicy hsizetype="Preferred" vsizetype="Expanding">
+           <horstretch>0</horstretch>
+           <verstretch>2</verstretch>
+          </sizepolicy>
+         </property>
          <property name="frameShape">
           <enum>QFrame::Box</enum>
          </property>
@@ -1479,6 +1384,9 @@
           <string>markebla</string>
          </property>
          <layout class="QVBoxLayout" name="verticalLayout_41">
+          <property name="sizeConstraint">
+           <enum>QLayout::SetNoConstraint</enum>
+          </property>
           <item>
            <widget class="QLabel" name="Lec12_Label42">
             <property name="font">
@@ -1525,6 +1433,9 @@
             </item>
             <item>
              <layout class="QVBoxLayout" name="verticalLayout_40">
+              <property name="spacing">
+               <number>0</number>
+              </property>
               <item>
                <layout class="QHBoxLayout" name="horizontalLayout_99">
                 <item>
@@ -1650,7 +1561,7 @@
             <number>6</number>
            </property>
            <item>
-            <layout class="QHBoxLayout" name="horizontalLayout_63">
+            <layout class="QHBoxLayout" name="horizontalLayout_63" stretch="3,1">
              <item>
               <widget class="neklakebla" name="pushButton_47">
                <property name="sizePolicy">
@@ -1677,7 +1588,7 @@
             </layout>
            </item>
            <item>
-            <layout class="QHBoxLayout" name="horizontalLayout_64">
+            <layout class="QHBoxLayout" name="horizontalLayout_64" stretch="3,1">
              <item>
               <widget class="neklakebla" name="pushButton_48">
                <property name="sizePolicy">
@@ -1704,7 +1615,7 @@
             </layout>
            </item>
            <item>
-            <layout class="QHBoxLayout" name="horizontalLayout_65">
+            <layout class="QHBoxLayout" name="horizontalLayout_65" stretch="3,1">
              <item>
               <widget class="neklakebla" name="pushButton_54">
                <property name="sizePolicy">
@@ -1731,7 +1642,7 @@
             </layout>
            </item>
            <item>
-            <layout class="QHBoxLayout" name="horizontalLayout_66">
+            <layout class="QHBoxLayout" name="horizontalLayout_66" stretch="3,1">
              <item>
               <widget class="neklakebla" name="pushButton_55">
                <property name="sizePolicy">
@@ -1758,7 +1669,7 @@
             </layout>
            </item>
            <item>
-            <layout class="QHBoxLayout" name="horizontalLayout_67">
+            <layout class="QHBoxLayout" name="horizontalLayout_67" stretch="3,1">
              <item>
               <widget class="neklakebla" name="pushButton_56">
                <property name="sizePolicy">
@@ -1785,7 +1696,7 @@
             </layout>
            </item>
            <item>
-            <layout class="QHBoxLayout" name="horizontalLayout_68">
+            <layout class="QHBoxLayout" name="horizontalLayout_68" stretch="3,1">
              <item>
               <widget class="neklakebla" name="pushButton_57">
                <property name="sizePolicy">
@@ -1812,7 +1723,7 @@
             </layout>
            </item>
            <item>
-            <layout class="QHBoxLayout" name="horizontalLayout_69">
+            <layout class="QHBoxLayout" name="horizontalLayout_69" stretch="3,1">
              <item>
               <widget class="neklakebla" name="pushButton_58">
                <property name="sizePolicy">
@@ -1839,7 +1750,7 @@
             </layout>
            </item>
            <item>
-            <layout class="QHBoxLayout" name="horizontalLayout_70">
+            <layout class="QHBoxLayout" name="horizontalLayout_70" stretch="3,1">
              <item>
               <widget class="neklakebla" name="pushButton_59">
                <property name="sizePolicy">
@@ -1866,7 +1777,7 @@
             </layout>
            </item>
            <item>
-            <layout class="QHBoxLayout" name="horizontalLayout_71">
+            <layout class="QHBoxLayout" name="horizontalLayout_71" stretch="3,1">
              <item>
               <widget class="neklakebla" name="pushButton_60">
                <property name="sizePolicy">
@@ -1893,7 +1804,7 @@
             </layout>
            </item>
            <item>
-            <layout class="QHBoxLayout" name="horizontalLayout_72">
+            <layout class="QHBoxLayout" name="horizontalLayout_72" stretch="3,1">
              <item>
               <widget class="neklakebla" name="pushButton_61">
                <property name="sizePolicy">
@@ -1920,7 +1831,7 @@
             </layout>
            </item>
            <item>
-            <layout class="QHBoxLayout" name="horizontalLayout_73">
+            <layout class="QHBoxLayout" name="horizontalLayout_73" stretch="3,1">
              <item>
               <widget class="neklakebla" name="pushButton_62">
                <property name="sizePolicy">
@@ -1947,7 +1858,7 @@
             </layout>
            </item>
            <item>
-            <layout class="QHBoxLayout" name="horizontalLayout_74">
+            <layout class="QHBoxLayout" name="horizontalLayout_74" stretch="3,1">
              <item>
               <widget class="neklakebla" name="pushButton_63">
                <property name="sizePolicy">
@@ -1974,7 +1885,7 @@
             </layout>
            </item>
            <item>
-            <layout class="QHBoxLayout" name="horizontalLayout_75">
+            <layout class="QHBoxLayout" name="horizontalLayout_75" stretch="3,1">
              <item>
               <widget class="neklakebla" name="pushButton_64">
                <property name="sizePolicy">
@@ -2596,7 +2507,7 @@
                <number>1</number>
               </property>
               <item>
-               <layout class="QHBoxLayout" name="horizontalLayout_79">
+               <layout class="QHBoxLayout" name="horizontalLayout_79" stretch="3,1">
                 <item>
                  <widget class="neklakebla" name="pushButton_65">
                   <property name="sizePolicy">
@@ -2623,7 +2534,7 @@
                </layout>
               </item>
               <item>
-               <layout class="QHBoxLayout" name="horizontalLayout_80">
+               <layout class="QHBoxLayout" name="horizontalLayout_80" stretch="3,1">
                 <item>
                  <widget class="neklakebla" name="pushButton_66">
                   <property name="sizePolicy">
@@ -2905,20 +2816,6 @@ p, li { white-space: pre-wrap; }
                <item>
                 <layout class="QVBoxLayout" name="verticalLayout_5">
                  <item>
-                  <widget class="QLabel" name="label_128">
-                   <property name="text">
-                    <string>&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;
-&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;
-p, li { white-space: pre-wrap; }
-&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:'Arial'; font-size:15px; font-weight:400; font-style:normal;&quot;&gt;
-&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;a href=&quot;http://www.esperanto-panorama.net/unikode/muziko.htm&quot;&gt;&lt;span style=&quot; text-decoration: underline; color:#0000ff;&quot;&gt;http://www.esperanto-panorama.net&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
-                   </property>
-                   <property name="openExternalLinks">
-                    <bool>true</bool>
-                   </property>
-                  </widget>
-                 </item>
-                 <item>
                   <widget class="QLabel" name="label_129">
                    <property name="text">
                     <string>&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;
@@ -3010,7 +2907,7 @@ p, li { white-space: pre-wrap; }
       <attribute name="title">
        <string>9</string>
       </attribute>
-      <layout class="QVBoxLayout" name="verticalLayout_15">
+      <layout class="QVBoxLayout" name="verticalLayout_15" stretch="0,0,2,0,1">
        <item>
         <widget class="titolo" name="Lec12_Label52">
          <property name="text">
@@ -3030,6 +2927,12 @@ p, li { white-space: pre-wrap; }
        </item>
        <item>
         <widget class="QFrame" name="frame">
+         <property name="sizePolicy">
+          <sizepolicy hsizetype="Preferred" vsizetype="Expanding">
+           <horstretch>0</horstretch>
+           <verstretch>0</verstretch>
+          </sizepolicy>
+         </property>
          <property name="frameShape">
           <enum>QFrame::Panel</enum>
          </property>
@@ -3043,22 +2946,28 @@ p, li { white-space: pre-wrap; }
           <string>markebla</string>
          </property>
          <layout class="QVBoxLayout" name="verticalLayout_14">
+          <property name="topMargin">
+           <number>6</number>
+          </property>
+          <property name="bottomMargin">
+           <number>6</number>
+          </property>
           <item>
            <layout class="QHBoxLayout" name="horizontalLayout_18">
             <item>
-             <layout class="QVBoxLayout" name="verticalLayout_13">
+             <layout class="QVBoxLayout" name="verticalLayout_13" stretch="0,1">
               <item>
                <widget class="QLabel" name="label">
                 <property name="font">
                  <font>
-                  <pointsize>14</pointsize>
+                  <pointsize>-1</pointsize>
                   <weight>75</weight>
                   <bold>true</bold>
                  </font>
                 </property>
                 <property name="styleSheet">
                  <string notr="true">color: blue;
-font-size: 14pt;
+font-size: 18px;
 font-weight: bold;</string>
                 </property>
                 <property name="text">
@@ -3075,6 +2984,12 @@ p, li { white-space: pre-wrap; }
               </item>
               <item>
                <widget class="QLabel" name="label_16">
+                <property name="sizePolicy">
+                 <sizepolicy hsizetype="Preferred" vsizetype="Expanding">
+                  <horstretch>0</horstretch>
+                  <verstretch>0</verstretch>
+                 </sizepolicy>
+                </property>
                 <property name="font">
                  <font>
                   <family>Arial</family>
@@ -3097,6 +3012,12 @@ Baniĝi en la lumo</string>
             </item>
             <item>
              <widget class="QLabel" name="label_17">
+              <property name="sizePolicy">
+               <sizepolicy hsizetype="Preferred" vsizetype="Expanding">
+                <horstretch>0</horstretch>
+                <verstretch>0</verstretch>
+               </sizepolicy>
+              </property>
               <property name="font">
                <font>
                 <family>Arial</family>
@@ -3125,8 +3046,11 @@ En kesto de bluaj fragoj
         <layout class="QHBoxLayout" name="horizontalLayout_17">
          <item>
           <layout class="QVBoxLayout" name="verticalLayout_11">
+           <property name="spacing">
+            <number>3</number>
+           </property>
            <item>
-            <layout class="QHBoxLayout" name="horizontalLayout_5">
+            <layout class="QHBoxLayout" name="horizontalLayout_5" stretch="3,1">
              <item>
               <widget class="neklakebla" name="pushButton">
                <property name="sizePolicy">
@@ -3153,7 +3077,7 @@ En kesto de bluaj fragoj
             </layout>
            </item>
            <item>
-            <layout class="QHBoxLayout" name="horizontalLayout_6">
+            <layout class="QHBoxLayout" name="horizontalLayout_6" stretch="3,1">
              <item>
               <widget class="neklakebla" name="pushButton_2">
                <property name="sizePolicy">
@@ -3180,7 +3104,7 @@ En kesto de bluaj fragoj
             </layout>
            </item>
            <item>
-            <layout class="QHBoxLayout" name="horizontalLayout_7">
+            <layout class="QHBoxLayout" name="horizontalLayout_7" stretch="3,1">
              <item>
               <widget class="neklakebla" name="pushButton_3">
                <property name="sizePolicy">
@@ -3207,7 +3131,7 @@ En kesto de bluaj fragoj
             </layout>
            </item>
            <item>
-            <layout class="QHBoxLayout" name="horizontalLayout_8">
+            <layout class="QHBoxLayout" name="horizontalLayout_8" stretch="3,1">
              <item>
               <widget class="neklakebla" name="pushButton_4">
                <property name="sizePolicy">
@@ -3234,7 +3158,7 @@ En kesto de bluaj fragoj
             </layout>
            </item>
            <item>
-            <layout class="QHBoxLayout" name="horizontalLayout_9">
+            <layout class="QHBoxLayout" name="horizontalLayout_9" stretch="3,1">
              <item>
               <widget class="neklakebla" name="pushButton_5">
                <property name="sizePolicy">
@@ -3261,7 +3185,7 @@ En kesto de bluaj fragoj
             </layout>
            </item>
            <item>
-            <layout class="QHBoxLayout" name="horizontalLayout_10">
+            <layout class="QHBoxLayout" name="horizontalLayout_10" stretch="3,1">
              <item>
               <widget class="neklakebla" name="pushButton_6">
                <property name="sizePolicy">
@@ -3291,8 +3215,11 @@ En kesto de bluaj fragoj
          </item>
          <item>
           <layout class="QVBoxLayout" name="verticalLayout_12">
+           <property name="spacing">
+            <number>3</number>
+           </property>
            <item>
-            <layout class="QHBoxLayout" name="horizontalLayout_11">
+            <layout class="QHBoxLayout" name="horizontalLayout_11" stretch="3,1">
              <item>
               <widget class="neklakebla" name="pushButton_7">
                <property name="sizePolicy">
@@ -3319,7 +3246,7 @@ En kesto de bluaj fragoj
             </layout>
            </item>
            <item>
-            <layout class="QHBoxLayout" name="horizontalLayout_12">
+            <layout class="QHBoxLayout" name="horizontalLayout_12" stretch="3,1">
              <item>
               <widget class="neklakebla" name="pushButton_8">
                <property name="sizePolicy">
@@ -3346,7 +3273,7 @@ En kesto de bluaj fragoj
             </layout>
            </item>
            <item>
-            <layout class="QHBoxLayout" name="horizontalLayout_13">
+            <layout class="QHBoxLayout" name="horizontalLayout_13" stretch="3,1">
              <item>
               <widget class="neklakebla" name="pushButton_9">
                <property name="sizePolicy">
@@ -3373,7 +3300,7 @@ En kesto de bluaj fragoj
             </layout>
            </item>
            <item>
-            <layout class="QHBoxLayout" name="horizontalLayout_14">
+            <layout class="QHBoxLayout" name="horizontalLayout_14" stretch="3,1">
              <item>
               <widget class="neklakebla" name="pushButton_10">
                <property name="sizePolicy">
@@ -3400,7 +3327,7 @@ En kesto de bluaj fragoj
             </layout>
            </item>
            <item>
-            <layout class="QHBoxLayout" name="horizontalLayout_15">
+            <layout class="QHBoxLayout" name="horizontalLayout_15" stretch="3,1">
              <item>
               <widget class="neklakebla" name="pushButton_11">
                <property name="sizePolicy">
@@ -3427,7 +3354,7 @@ En kesto de bluaj fragoj
             </layout>
            </item>
            <item>
-            <layout class="QHBoxLayout" name="horizontalLayout_16">
+            <layout class="QHBoxLayout" name="horizontalLayout_16" stretch="3,1">
              <item>
               <widget class="neklakebla" name="pushButton_12">
                <property name="sizePolicy">
@@ -3562,7 +3489,7 @@ En kesto de bluaj fragoj
             <number>2</number>
            </property>
            <item>
-            <layout class="QHBoxLayout" name="horizontalLayout_20">
+            <layout class="QHBoxLayout" name="horizontalLayout_20" stretch="3,1">
              <item>
               <widget class="neklakebla" name="pushButton_13">
                <property name="sizePolicy">
@@ -3592,7 +3519,7 @@ En kesto de bluaj fragoj
             </layout>
            </item>
            <item>
-            <layout class="QHBoxLayout" name="horizontalLayout_21">
+            <layout class="QHBoxLayout" name="horizontalLayout_21" stretch="3,1">
              <item>
               <widget class="neklakebla" name="pushButton_14">
                <property name="sizePolicy">
@@ -3622,7 +3549,7 @@ En kesto de bluaj fragoj
             </layout>
            </item>
            <item>
-            <layout class="QHBoxLayout" name="horizontalLayout_22">
+            <layout class="QHBoxLayout" name="horizontalLayout_22" stretch="3,1">
              <item>
               <widget class="neklakebla" name="pushButton_15">
                <property name="sizePolicy">
@@ -3652,7 +3579,7 @@ En kesto de bluaj fragoj
             </layout>
            </item>
            <item>
-            <layout class="QHBoxLayout" name="horizontalLayout_23">
+            <layout class="QHBoxLayout" name="horizontalLayout_23" stretch="3,1">
              <item>
               <widget class="neklakebla" name="pushButton_16">
                <property name="sizePolicy">
@@ -3682,7 +3609,7 @@ En kesto de bluaj fragoj
             </layout>
            </item>
            <item>
-            <layout class="QHBoxLayout" name="horizontalLayout_24">
+            <layout class="QHBoxLayout" name="horizontalLayout_24" stretch="3,1">
              <item>
               <widget class="neklakebla" name="pushButton_17">
                <property name="sizePolicy">
@@ -3712,7 +3639,7 @@ En kesto de bluaj fragoj
             </layout>
            </item>
            <item>
-            <layout class="QHBoxLayout" name="horizontalLayout_25">
+            <layout class="QHBoxLayout" name="horizontalLayout_25" stretch="3,1">
              <item>
               <widget class="neklakebla" name="pushButton_18">
                <property name="sizePolicy">
@@ -3749,7 +3676,7 @@ En kesto de bluaj fragoj
             <number>2</number>
            </property>
            <item>
-            <layout class="QHBoxLayout" name="horizontalLayout_26">
+            <layout class="QHBoxLayout" name="horizontalLayout_26" stretch="3,1">
              <item>
               <widget class="neklakebla" name="pushButton_19">
                <property name="sizePolicy">
@@ -3779,7 +3706,7 @@ En kesto de bluaj fragoj
             </layout>
            </item>
            <item>
-            <layout class="QHBoxLayout" name="horizontalLayout_27">
+            <layout class="QHBoxLayout" name="horizontalLayout_27" stretch="3,1">
              <item>
               <widget class="neklakebla" name="pushButton_20">
                <property name="sizePolicy">
@@ -3809,7 +3736,7 @@ En kesto de bluaj fragoj
             </layout>
            </item>
            <item>
-            <layout class="QHBoxLayout" name="horizontalLayout_28">
+            <layout class="QHBoxLayout" name="horizontalLayout_28" stretch="3,1">
              <item>
               <widget class="neklakebla" name="pushButton_21">
                <property name="sizePolicy">
@@ -3839,7 +3766,7 @@ En kesto de bluaj fragoj
             </layout>
            </item>
            <item>
-            <layout class="QHBoxLayout" name="horizontalLayout_29">
+            <layout class="QHBoxLayout" name="horizontalLayout_29" stretch="3,1">
              <item>
               <widget class="neklakebla" name="pushButton_22">
                <property name="sizePolicy">
@@ -3869,7 +3796,7 @@ En kesto de bluaj fragoj
             </layout>
            </item>
            <item>
-            <layout class="QHBoxLayout" name="horizontalLayout_30">
+            <layout class="QHBoxLayout" name="horizontalLayout_30" stretch="3,1">
              <item>
               <widget class="neklakebla" name="pushButton_23">
                <property name="sizePolicy">
@@ -3899,7 +3826,7 @@ En kesto de bluaj fragoj
             </layout>
            </item>
            <item>
-            <layout class="QHBoxLayout" name="horizontalLayout_31">
+            <layout class="QHBoxLayout" name="horizontalLayout_31" stretch="3,1">
              <item>
               <widget class="neklakebla" name="pushButton_24">
                <property name="sizePolicy">
@@ -3957,14 +3884,18 @@ En kesto de bluaj fragoj
    </slots>
   </customwidget>
   <customwidget>
-   <class>neklakebla</class>
-   <extends>QPushButton</extends>
-   <header>neklakebla.h</header>
-  </customwidget>
-  <customwidget>
    <class>label_sago_reversa</class>
    <extends>QLabel</extends>
    <header>label_sago_reversa.h</header>
+  </customwidget>
+  <customwidget>
+   <class>mp3ludilo</class>
+   <extends>QFrame</extends>
+   <header>mp3ludilo.h</header>
+   <container>1</container>
+   <slots>
+    <slot>PaghoShanghita(int)</slot>
+   </slots>
   </customwidget>
   <customwidget>
    <class>akuzativo</class>
@@ -3973,10 +3904,9 @@ En kesto de bluaj fragoj
    <container>1</container>
   </customwidget>
   <customwidget>
-   <class>mp3ludilo</class>
-   <extends>QFrame</extends>
-   <header>mp3ludilo.h</header>
-   <container>1</container>
+   <class>neklakebla</class>
+   <extends>QPushButton</extends>
+   <header>neklakebla.h</header>
   </customwidget>
   <customwidget>
    <class>cx_plainedit</class>
@@ -4001,6 +3931,38 @@ En kesto de bluaj fragoj
     <hint type="destinationlabel">
      <x>7</x>
      <y>74</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>Lec12</sender>
+   <signal>currentChanged(int)</signal>
+   <receiver>Lec12_memo10</receiver>
+   <slot>PaghoShanghita(int)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>413</x>
+     <y>200</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>308</x>
+     <y>198</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>Lec12</sender>
+   <signal>currentChanged(int)</signal>
+   <receiver>Lec12_fragoj</receiver>
+   <slot>PaghoShanghita(int)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>649</x>
+     <y>439</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>613</x>
+     <y>403</y>
     </hint>
    </hints>
   </connection>

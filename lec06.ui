@@ -51,7 +51,7 @@
       </sizepolicy>
      </property>
      <property name="currentIndex">
-      <number>12</number>
+      <number>6</number>
      </property>
      <property name="iconSize">
       <size>
@@ -208,7 +208,7 @@
                </layout>
               </item>
               <item>
-               <layout class="QHBoxLayout" name="horizontalLayout_25">
+               <layout class="QVBoxLayout" name="verticalLayout_39">
                 <item>
                  <widget class="klakbutono" name="Lec06_Button2">
                   <property name="sizePolicy">
@@ -229,6 +229,9 @@
                   </property>
                   <property name="wordWrap">
                    <bool>true</bool>
+                  </property>
+                  <property name="tipo" stdset="0">
+                   <string>suba</string>
                   </property>
                  </widget>
                 </item>
@@ -334,7 +337,7 @@
                </layout>
               </item>
               <item>
-               <layout class="QHBoxLayout" name="horizontalLayout_30">
+               <layout class="QVBoxLayout" name="verticalLayout_40">
                 <item>
                  <widget class="klakbutono" name="Lec06_Button4">
                   <property name="sizePolicy">
@@ -355,6 +358,9 @@
                   </property>
                   <property name="wordWrap">
                    <bool>true</bool>
+                  </property>
+                  <property name="tipo" stdset="0">
+                   <string>suba</string>
                   </property>
                  </widget>
                 </item>
@@ -457,7 +463,7 @@
             <item>
              <layout class="QVBoxLayout" name="verticalLayout_15">
               <item>
-               <layout class="QHBoxLayout" name="horizontalLayout_33">
+               <layout class="QHBoxLayout" name="horizontalLayout_33" stretch="3,1">
                 <item>
                  <widget class="klakbutono" name="Lec06_Button5">
                   <property name="sizePolicy">
@@ -484,7 +490,7 @@
                </layout>
               </item>
               <item>
-               <layout class="QHBoxLayout" name="horizontalLayout_34">
+               <layout class="QVBoxLayout" name="verticalLayout_38">
                 <item>
                  <widget class="klakbutono" name="Lec06_Button6">
                   <property name="sizePolicy">
@@ -505,6 +511,9 @@
                   </property>
                   <property name="wordWrap">
                    <bool>true</bool>
+                  </property>
+                  <property name="tipo" stdset="0">
+                   <string>suba</string>
                   </property>
                  </widget>
                 </item>
@@ -583,7 +592,7 @@
             <item>
              <layout class="QVBoxLayout" name="verticalLayout_17">
               <item>
-               <layout class="QHBoxLayout" name="horizontalLayout_37">
+               <layout class="QHBoxLayout" name="horizontalLayout_37" stretch="3,1">
                 <item>
                  <widget class="klakbutono" name="Lec06_Button7">
                   <property name="sizePolicy">
@@ -610,7 +619,7 @@
                </layout>
               </item>
               <item>
-               <layout class="QHBoxLayout" name="horizontalLayout_38">
+               <layout class="QVBoxLayout" name="verticalLayout_33">
                 <item>
                  <widget class="klakbutono" name="Lec06_Button8">
                   <property name="sizePolicy">
@@ -631,6 +640,9 @@
                   </property>
                   <property name="wordWrap">
                    <bool>true</bool>
+                  </property>
+                  <property name="tipo" stdset="0">
+                   <string>suba</string>
                   </property>
                  </widget>
                 </item>
@@ -709,7 +721,7 @@
             <item>
              <layout class="QVBoxLayout" name="verticalLayout_19">
               <item>
-               <layout class="QHBoxLayout" name="horizontalLayout_41">
+               <layout class="QHBoxLayout" name="horizontalLayout_41" stretch="3,1">
                 <item>
                  <widget class="klakbutono" name="Lec06_Button9">
                   <property name="sizePolicy">
@@ -736,7 +748,7 @@
                </layout>
               </item>
               <item>
-               <layout class="QHBoxLayout" name="horizontalLayout_42">
+               <layout class="QHBoxLayout" name="horizontalLayout_42" stretch="3,1">
                 <item>
                  <widget class="klakbutono" name="Lec06_Button10">
                   <property name="sizePolicy">
@@ -841,8 +853,17 @@
           <property name="spacing">
            <number>6</number>
           </property>
-          <property name="margin">
+          <property name="leftMargin">
            <number>9</number>
+          </property>
+          <property name="topMargin">
+           <number>2</number>
+          </property>
+          <property name="rightMargin">
+           <number>9</number>
+          </property>
+          <property name="bottomMargin">
+           <number>2</number>
           </property>
           <item>
            <layout class="QHBoxLayout" name="horizontalLayout_48">
@@ -895,7 +916,7 @@
                </layout>
               </item>
               <item>
-               <layout class="QHBoxLayout" name="horizontalLayout_50">
+               <layout class="QHBoxLayout" name="horizontalLayout_50" stretch="3,1">
                 <item>
                  <widget class="klakbutono" name="Lec06_Button12">
                   <property name="sizePolicy">
@@ -940,8 +961,17 @@
           <property name="spacing">
            <number>6</number>
           </property>
-          <property name="margin">
+          <property name="leftMargin">
            <number>9</number>
+          </property>
+          <property name="topMargin">
+           <number>2</number>
+          </property>
+          <property name="rightMargin">
+           <number>9</number>
+          </property>
+          <property name="bottomMargin">
+           <number>2</number>
           </property>
           <item>
            <layout class="QHBoxLayout" name="horizontalLayout_44">
@@ -994,7 +1024,7 @@
                </layout>
               </item>
               <item>
-               <layout class="QHBoxLayout" name="horizontalLayout_46">
+               <layout class="QHBoxLayout" name="horizontalLayout_46" stretch="3,1">
                 <item>
                  <widget class="klakbutono" name="Lec06_Button14">
                   <property name="sizePolicy">
@@ -1039,8 +1069,17 @@
           <property name="spacing">
            <number>6</number>
           </property>
-          <property name="margin">
+          <property name="leftMargin">
            <number>9</number>
+          </property>
+          <property name="topMargin">
+           <number>2</number>
+          </property>
+          <property name="rightMargin">
+           <number>9</number>
+          </property>
+          <property name="bottomMargin">
+           <number>2</number>
           </property>
           <item>
            <layout class="QHBoxLayout" name="horizontalLayout_53">
@@ -1093,7 +1132,7 @@
                </layout>
               </item>
               <item>
-               <layout class="QHBoxLayout" name="horizontalLayout_55">
+               <layout class="QHBoxLayout" name="horizontalLayout_55" stretch="3,1">
                 <item>
                  <widget class="klakbutono" name="Lec06_Button16">
                   <property name="sizePolicy">
@@ -1138,8 +1177,17 @@
           <property name="spacing">
            <number>6</number>
           </property>
-          <property name="margin">
+          <property name="leftMargin">
            <number>9</number>
+          </property>
+          <property name="topMargin">
+           <number>2</number>
+          </property>
+          <property name="rightMargin">
+           <number>9</number>
+          </property>
+          <property name="bottomMargin">
+           <number>2</number>
           </property>
           <item>
            <layout class="QHBoxLayout" name="horizontalLayout_66">
@@ -1192,7 +1240,7 @@
                </layout>
               </item>
               <item>
-               <layout class="QHBoxLayout" name="horizontalLayout_68">
+               <layout class="QVBoxLayout" name="verticalLayout_32">
                 <item>
                  <widget class="klakbutono" name="Lec06_Button42">
                   <property name="sizePolicy">
@@ -1213,6 +1261,9 @@
                   </property>
                   <property name="wordWrap">
                    <bool>true</bool>
+                  </property>
+                  <property name="tipo" stdset="0">
+                   <string>suba</string>
                   </property>
                  </widget>
                 </item>
@@ -1237,8 +1288,17 @@
           <property name="spacing">
            <number>6</number>
           </property>
-          <property name="margin">
+          <property name="leftMargin">
            <number>9</number>
+          </property>
+          <property name="topMargin">
+           <number>2</number>
+          </property>
+          <property name="rightMargin">
+           <number>9</number>
+          </property>
+          <property name="bottomMargin">
+           <number>2</number>
           </property>
           <item>
            <layout class="QHBoxLayout" name="horizontalLayout_69">
@@ -1291,7 +1351,7 @@
                </layout>
               </item>
               <item>
-               <layout class="QHBoxLayout" name="horizontalLayout_71">
+               <layout class="QVBoxLayout" name="verticalLayout">
                 <item>
                  <widget class="klakbutono" name="Lec06_Button18">
                   <property name="sizePolicy">
@@ -1313,6 +1373,9 @@
                   <property name="wordWrap">
                    <bool>true</bool>
                   </property>
+                  <property name="tipo" stdset="0">
+                   <string>suba</string>
+                  </property>
                  </widget>
                 </item>
                </layout>
@@ -1320,19 +1383,6 @@
              </layout>
             </item>
            </layout>
-          </item>
-          <item>
-           <spacer name="verticalSpacer_5">
-            <property name="orientation">
-             <enum>Qt::Vertical</enum>
-            </property>
-            <property name="sizeHint" stdset="0">
-             <size>
-              <width>20</width>
-              <height>40</height>
-             </size>
-            </property>
-           </spacer>
           </item>
          </layout>
         </widget>
@@ -1409,8 +1459,17 @@
           <property name="spacing">
            <number>6</number>
           </property>
-          <property name="margin">
+          <property name="leftMargin">
            <number>9</number>
+          </property>
+          <property name="topMargin">
+           <number>2</number>
+          </property>
+          <property name="rightMargin">
+           <number>9</number>
+          </property>
+          <property name="bottomMargin">
+           <number>2</number>
           </property>
           <item>
            <layout class="QHBoxLayout" name="horizontalLayout_84">
@@ -1436,7 +1495,7 @@
                <number>3</number>
               </property>
               <item>
-               <layout class="QHBoxLayout" name="horizontalLayout_85">
+               <layout class="QHBoxLayout" name="horizontalLayout_85" stretch="3,1">
                 <item>
                  <widget class="klakbutono" name="Lec06_Button19">
                   <property name="sizePolicy">
@@ -1463,7 +1522,7 @@
                </layout>
               </item>
               <item>
-               <layout class="QHBoxLayout" name="horizontalLayout_86">
+               <layout class="QVBoxLayout" name="verticalLayout_41">
                 <item>
                  <widget class="klakbutono" name="Lec06_Button20">
                   <property name="sizePolicy">
@@ -1484,6 +1543,9 @@
                   </property>
                   <property name="wordWrap">
                    <bool>true</bool>
+                  </property>
+                  <property name="tipo" stdset="0">
+                   <string>suba</string>
                   </property>
                  </widget>
                 </item>
@@ -1508,8 +1570,17 @@
           <property name="spacing">
            <number>6</number>
           </property>
-          <property name="margin">
+          <property name="leftMargin">
            <number>9</number>
+          </property>
+          <property name="topMargin">
+           <number>2</number>
+          </property>
+          <property name="rightMargin">
+           <number>9</number>
+          </property>
+          <property name="bottomMargin">
+           <number>2</number>
           </property>
           <item>
            <layout class="QHBoxLayout" name="horizontalLayout_81">
@@ -1535,7 +1606,7 @@
                <number>3</number>
               </property>
               <item>
-               <layout class="QHBoxLayout" name="horizontalLayout_82">
+               <layout class="QHBoxLayout" name="horizontalLayout_82" stretch="3,1">
                 <item>
                  <widget class="klakbutono" name="Lec06_Button21">
                   <property name="sizePolicy">
@@ -1562,7 +1633,7 @@
                </layout>
               </item>
               <item>
-               <layout class="QHBoxLayout" name="horizontalLayout_83">
+               <layout class="QHBoxLayout" name="horizontalLayout_83" stretch="3,1">
                 <item>
                  <widget class="klakbutono" name="Lec06_Button22">
                   <property name="sizePolicy">
@@ -1607,8 +1678,17 @@
           <property name="spacing">
            <number>6</number>
           </property>
-          <property name="margin">
+          <property name="leftMargin">
            <number>9</number>
+          </property>
+          <property name="topMargin">
+           <number>2</number>
+          </property>
+          <property name="rightMargin">
+           <number>9</number>
+          </property>
+          <property name="bottomMargin">
+           <number>2</number>
           </property>
           <item>
            <layout class="QHBoxLayout" name="horizontalLayout_90">
@@ -1634,7 +1714,7 @@
                <number>3</number>
               </property>
               <item>
-               <layout class="QHBoxLayout" name="horizontalLayout_91">
+               <layout class="QHBoxLayout" name="horizontalLayout_91" stretch="3,1">
                 <item>
                  <widget class="klakbutono" name="Lec06_Button43">
                   <property name="sizePolicy">
@@ -1661,7 +1741,7 @@
                </layout>
               </item>
               <item>
-               <layout class="QHBoxLayout" name="horizontalLayout_92">
+               <layout class="QHBoxLayout" name="horizontalLayout_92" stretch="3,1">
                 <item>
                  <widget class="klakbutono" name="Lec06_Button44">
                   <property name="sizePolicy">
@@ -1706,8 +1786,17 @@
           <property name="spacing">
            <number>6</number>
           </property>
-          <property name="margin">
+          <property name="leftMargin">
            <number>9</number>
+          </property>
+          <property name="topMargin">
+           <number>2</number>
+          </property>
+          <property name="rightMargin">
+           <number>9</number>
+          </property>
+          <property name="bottomMargin">
+           <number>2</number>
           </property>
           <item>
            <layout class="QHBoxLayout" name="horizontalLayout_87">
@@ -1760,7 +1849,7 @@
                </layout>
               </item>
               <item>
-               <layout class="QHBoxLayout" name="horizontalLayout_89">
+               <layout class="QVBoxLayout" name="verticalLayout_42">
                 <item>
                  <widget class="klakbutono" name="Lec06_Button24">
                   <property name="sizePolicy">
@@ -1781,6 +1870,9 @@
                   </property>
                   <property name="wordWrap">
                    <bool>true</bool>
+                  </property>
+                  <property name="tipo" stdset="0">
+                   <string>suba</string>
                   </property>
                  </widget>
                 </item>
@@ -1805,8 +1897,17 @@
           <property name="spacing">
            <number>6</number>
           </property>
-          <property name="margin">
+          <property name="leftMargin">
            <number>9</number>
+          </property>
+          <property name="topMargin">
+           <number>2</number>
+          </property>
+          <property name="rightMargin">
+           <number>9</number>
+          </property>
+          <property name="bottomMargin">
+           <number>2</number>
           </property>
           <item>
            <layout class="QHBoxLayout" name="horizontalLayout_93">
@@ -1859,7 +1960,7 @@
                </layout>
               </item>
               <item>
-               <layout class="QHBoxLayout" name="horizontalLayout_95">
+               <layout class="QVBoxLayout" name="verticalLayout_43">
                 <item>
                  <widget class="klakbutono" name="Lec06_Button26">
                   <property name="sizePolicy">
@@ -1880,6 +1981,9 @@
                   </property>
                   <property name="wordWrap">
                    <bool>true</bool>
+                  </property>
+                  <property name="tipo" stdset="0">
+                   <string>suba</string>
                   </property>
                  </widget>
                 </item>
@@ -1964,8 +2068,17 @@
           <property name="spacing">
            <number>6</number>
           </property>
-          <property name="margin">
+          <property name="leftMargin">
            <number>9</number>
+          </property>
+          <property name="topMargin">
+           <number>2</number>
+          </property>
+          <property name="rightMargin">
+           <number>9</number>
+          </property>
+          <property name="bottomMargin">
+           <number>2</number>
           </property>
           <item>
            <layout class="QHBoxLayout" name="horizontalLayout_99">
@@ -2018,7 +2131,7 @@
                </layout>
               </item>
               <item>
-               <layout class="QHBoxLayout" name="horizontalLayout_101">
+               <layout class="QVBoxLayout" name="verticalLayout_44">
                 <item>
                  <widget class="klakbutono" name="Lec06_Button28">
                   <property name="sizePolicy">
@@ -2039,6 +2152,9 @@
                   </property>
                   <property name="wordWrap">
                    <bool>true</bool>
+                  </property>
+                  <property name="tipo" stdset="0">
+                   <string>suba</string>
                   </property>
                  </widget>
                 </item>
@@ -2063,8 +2179,17 @@
           <property name="spacing">
            <number>6</number>
           </property>
-          <property name="margin">
+          <property name="leftMargin">
            <number>9</number>
+          </property>
+          <property name="topMargin">
+           <number>2</number>
+          </property>
+          <property name="rightMargin">
+           <number>9</number>
+          </property>
+          <property name="bottomMargin">
+           <number>2</number>
           </property>
           <item>
            <layout class="QHBoxLayout" name="horizontalLayout_102">
@@ -2117,7 +2242,7 @@
                </layout>
               </item>
               <item>
-               <layout class="QHBoxLayout" name="horizontalLayout_104">
+               <layout class="QVBoxLayout" name="verticalLayout_75">
                 <item>
                  <widget class="klakbutono" name="Lec06_Button30">
                   <property name="sizePolicy">
@@ -2138,6 +2263,9 @@
                   </property>
                   <property name="wordWrap">
                    <bool>true</bool>
+                  </property>
+                  <property name="tipo" stdset="0">
+                   <string>suba</string>
                   </property>
                  </widget>
                 </item>
@@ -2162,8 +2290,17 @@
           <property name="spacing">
            <number>6</number>
           </property>
-          <property name="margin">
+          <property name="leftMargin">
            <number>9</number>
+          </property>
+          <property name="topMargin">
+           <number>2</number>
+          </property>
+          <property name="rightMargin">
+           <number>9</number>
+          </property>
+          <property name="bottomMargin">
+           <number>2</number>
           </property>
           <item>
            <layout class="QHBoxLayout" name="horizontalLayout_105">
@@ -2216,7 +2353,7 @@
                </layout>
               </item>
               <item>
-               <layout class="QHBoxLayout" name="horizontalLayout_107">
+               <layout class="QHBoxLayout" name="horizontalLayout_107" stretch="3,1">
                 <item>
                  <widget class="klakbutono" name="Lec06_Button46">
                   <property name="sizePolicy">
@@ -2261,8 +2398,17 @@
           <property name="spacing">
            <number>6</number>
           </property>
-          <property name="margin">
+          <property name="leftMargin">
            <number>9</number>
+          </property>
+          <property name="topMargin">
+           <number>2</number>
+          </property>
+          <property name="rightMargin">
+           <number>9</number>
+          </property>
+          <property name="bottomMargin">
+           <number>2</number>
           </property>
           <item>
            <layout class="QHBoxLayout" name="horizontalLayout_108">
@@ -2315,7 +2461,7 @@
                </layout>
               </item>
               <item>
-               <layout class="QHBoxLayout" name="horizontalLayout_110">
+               <layout class="QHBoxLayout" name="horizontalLayout_110" stretch="3,1">
                 <item>
                  <widget class="klakbutono" name="Lec06_Button48">
                   <property name="sizePolicy">
@@ -2360,8 +2506,17 @@
           <property name="spacing">
            <number>6</number>
           </property>
-          <property name="margin">
+          <property name="leftMargin">
            <number>9</number>
+          </property>
+          <property name="topMargin">
+           <number>2</number>
+          </property>
+          <property name="rightMargin">
+           <number>9</number>
+          </property>
+          <property name="bottomMargin">
+           <number>2</number>
           </property>
           <item>
            <layout class="QHBoxLayout" name="horizontalLayout_96">
@@ -2414,7 +2569,7 @@
                </layout>
               </item>
               <item>
-               <layout class="QHBoxLayout" name="horizontalLayout_98">
+               <layout class="QHBoxLayout" name="horizontalLayout_98" stretch="3,1">
                 <item>
                  <widget class="klakbutono" name="Lec06_Button50">
                   <property name="sizePolicy">
@@ -2519,8 +2674,17 @@
           <property name="spacing">
            <number>6</number>
           </property>
-          <property name="margin">
+          <property name="leftMargin">
            <number>9</number>
+          </property>
+          <property name="topMargin">
+           <number>2</number>
+          </property>
+          <property name="rightMargin">
+           <number>9</number>
+          </property>
+          <property name="bottomMargin">
+           <number>2</number>
           </property>
           <item>
            <layout class="QHBoxLayout" name="horizontalLayout_114">
@@ -2573,7 +2737,7 @@
                </layout>
               </item>
               <item>
-               <layout class="QHBoxLayout" name="horizontalLayout_116">
+               <layout class="QVBoxLayout" name="verticalLayout_76">
                 <item>
                  <widget class="klakbutono" name="Lec06_Button52">
                   <property name="sizePolicy">
@@ -2594,6 +2758,9 @@
                   </property>
                   <property name="wordWrap">
                    <bool>true</bool>
+                  </property>
+                  <property name="tipo" stdset="0">
+                   <string>suba</string>
                   </property>
                  </widget>
                 </item>
@@ -2618,8 +2785,17 @@
           <property name="spacing">
            <number>6</number>
           </property>
-          <property name="margin">
+          <property name="leftMargin">
            <number>9</number>
+          </property>
+          <property name="topMargin">
+           <number>2</number>
+          </property>
+          <property name="rightMargin">
+           <number>9</number>
+          </property>
+          <property name="bottomMargin">
+           <number>2</number>
           </property>
           <item>
            <layout class="QHBoxLayout" name="horizontalLayout_117">
@@ -2672,7 +2848,7 @@
                </layout>
               </item>
               <item>
-               <layout class="QHBoxLayout" name="horizontalLayout_119">
+               <layout class="QHBoxLayout" name="horizontalLayout_119" stretch="3,1">
                 <item>
                  <widget class="klakbutono" name="Lec06_Button32">
                   <property name="sizePolicy">
@@ -2717,8 +2893,17 @@
           <property name="spacing">
            <number>6</number>
           </property>
-          <property name="margin">
+          <property name="leftMargin">
            <number>9</number>
+          </property>
+          <property name="topMargin">
+           <number>2</number>
+          </property>
+          <property name="rightMargin">
+           <number>9</number>
+          </property>
+          <property name="bottomMargin">
+           <number>2</number>
           </property>
           <item>
            <layout class="QHBoxLayout" name="horizontalLayout_120">
@@ -2771,7 +2956,7 @@
                </layout>
               </item>
               <item>
-               <layout class="QHBoxLayout" name="horizontalLayout_122">
+               <layout class="QVBoxLayout" name="verticalLayout_77">
                 <item>
                  <widget class="klakbutono" name="Lec06_Button34">
                   <property name="sizePolicy">
@@ -2792,6 +2977,9 @@
                   </property>
                   <property name="wordWrap">
                    <bool>true</bool>
+                  </property>
+                  <property name="tipo" stdset="0">
+                   <string>suba</string>
                   </property>
                  </widget>
                 </item>
@@ -2816,8 +3004,17 @@
           <property name="spacing">
            <number>6</number>
           </property>
-          <property name="margin">
+          <property name="leftMargin">
            <number>9</number>
+          </property>
+          <property name="topMargin">
+           <number>2</number>
+          </property>
+          <property name="rightMargin">
+           <number>9</number>
+          </property>
+          <property name="bottomMargin">
+           <number>2</number>
           </property>
           <item>
            <layout class="QHBoxLayout" name="horizontalLayout_123">
@@ -2870,7 +3067,7 @@
                </layout>
               </item>
               <item>
-               <layout class="QHBoxLayout" name="horizontalLayout_125">
+               <layout class="QHBoxLayout" name="horizontalLayout_125" stretch="3,1">
                 <item>
                  <widget class="klakbutono" name="Lec06_Button36">
                   <property name="sizePolicy">
@@ -2915,8 +3112,17 @@
           <property name="spacing">
            <number>6</number>
           </property>
-          <property name="margin">
+          <property name="leftMargin">
            <number>9</number>
+          </property>
+          <property name="topMargin">
+           <number>2</number>
+          </property>
+          <property name="rightMargin">
+           <number>9</number>
+          </property>
+          <property name="bottomMargin">
+           <number>2</number>
           </property>
           <item>
            <layout class="QHBoxLayout" name="horizontalLayout_111">
@@ -2969,7 +3175,7 @@
                </layout>
               </item>
               <item>
-               <layout class="QHBoxLayout" name="horizontalLayout_113">
+               <layout class="QHBoxLayout" name="horizontalLayout_113" stretch="3,1">
                 <item>
                  <widget class="klakbutono" name="Lec06_Button38">
                   <property name="sizePolicy">
@@ -3025,7 +3231,7 @@
       <attribute name="title">
        <string>7</string>
       </attribute>
-      <layout class="QVBoxLayout" name="verticalLayout_31">
+      <layout class="QVBoxLayout" name="verticalLayout_84" stretch="0,0,0,1,0,3">
        <item>
         <widget class="titolo" name="Lec06_Label23">
          <property name="text">
@@ -3052,7 +3258,7 @@
        <item>
         <layout class="QVBoxLayout" name="verticalLayout_30">
          <item>
-          <layout class="QHBoxLayout" name="horizontalLayout">
+          <layout class="QHBoxLayout" name="horizontalLayout" stretch="3,1">
            <item>
             <widget class="klakbutono" name="Lec06_Button487">
              <property name="sizePolicy">
@@ -3091,164 +3297,199 @@
         </layout>
        </item>
        <item>
-        <layout class="QHBoxLayout" name="horizontalLayout_2">
-         <item>
-          <widget class="klakbutono" name="Lec06_Button104">
-           <property name="sizePolicy">
-            <sizepolicy hsizetype="Maximum" vsizetype="Fixed">
-             <horstretch>0</horstretch>
-             <verstretch>0</verstretch>
-            </sizepolicy>
-           </property>
-           <property name="text">
-            <string>Mi ne komprenas tion, kion vi diras.</string>
-           </property>
-          </widget>
-         </item>
-         <item>
-          <widget class="QLabel" name="Lec06_Label16">
-           <property name="text">
-            <string>TextLabel</string>
-           </property>
-           <property name="wordWrap">
-            <bool>true</bool>
-           </property>
-          </widget>
-         </item>
-        </layout>
+        <spacer name="verticalSpacer_5">
+         <property name="orientation">
+          <enum>Qt::Vertical</enum>
+         </property>
+         <property name="sizeHint" stdset="0">
+          <size>
+           <width>20</width>
+           <height>40</height>
+          </size>
+         </property>
+        </spacer>
        </item>
        <item>
-        <layout class="QHBoxLayout" name="horizontalLayout_3">
+        <layout class="QVBoxLayout" name="verticalLayout_31">
          <item>
-          <widget class="klakbutono" name="Lec06_Button105">
-           <property name="sizePolicy">
-            <sizepolicy hsizetype="Maximum" vsizetype="Fixed">
-             <horstretch>0</horstretch>
-             <verstretch>0</verstretch>
-            </sizepolicy>
-           </property>
-           <property name="text">
-            <string>Mi vidis la homon, kies domo estas blanka.</string>
-           </property>
-          </widget>
+          <layout class="QVBoxLayout" name="verticalLayout_78">
+           <item>
+            <widget class="klakbutono" name="Lec06_Button104">
+             <property name="sizePolicy">
+              <sizepolicy hsizetype="Maximum" vsizetype="Fixed">
+               <horstretch>0</horstretch>
+               <verstretch>0</verstretch>
+              </sizepolicy>
+             </property>
+             <property name="text">
+              <string>Mi ne komprenas tion, kion vi diras.</string>
+             </property>
+            </widget>
+           </item>
+           <item>
+            <widget class="QLabel" name="Lec06_Label16">
+             <property name="text">
+              <string>TextLabel</string>
+             </property>
+             <property name="wordWrap">
+              <bool>true</bool>
+             </property>
+             <property name="tipo" stdset="0">
+              <string>suba</string>
+             </property>
+            </widget>
+           </item>
+          </layout>
          </item>
          <item>
-          <widget class="QLabel" name="Lec06_Label17">
-           <property name="text">
-            <string>TextLabel</string>
-           </property>
-           <property name="wordWrap">
-            <bool>true</bool>
-           </property>
-          </widget>
-         </item>
-        </layout>
-       </item>
-       <item>
-        <layout class="QHBoxLayout" name="horizontalLayout_4">
-         <item>
-          <widget class="klakbutono" name="Lec06_Button106">
-           <property name="sizePolicy">
-            <sizepolicy hsizetype="Maximum" vsizetype="Fixed">
-             <horstretch>0</horstretch>
-             <verstretch>0</verstretch>
-            </sizepolicy>
-           </property>
-           <property name="text">
-            <string>Mi renkontis ŝin tie, kie oni vendas kukojn.</string>
-           </property>
-          </widget>
-         </item>
-         <item>
-          <widget class="QLabel" name="Lec06_Label18">
-           <property name="text">
-            <string>TextLabel</string>
-           </property>
-           <property name="wordWrap">
-            <bool>true</bool>
-           </property>
-          </widget>
-         </item>
-        </layout>
-       </item>
-       <item>
-        <layout class="QHBoxLayout" name="horizontalLayout_5">
-         <item>
-          <widget class="klakbutono" name="Lec06_Button107">
-           <property name="sizePolicy">
-            <sizepolicy hsizetype="Maximum" vsizetype="Fixed">
-             <horstretch>0</horstretch>
-             <verstretch>0</verstretch>
-            </sizepolicy>
-           </property>
-           <property name="text">
-            <string>Hieraŭ, kiam mi estis en la urbo, mi aĉetis florojn.</string>
-           </property>
-          </widget>
+          <layout class="QVBoxLayout" name="verticalLayout_79">
+           <item>
+            <widget class="klakbutono" name="Lec06_Button105">
+             <property name="sizePolicy">
+              <sizepolicy hsizetype="Maximum" vsizetype="Fixed">
+               <horstretch>0</horstretch>
+               <verstretch>0</verstretch>
+              </sizepolicy>
+             </property>
+             <property name="text">
+              <string>Mi vidis la homon, kies domo estas blanka.</string>
+             </property>
+            </widget>
+           </item>
+           <item>
+            <widget class="QLabel" name="Lec06_Label17">
+             <property name="text">
+              <string>TextLabel</string>
+             </property>
+             <property name="wordWrap">
+              <bool>true</bool>
+             </property>
+             <property name="tipo" stdset="0">
+              <string>suba</string>
+             </property>
+            </widget>
+           </item>
+          </layout>
          </item>
          <item>
-          <widget class="QLabel" name="Lec06_Label19">
-           <property name="text">
-            <string>TextLabel</string>
-           </property>
-           <property name="wordWrap">
-            <bool>true</bool>
-           </property>
-          </widget>
-         </item>
-        </layout>
-       </item>
-       <item>
-        <layout class="QHBoxLayout" name="horizontalLayout_6">
-         <item>
-          <widget class="klakbutono" name="Lec06_Button108">
-           <property name="sizePolicy">
-            <sizepolicy hsizetype="Maximum" vsizetype="Fixed">
-             <horstretch>0</horstretch>
-             <verstretch>0</verstretch>
-            </sizepolicy>
-           </property>
-           <property name="text">
-            <string>Ŝi estas tiel bela, kiel la patrino.</string>
-           </property>
-          </widget>
-         </item>
-         <item>
-          <widget class="QLabel" name="Lec06_Label20">
-           <property name="text">
-            <string>TextLabel</string>
-           </property>
-           <property name="wordWrap">
-            <bool>true</bool>
-           </property>
-          </widget>
-         </item>
-        </layout>
-       </item>
-       <item>
-        <layout class="QHBoxLayout" name="horizontalLayout_7">
-         <item>
-          <widget class="klakbutono" name="Lec06_Button109">
-           <property name="sizePolicy">
-            <sizepolicy hsizetype="Maximum" vsizetype="Fixed">
-             <horstretch>0</horstretch>
-             <verstretch>0</verstretch>
-            </sizepolicy>
-           </property>
-           <property name="text">
-            <string>Mi aĉetis tiom, kiom mi bezonis.</string>
-           </property>
-          </widget>
+          <layout class="QVBoxLayout" name="verticalLayout_80">
+           <item>
+            <widget class="klakbutono" name="Lec06_Button106">
+             <property name="sizePolicy">
+              <sizepolicy hsizetype="Maximum" vsizetype="Fixed">
+               <horstretch>0</horstretch>
+               <verstretch>0</verstretch>
+              </sizepolicy>
+             </property>
+             <property name="text">
+              <string>Mi renkontis ŝin tie, kie oni vendas kukojn.</string>
+             </property>
+            </widget>
+           </item>
+           <item>
+            <widget class="QLabel" name="Lec06_Label18">
+             <property name="text">
+              <string>TextLabel</string>
+             </property>
+             <property name="wordWrap">
+              <bool>true</bool>
+             </property>
+             <property name="tipo" stdset="0">
+              <string>suba</string>
+             </property>
+            </widget>
+           </item>
+          </layout>
          </item>
          <item>
-          <widget class="QLabel" name="Lec06_Label21">
-           <property name="text">
-            <string>TextLabel</string>
-           </property>
-           <property name="wordWrap">
-            <bool>true</bool>
-           </property>
-          </widget>
+          <layout class="QVBoxLayout" name="verticalLayout_81">
+           <item>
+            <widget class="klakbutono" name="Lec06_Button107">
+             <property name="sizePolicy">
+              <sizepolicy hsizetype="Maximum" vsizetype="Fixed">
+               <horstretch>0</horstretch>
+               <verstretch>0</verstretch>
+              </sizepolicy>
+             </property>
+             <property name="text">
+              <string>Hieraŭ, kiam mi estis en la urbo, mi aĉetis florojn.</string>
+             </property>
+            </widget>
+           </item>
+           <item>
+            <widget class="QLabel" name="Lec06_Label19">
+             <property name="text">
+              <string>TextLabel</string>
+             </property>
+             <property name="wordWrap">
+              <bool>true</bool>
+             </property>
+             <property name="tipo" stdset="0">
+              <string>suba</string>
+             </property>
+            </widget>
+           </item>
+          </layout>
+         </item>
+         <item>
+          <layout class="QVBoxLayout" name="verticalLayout_82">
+           <item>
+            <widget class="klakbutono" name="Lec06_Button108">
+             <property name="sizePolicy">
+              <sizepolicy hsizetype="Maximum" vsizetype="Fixed">
+               <horstretch>0</horstretch>
+               <verstretch>0</verstretch>
+              </sizepolicy>
+             </property>
+             <property name="text">
+              <string>Ŝi estas tiel bela, kiel la patrino.</string>
+             </property>
+            </widget>
+           </item>
+           <item>
+            <widget class="QLabel" name="Lec06_Label20">
+             <property name="text">
+              <string>TextLabel</string>
+             </property>
+             <property name="wordWrap">
+              <bool>true</bool>
+             </property>
+             <property name="tipo" stdset="0">
+              <string>suba</string>
+             </property>
+            </widget>
+           </item>
+          </layout>
+         </item>
+         <item>
+          <layout class="QVBoxLayout" name="verticalLayout_83">
+           <item>
+            <widget class="klakbutono" name="Lec06_Button109">
+             <property name="sizePolicy">
+              <sizepolicy hsizetype="Maximum" vsizetype="Fixed">
+               <horstretch>0</horstretch>
+               <verstretch>0</verstretch>
+              </sizepolicy>
+             </property>
+             <property name="text">
+              <string>Mi aĉetis tiom, kiom mi bezonis.</string>
+             </property>
+            </widget>
+           </item>
+           <item>
+            <widget class="QLabel" name="Lec06_Label21">
+             <property name="text">
+              <string>TextLabel</string>
+             </property>
+             <property name="wordWrap">
+              <bool>true</bool>
+             </property>
+             <property name="tipo" stdset="0">
+              <string>suba</string>
+             </property>
+            </widget>
+           </item>
+          </layout>
          </item>
         </layout>
        </item>
@@ -3671,11 +3912,6 @@
    <header>titolo.h</header>
   </customwidget>
   <customwidget>
-   <class>cx_edit</class>
-   <extends>QLineEdit</extends>
-   <header>cx_edit.h</header>
-  </customwidget>
-  <customwidget>
    <class>panelo</class>
    <extends>QFrame</extends>
    <header>panelo.h</header>
@@ -3689,6 +3925,11 @@
    <extends>QFrame</extends>
    <header>vortoludo.h</header>
    <container>1</container>
+  </customwidget>
+  <customwidget>
+   <class>cx_edit</class>
+   <extends>QLineEdit</extends>
+   <header>cx_edit.h</header>
   </customwidget>
   <customwidget>
    <class>audkompreno</class>

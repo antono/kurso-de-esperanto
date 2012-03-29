@@ -24,13 +24,15 @@ private:
     Phonon::VideoPlayer *videoLudilo;
     QVBoxLayout layout;
     QHBoxLayout layoutH;
+    int MiaPagho;
 
 
 private slots:
     void onPlay();
     void onStop();
-
     void on_Pauzu_clicked();
+    void PaghoShanghita(int);
+
 };
 
 #endif // VIDEOLUDILO_H

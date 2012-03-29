@@ -63,7 +63,7 @@ plenigas_spacon::~plenigas_spacon()
 void plenigas_spacon::on_BitBtn4_clicked()
 {
     iAktualaPagho = 0;
-    this->ui->printilo_ps->setEnabled(false);
+    // this->ui->printilo_ps->setEnabled(false);
     sEkzerco = this->objectName().right(4);
     iEk04D =  _Matriz2(&aEk04D,sEkzerco,"D",6);
     _Matriz2(&aEk04R,sEkzerco,"R",6);
@@ -247,7 +247,7 @@ void plenigas_spacon::on_BitBtn5_clicked()
     this->ui->BitBtn6->setEnabled(false);
     this->ui->Tajpujo->setVisible(false);
     this->ui->Traduko->setText("");
-    this->ui->printilo_ps->setEnabled(true);
+    // this->ui->printilo_ps->setEnabled(true);
     this->ui->BitBtn4->setFocus();
 
 }
@@ -255,6 +255,16 @@ void plenigas_spacon::on_BitBtn5_clicked()
 
 void plenigas_spacon::on_printilo_ps_clicked()
 {
+
+    // Uzas lokajn variablojn, por ke ili ne miksiĝu kun tiuj de la ekzerco mem
+    std::vector<QStringList> aEk04D;
+    QStringList aEk04T;
+    std::vector<QStringList> aEk04R;
+    int iEk04D;
+    QString sEkzerco;
+    //
+
+
     QPrinter printer2(QPrinter::HighResolution);
     sEkzerco = this->objectName().right(4);
     printer2.setDocName(this->objectName());

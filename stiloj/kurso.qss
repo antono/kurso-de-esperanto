@@ -10,6 +10,27 @@ QWidget#Pagho_Kreditoj {
 	background-color: #DCF0F7;
 	}
 
+QLineEdit[tipo="plenigas_spacon"] {
+	background-color: #99CCFF;
+	}
+
+QLabel[tipo="plenigas_korekta"] {
+	color: red;
+	}
+
+label_klakebla {
+	padding-top: 2px;
+	padding-bottom: 2px;
+	}
+	
+QLabel[tipo="suba"] {
+	margin-left: 20px;
+	}
+
+QLabel {
+	qproperty-wordWrap: true;
+	}
+	
 QLabel[tipo="titolo_alia"] {
 	font-size: 20px;
 	font-weight: bold;
@@ -35,7 +56,7 @@ klakbutono:hover {
 	 stop:1   #0000B9); 
 }
 
-neklakebla {
+neklakebla, QLabel[tipo="neklakebla"] {
 	 color: #FF6333;
 }
 
@@ -45,7 +66,6 @@ neklakebla[tipo="akuzativa"] {
 
 QLabel#ligilo, QPushButton#KieButono, QPushButton#KioEstas, QPushButton#Kreditoj, QPushButton#Eliri {
 	min-height: 42px;
-	max-height: 42px;
 }
 
 QPushButton[tipo="leciona"] {
@@ -214,6 +234,10 @@ QPushButton:pressed#Leciono13 {
 
 /* FINO DE LA HEJMAJ BUTONOJ ----------------- */
 	 
+QRadioButton {
+	spacing: 0.5em;
+	}
+	
 QCheckBox::indicator {
     width: 15px;
     height: 14px;
@@ -343,8 +367,8 @@ QPushButton:pressed#Sendas {
 /* -------------------------------------------------------- */
 
 QLabel#titolo_leciono {
- 	margin-bottom: 15px;
-	margin-top:     5px;
+ 	margin-bottom: 5px;
+	margin-top:    5px;
 }	
 
 QFrame[tipo="senborda"] {
@@ -355,30 +379,30 @@ titolo {
 	font-size: 20px; 
 	font-weight: bold;
 	min-height: 25px;
-	max-height: 28px;
 }
 
 panelo_klak {
-    padding-top: 5px;
-	padding-bottom: 5px;
+    margin-top: 0px;
+	margin-bottom: 0px;
 	border: none;
 	}
 
 klakbutono {
      border: 0px;
      min-width: 20px;
-	 min-height: 1em; 
-	 max-height: 1.5em;
+	 min-height: 0.8em; 
+	 max-height: 1em;
 	 margin: 5px;
-	 font-weight: bold;
+	 font-weight: bold; 
 	 text-align: left; 
 	 padding-top: 2px; /* minimuma alteco por MacOsX */
 	 padding-bottom: 2px;
+	 padding-right: 2px;
 }
 
 
 klakbutono:pressed {
-    padding-left: 4px;
+    padding-left: 1px;
 	padding-top: 4px;
 }
 

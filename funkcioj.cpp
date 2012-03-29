@@ -756,7 +756,7 @@ void tekstoblinko(QWidget * korekta)
     testo = qobject_cast<QRadioButton *>(korekta);
     if (testo > 0)
     {
-        Blanka = "background: lightGray;";
+        Blanka = "background: lightBlue;";
         Rugha = "background: white;";
     }
     else

@@ -139,7 +139,7 @@ font-weight: bold;</string>
                  <number>3</number>
                 </property>
                 <item>
-                 <layout class="QHBoxLayout" name="horizontalLayout_580">
+                 <layout class="QHBoxLayout" name="horizontalLayout_580" stretch="3,1">
                   <item>
                    <widget class="neklakebla" name="Lec09_Button632">
                     <property name="sizePolicy">
@@ -166,7 +166,7 @@ font-weight: bold;</string>
                  </layout>
                 </item>
                 <item>
-                 <layout class="QHBoxLayout" name="horizontalLayout_581">
+                 <layout class="QHBoxLayout" name="horizontalLayout_581" stretch="0,3,1">
                   <item>
                    <widget class="label_sago_reversa" name="label_373">
                     <property name="sizePolicy">
@@ -216,7 +216,7 @@ font-weight: bold;</string>
                  <number>3</number>
                 </property>
                 <item>
-                 <layout class="QHBoxLayout" name="horizontalLayout_582">
+                 <layout class="QHBoxLayout" name="horizontalLayout_582" stretch="3,1">
                   <item>
                    <widget class="neklakebla" name="Lec09_Button30">
                     <property name="sizePolicy">
@@ -243,7 +243,7 @@ font-weight: bold;</string>
                  </layout>
                 </item>
                 <item>
-                 <layout class="QHBoxLayout" name="horizontalLayout_583">
+                 <layout class="QHBoxLayout" name="horizontalLayout_583" stretch="0,3,1">
                   <item>
                    <widget class="label_sago_reversa" name="label_374">
                     <property name="sizePolicy">
@@ -358,7 +358,7 @@ font-weight: bold;</string>
                  <number>3</number>
                 </property>
                 <item>
-                 <layout class="QHBoxLayout" name="horizontalLayout_575">
+                 <layout class="QHBoxLayout" name="horizontalLayout_575" stretch="3,1">
                   <item>
                    <widget class="neklakebla" name="Lec09_Button634">
                     <property name="sizePolicy">
@@ -385,7 +385,7 @@ font-weight: bold;</string>
                  </layout>
                 </item>
                 <item>
-                 <layout class="QHBoxLayout" name="horizontalLayout_576">
+                 <layout class="QHBoxLayout" name="horizontalLayout_576" stretch="0,3,1">
                   <item>
                    <widget class="label_sago_reversa" name="label_375">
                     <property name="sizePolicy">
@@ -435,7 +435,7 @@ font-weight: bold;</string>
                  <number>3</number>
                 </property>
                 <item>
-                 <layout class="QHBoxLayout" name="horizontalLayout_577">
+                 <layout class="QHBoxLayout" name="horizontalLayout_577" stretch="3,1">
                   <item>
                    <widget class="neklakebla" name="Lec09_Button32">
                     <property name="sizePolicy">
@@ -462,7 +462,7 @@ font-weight: bold;</string>
                  </layout>
                 </item>
                 <item>
-                 <layout class="QHBoxLayout" name="horizontalLayout_578">
+                 <layout class="QHBoxLayout" name="horizontalLayout_578" stretch="0,3,1">
                   <item>
                    <widget class="label_sago_reversa" name="label_376">
                     <property name="sizePolicy">
@@ -577,7 +577,7 @@ font-weight: bold;</string>
                  <number>3</number>
                 </property>
                 <item>
-                 <layout class="QHBoxLayout" name="horizontalLayout_570">
+                 <layout class="QHBoxLayout" name="horizontalLayout_570" stretch="3,1">
                   <item>
                    <widget class="neklakebla" name="Lec09_Button636">
                     <property name="sizePolicy">
@@ -604,7 +604,7 @@ font-weight: bold;</string>
                  </layout>
                 </item>
                 <item>
-                 <layout class="QHBoxLayout" name="horizontalLayout_571">
+                 <layout class="QHBoxLayout" name="horizontalLayout_571" stretch="0,3,1">
                   <item>
                    <widget class="label_sago_reversa" name="label_377">
                     <property name="sizePolicy">
@@ -654,7 +654,7 @@ font-weight: bold;</string>
                  <number>3</number>
                 </property>
                 <item>
-                 <layout class="QHBoxLayout" name="horizontalLayout_572">
+                 <layout class="QHBoxLayout" name="horizontalLayout_572" stretch="3,1">
                   <item>
                    <widget class="neklakebla" name="Lec09_Button34">
                     <property name="sizePolicy">
@@ -681,7 +681,7 @@ font-weight: bold;</string>
                  </layout>
                 </item>
                 <item>
-                 <layout class="QHBoxLayout" name="horizontalLayout_573">
+                 <layout class="QHBoxLayout" name="horizontalLayout_573" stretch="0,3,1">
                   <item>
                    <widget class="label_sago_reversa" name="label_378">
                     <property name="sizePolicy">
@@ -796,7 +796,7 @@ font-weight: bold;</string>
                  <number>3</number>
                 </property>
                 <item>
-                 <layout class="QHBoxLayout" name="horizontalLayout_585">
+                 <layout class="QHBoxLayout" name="horizontalLayout_585" stretch="3,1">
                   <item>
                    <widget class="neklakebla" name="Lec09_Button638">
                     <property name="sizePolicy">
@@ -823,7 +823,7 @@ font-weight: bold;</string>
                  </layout>
                 </item>
                 <item>
-                 <layout class="QHBoxLayout" name="horizontalLayout_586">
+                 <layout class="QHBoxLayout" name="horizontalLayout_586" stretch="0,3,1">
                   <item>
                    <widget class="label_sago_reversa" name="label_379">
                     <property name="sizePolicy">
@@ -873,7 +873,7 @@ font-weight: bold;</string>
                  <number>3</number>
                 </property>
                 <item>
-                 <layout class="QHBoxLayout" name="horizontalLayout_587">
+                 <layout class="QHBoxLayout" name="horizontalLayout_587" stretch="3,1">
                   <item>
                    <widget class="neklakebla" name="Lec09_Button36">
                     <property name="sizePolicy">
@@ -900,7 +900,7 @@ font-weight: bold;</string>
                  </layout>
                 </item>
                 <item>
-                 <layout class="QHBoxLayout" name="horizontalLayout_588">
+                 <layout class="QHBoxLayout" name="horizontalLayout_588" stretch="0,3,1">
                   <item>
                    <widget class="label_sago_reversa" name="label_380">
                     <property name="sizePolicy">
@@ -1039,7 +1039,7 @@ font-weight: bold;</string>
                  <number>3</number>
                 </property>
                 <item>
-                 <layout class="QHBoxLayout" name="horizontalLayout_590">
+                 <layout class="QHBoxLayout" name="horizontalLayout_590" stretch="3,1">
                   <item>
                    <widget class="neklakebla" name="Lec09_Button641">
                     <property name="sizePolicy">
@@ -1066,7 +1066,7 @@ font-weight: bold;</string>
                  </layout>
                 </item>
                 <item>
-                 <layout class="QHBoxLayout" name="horizontalLayout_591">
+                 <layout class="QHBoxLayout" name="horizontalLayout_591" stretch="0,3,1">
                   <item>
                    <widget class="label_sago_reversa" name="label_381">
                     <property name="sizePolicy">
@@ -1116,7 +1116,7 @@ font-weight: bold;</string>
                  <number>3</number>
                 </property>
                 <item>
-                 <layout class="QHBoxLayout" name="horizontalLayout_592">
+                 <layout class="QHBoxLayout" name="horizontalLayout_592" stretch="3,1">
                   <item>
                    <widget class="neklakebla" name="Lec09_Button38">
                     <property name="sizePolicy">
@@ -1143,7 +1143,7 @@ font-weight: bold;</string>
                  </layout>
                 </item>
                 <item>
-                 <layout class="QHBoxLayout" name="horizontalLayout_593">
+                 <layout class="QHBoxLayout" name="horizontalLayout_593" stretch="0,3,1">
                   <item>
                    <widget class="label_sago_reversa" name="label_382">
                     <property name="sizePolicy">
@@ -1260,7 +1260,7 @@ font-weight: bold;</string>
                    <number>3</number>
                   </property>
                   <item>
-                   <layout class="QHBoxLayout" name="horizontalLayout_604">
+                   <layout class="QHBoxLayout" name="horizontalLayout_604" stretch="3,1">
                     <item>
                      <widget class="neklakebla" name="Lec09_Button643">
                       <property name="sizePolicy">
@@ -1287,7 +1287,7 @@ font-weight: bold;</string>
                    </layout>
                   </item>
                   <item>
-                   <layout class="QHBoxLayout" name="horizontalLayout_605">
+                   <layout class="QHBoxLayout" name="horizontalLayout_605" stretch="0,3,1">
                     <item>
                      <widget class="label_sago_reversa" name="label_387">
                       <property name="sizePolicy">
@@ -1337,7 +1337,7 @@ font-weight: bold;</string>
                    <number>3</number>
                   </property>
                   <item>
-                   <layout class="QHBoxLayout" name="horizontalLayout_633">
+                   <layout class="QHBoxLayout" name="horizontalLayout_633" stretch="3,1">
                     <item>
                      <widget class="neklakebla" name="Lec09_Button649">
                       <property name="sizePolicy">
@@ -1364,7 +1364,7 @@ font-weight: bold;</string>
                    </layout>
                   </item>
                   <item>
-                   <layout class="QHBoxLayout" name="horizontalLayout_634">
+                   <layout class="QHBoxLayout" name="horizontalLayout_634" stretch="0,3,1">
                     <item>
                      <widget class="label_sago_reversa" name="label_391">
                       <property name="sizePolicy">
@@ -1418,7 +1418,7 @@ font-weight: bold;</string>
                    <number>3</number>
                   </property>
                   <item>
-                   <layout class="QHBoxLayout" name="horizontalLayout_606">
+                   <layout class="QHBoxLayout" name="horizontalLayout_606" stretch="3,1">
                     <item>
                      <widget class="neklakebla" name="Lec09_Button40">
                       <property name="sizePolicy">
@@ -1445,7 +1445,7 @@ font-weight: bold;</string>
                    </layout>
                   </item>
                   <item>
-                   <layout class="QHBoxLayout" name="horizontalLayout_607">
+                   <layout class="QHBoxLayout" name="horizontalLayout_607" stretch="0,3,1">
                     <item>
                      <widget class="label_sago_reversa" name="label_388">
                       <property name="sizePolicy">
@@ -1578,7 +1578,7 @@ font-weight: bold;</string>
                  <number>3</number>
                 </property>
                 <item>
-                 <layout class="QHBoxLayout" name="horizontalLayout_595">
+                 <layout class="QHBoxLayout" name="horizontalLayout_595" stretch="3,1">
                   <item>
                    <widget class="neklakebla" name="Lec09_Button645">
                     <property name="sizePolicy">
@@ -1605,7 +1605,7 @@ font-weight: bold;</string>
                  </layout>
                 </item>
                 <item>
-                 <layout class="QHBoxLayout" name="horizontalLayout_596">
+                 <layout class="QHBoxLayout" name="horizontalLayout_596" stretch="0,3,1">
                   <item>
                    <widget class="label_sago_reversa" name="label_383">
                     <property name="sizePolicy">
@@ -1655,7 +1655,7 @@ font-weight: bold;</string>
                  <number>3</number>
                 </property>
                 <item>
-                 <layout class="QHBoxLayout" name="horizontalLayout_597">
+                 <layout class="QHBoxLayout" name="horizontalLayout_597" stretch="3,1">
                   <item>
                    <widget class="neklakebla" name="Lec09_Button42">
                     <property name="sizePolicy">
@@ -1682,7 +1682,7 @@ font-weight: bold;</string>
                  </layout>
                 </item>
                 <item>
-                 <layout class="QHBoxLayout" name="horizontalLayout_598">
+                 <layout class="QHBoxLayout" name="horizontalLayout_598" stretch="0,3,1">
                   <item>
                    <widget class="label_sago_reversa" name="label_384">
                     <property name="sizePolicy">
@@ -1797,7 +1797,7 @@ font-weight: bold;</string>
                  <number>3</number>
                 </property>
                 <item>
-                 <layout class="QHBoxLayout" name="horizontalLayout_600">
+                 <layout class="QHBoxLayout" name="horizontalLayout_600" stretch="3,1">
                   <item>
                    <widget class="neklakebla" name="Lec09_Button647">
                     <property name="sizePolicy">
@@ -1824,7 +1824,7 @@ font-weight: bold;</string>
                  </layout>
                 </item>
                 <item>
-                 <layout class="QHBoxLayout" name="horizontalLayout_601">
+                 <layout class="QHBoxLayout" name="horizontalLayout_601" stretch="0,3,1">
                   <item>
                    <widget class="label_sago_reversa" name="label_385">
                     <property name="sizePolicy">
@@ -1874,7 +1874,7 @@ font-weight: bold;</string>
                  <number>3</number>
                 </property>
                 <item>
-                 <layout class="QHBoxLayout" name="horizontalLayout_602">
+                 <layout class="QHBoxLayout" name="horizontalLayout_602" stretch="3,1">
                   <item>
                    <widget class="neklakebla" name="Lec09_Button44">
                     <property name="sizePolicy">
@@ -1901,7 +1901,7 @@ font-weight: bold;</string>
                  </layout>
                 </item>
                 <item>
-                 <layout class="QHBoxLayout" name="horizontalLayout_603">
+                 <layout class="QHBoxLayout" name="horizontalLayout_603" stretch="0,3,1">
                   <item>
                    <widget class="label_sago_reversa" name="label_386">
                     <property name="sizePolicy">
@@ -2043,7 +2043,7 @@ font-weight: bold;</string>
                  <number>3</number>
                 </property>
                 <item>
-                 <layout class="QHBoxLayout" name="horizontalLayout_609">
+                 <layout class="QHBoxLayout" name="horizontalLayout_609" stretch="3,1">
                   <item>
                    <widget class="neklakebla" name="Lec09_Button650">
                     <property name="sizePolicy">
@@ -2070,7 +2070,7 @@ font-weight: bold;</string>
                  </layout>
                 </item>
                 <item>
-                 <layout class="QHBoxLayout" name="horizontalLayout_610">
+                 <layout class="QHBoxLayout" name="horizontalLayout_610" stretch="0,3,1">
                   <item>
                    <widget class="label_sago_reversa" name="label_389">
                     <property name="sizePolicy">
@@ -2120,7 +2120,7 @@ font-weight: bold;</string>
                  <number>3</number>
                 </property>
                 <item>
-                 <layout class="QHBoxLayout" name="horizontalLayout_611">
+                 <layout class="QHBoxLayout" name="horizontalLayout_611" stretch="3,1">
                   <item>
                    <widget class="neklakebla" name="Lec09_Button48">
                     <property name="sizePolicy">
@@ -2147,7 +2147,7 @@ font-weight: bold;</string>
                  </layout>
                 </item>
                 <item>
-                 <layout class="QHBoxLayout" name="horizontalLayout_612">
+                 <layout class="QHBoxLayout" name="horizontalLayout_612" stretch="0,3,1">
                   <item>
                    <widget class="label_sago_reversa" name="label_390">
                     <property name="sizePolicy">
@@ -2264,7 +2264,7 @@ font-weight: bold;</string>
                    <number>3</number>
                   </property>
                   <item>
-                   <layout class="QHBoxLayout" name="horizontalLayout_618">
+                   <layout class="QHBoxLayout" name="horizontalLayout_618" stretch="3,1">
                     <item>
                      <widget class="neklakebla" name="Lec09_Button654">
                       <property name="sizePolicy">
@@ -2291,7 +2291,7 @@ font-weight: bold;</string>
                    </layout>
                   </item>
                   <item>
-                   <layout class="QHBoxLayout" name="horizontalLayout_619">
+                   <layout class="QHBoxLayout" name="horizontalLayout_619" stretch="0,3,1">
                     <item>
                      <widget class="label_sago_reversa" name="label_394">
                       <property name="sizePolicy">
@@ -2341,7 +2341,7 @@ font-weight: bold;</string>
                    <number>3</number>
                   </property>
                   <item>
-                   <layout class="QHBoxLayout" name="horizontalLayout_635">
+                   <layout class="QHBoxLayout" name="horizontalLayout_635" stretch="3,1">
                     <item>
                      <widget class="neklakebla" name="Lec09_Button658">
                       <property name="sizePolicy">
@@ -2368,7 +2368,7 @@ font-weight: bold;</string>
                    </layout>
                   </item>
                   <item>
-                   <layout class="QHBoxLayout" name="horizontalLayout_636">
+                   <layout class="QHBoxLayout" name="horizontalLayout_636" stretch="0,3,1">
                     <item>
                      <widget class="label_sago_reversa" name="label_395">
                       <property name="sizePolicy">
@@ -2422,7 +2422,7 @@ font-weight: bold;</string>
                    <number>3</number>
                   </property>
                   <item>
-                   <layout class="QHBoxLayout" name="horizontalLayout_620">
+                   <layout class="QHBoxLayout" name="horizontalLayout_620" stretch="3,1">
                     <item>
                      <widget class="neklakebla" name="Lec09_Button52">
                       <property name="sizePolicy">
@@ -2449,7 +2449,7 @@ font-weight: bold;</string>
                    </layout>
                   </item>
                   <item>
-                   <layout class="QHBoxLayout" name="horizontalLayout_621">
+                   <layout class="QHBoxLayout" name="horizontalLayout_621" stretch="0,3,1">
                     <item>
                      <widget class="label_sago_reversa" name="label_396">
                       <property name="sizePolicy">
@@ -2499,7 +2499,7 @@ font-weight: bold;</string>
                    <number>3</number>
                   </property>
                   <item>
-                   <layout class="QHBoxLayout" name="horizontalLayout_665">
+                   <layout class="QHBoxLayout" name="horizontalLayout_665" stretch="3,1">
                     <item>
                      <widget class="neklakebla" name="Lec09_Button54">
                       <property name="sizePolicy">
@@ -2526,7 +2526,7 @@ font-weight: bold;</string>
                    </layout>
                   </item>
                   <item>
-                   <layout class="QHBoxLayout" name="horizontalLayout_666">
+                   <layout class="QHBoxLayout" name="horizontalLayout_666" stretch="0,3,1">
                     <item>
                      <widget class="label_sago_reversa" name="label_414">
                       <property name="sizePolicy">
@@ -2646,7 +2646,7 @@ font-weight: bold;</string>
                  <number>3</number>
                 </property>
                 <item>
-                 <layout class="QHBoxLayout" name="horizontalLayout_623">
+                 <layout class="QHBoxLayout" name="horizontalLayout_623" stretch="3,1">
                   <item>
                    <widget class="neklakebla" name="Lec09_Button656">
                     <property name="sizePolicy">
@@ -2673,7 +2673,7 @@ font-weight: bold;</string>
                  </layout>
                 </item>
                 <item>
-                 <layout class="QHBoxLayout" name="horizontalLayout_624">
+                 <layout class="QHBoxLayout" name="horizontalLayout_624" stretch="0,3,1">
                   <item>
                    <widget class="label_sago_reversa" name="label_397">
                     <property name="sizePolicy">
@@ -2723,7 +2723,7 @@ font-weight: bold;</string>
                  <number>3</number>
                 </property>
                 <item>
-                 <layout class="QHBoxLayout" name="horizontalLayout_625">
+                 <layout class="QHBoxLayout" name="horizontalLayout_625" stretch="3,1">
                   <item>
                    <widget class="neklakebla" name="Lec09_Button56">
                     <property name="sizePolicy">
@@ -2750,7 +2750,7 @@ font-weight: bold;</string>
                  </layout>
                 </item>
                 <item>
-                 <layout class="QHBoxLayout" name="horizontalLayout_626">
+                 <layout class="QHBoxLayout" name="horizontalLayout_626" stretch="0,3,1">
                   <item>
                    <widget class="label_sago_reversa" name="label_398">
                     <property name="sizePolicy">
@@ -2889,7 +2889,7 @@ font-weight: bold;</string>
                  <number>3</number>
                 </property>
                 <item>
-                 <layout class="QHBoxLayout" name="horizontalLayout_628">
+                 <layout class="QHBoxLayout" name="horizontalLayout_628" stretch="3,1">
                   <item>
                    <widget class="neklakebla" name="Lec09_Button659">
                     <property name="sizePolicy">
@@ -2916,7 +2916,7 @@ font-weight: bold;</string>
                  </layout>
                 </item>
                 <item>
-                 <layout class="QHBoxLayout" name="horizontalLayout_629">
+                 <layout class="QHBoxLayout" name="horizontalLayout_629" stretch="0,3,1">
                   <item>
                    <widget class="label_sago_reversa" name="label_399">
                     <property name="sizePolicy">
@@ -2966,7 +2966,7 @@ font-weight: bold;</string>
                  <number>3</number>
                 </property>
                 <item>
-                 <layout class="QHBoxLayout" name="horizontalLayout_630">
+                 <layout class="QHBoxLayout" name="horizontalLayout_630" stretch="3,1">
                   <item>
                    <widget class="neklakebla" name="Lec09_Button59">
                     <property name="sizePolicy">
@@ -2993,7 +2993,7 @@ font-weight: bold;</string>
                  </layout>
                 </item>
                 <item>
-                 <layout class="QHBoxLayout" name="horizontalLayout_631">
+                 <layout class="QHBoxLayout" name="horizontalLayout_631" stretch="0,3,1">
                   <item>
                    <widget class="label_sago_reversa" name="label_400">
                     <property name="sizePolicy">
@@ -3108,7 +3108,7 @@ font-weight: bold;</string>
                  <number>3</number>
                 </property>
                 <item>
-                 <layout class="QHBoxLayout" name="horizontalLayout_637">
+                 <layout class="QHBoxLayout" name="horizontalLayout_637" stretch="3,1">
                   <item>
                    <widget class="neklakebla" name="Lec09_Button661">
                     <property name="sizePolicy">
@@ -3135,7 +3135,7 @@ font-weight: bold;</string>
                  </layout>
                 </item>
                 <item>
-                 <layout class="QHBoxLayout" name="horizontalLayout_638">
+                 <layout class="QHBoxLayout" name="horizontalLayout_638" stretch="0,3,1">
                   <item>
                    <widget class="label_sago_reversa" name="label_401">
                     <property name="sizePolicy">
@@ -3185,7 +3185,7 @@ font-weight: bold;</string>
                  <number>3</number>
                 </property>
                 <item>
-                 <layout class="QHBoxLayout" name="horizontalLayout_639">
+                 <layout class="QHBoxLayout" name="horizontalLayout_639" stretch="3,1">
                   <item>
                    <widget class="neklakebla" name="Lec09_Button61">
                     <property name="sizePolicy">
@@ -3212,7 +3212,7 @@ font-weight: bold;</string>
                  </layout>
                 </item>
                 <item>
-                 <layout class="QHBoxLayout" name="horizontalLayout_640">
+                 <layout class="QHBoxLayout" name="horizontalLayout_640" stretch="0,3,1">
                   <item>
                    <widget class="label_sago_reversa" name="label_402">
                     <property name="sizePolicy">
@@ -3327,7 +3327,7 @@ font-weight: bold;</string>
                  <number>3</number>
                 </property>
                 <item>
-                 <layout class="QHBoxLayout" name="horizontalLayout_642">
+                 <layout class="QHBoxLayout" name="horizontalLayout_642" stretch="3,1">
                   <item>
                    <widget class="neklakebla" name="Lec09_Button663">
                     <property name="sizePolicy">
@@ -3354,7 +3354,7 @@ font-weight: bold;</string>
                  </layout>
                 </item>
                 <item>
-                 <layout class="QHBoxLayout" name="horizontalLayout_643">
+                 <layout class="QHBoxLayout" name="horizontalLayout_643" stretch="0,3,1">
                   <item>
                    <widget class="label_sago_reversa" name="label_403">
                     <property name="sizePolicy">
@@ -3404,7 +3404,7 @@ font-weight: bold;</string>
                  <number>3</number>
                 </property>
                 <item>
-                 <layout class="QHBoxLayout" name="horizontalLayout_644">
+                 <layout class="QHBoxLayout" name="horizontalLayout_644" stretch="3,1">
                   <item>
                    <widget class="neklakebla" name="Lec09_Button63">
                     <property name="sizePolicy">
@@ -3431,7 +3431,7 @@ font-weight: bold;</string>
                  </layout>
                 </item>
                 <item>
-                 <layout class="QHBoxLayout" name="horizontalLayout_645">
+                 <layout class="QHBoxLayout" name="horizontalLayout_645" stretch="0,3,1">
                   <item>
                    <widget class="label_sago_reversa" name="label_404">
                     <property name="sizePolicy">
@@ -3554,7 +3554,7 @@ font-weight: bold;</string>
                    <number>3</number>
                   </property>
                   <item>
-                   <layout class="QHBoxLayout" name="horizontalLayout_646">
+                   <layout class="QHBoxLayout" name="horizontalLayout_646" stretch="3,1">
                     <item>
                      <widget class="neklakebla" name="Lec09_Button665">
                       <property name="sizePolicy">
@@ -3581,7 +3581,7 @@ font-weight: bold;</string>
                    </layout>
                   </item>
                   <item>
-                   <layout class="QHBoxLayout" name="horizontalLayout_647">
+                   <layout class="QHBoxLayout" name="horizontalLayout_647" stretch="0,3,1">
                     <item>
                      <widget class="label_sago_reversa" name="label_405">
                       <property name="sizePolicy">
@@ -3631,7 +3631,7 @@ font-weight: bold;</string>
                    <number>3</number>
                   </property>
                   <item>
-                   <layout class="QHBoxLayout" name="horizontalLayout_648">
+                   <layout class="QHBoxLayout" name="horizontalLayout_648" stretch="3,1">
                     <item>
                      <widget class="neklakebla" name="Lec09_Button667">
                       <property name="sizePolicy">
@@ -3658,7 +3658,7 @@ font-weight: bold;</string>
                    </layout>
                   </item>
                   <item>
-                   <layout class="QHBoxLayout" name="horizontalLayout_649">
+                   <layout class="QHBoxLayout" name="horizontalLayout_649" stretch="0,3,1">
                     <item>
                      <widget class="label_sago_reversa" name="label_406">
                       <property name="sizePolicy">
@@ -3715,7 +3715,7 @@ font-weight: bold;</string>
                    <number>3</number>
                   </property>
                   <item>
-                   <layout class="QHBoxLayout" name="horizontalLayout_650">
+                   <layout class="QHBoxLayout" name="horizontalLayout_650" stretch="3,1">
                     <item>
                      <widget class="neklakebla" name="Lec09_Button65">
                       <property name="sizePolicy">
@@ -3742,7 +3742,7 @@ font-weight: bold;</string>
                    </layout>
                   </item>
                   <item>
-                   <layout class="QHBoxLayout" name="horizontalLayout_651">
+                   <layout class="QHBoxLayout" name="horizontalLayout_651" stretch="0,3,1">
                     <item>
                      <widget class="label_sago_reversa" name="label_407">
                       <property name="sizePolicy">
@@ -3792,7 +3792,7 @@ font-weight: bold;</string>
                    <number>3</number>
                   </property>
                   <item>
-                   <layout class="QHBoxLayout" name="horizontalLayout_652">
+                   <layout class="QHBoxLayout" name="horizontalLayout_652" stretch="3,1">
                     <item>
                      <widget class="neklakebla" name="Lec09_Button67">
                       <property name="sizePolicy">
@@ -3819,7 +3819,7 @@ font-weight: bold;</string>
                    </layout>
                   </item>
                   <item>
-                   <layout class="QHBoxLayout" name="horizontalLayout_653">
+                   <layout class="QHBoxLayout" name="horizontalLayout_653" stretch="0,3,1">
                     <item>
                      <widget class="label_sago_reversa" name="label_408">
                       <property name="sizePolicy">
@@ -3960,7 +3960,7 @@ font-weight: bold;</string>
                  <number>3</number>
                 </property>
                 <item>
-                 <layout class="QHBoxLayout" name="horizontalLayout_661">
+                 <layout class="QHBoxLayout" name="horizontalLayout_661" stretch="3,1">
                   <item>
                    <widget class="neklakebla" name="Lec09_Button668">
                     <property name="sizePolicy">
@@ -3987,7 +3987,7 @@ font-weight: bold;</string>
                  </layout>
                 </item>
                 <item>
-                 <layout class="QHBoxLayout" name="horizontalLayout_662">
+                 <layout class="QHBoxLayout" name="horizontalLayout_662" stretch="0,3,1">
                   <item>
                    <widget class="label_sago_reversa" name="label_412">
                     <property name="sizePolicy">
@@ -4037,7 +4037,7 @@ font-weight: bold;</string>
                  <number>3</number>
                 </property>
                 <item>
-                 <layout class="QHBoxLayout" name="horizontalLayout_663">
+                 <layout class="QHBoxLayout" name="horizontalLayout_663" stretch="3,1">
                   <item>
                    <widget class="neklakebla" name="Lec08_Button32_6">
                     <property name="sizePolicy">
@@ -4064,7 +4064,7 @@ font-weight: bold;</string>
                  </layout>
                 </item>
                 <item>
-                 <layout class="QHBoxLayout" name="horizontalLayout_664">
+                 <layout class="QHBoxLayout" name="horizontalLayout_664" stretch="0,3,1">
                   <item>
                    <widget class="label_sago_reversa" name="label_413">
                     <property name="sizePolicy">
@@ -4175,7 +4175,7 @@ font-weight: bold;</string>
                    <number>3</number>
                   </property>
                   <item>
-                   <layout class="QHBoxLayout" name="horizontalLayout_654">
+                   <layout class="QHBoxLayout" name="horizontalLayout_654" stretch="3,1">
                     <item>
                      <widget class="neklakebla" name="Lec09_Button670">
                       <property name="sizePolicy">
@@ -4202,7 +4202,7 @@ font-weight: bold;</string>
                    </layout>
                   </item>
                   <item>
-                   <layout class="QHBoxLayout" name="horizontalLayout_655">
+                   <layout class="QHBoxLayout" name="horizontalLayout_655" stretch="0,3,1">
                     <item>
                      <widget class="label_sago_reversa" name="label_409">
                       <property name="sizePolicy">
@@ -4252,7 +4252,7 @@ font-weight: bold;</string>
                    <number>3</number>
                   </property>
                   <item>
-                   <layout class="QHBoxLayout" name="horizontalLayout_656">
+                   <layout class="QHBoxLayout" name="horizontalLayout_656" stretch="3,1">
                     <item>
                      <widget class="neklakebla" name="Lec09_Button672">
                       <property name="sizePolicy">
@@ -4279,7 +4279,7 @@ font-weight: bold;</string>
                    </layout>
                   </item>
                   <item>
-                   <layout class="QHBoxLayout" name="horizontalLayout_657">
+                   <layout class="QHBoxLayout" name="horizontalLayout_657" stretch="0,3,1">
                     <item>
                      <widget class="label_sago_reversa" name="label_410">
                       <property name="sizePolicy">
@@ -4333,7 +4333,7 @@ font-weight: bold;</string>
                    <number>3</number>
                   </property>
                   <item>
-                   <layout class="QHBoxLayout" name="horizontalLayout_658">
+                   <layout class="QHBoxLayout" name="horizontalLayout_658" stretch="3,1">
                     <item>
                      <widget class="neklakebla" name="Lec08_Button41_5">
                       <property name="sizePolicy">
@@ -4360,7 +4360,7 @@ font-weight: bold;</string>
                    </layout>
                   </item>
                   <item>
-                   <layout class="QHBoxLayout" name="horizontalLayout_659">
+                   <layout class="QHBoxLayout" name="horizontalLayout_659" stretch="0,3,1">
                     <item>
                      <widget class="label_sago_reversa" name="label_411">
                       <property name="sizePolicy">
@@ -4485,7 +4485,7 @@ font-weight: bold;</string>
            <item>
             <layout class="QVBoxLayout" name="verticalLayout">
              <item>
-              <layout class="QHBoxLayout" name="horizontalLayout_2">
+              <layout class="QHBoxLayout" name="horizontalLayout_2" stretch="0,3,1">
                <item>
                 <widget class="label_sago" name="label_9">
                  <property name="sizePolicy">
@@ -4528,7 +4528,7 @@ font-weight: bold;</string>
               </layout>
              </item>
              <item>
-              <layout class="QHBoxLayout" name="horizontalLayout_3">
+              <layout class="QHBoxLayout" name="horizontalLayout_3" stretch="0,3,1">
                <item>
                 <widget class="label_sago" name="label_10">
                  <property name="sizePolicy">
@@ -4587,7 +4587,7 @@ font-weight: bold;</string>
          <item>
           <layout class="QHBoxLayout" name="horizontalLayout_9">
            <item>
-            <layout class="QHBoxLayout" name="horizontalLayout_4">
+            <layout class="QHBoxLayout" name="horizontalLayout_4" stretch="3,1">
              <item>
               <widget class="neklakebla" name="Lec09_Button675">
                <property name="sizePolicy">
@@ -4614,7 +4614,7 @@ font-weight: bold;</string>
             </layout>
            </item>
            <item>
-            <layout class="QHBoxLayout" name="horizontalLayout_5">
+            <layout class="QHBoxLayout" name="horizontalLayout_5" stretch="3,1">
              <item>
               <widget class="neklakebla" name="Lec09_Button676">
                <property name="sizePolicy">
@@ -5419,7 +5419,7 @@ font-weight: bold;</string>
         </widget>
        </item>
        <item>
-        <layout class="QHBoxLayout" name="horizontalLayout_28">
+        <layout class="QHBoxLayout" name="horizontalLayout_28" stretch="3,1">
          <item>
           <widget class="neklakebla" name="pushButton_20">
            <property name="sizePolicy">
@@ -5449,7 +5449,7 @@ font-weight: bold;</string>
         </layout>
        </item>
        <item>
-        <layout class="QHBoxLayout" name="horizontalLayout_23">
+        <layout class="QHBoxLayout" name="horizontalLayout_23" stretch="3,1">
          <item>
           <widget class="neklakebla" name="pushButton_15">
            <property name="sizePolicy">
@@ -5476,7 +5476,7 @@ font-weight: bold;</string>
         </layout>
        </item>
        <item>
-        <layout class="QHBoxLayout" name="horizontalLayout_29">
+        <layout class="QHBoxLayout" name="horizontalLayout_29" stretch="3,1">
          <item>
           <widget class="neklakebla" name="pushButton_21">
            <property name="sizePolicy">
@@ -5503,7 +5503,7 @@ font-weight: bold;</string>
         </layout>
        </item>
        <item>
-        <layout class="QHBoxLayout" name="horizontalLayout_31">
+        <layout class="QHBoxLayout" name="horizontalLayout_31" stretch="3,1">
          <item>
           <widget class="neklakebla" name="pushButton_23">
            <property name="sizePolicy">
@@ -5530,7 +5530,7 @@ font-weight: bold;</string>
         </layout>
        </item>
        <item>
-        <layout class="QHBoxLayout" name="horizontalLayout_24">
+        <layout class="QHBoxLayout" name="horizontalLayout_24" stretch="3,1">
          <item>
           <widget class="neklakebla" name="pushButton_16">
            <property name="sizePolicy">
@@ -5557,7 +5557,7 @@ font-weight: bold;</string>
         </layout>
        </item>
        <item>
-        <layout class="QHBoxLayout" name="horizontalLayout_30">
+        <layout class="QHBoxLayout" name="horizontalLayout_30" stretch="3,1">
          <item>
           <widget class="neklakebla" name="pushButton_22">
            <property name="sizePolicy">
@@ -5584,7 +5584,7 @@ font-weight: bold;</string>
         </layout>
        </item>
        <item>
-        <layout class="QHBoxLayout" name="horizontalLayout_25">
+        <layout class="QHBoxLayout" name="horizontalLayout_25" stretch="3,1">
          <item>
           <widget class="neklakebla" name="pushButton_17">
            <property name="sizePolicy">
@@ -5611,7 +5611,7 @@ font-weight: bold;</string>
         </layout>
        </item>
        <item>
-        <layout class="QHBoxLayout" name="horizontalLayout_26">
+        <layout class="QHBoxLayout" name="horizontalLayout_26" stretch="3,1">
          <item>
           <widget class="neklakebla" name="pushButton_18">
            <property name="sizePolicy">
@@ -5638,7 +5638,7 @@ font-weight: bold;</string>
         </layout>
        </item>
        <item>
-        <layout class="QHBoxLayout" name="horizontalLayout_27">
+        <layout class="QHBoxLayout" name="horizontalLayout_27" stretch="3,1">
          <item>
           <widget class="neklakebla" name="pushButton_19">
            <property name="sizePolicy">
@@ -5704,7 +5704,7 @@ font-weight: bold;</string>
           </widget>
          </item>
          <item>
-          <layout class="QHBoxLayout" name="horizontalLayout_14">
+          <layout class="QHBoxLayout" name="horizontalLayout_14" stretch="3,1">
            <item>
             <widget class="neklakebla" name="pushButton_6">
              <property name="sizePolicy">
@@ -5731,7 +5731,7 @@ font-weight: bold;</string>
           </layout>
          </item>
          <item>
-          <layout class="QHBoxLayout" name="horizontalLayout_15">
+          <layout class="QHBoxLayout" name="horizontalLayout_15" stretch="3,1">
            <item>
             <widget class="neklakebla" name="pushButton_7">
              <property name="sizePolicy">
@@ -5758,7 +5758,7 @@ font-weight: bold;</string>
           </layout>
          </item>
          <item>
-          <layout class="QHBoxLayout" name="horizontalLayout_16">
+          <layout class="QHBoxLayout" name="horizontalLayout_16" stretch="3,1">
            <item>
             <widget class="neklakebla" name="pushButton_8">
              <property name="sizePolicy">
@@ -5785,7 +5785,7 @@ font-weight: bold;</string>
           </layout>
          </item>
          <item>
-          <layout class="QHBoxLayout" name="horizontalLayout_17">
+          <layout class="QHBoxLayout" name="horizontalLayout_17" stretch="3,1">
            <item>
             <widget class="neklakebla" name="pushButton_9">
              <property name="sizePolicy">
@@ -5812,7 +5812,7 @@ font-weight: bold;</string>
           </layout>
          </item>
          <item>
-          <layout class="QHBoxLayout" name="horizontalLayout_18">
+          <layout class="QHBoxLayout" name="horizontalLayout_18" stretch="3,1">
            <item>
             <widget class="neklakebla" name="pushButton_10">
              <property name="sizePolicy">
@@ -5869,7 +5869,7 @@ font-weight: bold;</string>
           </widget>
          </item>
          <item>
-          <layout class="QHBoxLayout" name="horizontalLayout_19">
+          <layout class="QHBoxLayout" name="horizontalLayout_19" stretch="3,1">
            <item>
             <widget class="neklakebla" name="pushButton_11">
              <property name="sizePolicy">
@@ -5896,7 +5896,7 @@ font-weight: bold;</string>
           </layout>
          </item>
          <item>
-          <layout class="QHBoxLayout" name="horizontalLayout_20">
+          <layout class="QHBoxLayout" name="horizontalLayout_20" stretch="3,1">
            <item>
             <widget class="neklakebla" name="pushButton_12">
              <property name="sizePolicy">
@@ -5923,7 +5923,7 @@ font-weight: bold;</string>
           </layout>
          </item>
          <item>
-          <layout class="QHBoxLayout" name="horizontalLayout_21">
+          <layout class="QHBoxLayout" name="horizontalLayout_21" stretch="3,1">
            <item>
             <widget class="neklakebla" name="pushButton_13">
              <property name="sizePolicy">
@@ -5950,7 +5950,7 @@ font-weight: bold;</string>
           </layout>
          </item>
          <item>
-          <layout class="QHBoxLayout" name="horizontalLayout_22">
+          <layout class="QHBoxLayout" name="horizontalLayout_22" stretch="3,1">
            <item>
             <widget class="neklakebla" name="pushButton_14">
              <property name="sizePolicy">
@@ -5977,7 +5977,7 @@ font-weight: bold;</string>
           </layout>
          </item>
          <item>
-          <layout class="QHBoxLayout" name="horizontalLayout_32">
+          <layout class="QHBoxLayout" name="horizontalLayout_32" stretch="3,1">
            <item>
             <widget class="neklakebla" name="pushButton_24">
              <property name="sizePolicy">
@@ -6004,7 +6004,7 @@ font-weight: bold;</string>
           </layout>
          </item>
          <item>
-          <layout class="QHBoxLayout" name="horizontalLayout_33">
+          <layout class="QHBoxLayout" name="horizontalLayout_33" stretch="3,1">
            <item>
             <widget class="neklakebla" name="pushButton_25">
              <property name="sizePolicy">
@@ -6055,7 +6055,7 @@ font-weight: bold;</string>
       <attribute name="title">
        <string>11</string>
       </attribute>
-      <layout class="QVBoxLayout" name="verticalLayout_8">
+      <layout class="QVBoxLayout" name="verticalLayout_19" stretch="0,1,0,0,0,0,1">
        <item>
         <widget class="QLabel" name="Lec09_Label27">
          <property name="text">
@@ -6071,7 +6071,7 @@ font-weight: bold;</string>
          <item>
           <widget class="QLabel" name="Memo1_Lec09">
            <property name="sizePolicy">
-            <sizepolicy hsizetype="Minimum" vsizetype="Minimum">
+            <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
              <horstretch>0</horstretch>
              <verstretch>0</verstretch>
             </sizepolicy>
@@ -6113,65 +6113,72 @@ font-weight: bold;</string>
           </widget>
          </item>
          <item>
-          <widget class="QGroupBox" name="groupBox_2">
-           <property name="sizePolicy">
-            <sizepolicy hsizetype="Minimum" vsizetype="Preferred">
-             <horstretch>0</horstretch>
-             <verstretch>0</verstretch>
-            </sizepolicy>
-           </property>
-           <property name="title">
-            <string/>
-           </property>
-           <layout class="QVBoxLayout" name="verticalLayout_18">
-            <item>
-             <widget class="QLabel" name="Lec09_Label92">
-              <property name="sizePolicy">
-               <sizepolicy hsizetype="Preferred" vsizetype="Maximum">
-                <horstretch>0</horstretch>
-                <verstretch>0</verstretch>
-               </sizepolicy>
-              </property>
-              <property name="text">
-               <string>TextLabel</string>
-              </property>
-              <property name="alignment">
-               <set>Qt::AlignBottom|Qt::AlignLeading|Qt::AlignLeft</set>
-              </property>
-             </widget>
-            </item>
-            <item>
-             <widget class="QLabel" name="Lec09_Label37">
-              <property name="font">
-               <font>
-                <pointsize>11</pointsize>
-               </font>
-              </property>
-              <property name="styleSheet">
-               <string notr="true">background: white;</string>
-              </property>
-              <property name="frameShape">
-               <enum>QFrame::Panel</enum>
-              </property>
-              <property name="frameShadow">
-               <enum>QFrame::Sunken</enum>
-              </property>
-              <property name="lineWidth">
-               <number>2</number>
-              </property>
-              <property name="text">
-               <string>TextLabel</string>
-              </property>
-              <property name="wordWrap">
-               <bool>true</bool>
-              </property>
-              <property name="margin">
-               <number>0</number>
-              </property>
-             </widget>
-            </item>
-           </layout>
-          </widget>
+          <layout class="QVBoxLayout" name="verticalLayout_18">
+           <item>
+            <widget class="QLabel" name="Lec09_Label92">
+             <property name="sizePolicy">
+              <sizepolicy hsizetype="Preferred" vsizetype="Maximum">
+               <horstretch>0</horstretch>
+               <verstretch>0</verstretch>
+              </sizepolicy>
+             </property>
+             <property name="text">
+              <string>TextLabel</string>
+             </property>
+             <property name="alignment">
+              <set>Qt::AlignBottom|Qt::AlignLeading|Qt::AlignLeft</set>
+             </property>
+            </widget>
+           </item>
+           <item>
+            <widget class="QGroupBox" name="groupBox_2">
+             <property name="sizePolicy">
+              <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
+               <horstretch>0</horstretch>
+               <verstretch>0</verstretch>
+              </sizepolicy>
+             </property>
+             <property name="title">
+              <string/>
+             </property>
+             <layout class="QVBoxLayout" name="verticalLayout_8">
+              <item>
+               <widget class="QLabel" name="Lec09_Label37">
+                <property name="sizePolicy">
+                 <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
+                  <horstretch>0</horstretch>
+                  <verstretch>0</verstretch>
+                 </sizepolicy>
+                </property>
+                <property name="font">
+                 <font>
+                  <pointsize>11</pointsize>
+                 </font>
+                </property>
+                <property name="frameShape">
+                 <enum>QFrame::NoFrame</enum>
+                </property>
+                <property name="frameShadow">
+                 <enum>QFrame::Raised</enum>
+                </property>
+                <property name="lineWidth">
+                 <number>1</number>
+                </property>
+                <property name="text">
+                 <string>TextLabel</string>
+                </property>
+                <property name="wordWrap">
+                 <bool>true</bool>
+                </property>
+                <property name="margin">
+                 <number>0</number>
+                </property>
+               </widget>
+              </item>
+             </layout>
+            </widget>
+           </item>
+          </layout>
          </item>
         </layout>
        </item>
@@ -6356,7 +6363,7 @@ font-weight: bold;</string>
       <attribute name="title">
        <string>12</string>
       </attribute>
-      <layout class="QVBoxLayout" name="verticalLayout_24">
+      <layout class="QVBoxLayout" name="verticalLayout_24" stretch="0,0,1,4,1">
        <item>
         <widget class="titolo" name="Lec09_Label82">
          <property name="text">
@@ -6375,11 +6382,11 @@ font-weight: bold;</string>
         </widget>
        </item>
        <item>
-        <layout class="QHBoxLayout" name="horizontalLayout_37">
+        <layout class="QHBoxLayout" name="horizontalLayout_37" stretch="4,5">
          <item>
           <widget class="QLabel" name="label_67">
            <property name="sizePolicy">
-            <sizepolicy hsizetype="Minimum" vsizetype="Minimum">
+            <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
              <horstretch>0</horstretch>
              <verstretch>0</verstretch>
             </sizepolicy>
@@ -6498,15 +6505,24 @@ font-weight: bold;</string>
    </slots>
   </customwidget>
   <customwidget>
+   <class>label_sago_reversa</class>
+   <extends>QLabel</extends>
+   <header>label_sago_reversa.h</header>
+  </customwidget>
+  <customwidget>
+   <class>mp3ludilo</class>
+   <extends>QFrame</extends>
+   <header>mp3ludilo.h</header>
+   <container>1</container>
+   <slots>
+    <slot>PaghoShanghita(int)</slot>
+   </slots>
+  </customwidget>
+  <customwidget>
    <class>vortoludo</class>
    <extends>QFrame</extends>
    <header>vortoludo.h</header>
    <container>1</container>
-  </customwidget>
-  <customwidget>
-   <class>neklakebla</class>
-   <extends>QPushButton</extends>
-   <header>neklakebla.h</header>
   </customwidget>
   <customwidget>
    <class>cx_edit</class>
@@ -6514,9 +6530,9 @@ font-weight: bold;</string>
    <header>cx_edit.h</header>
   </customwidget>
   <customwidget>
-   <class>label_sago_reversa</class>
+   <class>label_sago</class>
    <extends>QLabel</extends>
-   <header>label_sago_reversa.h</header>
+   <header>label_sago.h</header>
   </customwidget>
   <customwidget>
    <class>plenigas_spacon</class>
@@ -6525,20 +6541,14 @@ font-weight: bold;</string>
    <container>1</container>
   </customwidget>
   <customwidget>
-   <class>mp3ludilo</class>
-   <extends>QFrame</extends>
-   <header>mp3ludilo.h</header>
-   <container>1</container>
+   <class>neklakebla</class>
+   <extends>QPushButton</extends>
+   <header>neklakebla.h</header>
   </customwidget>
   <customwidget>
    <class>cx_plainedit</class>
    <extends>QPlainTextEdit</extends>
    <header>cx_plainedit.h</header>
-  </customwidget>
-  <customwidget>
-   <class>label_sago</class>
-   <extends>QLabel</extends>
-   <header>label_sago.h</header>
   </customwidget>
  </customwidgets>
  <resources>
@@ -6558,6 +6568,22 @@ font-weight: bold;</string>
     <hint type="destinationlabel">
      <x>149</x>
      <y>35</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>Lec09</sender>
+   <signal>currentChanged(int)</signal>
+   <receiver>Lec09_memo1</receiver>
+   <slot>PaghoShanghita(int)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>422</x>
+     <y>252</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>297</x>
+     <y>250</y>
     </hint>
    </hints>
   </connection>

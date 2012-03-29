@@ -153,6 +153,7 @@ void ekzerco1::novavorto()
     this->ui->BitBtn3->setEnabled(true);
 
     this->ui->butonujo->setFocus();
+    JamKlakis = false;
 
 }
 

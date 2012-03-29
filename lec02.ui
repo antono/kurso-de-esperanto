@@ -63,7 +63,7 @@
       </sizepolicy>
      </property>
      <property name="currentIndex">
-      <number>0</number>
+      <number>3</number>
      </property>
      <property name="iconSize">
       <size>
@@ -706,7 +706,7 @@
       <attribute name="title">
        <string>2</string>
       </attribute>
-      <layout class="QVBoxLayout" name="verticalLayout_6">
+      <layout class="QVBoxLayout" name="verticalLayout_7">
        <item>
         <widget class="titolo" name="Lec02_Label139">
          <property name="maximumSize">
@@ -757,7 +757,7 @@ formar o objeto direto. Assim reconhecemos o objeto direto pela terminação &qu
                </property>
                <property name="maximumSize">
                 <size>
-                 <width>200</width>
+                 <width>16777215</width>
                  <height>16777215</height>
                 </size>
                </property>
@@ -782,7 +782,7 @@ formar o objeto direto. Assim reconhecemos o objeto direto pela terminação &qu
             </layout>
            </item>
            <item>
-            <layout class="QHBoxLayout" name="horizontalLayout_140">
+            <layout class="QHBoxLayout" name="horizontalLayout_140" stretch="0,0">
              <item>
               <widget class="klakbutono" name="Lec02_Button260">
                <property name="sizePolicy">
@@ -793,7 +793,7 @@ formar o objeto direto. Assim reconhecemos o objeto direto pela terminação &qu
                </property>
                <property name="maximumSize">
                 <size>
-                 <width>200</width>
+                 <width>16777215</width>
                  <height>16777215</height>
                 </size>
                </property>
@@ -822,35 +822,38 @@ formar o objeto direto. Assim reconhecemos o objeto direto pela terminação &qu
         </layout>
        </item>
        <item>
-        <layout class="QVBoxLayout" name="verticalLayout_54">
+        <widget class="QLabel" name="Lec02_Label143">
+         <property name="text">
+          <string>Note que o plural é colocado antes do acusativo, e este aparece sempre no final da palavra.</string>
+         </property>
+         <property name="scaledContents">
+          <bool>false</bool>
+         </property>
+         <property name="wordWrap">
+          <bool>true</bool>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <layout class="QVBoxLayout" name="verticalLayout_6">
+         <property name="spacing">
+          <number>0</number>
+         </property>
          <item>
-          <widget class="QLabel" name="Lec02_Label143">
+          <widget class="klakbutono" name="Lec02_Button261">
+           <property name="sizePolicy">
+            <sizepolicy hsizetype="Maximum" vsizetype="Fixed">
+             <horstretch>0</horstretch>
+             <verstretch>0</verstretch>
+            </sizepolicy>
+           </property>
            <property name="text">
-            <string>Note que o plural é colocado antes do acusativo, e este aparece sempre no final da palavra.</string>
-           </property>
-           <property name="scaledContents">
-            <bool>false</bool>
-           </property>
-           <property name="wordWrap">
-            <bool>true</bool>
+            <string>Mi lavas la novan tason.</string>
            </property>
           </widget>
          </item>
          <item>
-          <layout class="QHBoxLayout" name="horizontalLayout_139">
-           <item>
-            <widget class="klakbutono" name="Lec02_Button261">
-             <property name="sizePolicy">
-              <sizepolicy hsizetype="Maximum" vsizetype="Fixed">
-               <horstretch>0</horstretch>
-               <verstretch>0</verstretch>
-              </sizepolicy>
-             </property>
-             <property name="text">
-              <string>Mi lavas la novan tason.</string>
-             </property>
-            </widget>
-           </item>
+          <layout class="QHBoxLayout" name="horizontalLayout_4">
            <item>
             <widget class="QLabel" name="label_28">
              <property name="sizePolicy">
@@ -893,6 +896,23 @@ formar o objeto direto. Assim reconhecemos o objeto direto pela terminação &qu
             </widget>
            </item>
            <item>
+            <spacer name="horizontalSpacer">
+             <property name="orientation">
+              <enum>Qt::Horizontal</enum>
+             </property>
+             <property name="sizeHint" stdset="0">
+              <size>
+               <width>40</width>
+               <height>20</height>
+              </size>
+             </property>
+            </spacer>
+           </item>
+          </layout>
+         </item>
+         <item>
+          <layout class="QHBoxLayout" name="horizontalLayout_5">
+           <item>
             <widget class="QLabel" name="label_29">
              <property name="sizePolicy">
               <sizepolicy hsizetype="Maximum" vsizetype="Preferred">
@@ -934,7 +954,7 @@ formar o objeto direto. Assim reconhecemos o objeto direto pela terminação &qu
             </widget>
            </item>
            <item>
-            <spacer name="horizontalSpacer">
+            <spacer name="horizontalSpacer_2">
              <property name="orientation">
               <enum>Qt::Horizontal</enum>
              </property>
@@ -3319,11 +3339,6 @@ p, li { white-space: pre-wrap; }
    <header>cx_edit.h</header>
   </customwidget>
   <customwidget>
-   <class>label_sago_reversa</class>
-   <extends>QLabel</extends>
-   <header>label_sago_reversa.h</header>
-  </customwidget>
-  <customwidget>
    <class>panelo</class>
    <extends>QFrame</extends>
    <header>panelo.h</header>
@@ -3331,6 +3346,11 @@ p, li { white-space: pre-wrap; }
    <slots>
     <slot>montras_sagon(int)</slot>
    </slots>
+  </customwidget>
+  <customwidget>
+   <class>label_sago_reversa</class>
+   <extends>QLabel</extends>
+   <header>label_sago_reversa.h</header>
   </customwidget>
   <customwidget>
    <class>vortoludo</class>
@@ -3372,6 +3392,9 @@ p, li { white-space: pre-wrap; }
    <extends>QFrame</extends>
    <header>videoludilo.h</header>
    <container>1</container>
+   <slots>
+    <slot>PaghoShanghita(int)</slot>
+   </slots>
   </customwidget>
  </customwidgets>
  <resources>
@@ -3391,6 +3414,22 @@ p, li { white-space: pre-wrap; }
     <hint type="destinationlabel">
      <x>7</x>
      <y>48</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>Lec02</sender>
+   <signal>currentChanged(int)</signal>
+   <receiver>Lec02_jen_video</receiver>
+   <slot>PaghoShanghita(int)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>502</x>
+     <y>263</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>620</x>
+     <y>333</y>
     </hint>
    </hints>
   </connection>

@@ -66,6 +66,7 @@ videoludilo::videoludilo(QWidget *parent) :
     connect(videoLudilo, SIGNAL(finished()), this, SLOT(onStop()));
     this->ui->Pauzu->setEnabled(true);
     this->ui->Pauzu->setVisible(false);
+    MiaPagho = -1;
 
 }
 
@@ -76,19 +77,27 @@ videoludilo::~videoludilo()
 
 void videoludilo::onPlay()
 {
+    QTabWidget * MiaPagharo = qobject_cast<QTabWidget *>(this->parentWidget()->parentWidget()->parentWidget());
+    if (MiaPagharo > 0)
+        MiaPagho = MiaPagharo->currentIndex();
+
     if (videoLudilo->isPlaying())
     {
         videoLudilo->pause();
+        this->setUpdatesEnabled(false);
         this->ui->Pauzu->setVisible(false);
         this->ui->Ludu->setVisible(true);
+        this->setUpdatesEnabled(true);
     }
     else
     {
         if (videoLudilo->isPaused())
         {
             videoLudilo->play();
+            this->setUpdatesEnabled(false);
             this->ui->Pauzu->setVisible(true);
             this->ui->Ludu->setVisible(false);
+            this->setUpdatesEnabled(true);
         }
         else
         {
@@ -96,8 +105,10 @@ void videoludilo::onPlay()
             videoLudilo->load(Phonon::MediaSource(dosiero));
             videoLudilo->play();
             ui->Chesu->setEnabled(true);
+            this->setUpdatesEnabled(false);
             this->ui->Pauzu->setVisible(true);
             this->ui->Ludu->setVisible(false);
+            this->setUpdatesEnabled(true);
         }
     }
 }
@@ -105,9 +116,11 @@ void videoludilo::onPlay()
 void videoludilo::onStop()
 {
     videoLudilo->stop();
+    this->setUpdatesEnabled(false);
     this->ui->Pauzu->setVisible(false);
     this->ui->Ludu->setVisible(true);
     ui->Chesu->setEnabled(false);
+    this->setUpdatesEnabled(true);
 }
 
 
@@ -116,8 +129,18 @@ void videoludilo::on_Pauzu_clicked()
     if (videoLudilo->isPlaying())
     {
         videoLudilo->pause();
+        this->setUpdatesEnabled(false);
         this->ui->Pauzu->setVisible(false);
         this->ui->Ludu->setVisible(true);
+        this->setUpdatesEnabled(true);
     }
 
+}
+
+void videoludilo::PaghoShanghita(int NovaPagho)
+{
+    if (MiaPagho >= 0)
+        if (NovaPagho != MiaPagho)
+            if (videoLudilo->isPlaying())
+                onStop();
 }

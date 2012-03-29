@@ -590,10 +590,6 @@
                <pointsize>12</pointsize>
               </font>
              </property>
-             <property name="styleSheet">
-              <string notr="true">font-size: 12pt;
-</string>
-             </property>
              <property name="text">
               <string notr="true"/>
              </property>
@@ -667,12 +663,11 @@
                 </item>
                 <item>
                  <widget class="QLabel" name="Vorto1">
-                  <property name="styleSheet">
-                   <string notr="true">font-size: 12pt;
-</string>
-                  </property>
                   <property name="text">
                    <string notr="true"/>
+                  </property>
+                  <property name="tipo" stdset="0">
+                   <string>plenigas_spacon</string>
                   </property>
                  </widget>
                 </item>
@@ -706,32 +701,27 @@
                     <pointsize>12</pointsize>
                    </font>
                   </property>
-                  <property name="styleSheet">
-                   <string notr="true">color: rgb(218, 0, 0);
-font-size: 12pt;
-</string>
-                  </property>
                   <property name="text">
                    <string notr="true"/>
                   </property>
                   <property name="alignment">
                    <set>Qt::AlignCenter</set>
                   </property>
+                  <property name="tipo" stdset="0">
+                   <string>plenigas_korekta</string>
+                  </property>
                  </widget>
                 </item>
                 <item>
                  <widget class="cx_edit" name="Edit1">
-                  <property name="styleSheet">
-                   <string notr="true">background-color: rgb(85, 170, 255);
-font-size: 12pt;
-
-</string>
-                  </property>
                   <property name="text">
                    <string notr="true"/>
                   </property>
                   <property name="frame">
                    <bool>false</bool>
+                  </property>
+                  <property name="tipo" stdset="0">
+                   <string>plenigas_spacon</string>
                   </property>
                  </widget>
                 </item>
@@ -760,12 +750,11 @@ font-size: 12pt;
                 </item>
                 <item>
                  <widget class="QLabel" name="Vorto2">
-                  <property name="styleSheet">
-                   <string notr="true">font-size: 12pt;
-</string>
-                  </property>
                   <property name="text">
                    <string notr="true"/>
+                  </property>
+                  <property name="tipo" stdset="0">
+                   <string>plenigas_spacon</string>
                   </property>
                  </widget>
                 </item>
@@ -796,32 +785,27 @@ font-size: 12pt;
                     <pointsize>12</pointsize>
                    </font>
                   </property>
-                  <property name="styleSheet">
-                   <string notr="true">color: rgb(218, 0, 0);
-font-size: 12pt;
-</string>
-                  </property>
                   <property name="text">
                    <string notr="true"/>
                   </property>
                   <property name="alignment">
                    <set>Qt::AlignCenter</set>
                   </property>
+                  <property name="tipo" stdset="0">
+                   <string>plenigas_korekta</string>
+                  </property>
                  </widget>
                 </item>
                 <item>
                  <widget class="cx_edit" name="Edit2">
-                  <property name="styleSheet">
-                   <string notr="true">background-color: rgb(85, 170, 255);
-font-size: 12pt;
-
-</string>
-                  </property>
                   <property name="text">
                    <string notr="true"/>
                   </property>
                   <property name="frame">
                    <bool>false</bool>
+                  </property>
+                  <property name="tipo" stdset="0">
+                   <string>plenigas_spacon</string>
                   </property>
                  </widget>
                 </item>
@@ -850,12 +834,11 @@ font-size: 12pt;
                 </item>
                 <item>
                  <widget class="QLabel" name="Vorto3">
-                  <property name="styleSheet">
-                   <string notr="true">font-size: 12pt;
-</string>
-                  </property>
                   <property name="text">
                    <string notr="true"/>
+                  </property>
+                  <property name="tipo" stdset="0">
+                   <string>plenigas_spacon</string>
                   </property>
                  </widget>
                 </item>
@@ -886,32 +869,27 @@ font-size: 12pt;
                     <pointsize>12</pointsize>
                    </font>
                   </property>
-                  <property name="styleSheet">
-                   <string notr="true">color: rgb(218, 0, 0);
-font-size: 12pt;
-</string>
-                  </property>
                   <property name="text">
                    <string notr="true"/>
                   </property>
                   <property name="alignment">
                    <set>Qt::AlignCenter</set>
                   </property>
+                  <property name="tipo" stdset="0">
+                   <string>plenigas_korekta</string>
+                  </property>
                  </widget>
                 </item>
                 <item>
                  <widget class="cx_edit" name="Edit3">
-                  <property name="styleSheet">
-                   <string notr="true">background-color: rgb(85, 170, 255);
-font-size: 12pt;
-
-</string>
-                  </property>
                   <property name="text">
                    <string notr="true"/>
                   </property>
                   <property name="frame">
                    <bool>false</bool>
+                  </property>
+                  <property name="tipo" stdset="0">
+                   <string>plenigas_spacon</string>
                   </property>
                  </widget>
                 </item>
@@ -943,12 +921,11 @@ font-size: 12pt;
                 </item>
                 <item>
                  <widget class="QLabel" name="Vorto4">
-                  <property name="styleSheet">
-                   <string notr="true">font-size: 12pt;
-</string>
-                  </property>
                   <property name="text">
                    <string notr="true"/>
+                  </property>
+                  <property name="tipo" stdset="0">
+                   <string>plenigas_spacon</string>
                   </property>
                  </widget>
                 </item>
@@ -979,32 +956,27 @@ font-size: 12pt;
                     <pointsize>12</pointsize>
                    </font>
                   </property>
-                  <property name="styleSheet">
-                   <string notr="true">color: rgb(218, 0, 0);
-font-size: 12pt;
-</string>
-                  </property>
                   <property name="text">
                    <string notr="true"/>
                   </property>
                   <property name="alignment">
                    <set>Qt::AlignCenter</set>
                   </property>
+                  <property name="tipo" stdset="0">
+                   <string>plenigas_korekta</string>
+                  </property>
                  </widget>
                 </item>
                 <item>
                  <widget class="cx_edit" name="Edit4">
-                  <property name="styleSheet">
-                   <string notr="true">background-color: rgb(85, 170, 255);
-font-size: 12pt;
-
-</string>
-                  </property>
                   <property name="text">
                    <string notr="true"/>
                   </property>
                   <property name="frame">
                    <bool>false</bool>
+                  </property>
+                  <property name="tipo" stdset="0">
+                   <string>plenigas_spacon</string>
                   </property>
                  </widget>
                 </item>
@@ -1033,12 +1005,11 @@ font-size: 12pt;
                 </item>
                 <item>
                  <widget class="QLabel" name="Vorto5">
-                  <property name="styleSheet">
-                   <string notr="true">font-size: 12pt;
-</string>
-                  </property>
                   <property name="text">
                    <string notr="true"/>
+                  </property>
+                  <property name="tipo" stdset="0">
+                   <string>plenigas_spacon</string>
                   </property>
                  </widget>
                 </item>
@@ -1069,32 +1040,27 @@ font-size: 12pt;
                     <pointsize>12</pointsize>
                    </font>
                   </property>
-                  <property name="styleSheet">
-                   <string notr="true">color: rgb(218, 0, 0);
-font-size: 12pt;
-</string>
-                  </property>
                   <property name="text">
                    <string notr="true"/>
                   </property>
                   <property name="alignment">
                    <set>Qt::AlignCenter</set>
                   </property>
+                  <property name="tipo" stdset="0">
+                   <string>plenigas_korekta</string>
+                  </property>
                  </widget>
                 </item>
                 <item>
                  <widget class="cx_edit" name="Edit5">
-                  <property name="styleSheet">
-                   <string notr="true">background-color: rgb(85, 170, 255);
-font-size: 12pt;
-
-</string>
-                  </property>
                   <property name="text">
                    <string notr="true"/>
                   </property>
                   <property name="frame">
                    <bool>false</bool>
+                  </property>
+                  <property name="tipo" stdset="0">
+                   <string>plenigas_spacon</string>
                   </property>
                  </widget>
                 </item>
@@ -1123,12 +1089,11 @@ font-size: 12pt;
                 </item>
                 <item>
                  <widget class="QLabel" name="Vorto6">
-                  <property name="styleSheet">
-                   <string notr="true">font-size: 12pt;
-</string>
-                  </property>
                   <property name="text">
                    <string notr="true"/>
+                  </property>
+                  <property name="tipo" stdset="0">
+                   <string>plenigas_spacon</string>
                   </property>
                  </widget>
                 </item>

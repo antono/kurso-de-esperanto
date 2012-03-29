@@ -2,7 +2,7 @@
 #define KURSO_H
 
 #include <QMainWindow>
-#include <MediaObject>
+#include <phonon/mediaobject.h>
 
 namespace Ui {
     class kurso;
@@ -110,6 +110,8 @@ private:
     Ui::kurso *ui;
 
     QStringList LingvoListo;
+
+    int alteco_originala, largheco_originala;
 
 
 };

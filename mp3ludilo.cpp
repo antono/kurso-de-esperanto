@@ -50,6 +50,7 @@ mp3ludilo::mp3ludilo(QWidget *parent) :
             this, SLOT(on_Chesu_clicked()));
     this->ui->Pauzu->setEnabled(true);
     this->ui->Pauzu->setVisible(false);
+    MiaPagho = -1;
 }
 
 mp3ludilo::~mp3ludilo()
@@ -60,28 +61,39 @@ mp3ludilo::~mp3ludilo()
 
 void mp3ludilo::on_Ludu_clicked()
 {
+
+    QTabWidget * MiaPagharo = qobject_cast<QTabWidget *>(this->parentWidget()->parentWidget()->parentWidget());
+    if (MiaPagharo > 0)
+        MiaPagho = MiaPagharo->currentIndex();
+
     if (ludilo->state() == Phonon::PlayingState)
     {
         ludilo->pause();
+        this->setUpdatesEnabled(false);
         this->ui->Pauzu->setVisible(false);
         this->ui->Ludu->setVisible(true);
+        this->setUpdatesEnabled(true);
     }
     else
     {
         if (ludilo->state() == Phonon::PausedState)
         {
             ludilo->play();
+            this->setUpdatesEnabled(false);
             this->ui->Pauzu->setVisible(true);
             this->ui->Ludu->setVisible(false);
+            this->setUpdatesEnabled(true);
         }
         else
         {
             QString dosiero = Loko + "sonoj/" + this->objectName().left(5).toLower() + "/" + this->objectName().mid(6) + mp3_finajho;
             ludilo->setCurrentSource(dosiero);
             ludilo->play();
+            this->setUpdatesEnabled(false);
             this->ui->Chesu->setEnabled(true);
             this->ui->Pauzu->setVisible(true);
             this->ui->Ludu->setVisible(false);
+            this->setUpdatesEnabled(true);
         }
     }
 }
@@ -90,9 +102,11 @@ void mp3ludilo::on_Ludu_clicked()
 void mp3ludilo::on_Chesu_clicked()
 {
     ludilo->stop();
+    this->setUpdatesEnabled(false);
     this->ui->Chesu->setEnabled(false);
     this->ui->Pauzu->setVisible(false);
     this->ui->Ludu->setVisible(true);
+    this->setUpdatesEnabled(true);
 
 }
 
@@ -103,8 +117,18 @@ void mp3ludilo::on_Pauzu_clicked()
     if (ludilo->state() == Phonon::PlayingState)
     {
         ludilo->pause();
+        this->setUpdatesEnabled(false);
         this->ui->Pauzu->setVisible(false);
         this->ui->Ludu->setVisible(true);
+        this->setUpdatesEnabled(true);
     }
 
+}
+
+void mp3ludilo::PaghoShanghita(int NovaPagho)
+{
+    if (MiaPagho >= 0)
+        if (NovaPagho != MiaPagho)
+            if (ludilo->state() == Phonon::PlayingState)
+                on_Chesu_clicked();
 }

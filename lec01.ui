@@ -66,7 +66,7 @@
       </sizepolicy>
      </property>
      <property name="currentIndex">
-      <number>7</number>
+      <number>0</number>
      </property>
      <property name="iconSize">
       <size>
@@ -127,7 +127,7 @@
              <item>
               <widget class="klakbutono" name="Lec01_Button29">
                <property name="sizePolicy">
-                <sizepolicy hsizetype="Maximum" vsizetype="Preferred">
+                <sizepolicy hsizetype="Minimum" vsizetype="Preferred">
                  <horstretch>0</horstretch>
                  <verstretch>0</verstretch>
                 </sizepolicy>
@@ -141,12 +141,15 @@
                <property name="text">
                 <string notr="true">A</string>
                </property>
+               <property name="default">
+                <bool>true</bool>
+               </property>
               </widget>
              </item>
              <item>
               <widget class="klakbutono" name="Lec01_Button30">
                <property name="sizePolicy">
-                <sizepolicy hsizetype="Maximum" vsizetype="Preferred">
+                <sizepolicy hsizetype="Minimum" vsizetype="Preferred">
                  <horstretch>0</horstretch>
                  <verstretch>0</verstretch>
                 </sizepolicy>
@@ -165,7 +168,7 @@
              <item>
               <widget class="klakbutono" name="Lec01_Button31">
                <property name="sizePolicy">
-                <sizepolicy hsizetype="Maximum" vsizetype="Preferred">
+                <sizepolicy hsizetype="Minimum" vsizetype="Preferred">
                  <horstretch>0</horstretch>
                  <verstretch>0</verstretch>
                 </sizepolicy>
@@ -184,7 +187,7 @@
              <item>
               <widget class="klakbutono" name="Lec01_Button32">
                <property name="sizePolicy">
-                <sizepolicy hsizetype="Maximum" vsizetype="Preferred">
+                <sizepolicy hsizetype="Minimum" vsizetype="Preferred">
                  <horstretch>0</horstretch>
                  <verstretch>0</verstretch>
                 </sizepolicy>
@@ -203,7 +206,7 @@
              <item>
               <widget class="klakbutono" name="Lec01_Button33">
                <property name="sizePolicy">
-                <sizepolicy hsizetype="Maximum" vsizetype="Preferred">
+                <sizepolicy hsizetype="Minimum" vsizetype="Preferred">
                  <horstretch>0</horstretch>
                  <verstretch>0</verstretch>
                 </sizepolicy>
@@ -222,7 +225,7 @@
              <item>
               <widget class="klakbutono" name="Lec01_Button34">
                <property name="sizePolicy">
-                <sizepolicy hsizetype="Maximum" vsizetype="Preferred">
+                <sizepolicy hsizetype="Minimum" vsizetype="Preferred">
                  <horstretch>0</horstretch>
                  <verstretch>0</verstretch>
                 </sizepolicy>
@@ -241,7 +244,7 @@
              <item>
               <widget class="klakbutono" name="Lec01_Button35">
                <property name="sizePolicy">
-                <sizepolicy hsizetype="Maximum" vsizetype="Preferred">
+                <sizepolicy hsizetype="Minimum" vsizetype="Preferred">
                  <horstretch>0</horstretch>
                  <verstretch>0</verstretch>
                 </sizepolicy>
@@ -260,7 +263,7 @@
              <item>
               <widget class="klakbutono" name="Lec01_Button36">
                <property name="sizePolicy">
-                <sizepolicy hsizetype="Maximum" vsizetype="Preferred">
+                <sizepolicy hsizetype="Minimum" vsizetype="Preferred">
                  <horstretch>0</horstretch>
                  <verstretch>0</verstretch>
                 </sizepolicy>
@@ -279,7 +282,7 @@
              <item>
               <widget class="klakbutono" name="Lec01_Button37">
                <property name="sizePolicy">
-                <sizepolicy hsizetype="Maximum" vsizetype="Preferred">
+                <sizepolicy hsizetype="Minimum" vsizetype="Preferred">
                  <horstretch>0</horstretch>
                  <verstretch>0</verstretch>
                 </sizepolicy>
@@ -423,7 +426,7 @@
              <item>
               <widget class="klakbutono" name="Lec01_Button26">
                <property name="sizePolicy">
-                <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
+                <sizepolicy hsizetype="Minimum" vsizetype="Preferred">
                  <horstretch>0</horstretch>
                  <verstretch>0</verstretch>
                 </sizepolicy>
@@ -436,7 +439,7 @@
              <item>
               <widget class="klakbutono" name="Lec01_XButton2">
                <property name="sizePolicy">
-                <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
+                <sizepolicy hsizetype="Minimum" vsizetype="Preferred">
                  <horstretch>0</horstretch>
                  <verstretch>0</verstretch>
                 </sizepolicy>
@@ -449,7 +452,7 @@
              <item>
               <widget class="klakbutono" name="Lec01_Button55">
                <property name="sizePolicy">
-                <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
+                <sizepolicy hsizetype="Minimum" vsizetype="Preferred">
                  <horstretch>0</horstretch>
                  <verstretch>0</verstretch>
                 </sizepolicy>
@@ -462,7 +465,7 @@
              <item>
               <widget class="klakbutono" name="Lec01_Button6">
                <property name="sizePolicy">
-                <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
+                <sizepolicy hsizetype="Minimum" vsizetype="Preferred">
                  <horstretch>0</horstretch>
                  <verstretch>0</verstretch>
                 </sizepolicy>
@@ -475,7 +478,7 @@
              <item>
               <widget class="klakbutono" name="Lec01_Button3X">
                <property name="sizePolicy">
-                <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
+                <sizepolicy hsizetype="Minimum" vsizetype="Preferred">
                  <horstretch>0</horstretch>
                  <verstretch>0</verstretch>
                 </sizepolicy>
@@ -488,7 +491,7 @@
              <item>
               <widget class="klakbutono" name="Lec01_Button11">
                <property name="sizePolicy">
-                <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
+                <sizepolicy hsizetype="Minimum" vsizetype="Preferred">
                  <horstretch>0</horstretch>
                  <verstretch>0</verstretch>
                 </sizepolicy>
@@ -501,7 +504,7 @@
              <item>
               <widget class="klakbutono" name="Lec01_Button47">
                <property name="sizePolicy">
-                <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
+                <sizepolicy hsizetype="Minimum" vsizetype="Preferred">
                  <horstretch>0</horstretch>
                  <verstretch>0</verstretch>
                 </sizepolicy>
@@ -514,7 +517,7 @@
              <item>
               <widget class="klakbutono" name="Lec01_Button13">
                <property name="sizePolicy">
-                <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
+                <sizepolicy hsizetype="Minimum" vsizetype="Preferred">
                  <horstretch>0</horstretch>
                  <verstretch>0</verstretch>
                 </sizepolicy>
@@ -527,7 +530,7 @@
              <item>
               <widget class="klakbutono" name="Lec01_Button16">
                <property name="sizePolicy">
-                <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
+                <sizepolicy hsizetype="Minimum" vsizetype="Preferred">
                  <horstretch>0</horstretch>
                  <verstretch>0</verstretch>
                 </sizepolicy>
@@ -2036,7 +2039,7 @@ estará). Outros tempos e modos verbais serão tratados nas lições seguintes.<
            <item>
             <layout class="QVBoxLayout" name="verticalLayout_10">
              <item>
-              <layout class="QHBoxLayout" name="horizontalLayout_41">
+              <layout class="QHBoxLayout" name="horizontalLayout_41" stretch="3,1">
                <item>
                 <widget class="klakbutono" name="Lec01_Button193">
                  <property name="sizePolicy">
@@ -2061,12 +2064,15 @@ estará). Outros tempos e modos verbais serão tratados nas lições seguintes.<
                  <property name="text">
                   <string>Eu sou, estou</string>
                  </property>
+                 <property name="wordWrap">
+                  <bool>true</bool>
+                 </property>
                 </widget>
                </item>
               </layout>
              </item>
              <item>
-              <layout class="QHBoxLayout" name="horizontalLayout_42">
+              <layout class="QHBoxLayout" name="horizontalLayout_42" stretch="3,1">
                <item>
                 <widget class="klakbutono" name="Lec01_Button194">
                  <property name="sizePolicy">
@@ -2091,12 +2097,15 @@ estará). Outros tempos e modos verbais serão tratados nas lições seguintes.<
                  <property name="text">
                   <string>Ele foi/era, esteve/estava</string>
                  </property>
+                 <property name="wordWrap">
+                  <bool>false</bool>
+                 </property>
                 </widget>
                </item>
               </layout>
              </item>
              <item>
-              <layout class="QHBoxLayout" name="horizontalLayout_43">
+              <layout class="QHBoxLayout" name="horizontalLayout_43" stretch="3,1">
                <item>
                 <widget class="klakbutono" name="Lec01_Button195">
                  <property name="sizePolicy">
@@ -2121,12 +2130,15 @@ estará). Outros tempos e modos verbais serão tratados nas lições seguintes.<
                  <property name="text">
                   <string>Ela é, está</string>
                  </property>
+                 <property name="wordWrap">
+                  <bool>true</bool>
+                 </property>
                 </widget>
                </item>
               </layout>
              </item>
              <item>
-              <layout class="QHBoxLayout" name="horizontalLayout_44">
+              <layout class="QHBoxLayout" name="horizontalLayout_44" stretch="3,1">
                <item>
                 <widget class="klakbutono" name="Lec01_Button196">
                  <property name="sizePolicy">
@@ -2151,6 +2163,9 @@ estará). Outros tempos e modos verbais serão tratados nas lições seguintes.<
                  <property name="text">
                   <string>Ele/ela será, estará</string>
                  </property>
+                 <property name="wordWrap">
+                  <bool>true</bool>
+                 </property>
                 </widget>
                </item>
               </layout>
@@ -2160,7 +2175,7 @@ estará). Outros tempos e modos verbais serão tratados nas lições seguintes.<
            <item>
             <layout class="QVBoxLayout" name="verticalLayout_11">
              <item>
-              <layout class="QHBoxLayout" name="horizontalLayout_45">
+              <layout class="QHBoxLayout" name="horizontalLayout_45" stretch="3,1">
                <item>
                 <widget class="klakbutono" name="Lec01_Button197">
                  <property name="sizePolicy">
@@ -2185,12 +2200,15 @@ estará). Outros tempos e modos verbais serão tratados nas lições seguintes.<
                  <property name="text">
                   <string>Nós somos, estamos</string>
                  </property>
+                 <property name="wordWrap">
+                  <bool>true</bool>
+                 </property>
                 </widget>
                </item>
               </layout>
              </item>
              <item>
-              <layout class="QHBoxLayout" name="horizontalLayout_46">
+              <layout class="QHBoxLayout" name="horizontalLayout_46" stretch="3,1">
                <item>
                 <widget class="klakbutono" name="Lec01_Button198">
                  <property name="sizePolicy">
@@ -2215,12 +2233,15 @@ estará). Outros tempos e modos verbais serão tratados nas lições seguintes.<
                  <property name="text">
                   <string>Vocês foram/eram, estavam/estiveram</string>
                  </property>
+                 <property name="wordWrap">
+                  <bool>false</bool>
+                 </property>
                 </widget>
                </item>
               </layout>
              </item>
              <item>
-              <layout class="QHBoxLayout" name="horizontalLayout_47">
+              <layout class="QHBoxLayout" name="horizontalLayout_47" stretch="3,1">
                <item>
                 <widget class="klakbutono" name="Lec01_Button199">
                  <property name="sizePolicy">
@@ -2245,12 +2266,15 @@ estará). Outros tempos e modos verbais serão tratados nas lições seguintes.<
                  <property name="text">
                   <string>Eles/elas são, estão</string>
                  </property>
+                 <property name="wordWrap">
+                  <bool>true</bool>
+                 </property>
                 </widget>
                </item>
               </layout>
              </item>
              <item>
-              <layout class="QHBoxLayout" name="horizontalLayout_48">
+              <layout class="QHBoxLayout" name="horizontalLayout_48" stretch="3,1">
                <item>
                 <widget class="klakbutono" name="Lec01_Button200">
                  <property name="sizePolicy">
@@ -2274,6 +2298,9 @@ estará). Outros tempos e modos verbais serão tratados nas lições seguintes.<
                 <widget class="QLabel" name="Lec01_Label221">
                  <property name="text">
                   <string>será, estará (sujeito indefinido)</string>
+                 </property>
+                 <property name="wordWrap">
+                  <bool>true</bool>
                  </property>
                 </widget>
                </item>
@@ -2326,7 +2353,7 @@ estará). Outros tempos e modos verbais serão tratados nas lições seguintes.<
          <item>
           <layout class="QHBoxLayout" name="horizontalLayout_53">
            <item>
-            <layout class="QHBoxLayout" name="horizontalLayout_50">
+            <layout class="QHBoxLayout" name="horizontalLayout_50" stretch="3,1">
              <item>
               <widget class="klakbutono" name="Lec01_Button201">
                <property name="sizePolicy">
@@ -2356,7 +2383,7 @@ estará). Outros tempos e modos verbais serão tratados nas lições seguintes.<
             </layout>
            </item>
            <item>
-            <layout class="QHBoxLayout" name="horizontalLayout_51">
+            <layout class="QHBoxLayout" name="horizontalLayout_51" stretch="3,1">
              <item>
               <widget class="klakbutono" name="Lec01_Button202">
                <property name="sizePolicy">
@@ -2386,7 +2413,7 @@ estará). Outros tempos e modos verbais serão tratados nas lições seguintes.<
             </layout>
            </item>
            <item>
-            <layout class="QHBoxLayout" name="horizontalLayout_52">
+            <layout class="QHBoxLayout" name="horizontalLayout_52" stretch="3,1">
              <item>
               <widget class="klakbutono" name="Lec01_Button203">
                <property name="sizePolicy">
@@ -2460,7 +2487,7 @@ estará). Outros tempos e modos verbais serão tratados nas lições seguintes.<
          <item>
           <layout class="QHBoxLayout" name="horizontalLayout_57">
            <item>
-            <layout class="QHBoxLayout" name="horizontalLayout_54">
+            <layout class="QHBoxLayout" name="horizontalLayout_54" stretch="3,1">
              <item>
               <widget class="klakbutono" name="Lec01_Button204">
                <property name="sizePolicy">
@@ -2490,7 +2517,7 @@ estará). Outros tempos e modos verbais serão tratados nas lições seguintes.<
             </layout>
            </item>
            <item>
-            <layout class="QHBoxLayout" name="horizontalLayout_55">
+            <layout class="QHBoxLayout" name="horizontalLayout_55" stretch="3,1">
              <item>
               <widget class="klakbutono" name="Lec01_Button205">
                <property name="sizePolicy">
@@ -2520,7 +2547,7 @@ estará). Outros tempos e modos verbais serão tratados nas lições seguintes.<
             </layout>
            </item>
            <item>
-            <layout class="QHBoxLayout" name="horizontalLayout_56">
+            <layout class="QHBoxLayout" name="horizontalLayout_56" stretch="3,1">
              <item>
               <widget class="klakbutono" name="Lec01_Button206">
                <property name="sizePolicy">
@@ -2604,7 +2631,7 @@ estará). Outros tempos e modos verbais serão tratados nas lições seguintes.<
          <item>
           <layout class="QVBoxLayout" name="verticalLayout_13">
            <item>
-            <layout class="QHBoxLayout" name="horizontalLayout_58">
+            <layout class="QHBoxLayout" name="horizontalLayout_58" stretch="3,1">
              <item>
               <widget class="klakbutono" name="Lec01_Button207">
                <property name="sizePolicy">
@@ -2637,7 +2664,7 @@ estará). Outros tempos e modos verbais serão tratados nas lições seguintes.<
             </layout>
            </item>
            <item>
-            <layout class="QHBoxLayout" name="horizontalLayout_59">
+            <layout class="QHBoxLayout" name="horizontalLayout_59" stretch="3,1">
              <item>
               <widget class="klakbutono" name="Lec01_Button208">
                <property name="sizePolicy">
@@ -2670,7 +2697,7 @@ estará). Outros tempos e modos verbais serão tratados nas lições seguintes.<
             </layout>
            </item>
            <item>
-            <layout class="QHBoxLayout" name="horizontalLayout_60">
+            <layout class="QHBoxLayout" name="horizontalLayout_60" stretch="3,1">
              <item>
               <widget class="klakbutono" name="Lec01_Button209">
                <property name="sizePolicy">
@@ -2703,7 +2730,7 @@ estará). Outros tempos e modos verbais serão tratados nas lições seguintes.<
             </layout>
            </item>
            <item>
-            <layout class="QHBoxLayout" name="horizontalLayout_61">
+            <layout class="QHBoxLayout" name="horizontalLayout_61" stretch="3,1">
              <item>
               <widget class="klakbutono" name="Lec01_Button210">
                <property name="sizePolicy">
@@ -2736,7 +2763,7 @@ estará). Outros tempos e modos verbais serão tratados nas lições seguintes.<
             </layout>
            </item>
            <item>
-            <layout class="QHBoxLayout" name="horizontalLayout_62">
+            <layout class="QHBoxLayout" name="horizontalLayout_62" stretch="3,1">
              <item>
               <widget class="klakbutono" name="Lec01_Button211">
                <property name="sizePolicy">
@@ -2769,7 +2796,7 @@ estará). Outros tempos e modos verbais serão tratados nas lições seguintes.<
             </layout>
            </item>
            <item>
-            <layout class="QHBoxLayout" name="horizontalLayout_63">
+            <layout class="QHBoxLayout" name="horizontalLayout_63" stretch="3,1">
              <item>
               <widget class="klakbutono" name="Lec01_Button212">
                <property name="sizePolicy">
@@ -2802,7 +2829,7 @@ estará). Outros tempos e modos verbais serão tratados nas lições seguintes.<
             </layout>
            </item>
            <item>
-            <layout class="QHBoxLayout" name="horizontalLayout_64">
+            <layout class="QHBoxLayout" name="horizontalLayout_64" stretch="3,1">
              <item>
               <widget class="klakbutono" name="Lec01_Button213">
                <property name="sizePolicy">
@@ -2835,7 +2862,7 @@ estará). Outros tempos e modos verbais serão tratados nas lições seguintes.<
             </layout>
            </item>
            <item>
-            <layout class="QHBoxLayout" name="horizontalLayout_65">
+            <layout class="QHBoxLayout" name="horizontalLayout_65" stretch="3,1">
              <item>
               <widget class="klakbutono" name="Lec01_Button214">
                <property name="sizePolicy">
@@ -2872,7 +2899,7 @@ estará). Outros tempos e modos verbais serão tratados nas lições seguintes.<
          <item>
           <layout class="QVBoxLayout" name="verticalLayout_14">
            <item>
-            <layout class="QHBoxLayout" name="horizontalLayout_66">
+            <layout class="QHBoxLayout" name="horizontalLayout_66" stretch="3,1">
              <item>
               <widget class="klakbutono" name="Lec01_Button215">
                <property name="sizePolicy">
@@ -2905,7 +2932,7 @@ estará). Outros tempos e modos verbais serão tratados nas lições seguintes.<
             </layout>
            </item>
            <item>
-            <layout class="QHBoxLayout" name="horizontalLayout_67">
+            <layout class="QHBoxLayout" name="horizontalLayout_67" stretch="3,1">
              <item>
               <widget class="klakbutono" name="Lec01_Button216">
                <property name="sizePolicy">
@@ -2938,7 +2965,7 @@ estará). Outros tempos e modos verbais serão tratados nas lições seguintes.<
             </layout>
            </item>
            <item>
-            <layout class="QHBoxLayout" name="horizontalLayout_68">
+            <layout class="QHBoxLayout" name="horizontalLayout_68" stretch="3,1">
              <item>
               <widget class="klakbutono" name="Lec01_Button217">
                <property name="sizePolicy">
@@ -2971,7 +2998,7 @@ estará). Outros tempos e modos verbais serão tratados nas lições seguintes.<
             </layout>
            </item>
            <item>
-            <layout class="QHBoxLayout" name="horizontalLayout_69">
+            <layout class="QHBoxLayout" name="horizontalLayout_69" stretch="3,1">
              <item>
               <widget class="klakbutono" name="Lec01_Button218">
                <property name="sizePolicy">
@@ -3004,7 +3031,7 @@ estará). Outros tempos e modos verbais serão tratados nas lições seguintes.<
             </layout>
            </item>
            <item>
-            <layout class="QHBoxLayout" name="horizontalLayout_70">
+            <layout class="QHBoxLayout" name="horizontalLayout_70" stretch="3,1">
              <item>
               <widget class="klakbutono" name="Lec01_Button219">
                <property name="sizePolicy">
@@ -3037,7 +3064,7 @@ estará). Outros tempos e modos verbais serão tratados nas lições seguintes.<
             </layout>
            </item>
            <item>
-            <layout class="QHBoxLayout" name="horizontalLayout_71">
+            <layout class="QHBoxLayout" name="horizontalLayout_71" stretch="3,1">
              <item>
               <widget class="klakbutono" name="Lec01_Button220">
                <property name="sizePolicy">
@@ -3070,7 +3097,7 @@ estará). Outros tempos e modos verbais serão tratados nas lições seguintes.<
             </layout>
            </item>
            <item>
-            <layout class="QHBoxLayout" name="horizontalLayout_72">
+            <layout class="QHBoxLayout" name="horizontalLayout_72" stretch="3,1">
              <item>
               <widget class="klakbutono" name="Lec01_Button221">
                <property name="sizePolicy">
@@ -3103,7 +3130,7 @@ estará). Outros tempos e modos verbais serão tratados nas lições seguintes.<
             </layout>
            </item>
            <item>
-            <layout class="QHBoxLayout" name="horizontalLayout_74">
+            <layout class="QHBoxLayout" name="horizontalLayout_74" stretch="3,1">
              <item>
               <widget class="klakbutono" name="Lec01_Button222">
                <property name="sizePolicy">
@@ -3140,7 +3167,7 @@ estará). Outros tempos e modos verbais serão tratados nas lições seguintes.<
          <item>
           <layout class="QVBoxLayout" name="verticalLayout_15">
            <item>
-            <layout class="QHBoxLayout" name="horizontalLayout_75">
+            <layout class="QHBoxLayout" name="horizontalLayout_75" stretch="3,1">
              <item>
               <widget class="klakbutono" name="Lec01_Button223">
                <property name="sizePolicy">
@@ -3173,7 +3200,7 @@ estará). Outros tempos e modos verbais serão tratados nas lições seguintes.<
             </layout>
            </item>
            <item>
-            <layout class="QHBoxLayout" name="horizontalLayout_76">
+            <layout class="QHBoxLayout" name="horizontalLayout_76" stretch="3,1">
              <item>
               <widget class="klakbutono" name="Lec01_Button224">
                <property name="sizePolicy">
@@ -3206,7 +3233,7 @@ estará). Outros tempos e modos verbais serão tratados nas lições seguintes.<
             </layout>
            </item>
            <item>
-            <layout class="QHBoxLayout" name="horizontalLayout_77">
+            <layout class="QHBoxLayout" name="horizontalLayout_77" stretch="3,1">
              <item>
               <widget class="klakbutono" name="Lec01_Button225">
                <property name="sizePolicy">
@@ -3239,7 +3266,7 @@ estará). Outros tempos e modos verbais serão tratados nas lições seguintes.<
             </layout>
            </item>
            <item>
-            <layout class="QHBoxLayout" name="horizontalLayout_78">
+            <layout class="QHBoxLayout" name="horizontalLayout_78" stretch="3,1">
              <item>
               <widget class="klakbutono" name="Lec01_Button226">
                <property name="sizePolicy">
@@ -3272,7 +3299,7 @@ estará). Outros tempos e modos verbais serão tratados nas lições seguintes.<
             </layout>
            </item>
            <item>
-            <layout class="QHBoxLayout" name="horizontalLayout_79">
+            <layout class="QHBoxLayout" name="horizontalLayout_79" stretch="3,1">
              <item>
               <widget class="klakbutono" name="Lec01_Button227">
                <property name="sizePolicy">
@@ -3305,7 +3332,7 @@ estará). Outros tempos e modos verbais serão tratados nas lições seguintes.<
             </layout>
            </item>
            <item>
-            <layout class="QHBoxLayout" name="horizontalLayout_80">
+            <layout class="QHBoxLayout" name="horizontalLayout_80" stretch="3,1">
              <item>
               <widget class="klakbutono" name="Lec01_Button228">
                <property name="sizePolicy">
@@ -3338,7 +3365,7 @@ estará). Outros tempos e modos verbais serão tratados nas lições seguintes.<
             </layout>
            </item>
            <item>
-            <layout class="QHBoxLayout" name="horizontalLayout_81">
+            <layout class="QHBoxLayout" name="horizontalLayout_81" stretch="3,1">
              <item>
               <widget class="klakbutono" name="Lec01_Button229">
                <property name="sizePolicy">
@@ -3450,7 +3477,7 @@ estará). Outros tempos e modos verbais serão tratados nas lições seguintes.<
               <number>3</number>
              </property>
              <item>
-              <layout class="QHBoxLayout" name="horizontalLayout_73">
+              <layout class="QHBoxLayout" name="horizontalLayout_73" stretch="3,1">
                <item>
                 <widget class="klakbutono" name="Lec01_Button230">
                  <property name="sizePolicy">
@@ -3483,7 +3510,7 @@ estará). Outros tempos e modos verbais serão tratados nas lições seguintes.<
               </layout>
              </item>
              <item>
-              <layout class="QHBoxLayout" name="horizontalLayout_83">
+              <layout class="QHBoxLayout" name="horizontalLayout_83" stretch="0,3,1">
                <item>
                 <widget class="label_sago_reversa" name="label">
                  <property name="sizePolicy">
@@ -3557,7 +3584,7 @@ estará). Outros tempos e modos verbais serão tratados nas lições seguintes.<
               <enum>QLayout::SetDefaultConstraint</enum>
              </property>
              <item>
-              <layout class="QHBoxLayout" name="horizontalLayout_84">
+              <layout class="QHBoxLayout" name="horizontalLayout_84" stretch="3,1">
                <item>
                 <widget class="klakbutono" name="Lec01_Button231">
                  <property name="sizePolicy">
@@ -3590,7 +3617,7 @@ estará). Outros tempos e modos verbais serão tratados nas lições seguintes.<
               </layout>
              </item>
              <item>
-              <layout class="QHBoxLayout" name="horizontalLayout_85">
+              <layout class="QHBoxLayout" name="horizontalLayout_85" stretch="0,3,1">
                <item>
                 <widget class="label_sago_reversa" name="label_2">
                  <property name="sizePolicy">
@@ -3661,7 +3688,7 @@ estará). Outros tempos e modos verbais serão tratados nas lições seguintes.<
               <number>3</number>
              </property>
              <item>
-              <layout class="QHBoxLayout" name="horizontalLayout_86">
+              <layout class="QHBoxLayout" name="horizontalLayout_86" stretch="3,1">
                <item>
                 <widget class="klakbutono" name="Lec01_Button232">
                  <property name="sizePolicy">
@@ -3694,7 +3721,7 @@ estará). Outros tempos e modos verbais serão tratados nas lições seguintes.<
               </layout>
              </item>
              <item>
-              <layout class="QHBoxLayout" name="horizontalLayout_87">
+              <layout class="QHBoxLayout" name="horizontalLayout_87" stretch="0,3,1">
                <item>
                 <widget class="label_sago_reversa" name="label_3">
                  <property name="sizePolicy">
@@ -3765,7 +3792,7 @@ estará). Outros tempos e modos verbais serão tratados nas lições seguintes.<
               <number>3</number>
              </property>
              <item>
-              <layout class="QHBoxLayout" name="horizontalLayout_88">
+              <layout class="QHBoxLayout" name="horizontalLayout_88" stretch="3,1">
                <item>
                 <widget class="klakbutono" name="Lec01_Button233">
                  <property name="sizePolicy">
@@ -3798,7 +3825,7 @@ estará). Outros tempos e modos verbais serão tratados nas lições seguintes.<
               </layout>
              </item>
              <item>
-              <layout class="QHBoxLayout" name="horizontalLayout_89">
+              <layout class="QHBoxLayout" name="horizontalLayout_89" stretch="0,3,1">
                <item>
                 <widget class="label_sago_reversa" name="label_4">
                  <property name="sizePolicy">
@@ -3876,7 +3903,7 @@ estará). Outros tempos e modos verbais serão tratados nas lições seguintes.<
               <number>3</number>
              </property>
              <item>
-              <layout class="QHBoxLayout" name="horizontalLayout_90">
+              <layout class="QHBoxLayout" name="horizontalLayout_90" stretch="3,1">
                <item>
                 <widget class="klakbutono" name="Lec01_Button234">
                  <property name="sizePolicy">
@@ -3909,7 +3936,7 @@ estará). Outros tempos e modos verbais serão tratados nas lições seguintes.<
               </layout>
              </item>
              <item>
-              <layout class="QHBoxLayout" name="horizontalLayout_91">
+              <layout class="QHBoxLayout" name="horizontalLayout_91" stretch="0,3,1">
                <item>
                 <widget class="label_sago_reversa" name="label_5">
                  <property name="sizePolicy">
@@ -3980,7 +4007,7 @@ estará). Outros tempos e modos verbais serão tratados nas lições seguintes.<
               <number>3</number>
              </property>
              <item>
-              <layout class="QHBoxLayout" name="horizontalLayout_92">
+              <layout class="QHBoxLayout" name="horizontalLayout_92" stretch="3,1">
                <property name="spacing">
                 <number>6</number>
                </property>
@@ -4016,7 +4043,7 @@ estará). Outros tempos e modos verbais serão tratados nas lições seguintes.<
               </layout>
              </item>
              <item>
-              <layout class="QHBoxLayout" name="horizontalLayout_93">
+              <layout class="QHBoxLayout" name="horizontalLayout_93" stretch="0,3,1">
                <property name="spacing">
                 <number>6</number>
                </property>
@@ -4090,7 +4117,7 @@ estará). Outros tempos e modos verbais serão tratados nas lições seguintes.<
               <number>3</number>
              </property>
              <item>
-              <layout class="QHBoxLayout" name="horizontalLayout_94">
+              <layout class="QHBoxLayout" name="horizontalLayout_94" stretch="3,1">
                <item>
                 <widget class="klakbutono" name="Lec01_Button236">
                  <property name="sizePolicy">
@@ -4123,7 +4150,7 @@ estará). Outros tempos e modos verbais serão tratados nas lições seguintes.<
               </layout>
              </item>
              <item>
-              <layout class="QHBoxLayout" name="horizontalLayout_95">
+              <layout class="QHBoxLayout" name="horizontalLayout_95" stretch="0,3,1">
                <item>
                 <widget class="label_sago_reversa" name="label_7">
                  <property name="sizePolicy">
@@ -4194,7 +4221,7 @@ estará). Outros tempos e modos verbais serão tratados nas lições seguintes.<
               <number>3</number>
              </property>
              <item>
-              <layout class="QHBoxLayout" name="horizontalLayout_96">
+              <layout class="QHBoxLayout" name="horizontalLayout_96" stretch="3,1">
                <item>
                 <widget class="klakbutono" name="Lec01_Button237">
                  <property name="sizePolicy">
@@ -4227,7 +4254,7 @@ estará). Outros tempos e modos verbais serão tratados nas lições seguintes.<
               </layout>
              </item>
              <item>
-              <layout class="QHBoxLayout" name="horizontalLayout_97">
+              <layout class="QHBoxLayout" name="horizontalLayout_97" stretch="0,3,1">
                <item>
                 <widget class="label_sago_reversa" name="label_8">
                  <property name="sizePolicy">
@@ -4365,7 +4392,7 @@ pessoais:</string>
          <item>
           <layout class="QVBoxLayout" name="verticalLayout_20">
            <item>
-            <layout class="QHBoxLayout" name="horizontalLayout_99">
+            <layout class="QHBoxLayout" name="horizontalLayout_99" stretch="3,0,3,1">
              <item>
               <widget class="klakbutono" name="Lec01_Button242">
                <property name="sizePolicy">
@@ -4442,7 +4469,7 @@ pessoais:</string>
             </layout>
            </item>
            <item>
-            <layout class="QHBoxLayout" name="horizontalLayout_100">
+            <layout class="QHBoxLayout" name="horizontalLayout_100" stretch="3,0,3,1">
              <item>
               <widget class="klakbutono" name="Lec01_Button243">
                <property name="sizePolicy">
@@ -4519,7 +4546,7 @@ pessoais:</string>
             </layout>
            </item>
            <item>
-            <layout class="QHBoxLayout" name="horizontalLayout_101">
+            <layout class="QHBoxLayout" name="horizontalLayout_101" stretch="3,0,3,1">
              <item>
               <widget class="klakbutono" name="Lec01_Button244">
                <property name="sizePolicy">
@@ -4596,7 +4623,7 @@ pessoais:</string>
             </layout>
            </item>
            <item>
-            <layout class="QHBoxLayout" name="horizontalLayout_102">
+            <layout class="QHBoxLayout" name="horizontalLayout_102" stretch="3,0,3,1">
              <item>
               <widget class="klakbutono" name="Lec01_Button268">
                <property name="sizePolicy">
@@ -4673,7 +4700,7 @@ pessoais:</string>
             </layout>
            </item>
            <item>
-            <layout class="QHBoxLayout" name="horizontalLayout_103">
+            <layout class="QHBoxLayout" name="horizontalLayout_103" stretch="3,0,3,1">
              <item>
               <widget class="klakbutono" name="Lec01_Button269">
                <property name="sizePolicy">
@@ -4750,7 +4777,7 @@ pessoais:</string>
             </layout>
            </item>
            <item>
-            <layout class="QHBoxLayout" name="horizontalLayout_104">
+            <layout class="QHBoxLayout" name="horizontalLayout_104" stretch="3,0,3,1">
              <item>
               <widget class="klakbutono" name="Lec01_Button270">
                <property name="sizePolicy">
@@ -4827,7 +4854,7 @@ pessoais:</string>
             </layout>
            </item>
            <item>
-            <layout class="QHBoxLayout" name="horizontalLayout_105">
+            <layout class="QHBoxLayout" name="horizontalLayout_105" stretch="3,0,3,1">
              <item>
               <widget class="klakbutono" name="Lec01_Button245">
                <property name="sizePolicy">
@@ -4959,7 +4986,7 @@ pessoais:</string>
                <number>3</number>
               </property>
               <item>
-               <layout class="QHBoxLayout" name="horizontalLayout_106">
+               <layout class="QHBoxLayout" name="horizontalLayout_106" stretch="3,1">
                 <item>
                  <widget class="klakbutono" name="Lec01_Button252">
                   <property name="sizePolicy">
@@ -4992,7 +5019,7 @@ pessoais:</string>
                </layout>
               </item>
               <item>
-               <layout class="QHBoxLayout" name="horizontalLayout_107">
+               <layout class="QHBoxLayout" name="horizontalLayout_107" stretch="0,3,1">
                 <item>
                  <widget class="label_sago_reversa" name="label_31">
                   <property name="sizePolicy">
@@ -5063,7 +5090,7 @@ pessoais:</string>
                <number>3</number>
               </property>
               <item>
-               <layout class="QHBoxLayout" name="horizontalLayout_108">
+               <layout class="QHBoxLayout" name="horizontalLayout_108" stretch="3,1">
                 <item>
                  <widget class="klakbutono" name="Lec01_Button253">
                   <property name="sizePolicy">
@@ -5096,7 +5123,7 @@ pessoais:</string>
                </layout>
               </item>
               <item>
-               <layout class="QHBoxLayout" name="horizontalLayout_109">
+               <layout class="QHBoxLayout" name="horizontalLayout_109" stretch="0,3,1">
                 <item>
                  <widget class="label_sago_reversa" name="label_32">
                   <property name="sizePolicy">
@@ -5234,7 +5261,7 @@ pessoais:</string>
                 <number>3</number>
                </property>
                <item>
-                <layout class="QHBoxLayout" name="horizontalLayout_111">
+                <layout class="QHBoxLayout" name="horizontalLayout_111" stretch="3,1">
                  <item>
                   <widget class="klakbutono" name="Lec01_Button238">
                    <property name="sizePolicy">
@@ -5273,7 +5300,7 @@ pessoais:</string>
                 </layout>
                </item>
                <item>
-                <layout class="QHBoxLayout" name="horizontalLayout_112">
+                <layout class="QHBoxLayout" name="horizontalLayout_112" stretch="0,3,1">
                  <item>
                   <widget class="label_sago_reversa" name="label_106">
                    <property name="sizePolicy">
@@ -5350,7 +5377,7 @@ pessoais:</string>
                 <number>3</number>
                </property>
                <item>
-                <layout class="QHBoxLayout" name="horizontalLayout_113">
+                <layout class="QHBoxLayout" name="horizontalLayout_113" stretch="3,1">
                  <item>
                   <widget class="klakbutono" name="Lec01_Button240">
                    <property name="sizePolicy">
@@ -5389,7 +5416,7 @@ pessoais:</string>
                 </layout>
                </item>
                <item>
-                <layout class="QHBoxLayout" name="horizontalLayout_114">
+                <layout class="QHBoxLayout" name="horizontalLayout_114" stretch="0,3,1">
                  <item>
                   <widget class="label_sago_reversa" name="label_107">
                    <property name="sizePolicy">
@@ -5473,7 +5500,7 @@ pessoais:</string>
                 <number>3</number>
                </property>
                <item>
-                <layout class="QHBoxLayout" name="horizontalLayout_115">
+                <layout class="QHBoxLayout" name="horizontalLayout_115" stretch="3,1">
                  <item>
                   <widget class="klakbutono" name="Lec01_Button239">
                    <property name="sizePolicy">
@@ -5512,7 +5539,7 @@ pessoais:</string>
                 </layout>
                </item>
                <item>
-                <layout class="QHBoxLayout" name="horizontalLayout_116">
+                <layout class="QHBoxLayout" name="horizontalLayout_116" stretch="0,3,1">
                  <item>
                   <widget class="label_sago_reversa" name="label_112">
                    <property name="sizePolicy">
@@ -5589,7 +5616,7 @@ pessoais:</string>
                 <number>3</number>
                </property>
                <item>
-                <layout class="QHBoxLayout" name="horizontalLayout_117">
+                <layout class="QHBoxLayout" name="horizontalLayout_117" stretch="3,1">
                  <item>
                   <widget class="klakbutono" name="Lec01_Button241">
                    <property name="sizePolicy">
@@ -5628,7 +5655,7 @@ pessoais:</string>
                 </layout>
                </item>
                <item>
-                <layout class="QHBoxLayout" name="horizontalLayout_118">
+                <layout class="QHBoxLayout" name="horizontalLayout_118" stretch="0,3,1">
                  <item>
                   <widget class="label_sago_reversa" name="label_113">
                    <property name="sizePolicy">
@@ -5752,8 +5779,14 @@ pessoais:</string>
           <layout class="QHBoxLayout" name="horizontalLayout_283">
            <item>
             <layout class="QVBoxLayout" name="verticalLayout_25">
+             <property name="spacing">
+              <number>12</number>
+             </property>
              <item>
-              <layout class="QHBoxLayout" name="horizontalLayout_120">
+              <layout class="QVBoxLayout" name="verticalLayout_44" stretch="1,0">
+               <property name="spacing">
+                <number>0</number>
+               </property>
                <item>
                 <widget class="klakbutono" name="Lec01_Button246">
                  <property name="sizePolicy">
@@ -5787,12 +5820,18 @@ pessoais:</string>
                  <property name="wordWrap">
                   <bool>true</bool>
                  </property>
+                 <property name="tipo" stdset="0">
+                  <string>suba</string>
+                 </property>
                 </widget>
                </item>
               </layout>
              </item>
              <item>
-              <layout class="QHBoxLayout" name="horizontalLayout_121">
+              <layout class="QVBoxLayout" name="verticalLayout_61" stretch="1,0">
+               <property name="spacing">
+                <number>0</number>
+               </property>
                <item>
                 <widget class="klakbutono" name="Lec01_Button247">
                  <property name="sizePolicy">
@@ -5826,12 +5865,18 @@ pessoais:</string>
                  <property name="wordWrap">
                   <bool>true</bool>
                  </property>
+                 <property name="tipo" stdset="0">
+                  <string>suba</string>
+                 </property>
                 </widget>
                </item>
               </layout>
              </item>
              <item>
-              <layout class="QHBoxLayout" name="horizontalLayout_122">
+              <layout class="QVBoxLayout" name="verticalLayout_62" stretch="1,0">
+               <property name="spacing">
+                <number>0</number>
+               </property>
                <item>
                 <widget class="klakbutono" name="Lec01_Button248">
                  <property name="sizePolicy">
@@ -5865,6 +5910,9 @@ pessoais:</string>
                  <property name="wordWrap">
                   <bool>true</bool>
                  </property>
+                 <property name="tipo" stdset="0">
+                  <string>suba</string>
+                 </property>
                 </widget>
                </item>
               </layout>
@@ -5873,8 +5921,14 @@ pessoais:</string>
            </item>
            <item>
             <layout class="QVBoxLayout" name="verticalLayout_43">
+             <property name="spacing">
+              <number>12</number>
+             </property>
              <item>
-              <layout class="QHBoxLayout" name="horizontalLayout_123">
+              <layout class="QVBoxLayout" name="verticalLayout_63" stretch="1,0">
+               <property name="spacing">
+                <number>0</number>
+               </property>
                <item>
                 <widget class="klakbutono" name="Lec01_Button249">
                  <property name="sizePolicy">
@@ -5908,12 +5962,18 @@ pessoais:</string>
                  <property name="wordWrap">
                   <bool>true</bool>
                  </property>
+                 <property name="tipo" stdset="0">
+                  <string>suba</string>
+                 </property>
                 </widget>
                </item>
               </layout>
              </item>
              <item>
-              <layout class="QHBoxLayout" name="horizontalLayout_124">
+              <layout class="QVBoxLayout" name="verticalLayout_64" stretch="1,0">
+               <property name="spacing">
+                <number>0</number>
+               </property>
                <item>
                 <widget class="klakbutono" name="Lec01_Button250">
                  <property name="sizePolicy">
@@ -5947,12 +6007,18 @@ pessoais:</string>
                  <property name="wordWrap">
                   <bool>true</bool>
                  </property>
+                 <property name="tipo" stdset="0">
+                  <string>suba</string>
+                 </property>
                 </widget>
                </item>
               </layout>
              </item>
              <item>
-              <layout class="QHBoxLayout" name="horizontalLayout_125">
+              <layout class="QVBoxLayout" name="verticalLayout_65" stretch="1,0">
+               <property name="spacing">
+                <number>0</number>
+               </property>
                <item>
                 <widget class="klakbutono" name="Lec01_Button251">
                  <property name="sizePolicy">
@@ -5985,6 +6051,9 @@ pessoais:</string>
                  </property>
                  <property name="wordWrap">
                   <bool>true</bool>
+                 </property>
+                 <property name="tipo" stdset="0">
+                  <string>suba</string>
                  </property>
                 </widget>
                </item>
@@ -6424,11 +6493,6 @@ pessoais:</string>
    <header>cx_edit.h</header>
   </customwidget>
   <customwidget>
-   <class>label_sago_reversa</class>
-   <extends>QLabel</extends>
-   <header>label_sago_reversa.h</header>
-  </customwidget>
-  <customwidget>
    <class>panelo</class>
    <extends>QFrame</extends>
    <header>panelo.h</header>
@@ -6436,6 +6500,11 @@ pessoais:</string>
    <slots>
     <slot>montras_sagon(int)</slot>
    </slots>
+  </customwidget>
+  <customwidget>
+   <class>label_sago_reversa</class>
+   <extends>QLabel</extends>
+   <header>label_sago_reversa.h</header>
   </customwidget>
   <customwidget>
    <class>vortoludo</class>
@@ -6487,8 +6556,8 @@ pessoais:</string>
      <y>38</y>
     </hint>
     <hint type="destinationlabel">
-     <x>87</x>
-     <y>46</y>
+     <x>80</x>
+     <y>47</y>
     </hint>
    </hints>
   </connection>

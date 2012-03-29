@@ -56,7 +56,7 @@ void ekznumeraloj::on_BitBtn1_clicked()
 {
     this->ui->BitBtn1->setEnabled(false);
     this->ui->BitBtn3->setEnabled(true);
-    this->ui->printilo_ps->setEnabled(false);
+    // this->ui->printilo_ps->setEnabled(false);
     iEk01D = _Matriz(&aEk01D,"0301","D");
     _Matriz(&aEk01R,"0301","R");
     this->ui->Placar1->setValue(iEk01D);
@@ -82,7 +82,7 @@ void ekznumeraloj::on_BitBtn3_clicked()
     this->ui->Vorto0->setText("");
     this->ui->Edit1->setText("");
     this->ui->Edit1->setEnabled(false);
-    this->ui->printilo_ps->setEnabled(true);
+    // this->ui->printilo_ps->setEnabled(true);
     this->ui->BitBtn1->setFocus();
 
 }
@@ -151,6 +151,12 @@ void ekznumeraloj::on_Edit1_returnPressed()
 
 void ekznumeraloj::on_printilo_ps_clicked()
 {
+    // Uzas lokajn variablojn, por ke ili ne miksiĝu kun tiuj de la ekzerco mem
+    QStringList aEk01D;
+    QStringList aEk01R;
+    int     iEk01D;
+    //
+
     QPrinter printer2(QPrinter::HighResolution);
     printer2.setDocName(this->objectName());
     QPrintDialog *dialog = new QPrintDialog(&printer2);

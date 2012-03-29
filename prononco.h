@@ -6,8 +6,7 @@
 #include "QtMultimedia/qaudioinput.h"
 #include "QtMultimedia/qaudiooutput.h"
 #include <QFile>
-//#include <Phonon/MediaObject>
-#include <MediaObject>
+#include <phonon/mediaobject.h>
 
 namespace Ui {
     class prononco;

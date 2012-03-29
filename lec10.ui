@@ -6,8 +6,8 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>853</width>
-    <height>493</height>
+    <width>997</width>
+    <height>597</height>
    </rect>
   </property>
   <property name="font">
@@ -51,7 +51,7 @@
       </sizepolicy>
      </property>
      <property name="currentIndex">
-      <number>12</number>
+      <number>5</number>
      </property>
      <property name="iconSize">
       <size>
@@ -158,7 +158,7 @@
            <item>
             <layout class="QVBoxLayout" name="verticalLayout_2">
              <item>
-              <layout class="QHBoxLayout" name="horizontalLayout">
+              <layout class="QVBoxLayout" name="verticalLayout_31">
                <item>
                 <widget class="neklakebla" name="pushButton">
                  <property name="sizePolicy">
@@ -186,12 +186,15 @@
                  <property name="wordWrap">
                   <bool>true</bool>
                  </property>
+                 <property name="tipo" stdset="0">
+                  <string>suba</string>
+                 </property>
                 </widget>
                </item>
               </layout>
              </item>
              <item>
-              <layout class="QHBoxLayout" name="horizontalLayout_2">
+              <layout class="QVBoxLayout" name="verticalLayout_32">
                <item>
                 <widget class="neklakebla" name="pushButton_2">
                  <property name="sizePolicy">
@@ -218,6 +221,9 @@
                  </property>
                  <property name="wordWrap">
                   <bool>true</bool>
+                 </property>
+                 <property name="tipo" stdset="0">
+                  <string>suba</string>
                  </property>
                 </widget>
                </item>
@@ -290,7 +296,7 @@
            <item>
             <layout class="QVBoxLayout" name="verticalLayout_4">
              <item>
-              <layout class="QHBoxLayout" name="horizontalLayout_4">
+              <layout class="QHBoxLayout" name="horizontalLayout_4" stretch="3,1">
                <item>
                 <widget class="neklakebla" name="pushButton_3">
                  <property name="sizePolicy">
@@ -323,7 +329,7 @@
               </layout>
              </item>
              <item>
-              <layout class="QHBoxLayout" name="horizontalLayout_5">
+              <layout class="QHBoxLayout" name="horizontalLayout_5" stretch="3,1">
                <item>
                 <widget class="neklakebla" name="pushButton_4">
                  <property name="sizePolicy">
@@ -356,7 +362,7 @@
               </layout>
              </item>
              <item>
-              <layout class="QHBoxLayout" name="horizontalLayout_6">
+              <layout class="QHBoxLayout" name="horizontalLayout_6" stretch="3,1">
                <item>
                 <widget class="neklakebla" name="pushButton_5">
                  <property name="sizePolicy">
@@ -389,7 +395,7 @@
               </layout>
              </item>
              <item>
-              <layout class="QHBoxLayout" name="horizontalLayout_7">
+              <layout class="QHBoxLayout" name="horizontalLayout_7" stretch="3,1">
                <item>
                 <widget class="neklakebla" name="pushButton_6">
                  <property name="sizePolicy">
@@ -422,7 +428,7 @@
               </layout>
              </item>
              <item>
-              <layout class="QHBoxLayout" name="horizontalLayout_8">
+              <layout class="QHBoxLayout" name="horizontalLayout_8" stretch="3,1">
                <item>
                 <widget class="neklakebla" name="pushButton_7">
                  <property name="sizePolicy">
@@ -529,7 +535,7 @@
               <number>3</number>
              </property>
              <item>
-              <layout class="QHBoxLayout" name="horizontalLayout_13">
+              <layout class="QHBoxLayout" name="horizontalLayout_13" stretch="3,1">
                <item>
                 <widget class="neklakebla" name="pushButton_10">
                  <property name="sizePolicy">
@@ -562,7 +568,7 @@
               </layout>
              </item>
              <item>
-              <layout class="QHBoxLayout" name="horizontalLayout_14">
+              <layout class="QHBoxLayout" name="horizontalLayout_14" stretch="3,1">
                <item>
                 <widget class="neklakebla" name="pushButton_11">
                  <property name="sizePolicy">
@@ -622,7 +628,7 @@
               <number>3</number>
              </property>
              <item>
-              <layout class="QHBoxLayout" name="horizontalLayout_16">
+              <layout class="QHBoxLayout" name="horizontalLayout_16" stretch="3,1">
                <item>
                 <widget class="neklakebla" name="pushButton_12">
                  <property name="sizePolicy">
@@ -655,7 +661,7 @@
               </layout>
              </item>
              <item>
-              <layout class="QHBoxLayout" name="horizontalLayout_17">
+              <layout class="QHBoxLayout" name="horizontalLayout_17" stretch="3,1">
                <item>
                 <widget class="neklakebla" name="pushButton_13">
                  <property name="sizePolicy">
@@ -728,7 +734,7 @@
           </widget>
          </item>
          <item>
-          <layout class="QHBoxLayout" name="horizontalLayout_18">
+          <layout class="QHBoxLayout" name="horizontalLayout_18" stretch="0,3,1">
            <item>
             <spacer name="horizontalSpacer_5">
              <property name="orientation">
@@ -833,7 +839,7 @@
            <item>
             <layout class="QVBoxLayout" name="verticalLayout_11">
              <item>
-              <layout class="QHBoxLayout" name="horizontalLayout_19">
+              <layout class="QHBoxLayout" name="horizontalLayout_19" stretch="3,1">
                <item>
                 <widget class="neklakebla" name="pushButton_15">
                  <property name="sizePolicy">
@@ -866,7 +872,7 @@
               </layout>
              </item>
              <item>
-              <layout class="QHBoxLayout" name="horizontalLayout_20">
+              <layout class="QHBoxLayout" name="horizontalLayout_20" stretch="3,1">
                <item>
                 <widget class="neklakebla" name="pushButton_16">
                  <property name="sizePolicy">
@@ -899,7 +905,7 @@
               </layout>
              </item>
              <item>
-              <layout class="QHBoxLayout" name="horizontalLayout_21">
+              <layout class="QHBoxLayout" name="horizontalLayout_21" stretch="3,1">
                <item>
                 <widget class="neklakebla" name="pushButton_17">
                  <property name="sizePolicy">
@@ -985,9 +991,9 @@
         </spacer>
        </item>
        <item>
-        <layout class="QHBoxLayout" name="horizontalLayout_26">
+        <layout class="QVBoxLayout" name="verticalLayout_33">
          <item>
-          <layout class="QHBoxLayout" name="horizontalLayout_23">
+          <layout class="QHBoxLayout" name="horizontalLayout_23" stretch="3,1">
            <item>
             <widget class="neklakebla" name="pushButton_18">
              <property name="sizePolicy">
@@ -1014,7 +1020,7 @@
           </layout>
          </item>
          <item>
-          <layout class="QHBoxLayout" name="horizontalLayout_24">
+          <layout class="QHBoxLayout" name="horizontalLayout_24" stretch="3,1">
            <item>
             <widget class="neklakebla" name="pushButton_19">
              <property name="sizePolicy">
@@ -1041,7 +1047,7 @@
           </layout>
          </item>
          <item>
-          <layout class="QHBoxLayout" name="horizontalLayout_25">
+          <layout class="QHBoxLayout" name="horizontalLayout_25" stretch="3,1">
            <item>
             <widget class="neklakebla" name="pushButton_20">
              <property name="sizePolicy">
@@ -1077,7 +1083,7 @@
             <number>2</number>
            </property>
            <item>
-            <layout class="QHBoxLayout" name="horizontalLayout_27">
+            <layout class="QHBoxLayout" name="horizontalLayout_27" stretch="3,1">
              <item>
               <widget class="neklakebla" name="pushButton_21">
                <property name="sizePolicy">
@@ -1104,7 +1110,7 @@
             </layout>
            </item>
            <item>
-            <layout class="QHBoxLayout" name="horizontalLayout_28">
+            <layout class="QHBoxLayout" name="horizontalLayout_28" stretch="3,1">
              <item>
               <widget class="neklakebla" name="pushButton_22">
                <property name="sizePolicy">
@@ -1131,7 +1137,7 @@
             </layout>
            </item>
            <item>
-            <layout class="QHBoxLayout" name="horizontalLayout_29">
+            <layout class="QHBoxLayout" name="horizontalLayout_29" stretch="3,1">
              <item>
               <widget class="neklakebla" name="pushButton_23">
                <property name="sizePolicy">
@@ -1165,7 +1171,7 @@
             <number>2</number>
            </property>
            <item>
-            <layout class="QHBoxLayout" name="horizontalLayout_30">
+            <layout class="QHBoxLayout" name="horizontalLayout_30" stretch="3,1">
              <item>
               <widget class="neklakebla" name="pushButton_24">
                <property name="sizePolicy">
@@ -1192,7 +1198,7 @@
             </layout>
            </item>
            <item>
-            <layout class="QHBoxLayout" name="horizontalLayout_31">
+            <layout class="QHBoxLayout" name="horizontalLayout_31" stretch="3,1">
              <item>
               <widget class="neklakebla" name="pushButton_25">
                <property name="sizePolicy">
@@ -1219,7 +1225,7 @@
             </layout>
            </item>
            <item>
-            <layout class="QHBoxLayout" name="horizontalLayout_32">
+            <layout class="QHBoxLayout" name="horizontalLayout_32" stretch="3,1">
              <item>
               <widget class="neklakebla" name="pushButton_26">
                <property name="sizePolicy">
@@ -1271,7 +1277,7 @@
           <number>2</number>
          </property>
          <item>
-          <layout class="QHBoxLayout" name="horizontalLayout_34">
+          <layout class="QHBoxLayout" name="horizontalLayout_34" stretch="3,1">
            <item>
             <widget class="neklakebla" name="pushButton_27">
              <property name="sizePolicy">
@@ -1298,7 +1304,7 @@
           </layout>
          </item>
          <item>
-          <layout class="QHBoxLayout" name="horizontalLayout_35">
+          <layout class="QHBoxLayout" name="horizontalLayout_35" stretch="3,1">
            <item>
             <widget class="neklakebla" name="pushButton_28">
              <property name="sizePolicy">
@@ -1325,7 +1331,7 @@
           </layout>
          </item>
          <item>
-          <layout class="QHBoxLayout" name="horizontalLayout_36">
+          <layout class="QHBoxLayout" name="horizontalLayout_36" stretch="3,1">
            <item>
             <widget class="neklakebla" name="pushButton_29">
              <property name="sizePolicy">
@@ -1352,7 +1358,7 @@
           </layout>
          </item>
          <item>
-          <layout class="QHBoxLayout" name="horizontalLayout_37">
+          <layout class="QHBoxLayout" name="horizontalLayout_37" stretch="3,1">
            <item>
             <widget class="neklakebla" name="pushButton_30">
              <property name="sizePolicy">
@@ -1379,7 +1385,7 @@
           </layout>
          </item>
          <item>
-          <layout class="QHBoxLayout" name="horizontalLayout_38">
+          <layout class="QHBoxLayout" name="horizontalLayout_38" stretch="3,1">
            <item>
             <widget class="neklakebla" name="pushButton_31">
              <property name="sizePolicy">
@@ -1406,7 +1412,7 @@
           </layout>
          </item>
          <item>
-          <layout class="QHBoxLayout" name="horizontalLayout_39">
+          <layout class="QHBoxLayout" name="horizontalLayout_39" stretch="3,1">
            <item>
             <widget class="neklakebla" name="pushButton_32">
              <property name="sizePolicy">
@@ -1433,7 +1439,7 @@
           </layout>
          </item>
          <item>
-          <layout class="QHBoxLayout" name="horizontalLayout_40">
+          <layout class="QHBoxLayout" name="horizontalLayout_40" stretch="3,1">
            <item>
             <widget class="neklakebla" name="pushButton_33">
              <property name="sizePolicy">
@@ -1460,7 +1466,7 @@
           </layout>
          </item>
          <item>
-          <layout class="QHBoxLayout" name="horizontalLayout_41">
+          <layout class="QHBoxLayout" name="horizontalLayout_41" stretch="3,1">
            <item>
             <widget class="neklakebla" name="pushButton_34">
              <property name="sizePolicy">
@@ -1532,29 +1538,13 @@
       <attribute name="title">
        <string>5</string>
       </attribute>
-      <layout class="QVBoxLayout" name="verticalLayout_25" stretch="0,1,0,1,0,0,1,0,0,0,1,0,3">
+      <layout class="QVBoxLayout" name="verticalLayout_23">
        <item>
         <widget class="titolo" name="Lec10_Label5">
          <property name="text">
           <string>TextLabel</string>
          </property>
         </widget>
-       </item>
-       <item>
-        <spacer name="verticalSpacer_8">
-         <property name="orientation">
-          <enum>Qt::Vertical</enum>
-         </property>
-         <property name="sizeType">
-          <enum>QSizePolicy::MinimumExpanding</enum>
-         </property>
-         <property name="sizeHint" stdset="0">
-          <size>
-           <width>20</width>
-           <height>1</height>
-          </size>
-         </property>
-        </spacer>
        </item>
        <item>
         <widget class="QLabel" name="Lec10_Label728">
@@ -1583,198 +1573,155 @@
         </spacer>
        </item>
        <item>
-        <widget class="QLabel" name="Lec10_Label729">
-         <property name="font">
-          <font>
-           <weight>75</weight>
-           <bold>true</bold>
-          </font>
-         </property>
-         <property name="text">
-          <string>TextLabel</string>
-         </property>
-         <property name="wordWrap">
-          <bool>true</bool>
-         </property>
-        </widget>
-       </item>
-       <item>
-        <layout class="QHBoxLayout" name="horizontalLayout_69">
+        <layout class="QVBoxLayout" name="verticalLayout_20">
          <item>
-          <spacer name="horizontalSpacer_7">
-           <property name="orientation">
-            <enum>Qt::Horizontal</enum>
+          <widget class="QLabel" name="Lec10_Label729">
+           <property name="font">
+            <font>
+             <weight>75</weight>
+             <bold>true</bold>
+            </font>
            </property>
-           <property name="sizeType">
-            <enum>QSizePolicy::Fixed</enum>
+           <property name="text">
+            <string>TextLabel</string>
            </property>
-           <property name="sizeHint" stdset="0">
-            <size>
-             <width>30</width>
-             <height>20</height>
-            </size>
+           <property name="wordWrap">
+            <bool>true</bool>
            </property>
-          </spacer>
+          </widget>
          </item>
          <item>
-          <layout class="QVBoxLayout" name="verticalLayout_21">
+          <layout class="QHBoxLayout" name="horizontalLayout_26">
            <item>
-            <widget class="QLabel" name="Lec10_Label730">
-             <property name="text">
-              <string>TextLabel</string>
+            <spacer name="horizontalSpacer_7">
+             <property name="orientation">
+              <enum>Qt::Horizontal</enum>
              </property>
-             <property name="wordWrap">
-              <bool>true</bool>
+             <property name="sizeType">
+              <enum>QSizePolicy::Fixed</enum>
              </property>
-            </widget>
+             <property name="sizeHint" stdset="0">
+              <size>
+               <width>30</width>
+               <height>20</height>
+              </size>
+             </property>
+            </spacer>
            </item>
            <item>
-            <layout class="QHBoxLayout" name="horizontalLayout_43">
+            <layout class="QVBoxLayout" name="verticalLayout_19">
              <item>
-              <widget class="neklakebla" name="pushButton_35">
-               <property name="sizePolicy">
-                <sizepolicy hsizetype="Maximum" vsizetype="Fixed">
-                 <horstretch>0</horstretch>
-                 <verstretch>0</verstretch>
-                </sizepolicy>
-               </property>
-               <property name="text">
-                <string>Mi estas leganta.</string>
-               </property>
-              </widget>
+              <layout class="QHBoxLayout" name="horizontalLayout" stretch="0,0,5">
+               <item>
+                <widget class="QLabel" name="Lec10_Label730">
+                 <property name="text">
+                  <string>TextLabel</string>
+                 </property>
+                 <property name="wordWrap">
+                  <bool>true</bool>
+                 </property>
+                </widget>
+               </item>
+               <item>
+                <widget class="neklakebla" name="pushButton_35">
+                 <property name="sizePolicy">
+                  <sizepolicy hsizetype="Maximum" vsizetype="Fixed">
+                   <horstretch>0</horstretch>
+                   <verstretch>0</verstretch>
+                  </sizepolicy>
+                 </property>
+                 <property name="text">
+                  <string>Mi estas leganta.</string>
+                 </property>
+                </widget>
+               </item>
+               <item>
+                <widget class="QLabel" name="Lec10_Label733">
+                 <property name="text">
+                  <string>TextLabel</string>
+                 </property>
+                 <property name="wordWrap">
+                  <bool>true</bool>
+                 </property>
+                </widget>
+               </item>
+              </layout>
              </item>
              <item>
-              <spacer name="horizontalSpacer_16">
-               <property name="orientation">
-                <enum>Qt::Horizontal</enum>
-               </property>
-               <property name="sizeHint" stdset="0">
-                <size>
-                 <width>40</width>
-                 <height>20</height>
-                </size>
-               </property>
-              </spacer>
-             </item>
-            </layout>
-           </item>
-           <item>
-            <widget class="QLabel" name="Lec10_Label733">
-             <property name="text">
-              <string>TextLabel</string>
-             </property>
-             <property name="wordWrap">
-              <bool>true</bool>
-             </property>
-            </widget>
-           </item>
-          </layout>
-         </item>
-         <item>
-          <layout class="QVBoxLayout" name="verticalLayout_20">
-           <item>
-            <widget class="QLabel" name="Lec10_Label731">
-             <property name="text">
-              <string>TextLabel</string>
-             </property>
-             <property name="wordWrap">
-              <bool>true</bool>
-             </property>
-            </widget>
-           </item>
-           <item>
-            <layout class="QHBoxLayout" name="horizontalLayout_42">
-             <item>
-              <widget class="neklakebla" name="pushButton_36">
-               <property name="sizePolicy">
-                <sizepolicy hsizetype="Maximum" vsizetype="Fixed">
-                 <horstretch>0</horstretch>
-                 <verstretch>0</verstretch>
-                </sizepolicy>
-               </property>
-               <property name="text">
-                <string>Mi estas leginta.</string>
-               </property>
-              </widget>
+              <layout class="QHBoxLayout" name="horizontalLayout_2" stretch="0,0,5">
+               <item>
+                <widget class="QLabel" name="Lec10_Label731">
+                 <property name="text">
+                  <string>TextLabel</string>
+                 </property>
+                 <property name="wordWrap">
+                  <bool>true</bool>
+                 </property>
+                </widget>
+               </item>
+               <item>
+                <widget class="neklakebla" name="pushButton_36">
+                 <property name="sizePolicy">
+                  <sizepolicy hsizetype="Maximum" vsizetype="Fixed">
+                   <horstretch>0</horstretch>
+                   <verstretch>0</verstretch>
+                  </sizepolicy>
+                 </property>
+                 <property name="text">
+                  <string>Mi estas leginta.</string>
+                 </property>
+                </widget>
+               </item>
+               <item>
+                <widget class="QLabel" name="Lec10_Label734">
+                 <property name="text">
+                  <string>TextLabel</string>
+                 </property>
+                 <property name="wordWrap">
+                  <bool>true</bool>
+                 </property>
+                </widget>
+               </item>
+              </layout>
              </item>
              <item>
-              <spacer name="horizontalSpacer_15">
-               <property name="orientation">
-                <enum>Qt::Horizontal</enum>
-               </property>
-               <property name="sizeHint" stdset="0">
-                <size>
-                 <width>40</width>
-                 <height>20</height>
-                </size>
-               </property>
-              </spacer>
-             </item>
-            </layout>
-           </item>
-           <item>
-            <widget class="QLabel" name="Lec10_Label734">
-             <property name="text">
-              <string>TextLabel</string>
-             </property>
-             <property name="wordWrap">
-              <bool>true</bool>
-             </property>
-            </widget>
-           </item>
-          </layout>
-         </item>
-         <item>
-          <layout class="QVBoxLayout" name="verticalLayout_19">
-           <item>
-            <widget class="QLabel" name="Lec10_Label732">
-             <property name="text">
-              <string>TextLabel</string>
-             </property>
-             <property name="wordWrap">
-              <bool>true</bool>
-             </property>
-            </widget>
-           </item>
-           <item>
-            <layout class="QHBoxLayout" name="horizontalLayout_11">
-             <item>
-              <widget class="neklakebla" name="pushButton_37">
-               <property name="sizePolicy">
-                <sizepolicy hsizetype="Maximum" vsizetype="Fixed">
-                 <horstretch>0</horstretch>
-                 <verstretch>0</verstretch>
-                </sizepolicy>
-               </property>
-               <property name="text">
-                <string>Mi estas legonta.</string>
-               </property>
-              </widget>
-             </item>
-             <item>
-              <spacer name="horizontalSpacer_14">
-               <property name="orientation">
-                <enum>Qt::Horizontal</enum>
-               </property>
-               <property name="sizeHint" stdset="0">
-                <size>
-                 <width>40</width>
-                 <height>20</height>
-                </size>
-               </property>
-              </spacer>
+              <layout class="QHBoxLayout" name="horizontalLayout_11" stretch="0,0,5">
+               <item>
+                <widget class="QLabel" name="Lec10_Label732">
+                 <property name="text">
+                  <string>TextLabel</string>
+                 </property>
+                 <property name="wordWrap">
+                  <bool>true</bool>
+                 </property>
+                </widget>
+               </item>
+               <item>
+                <widget class="neklakebla" name="pushButton_37">
+                 <property name="sizePolicy">
+                  <sizepolicy hsizetype="Maximum" vsizetype="Fixed">
+                   <horstretch>0</horstretch>
+                   <verstretch>0</verstretch>
+                  </sizepolicy>
+                 </property>
+                 <property name="text">
+                  <string>Mi estas legonta.</string>
+                 </property>
+                </widget>
+               </item>
+               <item>
+                <widget class="QLabel" name="Lec10_Label735">
+                 <property name="text">
+                  <string>TextLabel</string>
+                 </property>
+                 <property name="wordWrap">
+                  <bool>true</bool>
+                 </property>
+                </widget>
+               </item>
+              </layout>
              </item>
             </layout>
-           </item>
-           <item>
-            <widget class="QLabel" name="Lec10_Label735">
-             <property name="text">
-              <string>TextLabel</string>
-             </property>
-             <property name="wordWrap">
-              <bool>true</bool>
-             </property>
-            </widget>
            </item>
           </layout>
          </item>
@@ -1797,205 +1744,162 @@
         </spacer>
        </item>
        <item>
-        <widget class="QLabel" name="Lec10_Label736">
-         <property name="font">
-          <font>
-           <weight>75</weight>
-           <bold>true</bold>
-          </font>
-         </property>
-         <property name="text">
-          <string>TextLabel</string>
-         </property>
-         <property name="wordWrap">
-          <bool>true</bool>
-         </property>
-        </widget>
-       </item>
-       <item>
-        <layout class="QHBoxLayout" name="horizontalLayout_105">
+        <layout class="QVBoxLayout" name="verticalLayout_22">
          <item>
-          <spacer name="horizontalSpacer_8">
-           <property name="orientation">
-            <enum>Qt::Horizontal</enum>
+          <widget class="QLabel" name="Lec10_Label736">
+           <property name="font">
+            <font>
+             <weight>75</weight>
+             <bold>true</bold>
+            </font>
            </property>
-           <property name="sizeType">
-            <enum>QSizePolicy::Fixed</enum>
+           <property name="text">
+            <string>TextLabel</string>
            </property>
-           <property name="sizeHint" stdset="0">
-            <size>
-             <width>30</width>
-             <height>20</height>
-            </size>
+           <property name="wordWrap">
+            <bool>true</bool>
            </property>
-          </spacer>
+          </widget>
          </item>
          <item>
-          <layout class="QVBoxLayout" name="verticalLayout_24">
+          <layout class="QHBoxLayout" name="horizontalLayout_45">
            <item>
-            <widget class="QLabel" name="Lec10_Label737">
-             <property name="text">
-              <string>TextLabel</string>
+            <spacer name="horizontalSpacer_8">
+             <property name="orientation">
+              <enum>Qt::Horizontal</enum>
              </property>
-             <property name="wordWrap">
-              <bool>true</bool>
+             <property name="sizeType">
+              <enum>QSizePolicy::Fixed</enum>
              </property>
-            </widget>
+             <property name="sizeHint" stdset="0">
+              <size>
+               <width>30</width>
+               <height>20</height>
+              </size>
+             </property>
+            </spacer>
            </item>
            <item>
-            <layout class="QHBoxLayout" name="horizontalLayout_104">
+            <layout class="QVBoxLayout" name="verticalLayout_21">
              <item>
-              <widget class="neklakebla" name="pushButton_38">
-               <property name="sizePolicy">
-                <sizepolicy hsizetype="Maximum" vsizetype="Fixed">
-                 <horstretch>0</horstretch>
-                 <verstretch>0</verstretch>
-                </sizepolicy>
-               </property>
-               <property name="text">
-                <string>La libro estas legata.</string>
-               </property>
-              </widget>
+              <layout class="QHBoxLayout" name="horizontalLayout_42" stretch="0,0,5">
+               <item>
+                <widget class="QLabel" name="Lec10_Label737">
+                 <property name="text">
+                  <string>TextLabel</string>
+                 </property>
+                 <property name="wordWrap">
+                  <bool>true</bool>
+                 </property>
+                </widget>
+               </item>
+               <item>
+                <widget class="neklakebla" name="pushButton_38">
+                 <property name="sizePolicy">
+                  <sizepolicy hsizetype="Maximum" vsizetype="Fixed">
+                   <horstretch>0</horstretch>
+                   <verstretch>0</verstretch>
+                  </sizepolicy>
+                 </property>
+                 <property name="text">
+                  <string>La libro estas legata.</string>
+                 </property>
+                </widget>
+               </item>
+               <item>
+                <widget class="QLabel" name="Lec10_Label740">
+                 <property name="text">
+                  <string>TextLabel</string>
+                 </property>
+                 <property name="wordWrap">
+                  <bool>true</bool>
+                 </property>
+                </widget>
+               </item>
+              </layout>
              </item>
              <item>
-              <spacer name="horizontalSpacer_19">
-               <property name="orientation">
-                <enum>Qt::Horizontal</enum>
-               </property>
-               <property name="sizeHint" stdset="0">
-                <size>
-                 <width>40</width>
-                 <height>20</height>
-                </size>
-               </property>
-              </spacer>
-             </item>
-            </layout>
-           </item>
-           <item>
-            <widget class="QLabel" name="Lec10_Label740">
-             <property name="text">
-              <string>TextLabel</string>
-             </property>
-             <property name="wordWrap">
-              <bool>true</bool>
-             </property>
-            </widget>
-           </item>
-          </layout>
-         </item>
-         <item>
-          <layout class="QVBoxLayout" name="verticalLayout_23">
-           <item>
-            <widget class="QLabel" name="Lec10_Label738">
-             <property name="text">
-              <string>TextLabel</string>
-             </property>
-             <property name="wordWrap">
-              <bool>true</bool>
-             </property>
-            </widget>
-           </item>
-           <item>
-            <layout class="QHBoxLayout" name="horizontalLayout_75">
-             <item>
-              <widget class="neklakebla" name="pushButton_39">
-               <property name="sizePolicy">
-                <sizepolicy hsizetype="Maximum" vsizetype="Fixed">
-                 <horstretch>0</horstretch>
-                 <verstretch>0</verstretch>
-                </sizepolicy>
-               </property>
-               <property name="text">
-                <string>La libro estas legita.</string>
-               </property>
-              </widget>
+              <layout class="QHBoxLayout" name="horizontalLayout_43" stretch="0,0,5">
+               <item>
+                <widget class="QLabel" name="Lec10_Label738">
+                 <property name="text">
+                  <string>TextLabel</string>
+                 </property>
+                 <property name="wordWrap">
+                  <bool>true</bool>
+                 </property>
+                </widget>
+               </item>
+               <item>
+                <widget class="neklakebla" name="pushButton_39">
+                 <property name="sizePolicy">
+                  <sizepolicy hsizetype="Maximum" vsizetype="Fixed">
+                   <horstretch>0</horstretch>
+                   <verstretch>0</verstretch>
+                  </sizepolicy>
+                 </property>
+                 <property name="text">
+                  <string>La libro estas legita.</string>
+                 </property>
+                </widget>
+               </item>
+               <item>
+                <widget class="QLabel" name="Lec10_Label741">
+                 <property name="text">
+                  <string>TextLabel</string>
+                 </property>
+                 <property name="wordWrap">
+                  <bool>true</bool>
+                 </property>
+                </widget>
+               </item>
+              </layout>
              </item>
              <item>
-              <spacer name="horizontalSpacer_18">
-               <property name="orientation">
-                <enum>Qt::Horizontal</enum>
-               </property>
-               <property name="sizeHint" stdset="0">
-                <size>
-                 <width>40</width>
-                 <height>20</height>
-                </size>
-               </property>
-              </spacer>
-             </item>
-            </layout>
-           </item>
-           <item>
-            <widget class="QLabel" name="Lec10_Label741">
-             <property name="text">
-              <string>TextLabel</string>
-             </property>
-             <property name="wordWrap">
-              <bool>true</bool>
-             </property>
-            </widget>
-           </item>
-          </layout>
-         </item>
-         <item>
-          <layout class="QVBoxLayout" name="verticalLayout_22">
-           <item>
-            <widget class="QLabel" name="Lec10_Label739">
-             <property name="text">
-              <string>TextLabel</string>
-             </property>
-             <property name="wordWrap">
-              <bool>true</bool>
-             </property>
-            </widget>
-           </item>
-           <item>
-            <layout class="QHBoxLayout" name="horizontalLayout_74">
-             <item>
-              <widget class="neklakebla" name="pushButton_40">
-               <property name="sizePolicy">
-                <sizepolicy hsizetype="Maximum" vsizetype="Fixed">
-                 <horstretch>0</horstretch>
-                 <verstretch>0</verstretch>
-                </sizepolicy>
-               </property>
-               <property name="text">
-                <string>La libro estas legota.</string>
-               </property>
-              </widget>
-             </item>
-             <item>
-              <spacer name="horizontalSpacer_17">
-               <property name="orientation">
-                <enum>Qt::Horizontal</enum>
-               </property>
-               <property name="sizeHint" stdset="0">
-                <size>
-                 <width>40</width>
-                 <height>20</height>
-                </size>
-               </property>
-              </spacer>
+              <layout class="QHBoxLayout" name="horizontalLayout_44" stretch="0,0,5">
+               <item>
+                <widget class="QLabel" name="Lec10_Label739">
+                 <property name="text">
+                  <string>TextLabel</string>
+                 </property>
+                 <property name="wordWrap">
+                  <bool>true</bool>
+                 </property>
+                </widget>
+               </item>
+               <item>
+                <widget class="neklakebla" name="pushButton_40">
+                 <property name="sizePolicy">
+                  <sizepolicy hsizetype="Maximum" vsizetype="Fixed">
+                   <horstretch>0</horstretch>
+                   <verstretch>0</verstretch>
+                  </sizepolicy>
+                 </property>
+                 <property name="text">
+                  <string>La libro estas legota.</string>
+                 </property>
+                </widget>
+               </item>
+               <item>
+                <widget class="QLabel" name="Lec10_Label742">
+                 <property name="text">
+                  <string>TextLabel</string>
+                 </property>
+                 <property name="wordWrap">
+                  <bool>true</bool>
+                 </property>
+                </widget>
+               </item>
+              </layout>
              </item>
             </layout>
-           </item>
-           <item>
-            <widget class="QLabel" name="Lec10_Label742">
-             <property name="text">
-              <string>TextLabel</string>
-             </property>
-             <property name="wordWrap">
-              <bool>true</bool>
-             </property>
-            </widget>
            </item>
           </layout>
          </item>
         </layout>
        </item>
        <item>
-        <layout class="QHBoxLayout" name="horizontalLayout_44">
+        <layout class="QVBoxLayout" name="verticalLayout_34" stretch="1,0">
          <item>
           <widget class="neklakebla" name="pushButton_41">
            <property name="sizePolicy">
@@ -2016,6 +1920,9 @@
            </property>
            <property name="wordWrap">
             <bool>true</bool>
+           </property>
+           <property name="tipo" stdset="0">
+            <string>suba</string>
            </property>
           </widget>
          </item>
@@ -2070,7 +1977,7 @@
       <attribute name="title">
        <string>6</string>
       </attribute>
-      <layout class="QVBoxLayout" name="verticalLayout_28" stretch="0,1,0,1,0,3">
+      <layout class="QVBoxLayout" name="verticalLayout_63" stretch="0,1,0,1,0,3">
        <item>
         <layout class="QVBoxLayout" name="verticalLayout_26">
          <item>
@@ -2104,40 +2011,23 @@
           </layout>
          </item>
          <item>
-          <layout class="QHBoxLayout" name="horizontalLayout_45">
-           <item>
-            <widget class="label_sago_reversa" name="label_62">
-             <property name="sizePolicy">
-              <sizepolicy hsizetype="Maximum" vsizetype="Maximum">
-               <horstretch>0</horstretch>
-               <verstretch>0</verstretch>
-              </sizepolicy>
-             </property>
-             <property name="text">
-              <string/>
-             </property>
-             <property name="pixmap">
-              <pixmap resource="ikonoj.qrc">:/ikonoj/sago_revena.png</pixmap>
-             </property>
-            </widget>
-           </item>
-           <item>
-            <widget class="QLabel" name="Lec10_Label744">
-             <property name="sizePolicy">
-              <sizepolicy hsizetype="Preferred" vsizetype="Maximum">
-               <horstretch>0</horstretch>
-               <verstretch>0</verstretch>
-              </sizepolicy>
-             </property>
-             <property name="text">
-              <string>TextLabel</string>
-             </property>
-             <property name="wordWrap">
-              <bool>true</bool>
-             </property>
-            </widget>
-           </item>
-          </layout>
+          <widget class="QLabel" name="Lec10_Label744">
+           <property name="sizePolicy">
+            <sizepolicy hsizetype="Preferred" vsizetype="Maximum">
+             <horstretch>0</horstretch>
+             <verstretch>0</verstretch>
+            </sizepolicy>
+           </property>
+           <property name="text">
+            <string>TextLabel</string>
+           </property>
+           <property name="wordWrap">
+            <bool>true</bool>
+           </property>
+           <property name="tipo" stdset="0">
+            <string>suba</string>
+           </property>
+          </widget>
          </item>
         </layout>
        </item>
@@ -2190,40 +2080,23 @@
           </layout>
          </item>
          <item>
-          <layout class="QHBoxLayout" name="horizontalLayout_46">
-           <item>
-            <widget class="label_sago_reversa" name="label_63">
-             <property name="sizePolicy">
-              <sizepolicy hsizetype="Maximum" vsizetype="Maximum">
-               <horstretch>0</horstretch>
-               <verstretch>0</verstretch>
-              </sizepolicy>
-             </property>
-             <property name="text">
-              <string/>
-             </property>
-             <property name="pixmap">
-              <pixmap resource="ikonoj.qrc">:/ikonoj/sago_revena.png</pixmap>
-             </property>
-            </widget>
-           </item>
-           <item>
-            <widget class="QLabel" name="Lec10_Label745">
-             <property name="sizePolicy">
-              <sizepolicy hsizetype="Preferred" vsizetype="Maximum">
-               <horstretch>0</horstretch>
-               <verstretch>0</verstretch>
-              </sizepolicy>
-             </property>
-             <property name="text">
-              <string>TextLabel</string>
-             </property>
-             <property name="wordWrap">
-              <bool>true</bool>
-             </property>
-            </widget>
-           </item>
-          </layout>
+          <widget class="QLabel" name="Lec10_Label745">
+           <property name="sizePolicy">
+            <sizepolicy hsizetype="Preferred" vsizetype="Maximum">
+             <horstretch>0</horstretch>
+             <verstretch>0</verstretch>
+            </sizepolicy>
+           </property>
+           <property name="text">
+            <string>TextLabel</string>
+           </property>
+           <property name="wordWrap">
+            <bool>true</bool>
+           </property>
+           <property name="tipo" stdset="0">
+            <string>suba</string>
+           </property>
+          </widget>
          </item>
         </layout>
        </item>
@@ -2249,7 +2122,7 @@
           <number>2</number>
          </property>
          <item>
-          <layout class="QHBoxLayout" name="horizontalLayout_47">
+          <layout class="QVBoxLayout" name="verticalLayout_28" stretch="1,0">
            <item>
             <widget class="neklakebla" name="pushButton_44">
              <property name="sizePolicy">
@@ -2271,12 +2144,15 @@
              <property name="wordWrap">
               <bool>true</bool>
              </property>
+             <property name="tipo" stdset="0">
+              <string>suba</string>
+             </property>
             </widget>
            </item>
           </layout>
          </item>
          <item>
-          <layout class="QHBoxLayout" name="horizontalLayout_48">
+          <layout class="QHBoxLayout" name="horizontalLayout_48" stretch="3,1">
            <item>
             <widget class="neklakebla" name="pushButton_45">
              <property name="sizePolicy">
@@ -2303,7 +2179,7 @@
           </layout>
          </item>
          <item>
-          <layout class="QHBoxLayout" name="horizontalLayout_49">
+          <layout class="QHBoxLayout" name="horizontalLayout_49" stretch="3,1">
            <item>
             <widget class="neklakebla" name="pushButton_46">
              <property name="sizePolicy">
@@ -2330,7 +2206,7 @@
           </layout>
          </item>
          <item>
-          <layout class="QHBoxLayout" name="horizontalLayout_50">
+          <layout class="QHBoxLayout" name="horizontalLayout_50" stretch="3,1">
            <item>
             <widget class="neklakebla" name="pushButton_47">
              <property name="sizePolicy">
@@ -2357,7 +2233,7 @@
           </layout>
          </item>
          <item>
-          <layout class="QHBoxLayout" name="horizontalLayout_51">
+          <layout class="QHBoxLayout" name="horizontalLayout_51" stretch="3,1">
            <item>
             <widget class="neklakebla" name="pushButton_48">
              <property name="sizePolicy">
@@ -2384,7 +2260,7 @@
           </layout>
          </item>
          <item>
-          <layout class="QHBoxLayout" name="horizontalLayout_52">
+          <layout class="QHBoxLayout" name="horizontalLayout_52" stretch="3,1">
            <item>
             <widget class="neklakebla" name="pushButton_49">
              <property name="sizePolicy">
@@ -2411,7 +2287,7 @@
           </layout>
          </item>
          <item>
-          <layout class="QHBoxLayout" name="horizontalLayout_53">
+          <layout class="QHBoxLayout" name="horizontalLayout_53" stretch="3,1">
            <item>
             <widget class="neklakebla" name="pushButton_50">
              <property name="sizePolicy">
@@ -2438,7 +2314,7 @@
           </layout>
          </item>
          <item>
-          <layout class="QHBoxLayout" name="horizontalLayout_54">
+          <layout class="QHBoxLayout" name="horizontalLayout_54" stretch="3,1">
            <item>
             <widget class="neklakebla" name="pushButton_51">
              <property name="sizePolicy">
@@ -2465,7 +2341,7 @@
           </layout>
          </item>
          <item>
-          <layout class="QHBoxLayout" name="horizontalLayout_55">
+          <layout class="QHBoxLayout" name="horizontalLayout_55" stretch="3,1">
            <item>
             <widget class="neklakebla" name="pushButton_52">
              <property name="sizePolicy">
@@ -2516,9 +2392,9 @@
       <attribute name="title">
        <string>7</string>
       </attribute>
-      <layout class="QVBoxLayout" name="verticalLayout_57" stretch="0,1,0,1,0,3">
+      <layout class="QVBoxLayout" name="verticalLayout_57" stretch="0,2,0,3">
        <item>
-        <layout class="QVBoxLayout" name="verticalLayout_31">
+        <layout class="QVBoxLayout" name="verticalLayout_56" stretch="0,0">
          <item>
           <widget class="QLabel" name="Lec10_Label755">
            <property name="text">
@@ -2533,7 +2409,7 @@
           </widget>
          </item>
          <item>
-          <layout class="QHBoxLayout" name="horizontalLayout_56">
+          <layout class="QHBoxLayout" name="horizontalLayout_110" stretch="0,3">
            <item>
             <spacer name="horizontalSpacer_9">
              <property name="orientation">
@@ -2551,44 +2427,299 @@
             </spacer>
            </item>
            <item>
-            <layout class="QVBoxLayout" name="verticalLayout_30">
+            <layout class="QVBoxLayout" name="verticalLayout_35">
+             <property name="spacing">
+              <number>3</number>
+             </property>
              <item>
-              <widget class="neklakebla" name="pushButton_53">
-               <property name="sizePolicy">
-                <sizepolicy hsizetype="Preferred" vsizetype="Fixed">
-                 <horstretch>0</horstretch>
-                 <verstretch>0</verstretch>
-                </sizepolicy>
+              <widget class="QFrame" name="frame">
+               <property name="frameShape">
+                <enum>QFrame::StyledPanel</enum>
                </property>
-               <property name="text">
-                <string>Antaŭ la konsulto: la persono estAS konsultONTa  /  la kuracisto estAs konsultOTa.</string>
+               <property name="frameShadow">
+                <enum>QFrame::Raised</enum>
                </property>
+               <property name="tipo" stdset="0">
+                <string>shilda</string>
+               </property>
+               <layout class="QHBoxLayout" name="horizontalLayout_119" stretch="5">
+                <property name="leftMargin">
+                 <number>9</number>
+                </property>
+                <property name="topMargin">
+                 <number>3</number>
+                </property>
+                <property name="bottomMargin">
+                 <number>3</number>
+                </property>
+                <item>
+                 <layout class="QHBoxLayout" name="horizontalLayout_118" stretch="0,1">
+                  <property name="spacing">
+                   <number>15</number>
+                  </property>
+                  <item>
+                   <widget class="QLabel" name="label">
+                    <property name="font">
+                     <font>
+                      <weight>75</weight>
+                      <bold>true</bold>
+                     </font>
+                    </property>
+                    <property name="text">
+                     <string notr="true">Antaŭ la konsulto:</string>
+                    </property>
+                    <property name="alignment">
+                     <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+                    </property>
+                    <property name="wordWrap">
+                     <bool>true</bool>
+                    </property>
+                    <property name="tipo" stdset="0">
+                     <string>neklakebla</string>
+                    </property>
+                   </widget>
+                  </item>
+                  <item>
+                   <layout class="QVBoxLayout" name="verticalLayout_65">
+                    <property name="spacing">
+                     <number>3</number>
+                    </property>
+                    <item>
+                     <widget class="QLabel" name="label_2">
+                      <property name="font">
+                       <font>
+                        <weight>75</weight>
+                        <bold>true</bold>
+                       </font>
+                      </property>
+                      <property name="text">
+                       <string notr="true">La persono estAS konsultONTa.</string>
+                      </property>
+                      <property name="wordWrap">
+                       <bool>true</bool>
+                      </property>
+                      <property name="tipo" stdset="0">
+                       <string>neklakebla</string>
+                      </property>
+                     </widget>
+                    </item>
+                    <item>
+                     <widget class="QLabel" name="label_3">
+                      <property name="font">
+                       <font>
+                        <weight>75</weight>
+                        <bold>true</bold>
+                       </font>
+                      </property>
+                      <property name="text">
+                       <string notr="true">La kuracisto estAS konsultOTa.</string>
+                      </property>
+                      <property name="wordWrap">
+                       <bool>true</bool>
+                      </property>
+                      <property name="tipo" stdset="0">
+                       <string>neklakebla</string>
+                      </property>
+                     </widget>
+                    </item>
+                   </layout>
+                  </item>
+                 </layout>
+                </item>
+               </layout>
               </widget>
              </item>
              <item>
-              <widget class="neklakebla" name="pushButton_54">
-               <property name="sizePolicy">
-                <sizepolicy hsizetype="Preferred" vsizetype="Fixed">
-                 <horstretch>0</horstretch>
-                 <verstretch>0</verstretch>
-                </sizepolicy>
+              <widget class="QFrame" name="frame_2">
+               <property name="frameShape">
+                <enum>QFrame::StyledPanel</enum>
                </property>
-               <property name="text">
-                <string>Dum la konsulto: la persono estAS konsultANTa  /  la kuracisto estAs konsultATa.</string>
+               <property name="frameShadow">
+                <enum>QFrame::Raised</enum>
                </property>
+               <property name="tipo" stdset="0">
+                <string>shilda</string>
+               </property>
+               <layout class="QVBoxLayout" name="verticalLayout_60">
+                <property name="topMargin">
+                 <number>3</number>
+                </property>
+                <property name="bottomMargin">
+                 <number>3</number>
+                </property>
+                <item>
+                 <layout class="QHBoxLayout" name="horizontalLayout_121" stretch="0,1">
+                  <property name="spacing">
+                   <number>15</number>
+                  </property>
+                  <item>
+                   <widget class="QLabel" name="label_4">
+                    <property name="font">
+                     <font>
+                      <weight>75</weight>
+                      <bold>true</bold>
+                     </font>
+                    </property>
+                    <property name="text">
+                     <string notr="true">Dum la konsulto:</string>
+                    </property>
+                    <property name="alignment">
+                     <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+                    </property>
+                    <property name="wordWrap">
+                     <bool>true</bool>
+                    </property>
+                    <property name="tipo" stdset="0">
+                     <string>neklakebla</string>
+                    </property>
+                   </widget>
+                  </item>
+                  <item>
+                   <layout class="QVBoxLayout" name="verticalLayout_67">
+                    <property name="spacing">
+                     <number>3</number>
+                    </property>
+                    <item>
+                     <widget class="QLabel" name="label_5">
+                      <property name="font">
+                       <font>
+                        <weight>75</weight>
+                        <bold>true</bold>
+                       </font>
+                      </property>
+                      <property name="text">
+                       <string notr="true">La persono estAS konsultANTa.</string>
+                      </property>
+                      <property name="wordWrap">
+                       <bool>true</bool>
+                      </property>
+                      <property name="tipo" stdset="0">
+                       <string>neklakebla</string>
+                      </property>
+                     </widget>
+                    </item>
+                    <item>
+                     <widget class="QLabel" name="label_6">
+                      <property name="font">
+                       <font>
+                        <weight>75</weight>
+                        <bold>true</bold>
+                       </font>
+                      </property>
+                      <property name="text">
+                       <string notr="true">La kuracisto estAS konsultATa.</string>
+                      </property>
+                      <property name="wordWrap">
+                       <bool>true</bool>
+                      </property>
+                      <property name="tipo" stdset="0">
+                       <string>neklakebla</string>
+                      </property>
+                     </widget>
+                    </item>
+                   </layout>
+                  </item>
+                 </layout>
+                </item>
+               </layout>
               </widget>
              </item>
              <item>
-              <widget class="neklakebla" name="pushButton_55">
-               <property name="sizePolicy">
-                <sizepolicy hsizetype="Preferred" vsizetype="Fixed">
-                 <horstretch>0</horstretch>
-                 <verstretch>0</verstretch>
-                </sizepolicy>
+              <widget class="QFrame" name="frame_3">
+               <property name="frameShape">
+                <enum>QFrame::StyledPanel</enum>
                </property>
-               <property name="text">
-                <string>Post la konsulto: la persono estAS konsultINTa  /  la kuracisto estAs konsultITa.</string>
+               <property name="frameShadow">
+                <enum>QFrame::Raised</enum>
                </property>
+               <property name="tipo" stdset="0">
+                <string>shilda</string>
+               </property>
+               <layout class="QHBoxLayout" name="horizontalLayout_122">
+                <property name="leftMargin">
+                 <number>9</number>
+                </property>
+                <property name="topMargin">
+                 <number>3</number>
+                </property>
+                <property name="bottomMargin">
+                 <number>3</number>
+                </property>
+                <item>
+                 <layout class="QHBoxLayout" name="horizontalLayout_123" stretch="0,1">
+                  <property name="spacing">
+                   <number>15</number>
+                  </property>
+                  <item>
+                   <widget class="QLabel" name="label_7">
+                    <property name="font">
+                     <font>
+                      <weight>75</weight>
+                      <bold>true</bold>
+                     </font>
+                    </property>
+                    <property name="text">
+                     <string notr="true">Post la konsulto:</string>
+                    </property>
+                    <property name="alignment">
+                     <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+                    </property>
+                    <property name="wordWrap">
+                     <bool>true</bool>
+                    </property>
+                    <property name="tipo" stdset="0">
+                     <string>neklakebla</string>
+                    </property>
+                   </widget>
+                  </item>
+                  <item>
+                   <layout class="QVBoxLayout" name="verticalLayout_68">
+                    <property name="spacing">
+                     <number>3</number>
+                    </property>
+                    <item>
+                     <widget class="QLabel" name="label_8">
+                      <property name="font">
+                       <font>
+                        <weight>75</weight>
+                        <bold>true</bold>
+                       </font>
+                      </property>
+                      <property name="text">
+                       <string notr="true">La persono estAS konsultINTa.</string>
+                      </property>
+                      <property name="wordWrap">
+                       <bool>true</bool>
+                      </property>
+                      <property name="tipo" stdset="0">
+                       <string>neklakebla</string>
+                      </property>
+                     </widget>
+                    </item>
+                    <item>
+                     <widget class="QLabel" name="label_9">
+                      <property name="font">
+                       <font>
+                        <weight>75</weight>
+                        <bold>true</bold>
+                       </font>
+                      </property>
+                      <property name="text">
+                       <string notr="true">La kuracisto estAS konsultITa.</string>
+                      </property>
+                      <property name="wordWrap">
+                       <bool>true</bool>
+                      </property>
+                      <property name="tipo" stdset="0">
+                       <string>neklakebla</string>
+                      </property>
+                     </widget>
+                    </item>
+                   </layout>
+                  </item>
+                 </layout>
+                </item>
+               </layout>
               </widget>
              </item>
             </layout>
@@ -2602,19 +2733,16 @@
          <property name="orientation">
           <enum>Qt::Vertical</enum>
          </property>
-         <property name="sizeType">
-          <enum>QSizePolicy::Expanding</enum>
-         </property>
          <property name="sizeHint" stdset="0">
           <size>
            <width>20</width>
-           <height>1</height>
+           <height>18</height>
           </size>
          </property>
         </spacer>
        </item>
        <item>
-        <layout class="QVBoxLayout" name="verticalLayout_32">
+        <layout class="QVBoxLayout" name="verticalLayout_55" stretch="0,0">
          <item>
           <widget class="QLabel" name="Lec10_Label756">
            <property name="text">
@@ -2629,9 +2757,9 @@
           </widget>
          </item>
          <item>
-          <layout class="QHBoxLayout" name="horizontalLayout_57">
+          <layout class="QHBoxLayout" name="horizontalLayout_111" stretch="0,3">
            <item>
-            <spacer name="horizontalSpacer_10">
+            <spacer name="horizontalSpacer_22">
              <property name="orientation">
               <enum>Qt::Horizontal</enum>
              </property>
@@ -2647,44 +2775,284 @@
             </spacer>
            </item>
            <item>
-            <layout class="QVBoxLayout" name="verticalLayout_33">
+            <layout class="QVBoxLayout" name="verticalLayout_49">
+             <property name="spacing">
+              <number>3</number>
+             </property>
              <item>
-              <widget class="neklakebla" name="pushButton_56">
-               <property name="sizePolicy">
-                <sizepolicy hsizetype="Preferred" vsizetype="Fixed">
-                 <horstretch>0</horstretch>
-                 <verstretch>0</verstretch>
-                </sizepolicy>
+              <widget class="QFrame" name="frame_4">
+               <property name="frameShape">
+                <enum>QFrame::StyledPanel</enum>
                </property>
-               <property name="text">
-                <string>Antaŭ la konsulto: la persono estIS konsultONTa  /  la kuracisto estIs konsultOTa.</string>
+               <property name="frameShadow">
+                <enum>QFrame::Raised</enum>
                </property>
+               <property name="tipo" stdset="0">
+                <string>shilda</string>
+               </property>
+               <layout class="QHBoxLayout" name="horizontalLayout_124">
+                <property name="leftMargin">
+                 <number>9</number>
+                </property>
+                <property name="topMargin">
+                 <number>3</number>
+                </property>
+                <property name="bottomMargin">
+                 <number>3</number>
+                </property>
+                <item>
+                 <layout class="QHBoxLayout" name="horizontalLayout_125" stretch="0,1">
+                  <item>
+                   <widget class="QLabel" name="label_10">
+                    <property name="font">
+                     <font>
+                      <weight>75</weight>
+                      <bold>true</bold>
+                     </font>
+                    </property>
+                    <property name="text">
+                     <string notr="true">Antaŭ la konsulto:</string>
+                    </property>
+                    <property name="alignment">
+                     <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+                    </property>
+                    <property name="wordWrap">
+                     <bool>true</bool>
+                    </property>
+                    <property name="tipo" stdset="0">
+                     <string>neklakebla</string>
+                    </property>
+                   </widget>
+                  </item>
+                  <item>
+                   <layout class="QVBoxLayout" name="verticalLayout_69">
+                    <item>
+                     <widget class="QLabel" name="label_11">
+                      <property name="font">
+                       <font>
+                        <weight>75</weight>
+                        <bold>true</bold>
+                       </font>
+                      </property>
+                      <property name="text">
+                       <string notr="true">La persono estIS konsultONTa.</string>
+                      </property>
+                      <property name="wordWrap">
+                       <bool>true</bool>
+                      </property>
+                      <property name="tipo" stdset="0">
+                       <string>neklakebla</string>
+                      </property>
+                     </widget>
+                    </item>
+                    <item>
+                     <widget class="QLabel" name="label_12">
+                      <property name="font">
+                       <font>
+                        <weight>75</weight>
+                        <bold>true</bold>
+                       </font>
+                      </property>
+                      <property name="text">
+                       <string notr="true">La kuracisto estIS konsultOTa.</string>
+                      </property>
+                      <property name="wordWrap">
+                       <bool>true</bool>
+                      </property>
+                      <property name="tipo" stdset="0">
+                       <string>neklakebla</string>
+                      </property>
+                     </widget>
+                    </item>
+                   </layout>
+                  </item>
+                 </layout>
+                </item>
+               </layout>
               </widget>
              </item>
              <item>
-              <widget class="neklakebla" name="pushButton_57">
-               <property name="sizePolicy">
-                <sizepolicy hsizetype="Preferred" vsizetype="Fixed">
-                 <horstretch>0</horstretch>
-                 <verstretch>0</verstretch>
-                </sizepolicy>
+              <widget class="QFrame" name="frame_5">
+               <property name="frameShape">
+                <enum>QFrame::StyledPanel</enum>
                </property>
-               <property name="text">
-                <string>Dum la konsulto: la persono estIS konsultANTa  /  la kuracisto estIs konsultATa.</string>
+               <property name="frameShadow">
+                <enum>QFrame::Raised</enum>
                </property>
+               <property name="tipo" stdset="0">
+                <string>shilda</string>
+               </property>
+               <layout class="QHBoxLayout" name="horizontalLayout_126">
+                <property name="leftMargin">
+                 <number>9</number>
+                </property>
+                <property name="topMargin">
+                 <number>3</number>
+                </property>
+                <property name="bottomMargin">
+                 <number>3</number>
+                </property>
+                <item>
+                 <layout class="QHBoxLayout" name="horizontalLayout_127" stretch="0,1">
+                  <item>
+                   <widget class="QLabel" name="label_13">
+                    <property name="font">
+                     <font>
+                      <weight>75</weight>
+                      <bold>true</bold>
+                     </font>
+                    </property>
+                    <property name="text">
+                     <string notr="true">Dum la konsulto:</string>
+                    </property>
+                    <property name="alignment">
+                     <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+                    </property>
+                    <property name="wordWrap">
+                     <bool>true</bool>
+                    </property>
+                    <property name="tipo" stdset="0">
+                     <string>neklakebla</string>
+                    </property>
+                   </widget>
+                  </item>
+                  <item>
+                   <layout class="QVBoxLayout" name="verticalLayout_70">
+                    <item>
+                     <widget class="QLabel" name="label_14">
+                      <property name="font">
+                       <font>
+                        <weight>75</weight>
+                        <bold>true</bold>
+                       </font>
+                      </property>
+                      <property name="text">
+                       <string notr="true">La persono estIS konsultANTa.</string>
+                      </property>
+                      <property name="wordWrap">
+                       <bool>true</bool>
+                      </property>
+                      <property name="tipo" stdset="0">
+                       <string>neklakebla</string>
+                      </property>
+                     </widget>
+                    </item>
+                    <item>
+                     <widget class="QLabel" name="label_15">
+                      <property name="font">
+                       <font>
+                        <weight>75</weight>
+                        <bold>true</bold>
+                       </font>
+                      </property>
+                      <property name="text">
+                       <string notr="true">La kuracisto estIS konsultATa.</string>
+                      </property>
+                      <property name="wordWrap">
+                       <bool>true</bool>
+                      </property>
+                      <property name="tipo" stdset="0">
+                       <string>neklakebla</string>
+                      </property>
+                     </widget>
+                    </item>
+                   </layout>
+                  </item>
+                 </layout>
+                </item>
+               </layout>
               </widget>
              </item>
              <item>
-              <widget class="neklakebla" name="pushButton_58">
-               <property name="sizePolicy">
-                <sizepolicy hsizetype="Preferred" vsizetype="Fixed">
-                 <horstretch>0</horstretch>
-                 <verstretch>0</verstretch>
-                </sizepolicy>
+              <widget class="QFrame" name="frame_6">
+               <property name="frameShape">
+                <enum>QFrame::StyledPanel</enum>
                </property>
-               <property name="text">
-                <string>Post la konsulto: la persono estIS konsultINTa  /  la kuracisto estIs konsultITa.</string>
+               <property name="frameShadow">
+                <enum>QFrame::Raised</enum>
                </property>
+               <property name="tipo" stdset="0">
+                <string>shilda</string>
+               </property>
+               <layout class="QHBoxLayout" name="horizontalLayout_128">
+                <property name="leftMargin">
+                 <number>9</number>
+                </property>
+                <property name="topMargin">
+                 <number>3</number>
+                </property>
+                <property name="bottomMargin">
+                 <number>3</number>
+                </property>
+                <item>
+                 <layout class="QHBoxLayout" name="horizontalLayout_129" stretch="0,1">
+                  <item>
+                   <widget class="QLabel" name="label_16">
+                    <property name="font">
+                     <font>
+                      <weight>75</weight>
+                      <bold>true</bold>
+                     </font>
+                    </property>
+                    <property name="text">
+                     <string notr="true">Post la konsulto:</string>
+                    </property>
+                    <property name="alignment">
+                     <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+                    </property>
+                    <property name="wordWrap">
+                     <bool>true</bool>
+                    </property>
+                    <property name="tipo" stdset="0">
+                     <string>neklakebla</string>
+                    </property>
+                   </widget>
+                  </item>
+                  <item>
+                   <layout class="QVBoxLayout" name="verticalLayout_71">
+                    <item>
+                     <widget class="QLabel" name="label_17">
+                      <property name="font">
+                       <font>
+                        <weight>75</weight>
+                        <bold>true</bold>
+                       </font>
+                      </property>
+                      <property name="text">
+                       <string notr="true">La persono estIS konsultINTa.</string>
+                      </property>
+                      <property name="wordWrap">
+                       <bool>true</bool>
+                      </property>
+                      <property name="tipo" stdset="0">
+                       <string>neklakebla</string>
+                      </property>
+                     </widget>
+                    </item>
+                    <item>
+                     <widget class="QLabel" name="label_18">
+                      <property name="font">
+                       <font>
+                        <weight>75</weight>
+                        <bold>true</bold>
+                       </font>
+                      </property>
+                      <property name="text">
+                       <string notr="true">La kuracisto estIS konsultITa.</string>
+                      </property>
+                      <property name="wordWrap">
+                       <bool>true</bool>
+                      </property>
+                      <property name="tipo" stdset="0">
+                       <string>neklakebla</string>
+                      </property>
+                     </widget>
+                    </item>
+                   </layout>
+                  </item>
+                 </layout>
+                </item>
+               </layout>
               </widget>
              </item>
             </layout>
@@ -2698,92 +3066,351 @@
          <property name="orientation">
           <enum>Qt::Vertical</enum>
          </property>
-         <property name="sizeType">
-          <enum>QSizePolicy::Expanding</enum>
-         </property>
          <property name="sizeHint" stdset="0">
           <size>
            <width>20</width>
-           <height>1</height>
+           <height>61</height>
           </size>
          </property>
         </spacer>
        </item>
+      </layout>
+     </widget>
+     <widget class="QWidget" name="tab_4">
+      <attribute name="icon">
+       <iconset resource="ikonoj.qrc">
+        <normaloff>:/ikonoj/leciono.png</normaloff>:/ikonoj/leciono.png</iconset>
+      </attribute>
+      <attribute name="title">
+       <string>8</string>
+      </attribute>
+      <layout class="QVBoxLayout" name="verticalLayout_30">
        <item>
-        <layout class="QVBoxLayout" name="verticalLayout_34">
+        <widget class="QLabel" name="Lec10_Label757">
+         <property name="text">
+          <string>TextLabel</string>
+         </property>
+         <property name="alignment">
+          <set>Qt::AlignBottom|Qt::AlignLeading|Qt::AlignLeft</set>
+         </property>
+         <property name="wordWrap">
+          <bool>true</bool>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <layout class="QHBoxLayout" name="horizontalLayout_112" stretch="0,3">
          <item>
-          <widget class="QLabel" name="Lec10_Label757">
-           <property name="text">
-            <string>TextLabel</string>
+          <spacer name="horizontalSpacer_24">
+           <property name="orientation">
+            <enum>Qt::Horizontal</enum>
            </property>
-           <property name="alignment">
-            <set>Qt::AlignBottom|Qt::AlignLeading|Qt::AlignLeft</set>
+           <property name="sizeType">
+            <enum>QSizePolicy::Fixed</enum>
            </property>
-           <property name="wordWrap">
-            <bool>true</bool>
+           <property name="sizeHint" stdset="0">
+            <size>
+             <width>30</width>
+             <height>20</height>
+            </size>
            </property>
-          </widget>
+          </spacer>
          </item>
          <item>
-          <layout class="QHBoxLayout" name="horizontalLayout_58">
+          <layout class="QVBoxLayout" name="verticalLayout_61">
+           <property name="spacing">
+            <number>3</number>
+           </property>
            <item>
-            <spacer name="horizontalSpacer_11">
-             <property name="orientation">
-              <enum>Qt::Horizontal</enum>
+            <widget class="QFrame" name="frame_7">
+             <property name="frameShape">
+              <enum>QFrame::StyledPanel</enum>
              </property>
-             <property name="sizeType">
-              <enum>QSizePolicy::Fixed</enum>
+             <property name="frameShadow">
+              <enum>QFrame::Raised</enum>
              </property>
-             <property name="sizeHint" stdset="0">
-              <size>
-               <width>30</width>
-               <height>20</height>
-              </size>
+             <property name="tipo" stdset="0">
+              <string>shilda</string>
              </property>
-            </spacer>
+             <layout class="QHBoxLayout" name="horizontalLayout_120" stretch="5">
+              <property name="leftMargin">
+               <number>9</number>
+              </property>
+              <property name="topMargin">
+               <number>3</number>
+              </property>
+              <property name="bottomMargin">
+               <number>3</number>
+              </property>
+              <item>
+               <layout class="QHBoxLayout" name="horizontalLayout_130" stretch="0,1">
+                <property name="spacing">
+                 <number>15</number>
+                </property>
+                <item>
+                 <widget class="QLabel" name="label_19">
+                  <property name="font">
+                   <font>
+                    <weight>75</weight>
+                    <bold>true</bold>
+                   </font>
+                  </property>
+                  <property name="text">
+                   <string notr="true">Antaŭ la konsulto:</string>
+                  </property>
+                  <property name="alignment">
+                   <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+                  </property>
+                  <property name="wordWrap">
+                   <bool>true</bool>
+                  </property>
+                  <property name="tipo" stdset="0">
+                   <string>neklakebla</string>
+                  </property>
+                 </widget>
+                </item>
+                <item>
+                 <layout class="QVBoxLayout" name="verticalLayout_66">
+                  <property name="spacing">
+                   <number>3</number>
+                  </property>
+                  <item>
+                   <widget class="QLabel" name="label_20">
+                    <property name="font">
+                     <font>
+                      <weight>75</weight>
+                      <bold>true</bold>
+                     </font>
+                    </property>
+                    <property name="text">
+                     <string notr="true">La persono estOS konsultONTa.</string>
+                    </property>
+                    <property name="wordWrap">
+                     <bool>true</bool>
+                    </property>
+                    <property name="tipo" stdset="0">
+                     <string>neklakebla</string>
+                    </property>
+                   </widget>
+                  </item>
+                  <item>
+                   <widget class="QLabel" name="label_21">
+                    <property name="font">
+                     <font>
+                      <weight>75</weight>
+                      <bold>true</bold>
+                     </font>
+                    </property>
+                    <property name="text">
+                     <string notr="true">La kuracisto estOS konsultOTa.</string>
+                    </property>
+                    <property name="wordWrap">
+                     <bool>true</bool>
+                    </property>
+                    <property name="tipo" stdset="0">
+                     <string>neklakebla</string>
+                    </property>
+                   </widget>
+                  </item>
+                 </layout>
+                </item>
+               </layout>
+              </item>
+             </layout>
+            </widget>
            </item>
            <item>
-            <layout class="QVBoxLayout" name="verticalLayout_35">
-             <item>
-              <widget class="neklakebla" name="pushButton_59">
-               <property name="sizePolicy">
-                <sizepolicy hsizetype="Preferred" vsizetype="Fixed">
-                 <horstretch>0</horstretch>
-                 <verstretch>0</verstretch>
-                </sizepolicy>
-               </property>
-               <property name="text">
-                <string>Antaŭ la konsulto: la persono estOS konsultONTa  /  la kuracisto estOs konsultOTa.</string>
-               </property>
-              </widget>
-             </item>
-             <item>
-              <widget class="neklakebla" name="pushButton_60">
-               <property name="sizePolicy">
-                <sizepolicy hsizetype="Preferred" vsizetype="Fixed">
-                 <horstretch>0</horstretch>
-                 <verstretch>0</verstretch>
-                </sizepolicy>
-               </property>
-               <property name="text">
-                <string>Dum la konsulto: la persono estOS konsultANTa  /  la kuracisto estOs konsultATa.</string>
-               </property>
-              </widget>
-             </item>
-             <item>
-              <widget class="neklakebla" name="pushButton_61">
-               <property name="sizePolicy">
-                <sizepolicy hsizetype="Preferred" vsizetype="Fixed">
-                 <horstretch>0</horstretch>
-                 <verstretch>0</verstretch>
-                </sizepolicy>
-               </property>
-               <property name="text">
-                <string>Post la konsulto: la persono estOS konsultINTa  /  la kuracisto estOs konsultITa.</string>
-               </property>
-              </widget>
-             </item>
-            </layout>
+            <widget class="QFrame" name="frame_8">
+             <property name="frameShape">
+              <enum>QFrame::StyledPanel</enum>
+             </property>
+             <property name="frameShadow">
+              <enum>QFrame::Raised</enum>
+             </property>
+             <property name="tipo" stdset="0">
+              <string>shilda</string>
+             </property>
+             <layout class="QVBoxLayout" name="verticalLayout_62">
+              <property name="topMargin">
+               <number>3</number>
+              </property>
+              <property name="bottomMargin">
+               <number>3</number>
+              </property>
+              <item>
+               <layout class="QHBoxLayout" name="horizontalLayout_131" stretch="0,1">
+                <property name="spacing">
+                 <number>15</number>
+                </property>
+                <item>
+                 <widget class="QLabel" name="label_22">
+                  <property name="font">
+                   <font>
+                    <weight>75</weight>
+                    <bold>true</bold>
+                   </font>
+                  </property>
+                  <property name="text">
+                   <string notr="true">Dum la konsulto:</string>
+                  </property>
+                  <property name="alignment">
+                   <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+                  </property>
+                  <property name="wordWrap">
+                   <bool>true</bool>
+                  </property>
+                  <property name="tipo" stdset="0">
+                   <string>neklakebla</string>
+                  </property>
+                 </widget>
+                </item>
+                <item>
+                 <layout class="QVBoxLayout" name="verticalLayout_72">
+                  <property name="spacing">
+                   <number>3</number>
+                  </property>
+                  <item>
+                   <widget class="QLabel" name="label_23">
+                    <property name="font">
+                     <font>
+                      <weight>75</weight>
+                      <bold>true</bold>
+                     </font>
+                    </property>
+                    <property name="text">
+                     <string notr="true">La persono estOS konsultANTa.</string>
+                    </property>
+                    <property name="wordWrap">
+                     <bool>true</bool>
+                    </property>
+                    <property name="tipo" stdset="0">
+                     <string>neklakebla</string>
+                    </property>
+                   </widget>
+                  </item>
+                  <item>
+                   <widget class="QLabel" name="label_24">
+                    <property name="font">
+                     <font>
+                      <weight>75</weight>
+                      <bold>true</bold>
+                     </font>
+                    </property>
+                    <property name="text">
+                     <string notr="true">La kuracisto estAS konsultATa.</string>
+                    </property>
+                    <property name="wordWrap">
+                     <bool>true</bool>
+                    </property>
+                    <property name="tipo" stdset="0">
+                     <string>neklakebla</string>
+                    </property>
+                   </widget>
+                  </item>
+                 </layout>
+                </item>
+               </layout>
+              </item>
+             </layout>
+            </widget>
+           </item>
+           <item>
+            <widget class="QFrame" name="frame_9">
+             <property name="frameShape">
+              <enum>QFrame::StyledPanel</enum>
+             </property>
+             <property name="frameShadow">
+              <enum>QFrame::Raised</enum>
+             </property>
+             <property name="tipo" stdset="0">
+              <string>shilda</string>
+             </property>
+             <layout class="QHBoxLayout" name="horizontalLayout_132">
+              <property name="leftMargin">
+               <number>9</number>
+              </property>
+              <property name="topMargin">
+               <number>3</number>
+              </property>
+              <property name="bottomMargin">
+               <number>3</number>
+              </property>
+              <item>
+               <layout class="QHBoxLayout" name="horizontalLayout_133" stretch="0,1">
+                <property name="spacing">
+                 <number>15</number>
+                </property>
+                <item>
+                 <widget class="QLabel" name="label_25">
+                  <property name="font">
+                   <font>
+                    <weight>75</weight>
+                    <bold>true</bold>
+                   </font>
+                  </property>
+                  <property name="text">
+                   <string notr="true">Post la konsulto:</string>
+                  </property>
+                  <property name="alignment">
+                   <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+                  </property>
+                  <property name="wordWrap">
+                   <bool>true</bool>
+                  </property>
+                  <property name="tipo" stdset="0">
+                   <string>neklakebla</string>
+                  </property>
+                 </widget>
+                </item>
+                <item>
+                 <layout class="QVBoxLayout" name="verticalLayout_73">
+                  <property name="spacing">
+                   <number>3</number>
+                  </property>
+                  <item>
+                   <widget class="QLabel" name="label_26">
+                    <property name="font">
+                     <font>
+                      <weight>75</weight>
+                      <bold>true</bold>
+                     </font>
+                    </property>
+                    <property name="text">
+                     <string notr="true">La persono estOS konsultINTa.</string>
+                    </property>
+                    <property name="wordWrap">
+                     <bool>true</bool>
+                    </property>
+                    <property name="tipo" stdset="0">
+                     <string>neklakebla</string>
+                    </property>
+                   </widget>
+                  </item>
+                  <item>
+                   <widget class="QLabel" name="label_27">
+                    <property name="font">
+                     <font>
+                      <weight>75</weight>
+                      <bold>true</bold>
+                     </font>
+                    </property>
+                    <property name="text">
+                     <string notr="true">La kuracisto estOS konsultITa.</string>
+                    </property>
+                    <property name="wordWrap">
+                     <bool>true</bool>
+                    </property>
+                    <property name="tipo" stdset="0">
+                     <string>neklakebla</string>
+                    </property>
+                   </widget>
+                  </item>
+                 </layout>
+                </item>
+               </layout>
+              </item>
+             </layout>
+            </widget>
            </item>
           </layout>
          </item>
@@ -2797,7 +3424,7 @@
          <property name="sizeHint" stdset="0">
           <size>
            <width>20</width>
-           <height>1</height>
+           <height>40</height>
           </size>
          </property>
         </spacer>
@@ -2810,9 +3437,9 @@
         <normaloff>:/ikonoj/sendas_24.png</normaloff>:/ikonoj/sendas_24.png</iconset>
       </attribute>
       <attribute name="title">
-       <string>8</string>
+       <string>9</string>
       </attribute>
-      <layout class="QVBoxLayout" name="verticalLayout_45" stretch="0,0,0,1">
+      <layout class="QVBoxLayout" name="verticalLayout">
        <item>
         <widget class="titolo" name="Lec10_Label8">
          <property name="text">
@@ -2823,7 +3450,7 @@
        <item>
         <widget class="QLabel" name="Memo4_Lec10">
          <property name="sizePolicy">
-          <sizepolicy hsizetype="Preferred" vsizetype="Maximum">
+          <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
            <horstretch>0</horstretch>
            <verstretch>0</verstretch>
           </sizepolicy>
@@ -2838,9 +3465,35 @@
           <string>Juĝisto:   Ĉu vi do asertas, ke vi iris en la domon opiniante, ke ĝi estas via domo?
 Akuzato: Jes, Sinjoro Juĝisto.
 Juĝisto:   Sed kial vi forkuris, kiam la sinjorino envenis?
-Akuzato: Mi pensis, ke ŝi estas mia edzino!
-——————————————————————————————————————————————————
-Patrino en tramo: Joĉjo, kial vi sidas kun fermitaj okuloj? Ĉu vi estas laca?
+Akuzato: Mi pensis, ke ŝi estas mia edzino!</string>
+         </property>
+         <property name="wordWrap">
+          <bool>true</bool>
+         </property>
+         <property name="buddy">
+          <cstring>plainTextEdit</cstring>
+         </property>
+         <property name="tipo" stdset="0">
+          <string>teksta</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QLabel" name="Memo4_Lec10_2">
+         <property name="sizePolicy">
+          <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
+           <horstretch>0</horstretch>
+           <verstretch>0</verstretch>
+          </sizepolicy>
+         </property>
+         <property name="frameShape">
+          <enum>QFrame::Panel</enum>
+         </property>
+         <property name="frameShadow">
+          <enum>QFrame::Sunken</enum>
+         </property>
+         <property name="text">
+          <string>Patrino en tramo: Joĉjo, kial vi sidas kun fermitaj okuloj? Ĉu vi estas laca?
 Joĉjo:  Ne! Ne plaĉas al mi vidi starantajn maljunulinojn...</string>
          </property>
          <property name="wordWrap">
@@ -2889,10 +3542,10 @@ Joĉjo:  Ne! Ne plaĉas al mi vidi starantajn maljunulinojn...</string>
            <item>
             <layout class="QVBoxLayout" name="verticalLayout_36">
              <property name="spacing">
-              <number>6</number>
+              <number>0</number>
              </property>
              <item>
-              <layout class="QHBoxLayout" name="horizontalLayout_59">
+              <layout class="QHBoxLayout" name="horizontalLayout_59" stretch="3,1">
                <item>
                 <widget class="neklakebla" name="pushButton_62">
                  <property name="sizePolicy">
@@ -2922,7 +3575,7 @@ Joĉjo:  Ne! Ne plaĉas al mi vidi starantajn maljunulinojn...</string>
               </layout>
              </item>
              <item>
-              <layout class="QHBoxLayout" name="horizontalLayout_60">
+              <layout class="QHBoxLayout" name="horizontalLayout_60" stretch="3,1">
                <item>
                 <widget class="neklakebla" name="pushButton_63">
                  <property name="sizePolicy">
@@ -2952,7 +3605,7 @@ Joĉjo:  Ne! Ne plaĉas al mi vidi starantajn maljunulinojn...</string>
               </layout>
              </item>
              <item>
-              <layout class="QHBoxLayout" name="horizontalLayout_61">
+              <layout class="QHBoxLayout" name="horizontalLayout_61" stretch="3,1">
                <item>
                 <widget class="neklakebla" name="pushButton_64">
                  <property name="sizePolicy">
@@ -2982,7 +3635,7 @@ Joĉjo:  Ne! Ne plaĉas al mi vidi starantajn maljunulinojn...</string>
               </layout>
              </item>
              <item>
-              <layout class="QHBoxLayout" name="horizontalLayout_62">
+              <layout class="QHBoxLayout" name="horizontalLayout_62" stretch="3,1">
                <item>
                 <widget class="neklakebla" name="pushButton_65">
                  <property name="sizePolicy">
@@ -3017,8 +3670,11 @@ Joĉjo:  Ne! Ne plaĉas al mi vidi starantajn maljunulinojn...</string>
          </item>
          <item>
           <layout class="QVBoxLayout" name="verticalLayout_37">
+           <property name="spacing">
+            <number>0</number>
+           </property>
            <item>
-            <layout class="QHBoxLayout" name="horizontalLayout_63">
+            <layout class="QHBoxLayout" name="horizontalLayout_63" stretch="3,1">
              <item>
               <widget class="neklakebla" name="pushButton_66">
                <property name="sizePolicy">
@@ -3048,7 +3704,7 @@ Joĉjo:  Ne! Ne plaĉas al mi vidi starantajn maljunulinojn...</string>
             </layout>
            </item>
            <item>
-            <layout class="QHBoxLayout" name="horizontalLayout_64">
+            <layout class="QHBoxLayout" name="horizontalLayout_64" stretch="3,1">
              <item>
               <widget class="neklakebla" name="pushButton_67">
                <property name="sizePolicy">
@@ -3078,7 +3734,7 @@ Joĉjo:  Ne! Ne plaĉas al mi vidi starantajn maljunulinojn...</string>
             </layout>
            </item>
            <item>
-            <layout class="QHBoxLayout" name="horizontalLayout_65">
+            <layout class="QHBoxLayout" name="horizontalLayout_65" stretch="3,1">
              <item>
               <widget class="neklakebla" name="pushButton_68">
                <property name="sizePolicy">
@@ -3108,7 +3764,7 @@ Joĉjo:  Ne! Ne plaĉas al mi vidi starantajn maljunulinojn...</string>
             </layout>
            </item>
            <item>
-            <layout class="QHBoxLayout" name="horizontalLayout_66">
+            <layout class="QHBoxLayout" name="horizontalLayout_66" stretch="3,1">
              <item>
               <widget class="neklakebla" name="pushButton_69">
                <property name="sizePolicy">
@@ -3138,7 +3794,7 @@ Joĉjo:  Ne! Ne plaĉas al mi vidi starantajn maljunulinojn...</string>
             </layout>
            </item>
            <item>
-            <layout class="QHBoxLayout" name="horizontalLayout_67">
+            <layout class="QHBoxLayout" name="horizontalLayout_67" stretch="3,1">
              <item>
               <widget class="neklakebla" name="pushButton_70">
                <property name="sizePolicy">
@@ -3168,7 +3824,7 @@ Joĉjo:  Ne! Ne plaĉas al mi vidi starantajn maljunulinojn...</string>
             </layout>
            </item>
            <item>
-            <layout class="QHBoxLayout" name="horizontalLayout_68">
+            <layout class="QHBoxLayout" name="horizontalLayout_68" stretch="3,1">
              <item>
               <widget class="neklakebla" name="pushButton_71">
                <property name="sizePolicy">
@@ -3219,7 +3875,7 @@ Joĉjo:  Ne! Ne plaĉas al mi vidi starantajn maljunulinojn...</string>
         <normaloff>:/ikonoj/leciono.png</normaloff>:/ikonoj/leciono.png</iconset>
       </attribute>
       <attribute name="title">
-       <string>9</string>
+       <string>10</string>
       </attribute>
       <layout class="QVBoxLayout" name="verticalLayout_40" stretch="0,0,1,0,3">
        <item>
@@ -3270,7 +3926,7 @@ Joĉjo:  Ne! Ne plaĉas al mi vidi starantajn maljunulinojn...</string>
                 <number>2</number>
                </property>
                <item>
-                <layout class="QHBoxLayout" name="horizontalLayout_70">
+                <layout class="QHBoxLayout" name="horizontalLayout_70" stretch="3,1">
                  <item>
                   <widget class="neklakebla" name="pushButton_72">
                    <property name="sizePolicy">
@@ -3297,7 +3953,7 @@ Joĉjo:  Ne! Ne plaĉas al mi vidi starantajn maljunulinojn...</string>
                 </layout>
                </item>
                <item>
-                <layout class="QHBoxLayout" name="horizontalLayout_71">
+                <layout class="QHBoxLayout" name="horizontalLayout_71" stretch="3,1">
                  <item>
                   <widget class="neklakebla" name="pushButton_73">
                    <property name="sizePolicy">
@@ -3331,7 +3987,7 @@ Joĉjo:  Ne! Ne plaĉas al mi vidi starantajn maljunulinojn...</string>
                 <number>2</number>
                </property>
                <item>
-                <layout class="QHBoxLayout" name="horizontalLayout_72">
+                <layout class="QHBoxLayout" name="horizontalLayout_72" stretch="3,1">
                  <item>
                   <widget class="neklakebla" name="pushButton_74">
                    <property name="sizePolicy">
@@ -3358,7 +4014,7 @@ Joĉjo:  Ne! Ne plaĉas al mi vidi starantajn maljunulinojn...</string>
                 </layout>
                </item>
                <item>
-                <layout class="QHBoxLayout" name="horizontalLayout_73">
+                <layout class="QHBoxLayout" name="horizontalLayout_73" stretch="3,1">
                  <item>
                   <widget class="neklakebla" name="pushButton_75">
                    <property name="sizePolicy">
@@ -3447,7 +4103,7 @@ Joĉjo:  Ne! Ne plaĉas al mi vidi starantajn maljunulinojn...</string>
               <number>2</number>
              </property>
              <item>
-              <layout class="QHBoxLayout" name="horizontalLayout_77">
+              <layout class="QHBoxLayout" name="horizontalLayout_77" stretch="3,1">
                <item>
                 <widget class="neklakebla" name="pushButton_78">
                  <property name="sizePolicy">
@@ -3474,7 +4130,7 @@ Joĉjo:  Ne! Ne plaĉas al mi vidi starantajn maljunulinojn...</string>
               </layout>
              </item>
              <item>
-              <layout class="QHBoxLayout" name="horizontalLayout_78">
+              <layout class="QHBoxLayout" name="horizontalLayout_78" stretch="3,1">
                <item>
                 <widget class="neklakebla" name="pushButton_79">
                  <property name="sizePolicy">
@@ -3527,7 +4183,7 @@ Joĉjo:  Ne! Ne plaĉas al mi vidi starantajn maljunulinojn...</string>
         <normaloff>:/ikonoj/plenigas_spacon2.png</normaloff>:/ikonoj/plenigas_spacon2.png</iconset>
       </attribute>
       <attribute name="title">
-       <string>10</string>
+       <string>11</string>
       </attribute>
       <layout class="QVBoxLayout" name="verticalLayout_58">
        <item>
@@ -3548,7 +4204,7 @@ Joĉjo:  Ne! Ne plaĉas al mi vidi starantajn maljunulinojn...</string>
         <normaloff>:/ikonoj/akuzativo.png</normaloff>:/ikonoj/akuzativo.png</iconset>
       </attribute>
       <attribute name="title">
-       <string>11</string>
+       <string>12</string>
       </attribute>
       <layout class="QVBoxLayout" name="verticalLayout_59">
        <item>
@@ -3569,9 +4225,9 @@ Joĉjo:  Ne! Ne plaĉas al mi vidi starantajn maljunulinojn...</string>
         <normaloff>:/ikonoj/sendas_24.png</normaloff>:/ikonoj/sendas_24.png</iconset>
       </attribute>
       <attribute name="title">
-       <string>12</string>
+       <string>13</string>
       </attribute>
-      <layout class="QVBoxLayout" name="verticalLayout_49" stretch="0,0,0,1">
+      <layout class="QVBoxLayout" name="verticalLayout_45">
        <item>
         <widget class="titolo" name="Lec10_Label10">
          <property name="text">
@@ -3582,7 +4238,7 @@ Joĉjo:  Ne! Ne plaĉas al mi vidi starantajn maljunulinojn...</string>
        <item>
         <widget class="QLabel" name="Memo6_Lec10">
          <property name="sizePolicy">
-          <sizepolicy hsizetype="Preferred" vsizetype="Maximum">
+          <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
            <horstretch>0</horstretch>
            <verstretch>0</verstretch>
           </sizepolicy>
@@ -3595,9 +4251,35 @@ Joĉjo:  Ne! Ne plaĉas al mi vidi starantajn maljunulinojn...</string>
          </property>
          <property name="text">
           <string>— Incitas min, ke mia edzino daŭre parolas pri sia antaŭa edzo.
-— Tio estas nenio! La mia paroladas pri sia estonta edzo!
-——————————————————————————————————————————————————
-En kafejo:  
+— Tio estas nenio! La mia paroladas pri sia estonta edzo!</string>
+         </property>
+         <property name="wordWrap">
+          <bool>true</bool>
+         </property>
+         <property name="buddy">
+          <cstring>plainTextEdit_2</cstring>
+         </property>
+         <property name="tipo" stdset="0">
+          <string>teksta</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QLabel" name="Memo6_Lec10_2">
+         <property name="sizePolicy">
+          <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
+           <horstretch>0</horstretch>
+           <verstretch>0</verstretch>
+          </sizepolicy>
+         </property>
+         <property name="frameShape">
+          <enum>QFrame::Panel</enum>
+         </property>
+         <property name="frameShadow">
+          <enum>QFrame::Sunken</enum>
+         </property>
+         <property name="text">
+          <string>En kafejo:  
 — Kial vi rigardadas al la pordo?
 — Mi observadas, ĉu ne foriras iu kun mia surtuto. Kun la via jam antaŭ dek minutoj foriris iu...</string>
          </property>
@@ -3650,7 +4332,7 @@ En kafejo:
               <number>6</number>
              </property>
              <item>
-              <layout class="QHBoxLayout" name="horizontalLayout_81">
+              <layout class="QHBoxLayout" name="horizontalLayout_81" stretch="3,1">
                <item>
                 <widget class="neklakebla" name="pushButton_80">
                  <property name="sizePolicy">
@@ -3680,7 +4362,7 @@ En kafejo:
               </layout>
              </item>
              <item>
-              <layout class="QHBoxLayout" name="horizontalLayout_82">
+              <layout class="QHBoxLayout" name="horizontalLayout_82" stretch="3,1">
                <item>
                 <widget class="neklakebla" name="pushButton_81">
                  <property name="sizePolicy">
@@ -3710,7 +4392,7 @@ En kafejo:
               </layout>
              </item>
              <item>
-              <layout class="QHBoxLayout" name="horizontalLayout_83">
+              <layout class="QHBoxLayout" name="horizontalLayout_83" stretch="3,1">
                <item>
                 <widget class="neklakebla" name="pushButton_82">
                  <property name="sizePolicy">
@@ -3740,7 +4422,7 @@ En kafejo:
               </layout>
              </item>
              <item>
-              <layout class="QHBoxLayout" name="horizontalLayout_84">
+              <layout class="QHBoxLayout" name="horizontalLayout_84" stretch="3,1">
                <item>
                 <widget class="neklakebla" name="pushButton_83">
                  <property name="sizePolicy">
@@ -3779,7 +4461,7 @@ En kafejo:
             <number>6</number>
            </property>
            <item>
-            <layout class="QHBoxLayout" name="horizontalLayout_86">
+            <layout class="QHBoxLayout" name="horizontalLayout_86" stretch="3,1">
              <item>
               <widget class="neklakebla" name="pushButton_85">
                <property name="sizePolicy">
@@ -3809,7 +4491,7 @@ En kafejo:
             </layout>
            </item>
            <item>
-            <layout class="QHBoxLayout" name="horizontalLayout_87">
+            <layout class="QHBoxLayout" name="horizontalLayout_87" stretch="3,1">
              <item>
               <widget class="neklakebla" name="pushButton_86">
                <property name="sizePolicy">
@@ -3839,7 +4521,7 @@ En kafejo:
             </layout>
            </item>
            <item>
-            <layout class="QHBoxLayout" name="horizontalLayout_88">
+            <layout class="QHBoxLayout" name="horizontalLayout_88" stretch="3,1">
              <item>
               <widget class="neklakebla" name="pushButton_87">
                <property name="sizePolicy">
@@ -3869,7 +4551,7 @@ En kafejo:
             </layout>
            </item>
            <item>
-            <layout class="QHBoxLayout" name="horizontalLayout_89">
+            <layout class="QHBoxLayout" name="horizontalLayout_89" stretch="3,1">
              <item>
               <widget class="neklakebla" name="pushButton_88">
                <property name="sizePolicy">
@@ -3899,7 +4581,7 @@ En kafejo:
             </layout>
            </item>
            <item>
-            <layout class="QHBoxLayout" name="horizontalLayout_90">
+            <layout class="QHBoxLayout" name="horizontalLayout_90" stretch="3,1">
              <item>
               <widget class="neklakebla" name="pushButton_89">
                <property name="sizePolicy">
@@ -3950,13 +4632,13 @@ En kafejo:
         <normaloff>:/ikonoj/sendas_24.png</normaloff>:/ikonoj/sendas_24.png</iconset>
       </attribute>
       <attribute name="title">
-       <string>13</string>
+       <string>14</string>
       </attribute>
       <layout class="QVBoxLayout" name="verticalLayout_53" stretch="0,0,1">
        <item>
         <widget class="QLabel" name="Memo8_Lec10">
          <property name="sizePolicy">
-          <sizepolicy hsizetype="Preferred" vsizetype="Maximum">
+          <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
            <horstretch>0</horstretch>
            <verstretch>0</verstretch>
           </sizepolicy>
@@ -4021,7 +4703,7 @@ En kafejo:
               <number>6</number>
              </property>
              <item>
-              <layout class="QHBoxLayout" name="horizontalLayout_91">
+              <layout class="QHBoxLayout" name="horizontalLayout_91" stretch="3,1">
                <item>
                 <widget class="neklakebla" name="pushButton_84">
                  <property name="sizePolicy">
@@ -4051,7 +4733,7 @@ En kafejo:
               </layout>
              </item>
              <item>
-              <layout class="QHBoxLayout" name="horizontalLayout_92">
+              <layout class="QHBoxLayout" name="horizontalLayout_92" stretch="3,1">
                <item>
                 <widget class="neklakebla" name="pushButton_90">
                  <property name="sizePolicy">
@@ -4081,7 +4763,7 @@ En kafejo:
               </layout>
              </item>
              <item>
-              <layout class="QHBoxLayout" name="horizontalLayout_93">
+              <layout class="QHBoxLayout" name="horizontalLayout_93" stretch="3,1">
                <item>
                 <widget class="neklakebla" name="pushButton_91">
                  <property name="sizePolicy">
@@ -4111,7 +4793,7 @@ En kafejo:
               </layout>
              </item>
              <item>
-              <layout class="QHBoxLayout" name="horizontalLayout_94">
+              <layout class="QHBoxLayout" name="horizontalLayout_94" stretch="3,1">
                <item>
                 <widget class="neklakebla" name="pushButton_92">
                  <property name="sizePolicy">
@@ -4141,7 +4823,7 @@ En kafejo:
               </layout>
              </item>
              <item>
-              <layout class="QHBoxLayout" name="horizontalLayout_100">
+              <layout class="QHBoxLayout" name="horizontalLayout_100" stretch="3,1">
                <item>
                 <widget class="neklakebla" name="pushButton_98">
                  <property name="sizePolicy">
@@ -4171,7 +4853,7 @@ En kafejo:
               </layout>
              </item>
              <item>
-              <layout class="QHBoxLayout" name="horizontalLayout_101">
+              <layout class="QHBoxLayout" name="horizontalLayout_101" stretch="3,1">
                <item>
                 <widget class="neklakebla" name="pushButton_99">
                  <property name="sizePolicy">
@@ -4210,7 +4892,7 @@ En kafejo:
             <number>6</number>
            </property>
            <item>
-            <layout class="QHBoxLayout" name="horizontalLayout_95">
+            <layout class="QHBoxLayout" name="horizontalLayout_95" stretch="3,1">
              <item>
               <widget class="neklakebla" name="pushButton_93">
                <property name="sizePolicy">
@@ -4240,7 +4922,7 @@ En kafejo:
             </layout>
            </item>
            <item>
-            <layout class="QHBoxLayout" name="horizontalLayout_96">
+            <layout class="QHBoxLayout" name="horizontalLayout_96" stretch="3,1">
              <item>
               <widget class="neklakebla" name="pushButton_94">
                <property name="sizePolicy">
@@ -4270,7 +4952,7 @@ En kafejo:
             </layout>
            </item>
            <item>
-            <layout class="QHBoxLayout" name="horizontalLayout_97">
+            <layout class="QHBoxLayout" name="horizontalLayout_97" stretch="3,1">
              <item>
               <widget class="neklakebla" name="pushButton_95">
                <property name="sizePolicy">
@@ -4300,7 +4982,7 @@ En kafejo:
             </layout>
            </item>
            <item>
-            <layout class="QHBoxLayout" name="horizontalLayout_98">
+            <layout class="QHBoxLayout" name="horizontalLayout_98" stretch="3,1">
              <item>
               <widget class="neklakebla" name="pushButton_96">
                <property name="sizePolicy">
@@ -4330,7 +5012,7 @@ En kafejo:
             </layout>
            </item>
            <item>
-            <layout class="QHBoxLayout" name="horizontalLayout_99">
+            <layout class="QHBoxLayout" name="horizontalLayout_99" stretch="3,1">
              <item>
               <widget class="neklakebla" name="pushButton_97">
                <property name="sizePolicy">
@@ -4360,7 +5042,7 @@ En kafejo:
             </layout>
            </item>
            <item>
-            <layout class="QHBoxLayout" name="horizontalLayout_102">
+            <layout class="QHBoxLayout" name="horizontalLayout_102" stretch="3,1">
              <item>
               <widget class="neklakebla" name="pushButton_100">
                <property name="sizePolicy">
@@ -4390,7 +5072,7 @@ En kafejo:
             </layout>
            </item>
            <item>
-            <layout class="QHBoxLayout" name="horizontalLayout_103">
+            <layout class="QHBoxLayout" name="horizontalLayout_103" stretch="3,1">
              <item>
               <widget class="neklakebla" name="pushButton_101">
                <property name="sizePolicy">
@@ -4455,14 +5137,13 @@ En kafejo:
    </slots>
   </customwidget>
   <customwidget>
-   <class>neklakebla</class>
-   <extends>QPushButton</extends>
-   <header>neklakebla.h</header>
-  </customwidget>
-  <customwidget>
-   <class>label_sago_reversa</class>
-   <extends>QLabel</extends>
-   <header>label_sago_reversa.h</header>
+   <class>mp3ludilo</class>
+   <extends>QFrame</extends>
+   <header>mp3ludilo.h</header>
+   <container>1</container>
+   <slots>
+    <slot>PaghoShanghita(int)</slot>
+   </slots>
   </customwidget>
   <customwidget>
    <class>akuzativo</class>
@@ -4477,10 +5158,9 @@ En kafejo:
    <container>1</container>
   </customwidget>
   <customwidget>
-   <class>mp3ludilo</class>
-   <extends>QFrame</extends>
-   <header>mp3ludilo.h</header>
-   <container>1</container>
+   <class>neklakebla</class>
+   <extends>QPushButton</extends>
+   <header>neklakebla.h</header>
   </customwidget>
   <customwidget>
    <class>cx_plainedit</class>
@@ -4505,6 +5185,54 @@ En kafejo:
     <hint type="destinationlabel">
      <x>45</x>
      <y>43</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>Lec10</sender>
+   <signal>currentChanged(int)</signal>
+   <receiver>Lec10_memo4</receiver>
+   <slot>PaghoShanghita(int)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>298</x>
+     <y>241</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>200</x>
+     <y>238</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>Lec10</sender>
+   <signal>currentChanged(int)</signal>
+   <receiver>Lec10_memo6</receiver>
+   <slot>PaghoShanghita(int)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>265</x>
+     <y>229</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>189</x>
+     <y>228</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>Lec10</sender>
+   <signal>currentChanged(int)</signal>
+   <receiver>Lec10_memo8</receiver>
+   <slot>PaghoShanghita(int)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>323</x>
+     <y>152</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>192</x>
+     <y>152</y>
     </hint>
    </hints>
   </connection>

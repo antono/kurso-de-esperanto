@@ -6,7 +6,7 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>900</width>
+    <width>848</width>
     <height>492</height>
    </rect>
   </property>
@@ -42,7 +42,7 @@
      </property>
      <property name="maximumSize">
       <size>
-       <width>200</width>
+       <width>16777215</width>
        <height>16777215</height>
       </size>
      </property>
@@ -63,7 +63,7 @@
       </sizepolicy>
      </property>
      <property name="currentIndex">
-      <number>3</number>
+      <number>9</number>
      </property>
      <property name="iconSize">
       <size>
@@ -1176,7 +1176,7 @@
          <item>
           <layout class="QVBoxLayout" name="verticalLayout_219">
            <item>
-            <layout class="QHBoxLayout" name="horizontalLayout_396">
+            <layout class="QHBoxLayout" name="horizontalLayout_396" stretch="3,1">
              <item>
               <widget class="klakbutono" name="Lec07_Button511">
                <property name="sizePolicy">
@@ -1209,7 +1209,7 @@
             </layout>
            </item>
            <item>
-            <layout class="QHBoxLayout" name="horizontalLayout_397">
+            <layout class="QHBoxLayout" name="horizontalLayout_397" stretch="3,1">
              <item>
               <widget class="klakbutono" name="Lec07_Button512">
                <property name="sizePolicy">
@@ -1242,7 +1242,7 @@
             </layout>
            </item>
            <item>
-            <layout class="QHBoxLayout" name="horizontalLayout_398">
+            <layout class="QHBoxLayout" name="horizontalLayout_398" stretch="3,1">
              <item>
               <widget class="klakbutono" name="Lec07_Button513">
                <property name="sizePolicy">
@@ -1275,7 +1275,7 @@
             </layout>
            </item>
            <item>
-            <layout class="QHBoxLayout" name="horizontalLayout_399">
+            <layout class="QHBoxLayout" name="horizontalLayout_399" stretch="3,1">
              <item>
               <widget class="klakbutono" name="Lec07_Button514">
                <property name="sizePolicy">
@@ -1308,7 +1308,7 @@
             </layout>
            </item>
            <item>
-            <layout class="QHBoxLayout" name="horizontalLayout_403">
+            <layout class="QHBoxLayout" name="horizontalLayout_403" stretch="3,1">
              <item>
               <widget class="klakbutono" name="Lec07_Button515">
                <property name="sizePolicy">
@@ -1341,7 +1341,7 @@
             </layout>
            </item>
            <item>
-            <layout class="QHBoxLayout" name="horizontalLayout_404">
+            <layout class="QHBoxLayout" name="horizontalLayout_404" stretch="3,1">
              <item>
               <widget class="klakbutono" name="Lec07_Button516">
                <property name="sizePolicy">
@@ -1374,7 +1374,7 @@
             </layout>
            </item>
            <item>
-            <layout class="QHBoxLayout" name="horizontalLayout_405">
+            <layout class="QHBoxLayout" name="horizontalLayout_405" stretch="3,1">
              <item>
               <widget class="klakbutono" name="Lec07_Button517">
                <property name="sizePolicy">
@@ -1411,7 +1411,7 @@
          <item>
           <layout class="QVBoxLayout" name="verticalLayout_220">
            <item>
-            <layout class="QHBoxLayout" name="horizontalLayout_400">
+            <layout class="QHBoxLayout" name="horizontalLayout_400" stretch="3,1">
              <item>
               <widget class="klakbutono" name="Lec07_Button519">
                <property name="sizePolicy">
@@ -1477,7 +1477,7 @@
             </layout>
            </item>
            <item>
-            <layout class="QHBoxLayout" name="horizontalLayout_402">
+            <layout class="QHBoxLayout" name="horizontalLayout_402" stretch="3,1">
              <item>
               <widget class="klakbutono" name="Lec07_Button520">
                <property name="sizePolicy">
@@ -1510,7 +1510,7 @@
             </layout>
            </item>
            <item>
-            <layout class="QHBoxLayout" name="horizontalLayout_406">
+            <layout class="QHBoxLayout" name="horizontalLayout_406" stretch="3,1">
              <item>
               <widget class="klakbutono" name="Lec07_Button521">
                <property name="sizePolicy">
@@ -1543,7 +1543,7 @@
             </layout>
            </item>
            <item>
-            <layout class="QHBoxLayout" name="horizontalLayout_407">
+            <layout class="QHBoxLayout" name="horizontalLayout_407" stretch="3,1">
              <item>
               <widget class="klakbutono" name="Lec07_Button522">
                <property name="sizePolicy">
@@ -1576,7 +1576,7 @@
             </layout>
            </item>
            <item>
-            <layout class="QHBoxLayout" name="horizontalLayout_408">
+            <layout class="QHBoxLayout" name="horizontalLayout_408" stretch="3,1">
              <item>
               <widget class="klakbutono" name="Lec07_Button523">
                <property name="sizePolicy">
@@ -1609,7 +1609,7 @@
             </layout>
            </item>
            <item>
-            <layout class="QHBoxLayout" name="horizontalLayout_409">
+            <layout class="QHBoxLayout" name="horizontalLayout_409" stretch="3,1">
              <item>
               <widget class="klakbutono" name="Lec07_Button524">
                <property name="sizePolicy">
@@ -1929,7 +1929,7 @@
               <number>3</number>
              </property>
              <item>
-              <layout class="QHBoxLayout" name="horizontalLayout_432">
+              <layout class="QHBoxLayout" name="horizontalLayout_432" stretch="3,1">
                <item>
                 <widget class="klakbutono" name="Lec07_Button525">
                  <property name="sizePolicy">
@@ -2008,7 +2008,7 @@
               <number>3</number>
              </property>
              <item>
-              <layout class="QHBoxLayout" name="horizontalLayout_434">
+              <layout class="QHBoxLayout" name="horizontalLayout_434" stretch="3,1">
                <item>
                 <widget class="klakbutono" name="Lec07_Button526">
                  <property name="sizePolicy">
@@ -2087,7 +2087,7 @@
               <number>3</number>
              </property>
              <item>
-              <layout class="QHBoxLayout" name="horizontalLayout_436">
+              <layout class="QHBoxLayout" name="horizontalLayout_436" stretch="3,1">
                <item>
                 <widget class="klakbutono" name="Lec07_Button527">
                  <property name="sizePolicy">
@@ -2166,7 +2166,7 @@
               <number>3</number>
              </property>
              <item>
-              <layout class="QHBoxLayout" name="horizontalLayout_438">
+              <layout class="QHBoxLayout" name="horizontalLayout_438" stretch="3,1">
                <item>
                 <widget class="klakbutono" name="Lec07_Button529">
                  <property name="sizePolicy">
@@ -2245,7 +2245,7 @@
               <number>3</number>
              </property>
              <item>
-              <layout class="QHBoxLayout" name="horizontalLayout_440">
+              <layout class="QHBoxLayout" name="horizontalLayout_440" stretch="3,1">
                <item>
                 <widget class="klakbutono" name="Lec07_Button530">
                  <property name="sizePolicy">
@@ -2331,7 +2331,7 @@
               <number>3</number>
              </property>
              <item>
-              <layout class="QHBoxLayout" name="horizontalLayout_442">
+              <layout class="QHBoxLayout" name="horizontalLayout_442" stretch="3,1">
                <item>
                 <widget class="klakbutono" name="Lec07_Button535">
                  <property name="sizePolicy">
@@ -2410,7 +2410,7 @@
               <number>3</number>
              </property>
              <item>
-              <layout class="QHBoxLayout" name="horizontalLayout_444">
+              <layout class="QHBoxLayout" name="horizontalLayout_444" stretch="3,1">
                <item>
                 <widget class="klakbutono" name="Lec07_Button536">
                  <property name="sizePolicy">
@@ -2489,7 +2489,7 @@
               <number>3</number>
              </property>
              <item>
-              <layout class="QHBoxLayout" name="horizontalLayout_446">
+              <layout class="QHBoxLayout" name="horizontalLayout_446" stretch="3,1">
                <item>
                 <widget class="klakbutono" name="Lec07_Button537">
                  <property name="sizePolicy">
@@ -2568,7 +2568,7 @@
               <number>3</number>
              </property>
              <item>
-              <layout class="QHBoxLayout" name="horizontalLayout_448">
+              <layout class="QHBoxLayout" name="horizontalLayout_448" stretch="3,1">
                <item>
                 <widget class="klakbutono" name="Lec07_Button538">
                  <property name="sizePolicy">
@@ -2647,7 +2647,7 @@
               <number>3</number>
              </property>
              <item>
-              <layout class="QHBoxLayout" name="horizontalLayout_450">
+              <layout class="QHBoxLayout" name="horizontalLayout_450" stretch="3,1">
                <item>
                 <widget class="klakbutono" name="Lec07_Button574">
                  <property name="sizePolicy">
@@ -2761,7 +2761,7 @@
               <number>3</number>
              </property>
              <item>
-              <layout class="QHBoxLayout" name="horizontalLayout_454">
+              <layout class="QHBoxLayout" name="horizontalLayout_454" stretch="3,1">
                <item>
                 <widget class="klakbutono" name="Lec07_Button531">
                  <property name="sizePolicy">
@@ -2840,7 +2840,7 @@
               <number>3</number>
              </property>
              <item>
-              <layout class="QHBoxLayout" name="horizontalLayout_456">
+              <layout class="QHBoxLayout" name="horizontalLayout_456" stretch="3,1">
                <item>
                 <widget class="klakbutono" name="Lec07_Button532">
                  <property name="sizePolicy">
@@ -2919,7 +2919,7 @@
               <number>3</number>
              </property>
              <item>
-              <layout class="QHBoxLayout" name="horizontalLayout_458">
+              <layout class="QHBoxLayout" name="horizontalLayout_458" stretch="3,1">
                <item>
                 <widget class="klakbutono" name="Lec07_Button533">
                  <property name="sizePolicy">
@@ -2998,7 +2998,7 @@
               <number>3</number>
              </property>
              <item>
-              <layout class="QHBoxLayout" name="horizontalLayout_460">
+              <layout class="QHBoxLayout" name="horizontalLayout_460" stretch="3,1">
                <item>
                 <widget class="klakbutono" name="Lec07_Button534">
                  <property name="sizePolicy">
@@ -3084,7 +3084,7 @@
               <number>3</number>
              </property>
              <item>
-              <layout class="QHBoxLayout" name="horizontalLayout_466">
+              <layout class="QHBoxLayout" name="horizontalLayout_466" stretch="3,1">
                <item>
                 <widget class="klakbutono" name="Lec07_Button575">
                  <property name="sizePolicy">
@@ -3163,7 +3163,7 @@
               <number>3</number>
              </property>
              <item>
-              <layout class="QHBoxLayout" name="horizontalLayout_468">
+              <layout class="QHBoxLayout" name="horizontalLayout_468" stretch="3,1">
                <item>
                 <widget class="klakbutono" name="Lec07_Button576">
                  <property name="sizePolicy">
@@ -3242,7 +3242,7 @@
               <number>3</number>
              </property>
              <item>
-              <layout class="QHBoxLayout" name="horizontalLayout_470">
+              <layout class="QHBoxLayout" name="horizontalLayout_470" stretch="3,1">
                <item>
                 <widget class="klakbutono" name="Lec07_Button577">
                  <property name="sizePolicy">
@@ -3321,7 +3321,7 @@
               <number>3</number>
              </property>
              <item>
-              <layout class="QHBoxLayout" name="horizontalLayout_464">
+              <layout class="QHBoxLayout" name="horizontalLayout_464" stretch="3,1">
                <item>
                 <widget class="klakbutono" name="Lec07_Button578">
                  <property name="sizePolicy">
@@ -3509,7 +3509,7 @@
               <number>1</number>
              </property>
              <item>
-              <layout class="QHBoxLayout" name="horizontalLayout_411">
+              <layout class="QHBoxLayout" name="horizontalLayout_411" stretch="3,1">
                <item>
                 <widget class="klakbutono" name="Lec07_Button539">
                  <property name="sizePolicy">
@@ -3542,7 +3542,7 @@
               </layout>
              </item>
              <item>
-              <layout class="QHBoxLayout" name="horizontalLayout_412">
+              <layout class="QHBoxLayout" name="horizontalLayout_412" stretch="3,1">
                <item>
                 <widget class="klakbutono" name="Lec07_Button540">
                  <property name="sizePolicy">
@@ -3575,7 +3575,7 @@
               </layout>
              </item>
              <item>
-              <layout class="QHBoxLayout" name="horizontalLayout_413">
+              <layout class="QHBoxLayout" name="horizontalLayout_413" stretch="3,1">
                <item>
                 <widget class="klakbutono" name="Lec07_Button541">
                  <property name="sizePolicy">
@@ -3608,7 +3608,7 @@
               </layout>
              </item>
              <item>
-              <layout class="QHBoxLayout" name="horizontalLayout_414">
+              <layout class="QHBoxLayout" name="horizontalLayout_414" stretch="3,1">
                <item>
                 <widget class="klakbutono" name="Lec07_Button542">
                  <property name="sizePolicy">
@@ -3641,7 +3641,7 @@
               </layout>
              </item>
              <item>
-              <layout class="QHBoxLayout" name="horizontalLayout_415">
+              <layout class="QHBoxLayout" name="horizontalLayout_415" stretch="3,1">
                <item>
                 <widget class="klakbutono" name="Lec07_Button543">
                  <property name="sizePolicy">
@@ -3674,7 +3674,7 @@
               </layout>
              </item>
              <item>
-              <layout class="QHBoxLayout" name="horizontalLayout_416">
+              <layout class="QHBoxLayout" name="horizontalLayout_416" stretch="3,1">
                <item>
                 <widget class="klakbutono" name="Lec07_Button544">
                  <property name="sizePolicy">
@@ -3707,7 +3707,7 @@
               </layout>
              </item>
              <item>
-              <layout class="QHBoxLayout" name="horizontalLayout_417">
+              <layout class="QHBoxLayout" name="horizontalLayout_417" stretch="3,1">
                <item>
                 <widget class="klakbutono" name="Lec07_Button545">
                  <property name="sizePolicy">
@@ -3740,7 +3740,7 @@
               </layout>
              </item>
              <item>
-              <layout class="QHBoxLayout" name="horizontalLayout_425">
+              <layout class="QHBoxLayout" name="horizontalLayout_425" stretch="3,1">
                <item>
                 <widget class="klakbutono" name="Lec07_Button547">
                  <property name="sizePolicy">
@@ -3773,7 +3773,7 @@
               </layout>
              </item>
              <item>
-              <layout class="QHBoxLayout" name="horizontalLayout_426">
+              <layout class="QHBoxLayout" name="horizontalLayout_426" stretch="3,1">
                <item>
                 <widget class="klakbutono" name="Lec07_Button546">
                  <property name="sizePolicy">
@@ -3815,7 +3815,7 @@
             <number>1</number>
            </property>
            <item>
-            <layout class="QHBoxLayout" name="horizontalLayout_418">
+            <layout class="QHBoxLayout" name="horizontalLayout_418" stretch="3,1">
              <item>
               <widget class="klakbutono" name="Lec07_Button548">
                <property name="sizePolicy">
@@ -3848,7 +3848,7 @@
             </layout>
            </item>
            <item>
-            <layout class="QHBoxLayout" name="horizontalLayout_419">
+            <layout class="QHBoxLayout" name="horizontalLayout_419" stretch="3,1">
              <item>
               <widget class="klakbutono" name="Lec07_Button549">
                <property name="sizePolicy">
@@ -3881,7 +3881,7 @@
             </layout>
            </item>
            <item>
-            <layout class="QHBoxLayout" name="horizontalLayout_420">
+            <layout class="QHBoxLayout" name="horizontalLayout_420" stretch="3,1">
              <item>
               <widget class="klakbutono" name="Lec07_Button550">
                <property name="sizePolicy">
@@ -3914,7 +3914,7 @@
             </layout>
            </item>
            <item>
-            <layout class="QHBoxLayout" name="horizontalLayout_421">
+            <layout class="QHBoxLayout" name="horizontalLayout_421" stretch="3,1">
              <item>
               <widget class="klakbutono" name="Lec07_Button551">
                <property name="sizePolicy">
@@ -3947,7 +3947,7 @@
             </layout>
            </item>
            <item>
-            <layout class="QHBoxLayout" name="horizontalLayout_422">
+            <layout class="QHBoxLayout" name="horizontalLayout_422" stretch="3,1">
              <item>
               <widget class="klakbutono" name="Lec07_Button552">
                <property name="sizePolicy">
@@ -3980,7 +3980,7 @@
             </layout>
            </item>
            <item>
-            <layout class="QHBoxLayout" name="horizontalLayout_423">
+            <layout class="QHBoxLayout" name="horizontalLayout_423" stretch="3,1">
              <item>
               <widget class="klakbutono" name="Lec07_Button553">
                <property name="sizePolicy">
@@ -4013,7 +4013,7 @@
             </layout>
            </item>
            <item>
-            <layout class="QHBoxLayout" name="horizontalLayout_424">
+            <layout class="QHBoxLayout" name="horizontalLayout_424" stretch="3,1">
              <item>
               <widget class="klakbutono" name="Lec07_Button554">
                <property name="sizePolicy">
@@ -4046,7 +4046,7 @@
             </layout>
            </item>
            <item>
-            <layout class="QHBoxLayout" name="horizontalLayout_427">
+            <layout class="QHBoxLayout" name="horizontalLayout_427" stretch="3,1">
              <item>
               <widget class="klakbutono" name="Lec07_Button556">
                <property name="sizePolicy">
@@ -4079,7 +4079,7 @@
             </layout>
            </item>
            <item>
-            <layout class="QHBoxLayout" name="horizontalLayout_428">
+            <layout class="QHBoxLayout" name="horizontalLayout_428" stretch="3,1">
              <item>
               <widget class="klakbutono" name="Lec07_Button555">
                <property name="sizePolicy">
@@ -4112,7 +4112,7 @@
             </layout>
            </item>
            <item>
-            <layout class="QHBoxLayout" name="horizontalLayout_429">
+            <layout class="QHBoxLayout" name="horizontalLayout_429" stretch="3,1">
              <item>
               <widget class="klakbutono" name="Lec07_Button557">
                <property name="sizePolicy">
@@ -4145,7 +4145,7 @@
             </layout>
            </item>
            <item>
-            <layout class="QHBoxLayout" name="horizontalLayout_430">
+            <layout class="QHBoxLayout" name="horizontalLayout_430" stretch="3,1">
              <item>
               <widget class="klakbutono" name="Lec07_Button558">
                <property name="sizePolicy">
@@ -4481,7 +4481,7 @@
           </spacer>
          </item>
          <item>
-          <layout class="QHBoxLayout" name="horizontalLayout_462">
+          <layout class="QHBoxLayout" name="horizontalLayout_462" stretch="3,1">
            <item>
             <widget class="klakbutono" name="Lec07_Button559">
              <property name="sizePolicy">
@@ -4538,7 +4538,7 @@
           </spacer>
          </item>
          <item>
-          <layout class="QHBoxLayout" name="horizontalLayout_463">
+          <layout class="QHBoxLayout" name="horizontalLayout_463" stretch="3,1">
            <item>
             <widget class="klakbutono" name="Lec07_Button560">
              <property name="sizePolicy">
@@ -4597,7 +4597,7 @@
          <item>
           <layout class="QVBoxLayout" name="verticalLayout_235">
            <item>
-            <layout class="QHBoxLayout" name="horizontalLayout_472">
+            <layout class="QHBoxLayout" name="horizontalLayout_472" stretch="3,1">
              <item>
               <widget class="klakbutono" name="Lec07_Button561">
                <property name="sizePolicy">
@@ -4624,7 +4624,7 @@
             </layout>
            </item>
            <item>
-            <layout class="QHBoxLayout" name="horizontalLayout_473">
+            <layout class="QHBoxLayout" name="horizontalLayout_473" stretch="3,1">
              <item>
               <widget class="klakbutono" name="Lec07_Button562">
                <property name="sizePolicy">
@@ -4651,7 +4651,7 @@
             </layout>
            </item>
            <item>
-            <layout class="QHBoxLayout" name="horizontalLayout_474">
+            <layout class="QHBoxLayout" name="horizontalLayout_474" stretch="3,1">
              <item>
               <widget class="klakbutono" name="Lec07_Button563">
                <property name="sizePolicy">
@@ -4964,7 +4964,7 @@
           </spacer>
          </item>
          <item>
-          <layout class="QHBoxLayout" name="horizontalLayout_478">
+          <layout class="QHBoxLayout" name="horizontalLayout_478" stretch="3,1">
            <item>
             <widget class="klakbutono" name="Lec07_Button570">
              <property name="sizePolicy">
@@ -5556,6 +5556,20 @@
    </slots>
   </customwidget>
   <customwidget>
+   <class>label_sago_reversa</class>
+   <extends>QLabel</extends>
+   <header>label_sago_reversa.h</header>
+  </customwidget>
+  <customwidget>
+   <class>mp3ludilo</class>
+   <extends>QFrame</extends>
+   <header>mp3ludilo.h</header>
+   <container>1</container>
+   <slots>
+    <slot>PaghoShanghita(int)</slot>
+   </slots>
+  </customwidget>
+  <customwidget>
    <class>vortoludo</class>
    <extends>QFrame</extends>
    <header>vortoludo.h</header>
@@ -5565,28 +5579,6 @@
    <class>cx_edit</class>
    <extends>QLineEdit</extends>
    <header>cx_edit.h</header>
-  </customwidget>
-  <customwidget>
-   <class>label_sago_reversa</class>
-   <extends>QLabel</extends>
-   <header>label_sago_reversa.h</header>
-  </customwidget>
-  <customwidget>
-   <class>plenigas_spacon</class>
-   <extends>QFrame</extends>
-   <header>plenigas_spacon.h</header>
-   <container>1</container>
-  </customwidget>
-  <customwidget>
-   <class>mp3ludilo</class>
-   <extends>QFrame</extends>
-   <header>mp3ludilo.h</header>
-   <container>1</container>
-  </customwidget>
-  <customwidget>
-   <class>label_sago</class>
-   <extends>QLabel</extends>
-   <header>label_sago.h</header>
   </customwidget>
   <customwidget>
    <class>audkompreno</class>
@@ -5603,6 +5595,17 @@
    <class>prononco</class>
    <extends>QFrame</extends>
    <header>prononco.h</header>
+   <container>1</container>
+  </customwidget>
+  <customwidget>
+   <class>label_sago</class>
+   <extends>QLabel</extends>
+   <header>label_sago.h</header>
+  </customwidget>
+  <customwidget>
+   <class>plenigas_spacon</class>
+   <extends>QFrame</extends>
+   <header>plenigas_spacon.h</header>
    <container>1</container>
   </customwidget>
  </customwidgets>
@@ -5623,6 +5626,38 @@
     <hint type="destinationlabel">
      <x>119</x>
      <y>45</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>Lec07</sender>
+   <signal>currentChanged(int)</signal>
+   <receiver>Lec07_memo2</receiver>
+   <slot>PaghoShanghita(int)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>413</x>
+     <y>185</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>287</x>
+     <y>186</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>Lec07</sender>
+   <signal>currentChanged(int)</signal>
+   <receiver>Lec07_memo3</receiver>
+   <slot>PaghoShanghita(int)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>464</x>
+     <y>192</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>296</x>
+     <y>190</y>
     </hint>
    </hints>
   </connection>

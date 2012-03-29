@@ -19,16 +19,14 @@ public:
 
 private slots:
     void on_Ludu_clicked();
-
     void on_Chesu_clicked();
-
-
     void on_Pauzu_clicked();
+    void PaghoShanghita(int);
 
 private:
     Ui::mp3ludilo *ui;
-
     Phonon::MediaObject *ludilo;
+    int MiaPagho;
 
 };
 

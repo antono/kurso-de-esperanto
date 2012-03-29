@@ -140,10 +140,12 @@ void panelo::klakas()
 
 void panelo::montras_sagon(int pagho)
 {
+    this->setUpdatesEnabled(false);
     purigas();
-    QApplication::processEvents();
+    //QApplication::processEvents();
     if (chiuj_indikiloj.count() >= pagho)
         chiuj_indikiloj[pagho]->setVisible(true);
-    QApplication::processEvents();
+    //QApplication::processEvents();
+    this->setUpdatesEnabled(true);
 }
 

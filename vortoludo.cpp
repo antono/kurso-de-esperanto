@@ -63,7 +63,7 @@ void vortoludo::on_BitBtn18_clicked()
     _Matriz(&aEk03R,EkzercoVortoLudo,"R");
     this->ui->BitBtn18->setEnabled(false);
     this->ui->BitBtn20->setEnabled(true);
-    this->ui->printilo_ps->setEnabled(false);
+    // this->ui->printilo_ps->setEnabled(false);
     aEk03A.resize(iEk03D);
     aPozicio.resize(iEk03D);
     for (int i = 0; i < iEk03D; i++)
@@ -85,7 +85,7 @@ void vortoludo::on_BitBtn20_clicked()
     this->ui->BitBtn18->setEnabled(true);
     this->ui->BitBtn20->setEnabled(false);
     this->ui->Grupo->setVisible(false);
-    this->ui->printilo_ps->setEnabled(true);
+    // this->ui->printilo_ps->setEnabled(true);
     this->ui->BitBtn18->setFocus();
 }
 
@@ -93,6 +93,7 @@ void vortoludo::grupoclick(int klakita)
 {
     if (JamKlakis)
         return;
+    ui->Grupo->setEnabled(false);
     JamKlakis = true;
 
     if (klakita == iPozicio)
@@ -184,6 +185,8 @@ void vortoludo::novafrazo()
         }
 
     }
+    ui->Grupo->setEnabled(true);
+
 }
 
 void vortoludo::on_frazo0_clicked(bool checked)
@@ -219,6 +222,16 @@ void vortoludo::on_frazo4_clicked(bool checked)
 
 void vortoludo::on_printilo_ps_clicked()
 {
+    // Uzas lokajn variablojn, por ke ili ne miksiĝu kun tiuj de la ekzerco mem
+    int iAleat3, iPozicio;
+    QStringList aEk03D;
+    QStringList aEk03R;
+    std::vector<bool> aPozicio;
+    int     iEk03D;
+    QString Leciono;
+    //
+
+
     QPrinter printer2(QPrinter::HighResolution);
     printer2.setDocName(this->objectName());
     QPrintDialog *dialog = new QPrintDialog(&printer2);
