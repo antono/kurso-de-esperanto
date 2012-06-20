@@ -44,58 +44,18 @@ int main(int argc, char *argv[])
 {
     QApplication a(argc, argv);
     a.setApplicationName("Kurso4");
+
     Loko = QApplication::applicationDirPath();
     if (Loko.right(1) != "/")
         Loko.append("/");
 
     QFontDatabase::addApplicationFont(":tiparoj/DejaVuSans.ttf");
     QFontDatabase::addApplicationFont(":tiparoj/DejaVuSans-Bold.ttf");
+
     kurso w;
     w.show();
-    Phonon::MediaObject *ludilo;
-    ludilo =  Phonon::createPlayer(Phonon::MusicCategory,
-                                   Phonon::MediaSource());
 
-
-    if (lSxaltilo)
-    {
-        int iAleat6;
-
-        QString sMp3dos;
-        iAleat6 = random(2);
-        if (iAleat6 == 0)
-            sMp3dos = "saluton";
-        else
-        {
-            QTime nun = QTime::currentTime();
-            int horo = nun.hour();
-
-            if ((horo >= 16) && (horo <= 20))
-                sMp3dos = "vespero";
-            else if ((horo >= 5) && (horo <= 11))
-            {
-                iAleat6 = random(2);
-                if (iAleat6 == 0)
-                    sMp3dos = "matenon";
-                else  sMp3dos = "tagon";
-            }
-            else if ((horo >= 12) && (horo <= 15))
-                sMp3dos = "tagon";
-            else sMp3dos = "nokton";
-        }
-
-        QDir sonoj(Loko + "sonoj/");
-        QStringList filtriloj;
-        filtriloj << sMp3dos + "?" + mp3_finajho;
-        sonoj.setNameFilters(filtriloj);
-        int kvanto = sonoj.count();
-        iAleat6 = random(kvanto);
-        QString dosiernomo = "sonoj/" + sonoj.entryList().at(iAleat6);
-
-        ludilo->setCurrentSource(Loko + dosiernomo);
-        ludilo->play();
-    }
-
+    w.Saluton();
 
     return a.exec();
 }

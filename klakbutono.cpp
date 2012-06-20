@@ -55,6 +55,9 @@ void klakbutono::klakita(bool checked)
 {
     QString sTeksto = this->text(), sDosiero, Nomo;
     Nomo = this->objectName();
+
+    sTeksto = sTeksto.replace(QString::fromUtf8("\u200E"), "");
+
     QString cxTeksto = CxSist(sTeksto,1);
     QString SonLeciono = this->objectName().mid(3,2);
     QString Vojo = "sonoj/lec" + SonLeciono + "/";

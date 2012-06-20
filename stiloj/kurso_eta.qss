@@ -10,6 +10,34 @@ QWidget#Pagho_Kreditoj {
 	background-color: #DCF0F7;
 	}
 
+QTabBar::tab {
+     background: qlineargradient(x1: 0, y1: 0, x2: 0, y2: 1,
+                                 stop: 0 #E1E1E1, stop: 0.4 #DDDDDD,
+                                 stop: 0.5 #D8D8D8, stop: 1.0 #D3D3D3);
+     border: 1px solid #C4C4C3;
+     border-bottom-color: #C2C7CB; /* same as the pane color */
+     border-top-left-radius: 4px;
+     border-top-right-radius: 4px;
+     padding-left: 1px;
+     padding-right: -2px;
+     padding-top: 1px;
+ }
+
+ QTabBar::tab:selected, QTabBar::tab:hover {
+     background: qlineargradient(x1: 0, y1: 0, x2: 0, y2: 1,
+                                 stop: 0 #fafafa, stop: 0.4 #f4f4f4,
+                                 stop: 0.5 #e7e7e7, stop: 1.0 #fafafa);
+ }
+
+ QTabBar::tab:selected {
+     border-color: #9B9B9B;
+     border-bottom-color: white; /* same as pane color */
+ }
+
+ QTabBar::tab:!selected {
+     margin-top: 1px; /* make non-selected tabs look smaller */
+ }
+
 QLineEdit[tipo="plenigas_spacon"] {
 	background-color: #99CCFF;
 	}
@@ -32,7 +60,7 @@ QLabel {
 	}
 	
 QLabel[tipo="titolo_alia"] {
-	font-size: 20px;
+	font-size: 16px;
 	font-weight: bold;
 	}
 
@@ -65,8 +93,9 @@ neklakebla[tipo="akuzativa"] {
 }
 
 QLabel#ligilo, QPushButton#KieButono, QPushButton#KioEstas, QPushButton#Kreditoj, QPushButton#Eliri {
-	min-height: 42px;
+	max-height: 36px;
 }
+
 
 QPushButton#KieButono, QPushButton#KioEstas, QPushButton#Kreditoj, QPushButton#Eliri  {
 	 text-align: left;
@@ -87,11 +116,12 @@ QPushButton:pressed#KieButono, QPushButton:pressed#KioEstas, QPushButton:pressed
                                        stop: 0 #fce0bd, stop: 0.5 #fcd4a4, stop: 0.51 #ea981c, stop: 1 #dc8a10);
    }
 
+
 QPushButton[tipo="leciona"] {
-	min-width: 147px;
-	min-height: 42px;
-	max-width: 147px;
-	max-height: 42px;
+	min-width: 125px;
+	min-height: 36px;
+	max-width: 125px;
+	max-height: 36px;
 }
 
 QPushButton#Leciono1 {
@@ -394,6 +424,7 @@ QFrame[tipo="senborda"] {
 	border: none;
 	}
 
+
 panelo_klak {
     margin-top: 0px;
 	margin-bottom: 0px;
@@ -438,7 +469,7 @@ panelo {
 
 label_sago_reversa {
 	margin-left: 15px;
-	/*background-image: url(:ikonoj/sago_revena.png); */
+	/* background-image: url(:ikonoj/sago_revena.png); */
 	max-height: 24px;
 	min-height: 24px;
 	max-width:  24px;

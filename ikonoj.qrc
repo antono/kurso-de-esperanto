@@ -148,5 +148,7 @@
         <file>ikonoj/traduko2.png</file>
         <file>ikonoj/qt-logo.png</file>
         <file>kurso4.ico</file>
+        <file>ikonoj/hejmo/Esperanto_125_eta.png</file>
+        <file>ikonoj/hejmo/kurso_fono_eta.png</file>
     </qresource>
 </RCC>

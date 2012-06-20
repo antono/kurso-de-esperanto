@@ -1,0 +1,214 @@
+﻿; Instructions: 
+; a) Translate the words and phrases at the right of the “=” sign.
+; b) If a comma appears in the translated phrase, the whole text must be
+;    enclosed in quotes. 
+; c) Prefer not to use carriage returns. If you really need to, use the
+;    code “\n” (without the quotes) to insert a carriage return. 
+; d) When mixing RTL and LTR text, please mark them properly.
+; e) The English text is just a guideline for your translation. You can freely
+;    adjust it to your language and culture. The only limitation is the space
+;    reserved for the translated word/phrase in Kurso. Although this space may 
+;    be stretched to accommodate a larger text, the window size of Kurso may
+;    overlap the available screen size, if there are too many oversized phrases.
+; f) This text is encoded as UTF-8, the native encoding of Kurso 4.
+;
+;
+;
+;
+;
+;
+; ~~~TRANSLATOR'S NOTES~~~
+;a) (Tradukinto) I included the name I go by among Arabophones in the
+;   Tradukinto field as well. I hope that's OK.
+;b) (Label17) Arabic has no neuter gender. To deal with Label17, I first
+;    rendered it as "'It' as in English," the neuter the most Arabophones
+;    are probably acquainted with. Translators to Romance languages
+;    didn't seem to mind going the wordy way, however, so that's what
+;    I did. "Para mostrar algo ou alguém cujo sexo não é necessário
+;    espicificar" it is, Brazil! Two can play this game!
+;c) (Label24) was a real pain in the ass to typeset properly with all the 
+;    required shifting between RTL and LTR, so I took the liberty of cutting off
+;    the "esti" examples, figuring Labels 114 through 221 were enough.
+;d) (Label114~221) Regarding that, Arabic does not use verb "to be" in the
+;    present tense, so these examples would sound really unnatural to a
+;    monolingual Arabophone--or any Arabophone for that matter. I was
+;    wondering if the Arabic version could exemplify with a verb other than
+;    esti and havi, say skribi, which is the verb Arabophones normally
+;    use to introduce a verb system to students. For now, though, I 
+;    have included practical, if a bit awkward, translations. Should you
+;    decide to use skribi instead, here is how they should go:
+;    Label24="تنتهي كل المصادر بـi كما في /"skribi/"وكل المواضي بـis وكل المضارعات بـas وكل المستقبلات بـos. أما بقية الأزمنة فتذكر لاحقا."
+;    Label114=أنا أكتب
+;    Label115=هو يكتب
+;    Label116=هي تكتب
+;    Label117=سيكتب
+;    Label118=نحن نكتب
+;    Label119=أنا كتبتُ
+;    Label220=هم يكتبون
+;    Label221=سيكتب الواحد منا
+;e) (Label39) Since the indefinite article doesn't exist in Arabic either, and
+;    since Arabic also uses a single definite article regardless of number
+;    or gender, but uses that article not only with nouns but also with
+;    adjectives, which have to agree with the noun they modify in
+;    definiteness among other things, I rendered Label39 to the effect of
+;    "The definite article is 'la' in Esperanto. Definiteness can only be
+;    attributed to nouns, i.e. only a single 'la' is used before a noun
+;    and all its adjectives."
+;f) (Label11~94) Arabic denotes possesion through suffixes, thus the
+;   way I translated it. Unfortunately, those are the same suffixes that
+;   denote objects, both those of verbs and prepositions. I do believe
+;   the title of the section (A term not used in Arabic grammar, obviously,
+;   but frequently encountered in Indo-European grammars written in
+;   Arabic) , as well as the examples, will remove any ambiguity.
+;   Yes, I did consider الخاص بـ, but it was not that better really,  and
+;   made me fall off my chair crying "Awkward overload!" over and
+;   over again in a cyborgesque voice. So, no, I don't think it works.
+;g) (Kreditoj) All Semitic-based versions of "Credits" sounded a bit
+;    contrived, and "Credits" is the word you normally hear in Arabic,
+;    so yes, I did mean to leave it the way it is. Kaj grandan dankon!
+[Traduko]
+Lingvo=العربية(Araba)
+Tradukinto="Naill /"كريم علي/" Ethansen"
+LingvoID=ar
+
+[Lec01]
+Label100=صبي
+Label101=ورود
+Label102=خبز
+Label103=آباء
+Label104=أولادكم أصدقاؤنا.
+Label105=اللبن الدافئ حسن.
+Label106=الأولاد كبار.
+Label107=الخبز جاف.
+Label108=هناك وردة جميلة.
+Label109=الأب حسن.
+Label110=. سيكون المدرسون الجدد جيدين.
+Label1=كلمات
+Label3="الفهم السمعي : التدريب الأول"
+Label4= الألفبائية
+Label5="انقر على أحد الأحرف لتسمع اسمه ونطقه ، ولتردد بصوت عال."
+Label6="استمع جيدا إلى الكلمات الملقاه ثم انقر على الكلمة التي تظن أنك تسمعها. ستختفي الكلمة عند إجابتك إجابة صحيحة ، و إلا ستسمع الكلمة مجددا أثناء التدريب. يجب ألا تقل الإجابات الصحيحة عن ٧٠٪."
+Label8=مقاطع
+Label9="يتكون المقطع من مصوت واحد (A E I O U) لا أقل ولا أكثر، يصحبه صامت أو أكثر . حين يظهر مصوتين واحد تلو الآخر يكون كل منهما في مقطع."
+Label2="بالإسبرانتو تكتب الكلمات كما تنطق وتنطق كما تكتب بلا استثناء ، ودائما ما يكون المقطع السابق للأخير منبورا (منطوق بشدة عما حوله). انقر الزرائز لتسمع النطق ولتردد معه."
+Label12=الضمائر
+Label13=أنا
+Label14=أنتَ أو أنتِ
+Label15=هو
+Label16=هي
+Label17="هو أو هي (شيء أو حيوان أو طفل لا جنس له أو لا حاجة لذكر جنسه)"
+Label18=نحن
+Label19=أنتما أو أنتم أو أنتن
+Label20=هما أو هم أو هن
+Label21="الواحد منا (تستعمل عند عموم الفاعل أو عند جهوله أو غموضه)."
+Label22="(نفسه)  ضمير عائد على الفاعل الغائب سواء أكان مفردا أم جمعا ، لا يكون فاعلا أو جزءا من فاعل."
+Label132=جمع
+Label131=مفرد
+Label133=أيضًا
+Label23=أفعال
+Label24="تنتهي كل المصادر بـi كما في /"esti/"وكل المواضي بـis وكل المضارعات بـas وكل المستقبلات بـos. أما بقية الأزمنة فتذكر لاحقا."
+Label25=أسماء
+Label26=صفات
+Label27=تنتهي كل الأسماء بـ/"O/"
+Label28=صديق
+Label29=أخ
+Label30=قهوة
+Label31=تنتهي كل الصفات بـ/"A/"
+Label32=جميل
+Label33=مصحَ
+Label34=دافئ أو سخن
+Label114=أنا (أكون)
+Label115=هو (يكون)
+Label116=هي (تكون)
+Label117=سيكون
+Label118=نحن (نكون)
+Label119=كنتَ
+Label220=هم (يكونون)
+Label221="سيكون الواحد منا"
+Label35=مفردات
+Label44=صديق
+Label45=ابن
+Label46=أخ
+Label47=رجل
+Label48=صبي
+Label49=وردة
+Label50=أب
+Label51=مدرس
+Label52=قهوة
+Label53=كيك
+Label54=لبن
+Label55=خبز
+Label56=سكر
+Label57=شاي
+Label58=بسكويت
+Label60=جميل
+Label61="كبير ، روعة"
+Label62=جديد
+Label63=حسن
+Label64=جاف
+Label65=أبيض
+Label66="دافئ أو سخن"
+Label67=مصحّ
+Label36=جمع
+Label37=تحول الكلمة إلى جمع بإضافة /"J/" في آخرها.
+Label39="أداة المعرفة الإسبرانتو هي /"la/" ، ولا يعرّف إلا الاسم ، فلا يستعمل إلا أداة تعريف واحدة قبل الاسم وكل صفاته."
+Label38=أداة
+Label10=صديق
+Label73=أب
+Label74=وردة
+Label75=جميل
+Label76=مصحّ
+Label77=وردة جميلة
+Label78=وردة صحيحة
+Label79=صديق حسن
+Label80=أصدقاء
+Label81=آباء
+Label82=ورود
+Label83=جميل
+Label84=مصحّ
+Label85=ورود جميلة
+Label86=آباء مصحّون
+Label87=أصدقاء جيدون
+Label88=الصبي
+Label89=الورود
+Label90=الخبز
+Label91=الآباء
+Label40=ضمائر الملكية
+Label41="تضاف النهاية النسبية (التي تحول الأسماء إلى صفات) إلى الضمائر لتشكل ضمائر الملكية:"
+Label42=تتبع الصفات أسماءها في الجمع والإفراد فتأخد /"J/" عند تبعها لجمع.
+Label69=ملحوظة
+Label43=جمل
+Label11="ـي"
+Label70="ـك"
+Label71="ـها"
+Label72="ـهم"
+Label92="ـه"
+Label93="ـه لغير العاقل"
+Label94="ـنا"
+Label95=صديقي
+Label96=أصدقائي
+Label97=وردتنا
+Label98=ورودنا
+Label68="اكتب الكلمة التي تسمعها في الفراغ ، إن كانت إجابتك صحيحة ستظهر في الشاشة و إلا ستكرر لاحقا ، يجب ألا تقل الإجابات الصحيحة عن ٧٠٪."
+Label59="الفهم السمعي : التدريب الثان"
+Label7=انقر على معنى الكلمة التي في الأعلى ، يجب ألا تقل الإجابات الصحيحة عن ٧٠٪.
+Label99=ترجم للإسبرانتو
+Label121=" 1. الشاي دافئ."
+Label122=" 2. المدرس أب."
+Label123=" 3. أبوك حسن."
+Label124=" 4. سيكون المدرسون الجدد طوالا."
+Label125=" 5. سيكون أخي مدرس."
+Label126=" 6. سيكون صبيانك أصدقاء."
+Label127=" 7. الكيك حسن."
+Label128=" 8. الخبر جاف."
+Label129=" 9. كان الصبي الجديد صديقي."
+Label130=" 10. سيكون الصبيان أصدقاء روعة."
+
+[Menuo]
+KioEstas=الإسبرانتو؟ ما ذاك؟
+KielUzi=كيف أستعمل البرنامج؟
+KontaktuMin=أريد التواصل مع المبرمج
+Konfigurado=إعدادات
+Kreditoj=Credits
+Eliri=أترك البرنامج
+KieButono=أين انتهينا المرة الأخيرة؟

@@ -51,7 +51,7 @@
       </sizepolicy>
      </property>
      <property name="currentIndex">
-      <number>4</number>
+      <number>8</number>
      </property>
      <property name="iconSize">
       <size>
@@ -431,7 +431,7 @@ terminação do plural (-j).</string>
       <attribute name="title">
        <string>2</string>
       </attribute>
-      <layout class="QVBoxLayout" name="verticalLayout_21">
+      <layout class="QVBoxLayout" name="verticalLayout_23">
        <item>
         <widget class="titolo" name="Lec03_Label6">
          <property name="font">
@@ -451,6 +451,9 @@ terminação do plural (-j).</string>
           <layout class="QHBoxLayout" name="horizontalLayout">
            <item>
             <layout class="QVBoxLayout" name="verticalLayout_3">
+             <property name="spacing">
+              <number>6</number>
+             </property>
              <item>
               <widget class="QLabel" name="label_19">
                <property name="maximumSize">
@@ -615,6 +618,9 @@ terminação do plural (-j).</string>
            </item>
            <item>
             <layout class="QVBoxLayout" name="verticalLayout_2">
+             <property name="spacing">
+              <number>6</number>
+             </property>
              <item>
               <widget class="klakbutono" name="Lec03_Button304">
                <property name="maximumSize">
@@ -769,6 +775,9 @@ terminação do plural (-j).</string>
           <layout class="QHBoxLayout" name="horizontalLayout_2">
            <item>
             <layout class="QVBoxLayout" name="verticalLayout_5">
+             <property name="spacing">
+              <number>6</number>
+             </property>
              <item>
               <widget class="QLabel" name="label_42">
                <property name="text">
@@ -873,6 +882,9 @@ terminação do plural (-j).</string>
            </item>
            <item>
             <layout class="QVBoxLayout" name="verticalLayout_4">
+             <property name="spacing">
+              <number>6</number>
+             </property>
              <item>
               <widget class="klakbutono" name="Lec03_Button314">
                <property name="minimumSize">
@@ -1027,6 +1039,9 @@ terminação do plural (-j).</string>
           <layout class="QHBoxLayout" name="horizontalLayout_3">
            <item>
             <layout class="QVBoxLayout" name="verticalLayout_7">
+             <property name="spacing">
+              <number>6</number>
+             </property>
              <item>
               <widget class="QLabel" name="label_60">
                <property name="text">
@@ -1131,6 +1146,9 @@ terminação do plural (-j).</string>
            </item>
            <item>
             <layout class="QVBoxLayout" name="verticalLayout_6">
+             <property name="spacing">
+              <number>6</number>
+             </property>
              <item>
               <widget class="klakbutono" name="Lec03_Button324">
                <property name="minimumSize">
@@ -1285,6 +1303,9 @@ terminação do plural (-j).</string>
           <layout class="QHBoxLayout" name="horizontalLayout_4">
            <item>
             <layout class="QVBoxLayout" name="verticalLayout_9">
+             <property name="spacing">
+              <number>6</number>
+             </property>
              <item>
               <widget class="QLabel" name="label_71">
                <property name="text">
@@ -1389,6 +1410,9 @@ terminação do plural (-j).</string>
            </item>
            <item>
             <layout class="QVBoxLayout" name="verticalLayout_8">
+             <property name="spacing">
+              <number>6</number>
+             </property>
              <item>
               <widget class="klakbutono" name="Lec03_Button334">
                <property name="minimumSize">
@@ -1557,9 +1581,12 @@ terminação do plural (-j).</string>
           </spacer>
          </item>
          <item>
-          <layout class="QHBoxLayout" name="horizontalLayout_13">
+          <layout class="QHBoxLayout" name="horizontalLayout_12">
            <item>
             <layout class="QVBoxLayout" name="verticalLayout_20">
+             <property name="spacing">
+              <number>6</number>
+             </property>
              <item>
               <widget class="QLabel" name="label_81">
                <property name="text">
@@ -1580,30 +1607,13 @@ terminação do plural (-j).</string>
                </property>
               </widget>
              </item>
-             <item>
-              <widget class="QLabel" name="label_83">
-               <property name="text">
-                <string>999001</string>
-               </property>
-               <property name="alignment">
-                <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
-               </property>
-              </widget>
-             </item>
-             <item>
-              <widget class="QLabel" name="label_84">
-               <property name="text">
-                <string>1000322</string>
-               </property>
-               <property name="alignment">
-                <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
-               </property>
-              </widget>
-             </item>
             </layout>
            </item>
            <item>
             <layout class="QVBoxLayout" name="verticalLayout_10">
+             <property name="spacing">
+              <number>6</number>
+             </property>
              <item>
               <widget class="klakbutono" name="Lec03_Button344">
                <property name="text">
@@ -1615,20 +1625,6 @@ terminação do plural (-j).</string>
               <widget class="klakbutono" name="Lec03_Button345">
                <property name="text">
                 <string>mil okcent okdek sep</string>
-               </property>
-              </widget>
-             </item>
-             <item>
-              <widget class="klakbutono" name="Lec03_Button346">
-               <property name="text">
-                <string>naŭcent naŭdek naŭ mil unu</string>
-               </property>
-              </widget>
-             </item>
-             <item>
-              <widget class="klakbutono" name="Lec03_Button347">
-               <property name="text">
-                <string>unu miliono tricent dudek du</string>
                </property>
               </widget>
              </item>
@@ -1652,7 +1648,85 @@ terminação do plural (-j).</string>
            </property>
           </spacer>
          </item>
+         <item>
+          <layout class="QHBoxLayout" name="horizontalLayout_13">
+           <item>
+            <layout class="QVBoxLayout" name="verticalLayout_21">
+             <property name="spacing">
+              <number>6</number>
+             </property>
+             <item>
+              <widget class="QLabel" name="label_83">
+               <property name="text">
+                <string>999001</string>
+               </property>
+               <property name="alignment">
+                <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+               </property>
+              </widget>
+             </item>
+             <item>
+              <widget class="QLabel" name="label_84">
+               <property name="text">
+                <string>1000322</string>
+               </property>
+               <property name="alignment">
+                <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+               </property>
+              </widget>
+             </item>
+            </layout>
+           </item>
+           <item>
+            <layout class="QVBoxLayout" name="verticalLayout_22">
+             <property name="spacing">
+              <number>6</number>
+             </property>
+             <item>
+              <widget class="klakbutono" name="Lec03_Button346">
+               <property name="text">
+                <string>naŭcent naŭdek naŭ mil unu</string>
+               </property>
+              </widget>
+             </item>
+             <item>
+              <widget class="klakbutono" name="Lec03_Button347">
+               <property name="text">
+                <string>unu miliono tricent dudek du</string>
+               </property>
+              </widget>
+             </item>
+            </layout>
+           </item>
+          </layout>
+         </item>
+         <item>
+          <spacer name="horizontalSpacer_6">
+           <property name="orientation">
+            <enum>Qt::Horizontal</enum>
+           </property>
+           <property name="sizeHint" stdset="0">
+            <size>
+             <width>40</width>
+             <height>20</height>
+            </size>
+           </property>
+          </spacer>
+         </item>
         </layout>
+       </item>
+       <item>
+        <spacer name="verticalSpacer_5">
+         <property name="orientation">
+          <enum>Qt::Vertical</enum>
+         </property>
+         <property name="sizeHint" stdset="0">
+          <size>
+           <width>20</width>
+           <height>40</height>
+          </size>
+         </property>
+        </spacer>
        </item>
       </layout>
      </widget>

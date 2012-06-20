@@ -182,9 +182,6 @@
           <property name="autoFillBackground">
            <bool>false</bool>
           </property>
-          <property name="styleSheet">
-           <string notr="true">background-color: rgb(255, 255, 255);</string>
-          </property>
           <property name="frameShape">
            <enum>QFrame::Panel</enum>
           </property>
@@ -267,9 +264,6 @@
           </property>
           <property name="autoFillBackground">
            <bool>false</bool>
-          </property>
-          <property name="styleSheet">
-           <string notr="true">background-color: rgb(255, 255, 255);</string>
           </property>
           <property name="frameShape">
            <enum>QFrame::Panel</enum>
@@ -357,9 +351,6 @@
           <property name="autoFillBackground">
            <bool>false</bool>
           </property>
-          <property name="styleSheet">
-           <string notr="true">background-color: rgb(255, 255, 255);</string>
-          </property>
           <property name="frameShape">
            <enum>QFrame::Panel</enum>
           </property>
@@ -389,8 +380,8 @@
             <widget class="QLabel" name="label_9">
              <property name="minimumSize">
               <size>
-               <width>32</width>
-               <height>32</height>
+               <width>0</width>
+               <height>0</height>
               </size>
              </property>
              <property name="text">
@@ -411,8 +402,8 @@
             <widget class="QSpinBox" name="Placar27">
              <property name="minimumSize">
               <size>
-               <width>32</width>
-               <height>32</height>
+               <width>0</width>
+               <height>0</height>
               </size>
              </property>
              <property name="font">
@@ -460,9 +451,6 @@
           </property>
           <property name="autoFillBackground">
            <bool>false</bool>
-          </property>
-          <property name="styleSheet">
-           <string notr="true">background-color: rgb(255, 255, 255);</string>
           </property>
           <property name="frameShape">
            <enum>QFrame::Panel</enum>
@@ -663,6 +651,9 @@
                 </item>
                 <item>
                  <widget class="QLabel" name="Vorto1">
+                  <property name="styleSheet">
+                   <string notr="true">qproperty-wordWrap: false;</string>
+                  </property>
                   <property name="text">
                    <string notr="true"/>
                   </property>
@@ -750,6 +741,9 @@
                 </item>
                 <item>
                  <widget class="QLabel" name="Vorto2">
+                  <property name="styleSheet">
+                   <string notr="true">qproperty-wordWrap: false;</string>
+                  </property>
                   <property name="text">
                    <string notr="true"/>
                   </property>
@@ -834,6 +828,9 @@
                 </item>
                 <item>
                  <widget class="QLabel" name="Vorto3">
+                  <property name="styleSheet">
+                   <string notr="true">qproperty-wordWrap: false;</string>
+                  </property>
                   <property name="text">
                    <string notr="true"/>
                   </property>
@@ -921,6 +918,9 @@
                 </item>
                 <item>
                  <widget class="QLabel" name="Vorto4">
+                  <property name="styleSheet">
+                   <string notr="true">qproperty-wordWrap: false;</string>
+                  </property>
                   <property name="text">
                    <string notr="true"/>
                   </property>
@@ -1005,6 +1005,9 @@
                 </item>
                 <item>
                  <widget class="QLabel" name="Vorto5">
+                  <property name="styleSheet">
+                   <string notr="true">qproperty-wordWrap: false;</string>
+                  </property>
                   <property name="text">
                    <string notr="true"/>
                   </property>
@@ -1089,6 +1092,9 @@
                 </item>
                 <item>
                  <widget class="QLabel" name="Vorto6">
+                  <property name="styleSheet">
+                   <string notr="true">qproperty-wordWrap: false;</string>
+                  </property>
                   <property name="text">
                    <string notr="true"/>
                   </property>

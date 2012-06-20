@@ -17,16 +17,23 @@ public:
     ~kurso();
     Phonon::MediaObject *ludilo;
 
+public slots:
+    void Saluton();
+
 
 private slots:
 
+    void Centrigas_Fenestron();
+    void Ghustigas_fenestron();
     void Traduku();
+    void ListigasLingvojn();
     void Konfiguru();
     void komencakonfiguro();
     void SavasKonfig();
     void Stilo();
 
     void closeEvent(QCloseEvent *event);
+    void showEvent ( QShowEvent * event ) ;
 
     void on_Hejmo_clicked();
 
@@ -47,6 +54,7 @@ private slots:
     void on_KieButono_clicked();
 
     void on_Tiparo_currentIndexChanged(const QString &arg1);
+
 
     /* CHI TIU PARTO ENIROS EN ESTONTA VERSIO
     void on_BildoLudo_clicked();
@@ -109,9 +117,11 @@ private slots:
 private:
     Ui::kurso *ui;
 
-    QStringList LingvoListo;
+    QList<QStringList> LingvoListo;
+
 
     int alteco_originala, largheco_originala;
+    bool Eta_Fenestro, Malalta_Fenestro, JamMontrita;
 
 
 };

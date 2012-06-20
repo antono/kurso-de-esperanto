@@ -179,9 +179,6 @@
           <property name="autoFillBackground">
            <bool>false</bool>
           </property>
-          <property name="styleSheet">
-           <string notr="true">background-color: rgb(255, 255, 255);</string>
-          </property>
           <property name="frameShape">
            <enum>QFrame::Panel</enum>
           </property>
@@ -264,9 +261,6 @@
           </property>
           <property name="autoFillBackground">
            <bool>false</bool>
-          </property>
-          <property name="styleSheet">
-           <string notr="true">background-color: rgb(255, 255, 255);</string>
           </property>
           <property name="frameShape">
            <enum>QFrame::Panel</enum>
@@ -354,9 +348,6 @@
           <property name="autoFillBackground">
            <bool>false</bool>
           </property>
-          <property name="styleSheet">
-           <string notr="true">background-color: rgb(255, 255, 255);</string>
-          </property>
           <property name="frameShape">
            <enum>QFrame::Panel</enum>
           </property>
@@ -386,8 +377,8 @@
             <widget class="QLabel" name="label_55">
              <property name="minimumSize">
               <size>
-               <width>32</width>
-               <height>32</height>
+               <width>0</width>
+               <height>0</height>
               </size>
              </property>
              <property name="text">
@@ -408,8 +399,8 @@
             <widget class="QSpinBox" name="Placar3">
              <property name="minimumSize">
               <size>
-               <width>32</width>
-               <height>32</height>
+               <width>0</width>
+               <height>0</height>
               </size>
              </property>
              <property name="font">
@@ -457,9 +448,6 @@
           </property>
           <property name="autoFillBackground">
            <bool>false</bool>
-          </property>
-          <property name="styleSheet">
-           <string notr="true">background-color: rgb(255, 255, 255);</string>
           </property>
           <property name="frameShape">
            <enum>QFrame::Panel</enum>

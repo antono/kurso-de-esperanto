@@ -63,7 +63,7 @@
       </sizepolicy>
      </property>
      <property name="currentIndex">
-      <number>3</number>
+      <number>0</number>
      </property>
      <property name="iconSize">
       <size>
@@ -3334,11 +3334,6 @@ p, li { white-space: pre-wrap; }
    <header>titolo.h</header>
   </customwidget>
   <customwidget>
-   <class>cx_edit</class>
-   <extends>QLineEdit</extends>
-   <header>cx_edit.h</header>
-  </customwidget>
-  <customwidget>
    <class>panelo</class>
    <extends>QFrame</extends>
    <header>panelo.h</header>
@@ -3351,6 +3346,17 @@ p, li { white-space: pre-wrap; }
    <class>label_sago_reversa</class>
    <extends>QLabel</extends>
    <header>label_sago_reversa.h</header>
+  </customwidget>
+  <customwidget>
+   <class>akuzativo</class>
+   <extends>QFrame</extends>
+   <header>akuzativo.h</header>
+   <container>1</container>
+  </customwidget>
+  <customwidget>
+   <class>cx_edit</class>
+   <extends>QLineEdit</extends>
+   <header>cx_edit.h</header>
   </customwidget>
   <customwidget>
    <class>vortoludo</class>
@@ -3373,12 +3379,6 @@ p, li { white-space: pre-wrap; }
    <class>prononco</class>
    <extends>QFrame</extends>
    <header>prononco.h</header>
-   <container>1</container>
-  </customwidget>
-  <customwidget>
-   <class>akuzativo</class>
-   <extends>QFrame</extends>
-   <header>akuzativo.h</header>
    <container>1</container>
   </customwidget>
   <customwidget>

@@ -54,7 +54,7 @@ prononco::prononco(QWidget *parent) :
 
     formato.setFrequency(44100);
     formato.setChannels(1);
-    formato.setSampleSize(16);
+    formato.setSampleSize(8);
     formato.setCodec("audio/pcm");
     formato.setByteOrder( QAudioFormat::LittleEndian );
     formato.setSampleType( QAudioFormat::UnSignedInt );

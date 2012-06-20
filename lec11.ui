@@ -51,7 +51,7 @@
       </sizepolicy>
      </property>
      <property name="currentIndex">
-      <number>10</number>
+      <number>5</number>
      </property>
      <property name="iconSize">
       <size>
@@ -1964,6 +1964,9 @@
        </item>
        <item>
         <layout class="QVBoxLayout" name="verticalLayout_32">
+         <property name="spacing">
+          <number>6</number>
+         </property>
          <item>
           <layout class="QHBoxLayout" name="horizontalLayout_48">
            <item>
@@ -2011,6 +2014,9 @@
            </item>
            <item>
             <layout class="QVBoxLayout" name="verticalLayout_29">
+             <property name="spacing">
+              <number>6</number>
+             </property>
              <item>
               <layout class="QHBoxLayout" name="horizontalLayout_49" stretch="0,0,0,0,5">
                <item>
@@ -2392,6 +2398,9 @@
        </item>
        <item>
         <layout class="QVBoxLayout" name="verticalLayout_30">
+         <property name="spacing">
+          <number>6</number>
+         </property>
          <item>
           <layout class="QHBoxLayout" name="horizontalLayout_56">
            <item>
@@ -2439,6 +2448,9 @@
            </item>
            <item>
             <layout class="QVBoxLayout" name="verticalLayout_31">
+             <property name="spacing">
+              <number>6</number>
+             </property>
              <item>
               <layout class="QHBoxLayout" name="horizontalLayout_58" stretch="0,0,0,0,5">
                <item>
@@ -4903,11 +4915,6 @@
    <header>titolo.h</header>
   </customwidget>
   <customwidget>
-   <class>cx_edit</class>
-   <extends>QLineEdit</extends>
-   <header>cx_edit.h</header>
-  </customwidget>
-  <customwidget>
    <class>panelo</class>
    <extends>QFrame</extends>
    <header>panelo.h</header>
@@ -4917,15 +4924,20 @@
    </slots>
   </customwidget>
   <customwidget>
+   <class>neklakebla</class>
+   <extends>QPushButton</extends>
+   <header>neklakebla.h</header>
+  </customwidget>
+  <customwidget>
    <class>vortoludo</class>
    <extends>QFrame</extends>
    <header>vortoludo.h</header>
    <container>1</container>
   </customwidget>
   <customwidget>
-   <class>neklakebla</class>
-   <extends>QPushButton</extends>
-   <header>neklakebla.h</header>
+   <class>cx_edit</class>
+   <extends>QLineEdit</extends>
+   <header>cx_edit.h</header>
   </customwidget>
   <customwidget>
    <class>kiomahoro</class>

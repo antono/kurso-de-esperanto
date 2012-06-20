@@ -18,8 +18,8 @@
   </property>
   <property name="minimumSize">
    <size>
-    <width>1000</width>
-    <height>600</height>
+    <width>0</width>
+    <height>0</height>
    </size>
   </property>
   <property name="font">
@@ -64,7 +64,7 @@
      <number>0</number>
     </property>
     <item>
-     <layout class="QVBoxLayout" name="verticalLayout_124" stretch="1,0">
+     <layout class="QVBoxLayout" name="verticalLayout_124" stretch="0,0">
       <property name="spacing">
        <number>0</number>
       </property>
@@ -89,7 +89,7 @@
          </font>
         </property>
         <property name="currentIndex">
-         <number>15</number>
+         <number>14</number>
         </property>
         <widget class="QWidget" name="ChefaPagho">
          <property name="font">
@@ -101,887 +101,742 @@
          <property name="styleSheet">
           <string notr="true"/>
          </property>
-         <widget class="QLabel" name="label_2">
-          <property name="geometry">
-           <rect>
-            <x>10</x>
-            <y>10</y>
-            <width>100</width>
-            <height>113</height>
-           </rect>
-          </property>
-          <property name="text">
-           <string/>
-          </property>
-          <property name="pixmap">
-           <pixmap resource="paghopiedo.qrc">:/pagxopiedo/Esperanto_125.png</pixmap>
-          </property>
-         </widget>
-         <widget class="QLabel" name="label_3">
-          <property name="geometry">
-           <rect>
-            <x>530</x>
-            <y>-5</y>
-            <width>430</width>
-            <height>257</height>
-           </rect>
-          </property>
-          <property name="text">
-           <string/>
-          </property>
-          <property name="pixmap">
-           <pixmap resource="paghopiedo.qrc">:/pagxopiedo/kurso_fono.png</pixmap>
-          </property>
-         </widget>
-         <widget class="QPushButton" name="Leciono1">
-          <property name="geometry">
-           <rect>
-            <x>216</x>
-            <y>6</y>
-            <width>44</width>
-            <height>25</height>
-           </rect>
-          </property>
-          <property name="sizePolicy">
-           <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
-            <horstretch>0</horstretch>
-            <verstretch>0</verstretch>
-           </sizepolicy>
-          </property>
-          <property name="minimumSize">
-           <size>
-            <width>0</width>
-            <height>0</height>
-           </size>
-          </property>
-          <property name="maximumSize">
-           <size>
-            <width>16777215</width>
-            <height>16777215</height>
-           </size>
-          </property>
-          <property name="font">
-           <font>
-            <pointsize>11</pointsize>
-           </font>
-          </property>
-          <property name="text">
-           <string notr="true"/>
-          </property>
-          <property name="iconSize">
-           <size>
-            <width>24</width>
-            <height>24</height>
-           </size>
-          </property>
-          <property name="flat">
-           <bool>true</bool>
-          </property>
-          <property name="tipo" stdset="0">
-           <string>leciona</string>
-          </property>
-         </widget>
-         <widget class="QPushButton" name="Leciono2">
-          <property name="geometry">
-           <rect>
-            <x>236</x>
-            <y>47</y>
-            <width>44</width>
-            <height>25</height>
-           </rect>
-          </property>
-          <property name="sizePolicy">
-           <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
-            <horstretch>0</horstretch>
-            <verstretch>0</verstretch>
-           </sizepolicy>
-          </property>
-          <property name="minimumSize">
-           <size>
-            <width>0</width>
-            <height>0</height>
-           </size>
-          </property>
-          <property name="maximumSize">
-           <size>
-            <width>16777215</width>
-            <height>16777215</height>
-           </size>
-          </property>
-          <property name="font">
-           <font>
-            <pointsize>11</pointsize>
-           </font>
-          </property>
-          <property name="text">
-           <string notr="true"/>
-          </property>
-          <property name="iconSize">
-           <size>
-            <width>24</width>
-            <height>24</height>
-           </size>
-          </property>
-          <property name="flat">
-           <bool>true</bool>
-          </property>
-          <property name="tipo" stdset="0">
-           <string>leciona</string>
-          </property>
-         </widget>
-         <widget class="QPushButton" name="Leciono3">
-          <property name="geometry">
-           <rect>
-            <x>258</x>
-            <y>88</y>
-            <width>44</width>
-            <height>25</height>
-           </rect>
-          </property>
-          <property name="sizePolicy">
-           <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
-            <horstretch>0</horstretch>
-            <verstretch>0</verstretch>
-           </sizepolicy>
-          </property>
-          <property name="minimumSize">
-           <size>
-            <width>0</width>
-            <height>0</height>
-           </size>
-          </property>
-          <property name="maximumSize">
-           <size>
-            <width>16777215</width>
-            <height>16777215</height>
-           </size>
-          </property>
-          <property name="font">
-           <font>
-            <pointsize>11</pointsize>
-           </font>
-          </property>
-          <property name="text">
-           <string notr="true"/>
-          </property>
-          <property name="iconSize">
-           <size>
-            <width>24</width>
-            <height>24</height>
-           </size>
-          </property>
-          <property name="flat">
-           <bool>true</bool>
-          </property>
-          <property name="tipo" stdset="0">
-           <string>leciona</string>
-          </property>
-         </widget>
-         <widget class="QPushButton" name="Leciono4">
-          <property name="geometry">
-           <rect>
-            <x>282</x>
-            <y>130</y>
-            <width>44</width>
-            <height>25</height>
-           </rect>
-          </property>
-          <property name="sizePolicy">
-           <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
-            <horstretch>0</horstretch>
-            <verstretch>0</verstretch>
-           </sizepolicy>
-          </property>
-          <property name="minimumSize">
-           <size>
-            <width>0</width>
-            <height>0</height>
-           </size>
-          </property>
-          <property name="maximumSize">
-           <size>
-            <width>16777215</width>
-            <height>16777215</height>
-           </size>
-          </property>
-          <property name="font">
-           <font>
-            <pointsize>11</pointsize>
-           </font>
-          </property>
-          <property name="text">
-           <string notr="true"/>
-          </property>
-          <property name="iconSize">
-           <size>
-            <width>24</width>
-            <height>24</height>
-           </size>
-          </property>
-          <property name="flat">
-           <bool>true</bool>
-          </property>
-          <property name="tipo" stdset="0">
-           <string>leciona</string>
-          </property>
-         </widget>
-         <widget class="QPushButton" name="Leciono5">
-          <property name="geometry">
-           <rect>
-            <x>309</x>
-            <y>171</y>
-            <width>44</width>
-            <height>25</height>
-           </rect>
-          </property>
-          <property name="sizePolicy">
-           <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
-            <horstretch>0</horstretch>
-            <verstretch>0</verstretch>
-           </sizepolicy>
-          </property>
-          <property name="minimumSize">
-           <size>
-            <width>0</width>
-            <height>0</height>
-           </size>
-          </property>
-          <property name="maximumSize">
-           <size>
-            <width>16777215</width>
-            <height>16777215</height>
-           </size>
-          </property>
-          <property name="font">
-           <font>
-            <pointsize>11</pointsize>
-           </font>
-          </property>
-          <property name="text">
-           <string notr="true"/>
-          </property>
-          <property name="iconSize">
-           <size>
-            <width>24</width>
-            <height>24</height>
-           </size>
-          </property>
-          <property name="flat">
-           <bool>true</bool>
-          </property>
-          <property name="tipo" stdset="0">
-           <string>leciona</string>
-          </property>
-         </widget>
-         <widget class="QPushButton" name="Leciono6">
-          <property name="geometry">
-           <rect>
-            <x>338</x>
-            <y>212</y>
-            <width>44</width>
-            <height>25</height>
-           </rect>
-          </property>
-          <property name="sizePolicy">
-           <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
-            <horstretch>0</horstretch>
-            <verstretch>0</verstretch>
-           </sizepolicy>
-          </property>
-          <property name="minimumSize">
-           <size>
-            <width>0</width>
-            <height>0</height>
-           </size>
-          </property>
-          <property name="maximumSize">
-           <size>
-            <width>16777215</width>
-            <height>16777215</height>
-           </size>
-          </property>
-          <property name="font">
-           <font>
-            <pointsize>11</pointsize>
-           </font>
-          </property>
-          <property name="text">
-           <string notr="true"/>
-          </property>
-          <property name="iconSize">
-           <size>
-            <width>24</width>
-            <height>24</height>
-           </size>
-          </property>
-          <property name="flat">
-           <bool>true</bool>
-          </property>
-          <property name="tipo" stdset="0">
-           <string>leciona</string>
-          </property>
-         </widget>
-         <widget class="QPushButton" name="Leciono7">
-          <property name="geometry">
-           <rect>
-            <x>370</x>
-            <y>253</y>
-            <width>44</width>
-            <height>25</height>
-           </rect>
-          </property>
-          <property name="sizePolicy">
-           <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
-            <horstretch>0</horstretch>
-            <verstretch>0</verstretch>
-           </sizepolicy>
-          </property>
-          <property name="minimumSize">
-           <size>
-            <width>0</width>
-            <height>0</height>
-           </size>
-          </property>
-          <property name="maximumSize">
-           <size>
-            <width>16777215</width>
-            <height>16777215</height>
-           </size>
-          </property>
-          <property name="font">
-           <font>
-            <pointsize>11</pointsize>
-           </font>
-          </property>
-          <property name="text">
-           <string notr="true"/>
-          </property>
-          <property name="iconSize">
-           <size>
-            <width>24</width>
-            <height>24</height>
-           </size>
-          </property>
-          <property name="flat">
-           <bool>true</bool>
-          </property>
-          <property name="tipo" stdset="0">
-           <string>leciona</string>
-          </property>
-         </widget>
-         <widget class="QPushButton" name="Leciono8">
-          <property name="geometry">
-           <rect>
-            <x>406</x>
-            <y>295</y>
-            <width>44</width>
-            <height>25</height>
-           </rect>
-          </property>
-          <property name="sizePolicy">
-           <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
-            <horstretch>0</horstretch>
-            <verstretch>0</verstretch>
-           </sizepolicy>
-          </property>
-          <property name="minimumSize">
-           <size>
-            <width>0</width>
-            <height>0</height>
-           </size>
-          </property>
-          <property name="maximumSize">
-           <size>
-            <width>16777215</width>
-            <height>16777215</height>
-           </size>
-          </property>
-          <property name="font">
-           <font>
-            <pointsize>11</pointsize>
-           </font>
-          </property>
-          <property name="text">
-           <string notr="true"/>
-          </property>
-          <property name="iconSize">
-           <size>
-            <width>24</width>
-            <height>24</height>
-           </size>
-          </property>
-          <property name="flat">
-           <bool>true</bool>
-          </property>
-          <property name="tipo" stdset="0">
-           <string>leciona</string>
-          </property>
-         </widget>
-         <widget class="QPushButton" name="KieButono">
-          <property name="geometry">
-           <rect>
-            <x>666</x>
-            <y>340</y>
-            <width>280</width>
-            <height>40</height>
-           </rect>
-          </property>
-          <property name="sizePolicy">
-           <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
-            <horstretch>0</horstretch>
-            <verstretch>0</verstretch>
-           </sizepolicy>
-          </property>
-          <property name="minimumSize">
-           <size>
-            <width>0</width>
-            <height>0</height>
-           </size>
-          </property>
-          <property name="maximumSize">
-           <size>
-            <width>16777215</width>
-            <height>16777215</height>
-           </size>
-          </property>
-          <property name="font">
-           <font>
-            <pointsize>11</pointsize>
-           </font>
-          </property>
-          <property name="text">
-           <string notr="true"/>
-          </property>
-          <property name="icon">
-           <iconset resource="ikonoj.qrc">
-            <normaloff>:/ikonoj/kie_mi_haltis.png</normaloff>:/ikonoj/kie_mi_haltis.png</iconset>
-          </property>
-          <property name="iconSize">
-           <size>
-            <width>32</width>
-            <height>32</height>
-           </size>
-          </property>
-          <property name="default">
-           <bool>true</bool>
-          </property>
-          <property name="flat">
-           <bool>false</bool>
-          </property>
-         </widget>
-         <widget class="QPushButton" name="Leciono9">
-          <property name="geometry">
-           <rect>
-            <x>445</x>
-            <y>336</y>
-            <width>44</width>
-            <height>25</height>
-           </rect>
-          </property>
-          <property name="sizePolicy">
-           <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
-            <horstretch>0</horstretch>
-            <verstretch>0</verstretch>
-           </sizepolicy>
-          </property>
-          <property name="minimumSize">
-           <size>
-            <width>0</width>
-            <height>0</height>
-           </size>
-          </property>
-          <property name="maximumSize">
-           <size>
-            <width>16777215</width>
-            <height>16777215</height>
-           </size>
-          </property>
-          <property name="font">
-           <font>
-            <pointsize>11</pointsize>
-           </font>
-          </property>
-          <property name="text">
-           <string notr="true"/>
-          </property>
-          <property name="iconSize">
-           <size>
-            <width>24</width>
-            <height>24</height>
-           </size>
-          </property>
-          <property name="flat">
-           <bool>true</bool>
-          </property>
-          <property name="tipo" stdset="0">
-           <string>leciona</string>
-          </property>
-         </widget>
-         <widget class="QPushButton" name="Leciono10">
-          <property name="geometry">
-           <rect>
-            <x>487</x>
-            <y>378</y>
-            <width>44</width>
-            <height>25</height>
-           </rect>
-          </property>
-          <property name="sizePolicy">
-           <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
-            <horstretch>0</horstretch>
-            <verstretch>0</verstretch>
-           </sizepolicy>
-          </property>
-          <property name="minimumSize">
-           <size>
-            <width>0</width>
-            <height>0</height>
-           </size>
-          </property>
-          <property name="maximumSize">
-           <size>
-            <width>16777215</width>
-            <height>16777215</height>
-           </size>
-          </property>
-          <property name="font">
-           <font>
-            <pointsize>11</pointsize>
-           </font>
-          </property>
-          <property name="text">
-           <string notr="true"/>
-          </property>
-          <property name="iconSize">
-           <size>
-            <width>24</width>
-            <height>24</height>
-           </size>
-          </property>
-          <property name="flat">
-           <bool>true</bool>
-          </property>
-          <property name="tipo" stdset="0">
-           <string>leciona</string>
-          </property>
-         </widget>
-         <widget class="QPushButton" name="Leciono11">
-          <property name="geometry">
-           <rect>
-            <x>535</x>
-            <y>419</y>
-            <width>44</width>
-            <height>25</height>
-           </rect>
-          </property>
-          <property name="sizePolicy">
-           <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
-            <horstretch>0</horstretch>
-            <verstretch>0</verstretch>
-           </sizepolicy>
-          </property>
-          <property name="minimumSize">
-           <size>
-            <width>0</width>
-            <height>0</height>
-           </size>
-          </property>
-          <property name="maximumSize">
-           <size>
-            <width>16777215</width>
-            <height>16777215</height>
-           </size>
-          </property>
-          <property name="font">
-           <font>
-            <pointsize>11</pointsize>
-           </font>
-          </property>
-          <property name="text">
-           <string notr="true"/>
-          </property>
-          <property name="iconSize">
-           <size>
-            <width>24</width>
-            <height>24</height>
-           </size>
-          </property>
-          <property name="flat">
-           <bool>true</bool>
-          </property>
-          <property name="tipo" stdset="0">
-           <string>leciona</string>
-          </property>
-         </widget>
-         <widget class="QPushButton" name="Leciono12">
-          <property name="geometry">
-           <rect>
-            <x>586</x>
-            <y>461</y>
-            <width>44</width>
-            <height>25</height>
-           </rect>
-          </property>
-          <property name="sizePolicy">
-           <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
-            <horstretch>0</horstretch>
-            <verstretch>0</verstretch>
-           </sizepolicy>
-          </property>
-          <property name="minimumSize">
-           <size>
-            <width>0</width>
-            <height>0</height>
-           </size>
-          </property>
-          <property name="maximumSize">
-           <size>
-            <width>16777215</width>
-            <height>16777215</height>
-           </size>
-          </property>
-          <property name="font">
-           <font>
-            <pointsize>11</pointsize>
-           </font>
-          </property>
-          <property name="text">
-           <string notr="true"/>
-          </property>
-          <property name="iconSize">
-           <size>
-            <width>24</width>
-            <height>24</height>
-           </size>
-          </property>
-          <property name="flat">
-           <bool>true</bool>
-          </property>
-          <property name="tipo" stdset="0">
-           <string>leciona</string>
-          </property>
-         </widget>
-         <widget class="QLabel" name="ligilo">
-          <property name="geometry">
-           <rect>
-            <x>380</x>
-            <y>510</y>
-            <width>169</width>
-            <height>19</height>
-           </rect>
-          </property>
-          <property name="sizePolicy">
-           <sizepolicy hsizetype="Preferred" vsizetype="Minimum">
-            <horstretch>0</horstretch>
-            <verstretch>0</verstretch>
-           </sizepolicy>
-          </property>
-          <property name="text">
-           <string>&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;
+         <layout class="QGridLayout" name="gridLayout">
+          <property name="leftMargin">
+           <number>9</number>
+          </property>
+          <property name="topMargin">
+           <number>2</number>
+          </property>
+          <property name="bottomMargin">
+           <number>3</number>
+          </property>
+          <property name="spacing">
+           <number>0</number>
+          </property>
+          <item row="0" column="2" rowspan="3" colspan="20">
+           <widget class="QLabel" name="label_2">
+            <property name="text">
+             <string/>
+            </property>
+            <property name="pixmap">
+             <pixmap resource="paghopiedo.qrc">:/pagxopiedo/Esperanto_125.png</pixmap>
+            </property>
+           </widget>
+          </item>
+          <item row="0" column="40" colspan="30">
+           <widget class="QPushButton" name="Leciono1">
+            <property name="sizePolicy">
+             <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
+              <horstretch>0</horstretch>
+              <verstretch>0</verstretch>
+             </sizepolicy>
+            </property>
+            <property name="minimumSize">
+             <size>
+              <width>0</width>
+              <height>0</height>
+             </size>
+            </property>
+            <property name="maximumSize">
+             <size>
+              <width>147</width>
+              <height>42</height>
+             </size>
+            </property>
+            <property name="font">
+             <font>
+              <pointsize>11</pointsize>
+             </font>
+            </property>
+            <property name="iconSize">
+             <size>
+              <width>24</width>
+              <height>24</height>
+             </size>
+            </property>
+            <property name="flat">
+             <bool>true</bool>
+            </property>
+            <property name="tipo" stdset="0">
+             <string>leciona</string>
+            </property>
+           </widget>
+          </item>
+          <item row="0" column="100" rowspan="7" colspan="86">
+           <widget class="QLabel" name="label_3">
+            <property name="text">
+             <string/>
+            </property>
+            <property name="pixmap">
+             <pixmap resource="paghopiedo.qrc">:/pagxopiedo/kurso_fono.png</pixmap>
+            </property>
+           </widget>
+          </item>
+          <item row="1" column="44" colspan="30">
+           <widget class="QPushButton" name="Leciono2">
+            <property name="sizePolicy">
+             <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
+              <horstretch>0</horstretch>
+              <verstretch>0</verstretch>
+             </sizepolicy>
+            </property>
+            <property name="minimumSize">
+             <size>
+              <width>0</width>
+              <height>0</height>
+             </size>
+            </property>
+            <property name="maximumSize">
+             <size>
+              <width>147</width>
+              <height>42</height>
+             </size>
+            </property>
+            <property name="font">
+             <font>
+              <pointsize>11</pointsize>
+             </font>
+            </property>
+            <property name="iconSize">
+             <size>
+              <width>24</width>
+              <height>24</height>
+             </size>
+            </property>
+            <property name="flat">
+             <bool>true</bool>
+            </property>
+            <property name="tipo" stdset="0">
+             <string>leciona</string>
+            </property>
+           </widget>
+          </item>
+          <item row="2" column="48" colspan="30">
+           <widget class="QPushButton" name="Leciono3">
+            <property name="sizePolicy">
+             <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
+              <horstretch>0</horstretch>
+              <verstretch>0</verstretch>
+             </sizepolicy>
+            </property>
+            <property name="minimumSize">
+             <size>
+              <width>0</width>
+              <height>0</height>
+             </size>
+            </property>
+            <property name="maximumSize">
+             <size>
+              <width>147</width>
+              <height>42</height>
+             </size>
+            </property>
+            <property name="font">
+             <font>
+              <pointsize>11</pointsize>
+             </font>
+            </property>
+            <property name="iconSize">
+             <size>
+              <width>24</width>
+              <height>24</height>
+             </size>
+            </property>
+            <property name="flat">
+             <bool>true</bool>
+            </property>
+            <property name="tipo" stdset="0">
+             <string>leciona</string>
+            </property>
+           </widget>
+          </item>
+          <item row="4" column="58" colspan="30">
+           <widget class="QPushButton" name="Leciono5">
+            <property name="sizePolicy">
+             <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
+              <horstretch>0</horstretch>
+              <verstretch>0</verstretch>
+             </sizepolicy>
+            </property>
+            <property name="minimumSize">
+             <size>
+              <width>0</width>
+              <height>0</height>
+             </size>
+            </property>
+            <property name="maximumSize">
+             <size>
+              <width>147</width>
+              <height>42</height>
+             </size>
+            </property>
+            <property name="font">
+             <font>
+              <pointsize>11</pointsize>
+             </font>
+            </property>
+            <property name="iconSize">
+             <size>
+              <width>24</width>
+              <height>24</height>
+             </size>
+            </property>
+            <property name="flat">
+             <bool>true</bool>
+            </property>
+            <property name="tipo" stdset="0">
+             <string>leciona</string>
+            </property>
+           </widget>
+          </item>
+          <item row="5" column="64" colspan="30">
+           <widget class="QPushButton" name="Leciono6">
+            <property name="sizePolicy">
+             <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
+              <horstretch>0</horstretch>
+              <verstretch>0</verstretch>
+             </sizepolicy>
+            </property>
+            <property name="minimumSize">
+             <size>
+              <width>0</width>
+              <height>0</height>
+             </size>
+            </property>
+            <property name="maximumSize">
+             <size>
+              <width>147</width>
+              <height>42</height>
+             </size>
+            </property>
+            <property name="font">
+             <font>
+              <pointsize>11</pointsize>
+             </font>
+            </property>
+            <property name="iconSize">
+             <size>
+              <width>24</width>
+              <height>24</height>
+             </size>
+            </property>
+            <property name="flat">
+             <bool>true</bool>
+            </property>
+            <property name="tipo" stdset="0">
+             <string>leciona</string>
+            </property>
+           </widget>
+          </item>
+          <item row="6" column="71" colspan="30">
+           <widget class="QPushButton" name="Leciono7">
+            <property name="sizePolicy">
+             <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
+              <horstretch>0</horstretch>
+              <verstretch>0</verstretch>
+             </sizepolicy>
+            </property>
+            <property name="minimumSize">
+             <size>
+              <width>0</width>
+              <height>0</height>
+             </size>
+            </property>
+            <property name="maximumSize">
+             <size>
+              <width>147</width>
+              <height>42</height>
+             </size>
+            </property>
+            <property name="font">
+             <font>
+              <pointsize>11</pointsize>
+             </font>
+            </property>
+            <property name="iconSize">
+             <size>
+              <width>24</width>
+              <height>24</height>
+             </size>
+            </property>
+            <property name="flat">
+             <bool>true</bool>
+            </property>
+            <property name="tipo" stdset="0">
+             <string>leciona</string>
+            </property>
+           </widget>
+          </item>
+          <item row="9" column="2" colspan="60">
+           <widget class="QPushButton" name="KieButono">
+            <property name="sizePolicy">
+             <sizepolicy hsizetype="Preferred" vsizetype="Maximum">
+              <horstretch>0</horstretch>
+              <verstretch>0</verstretch>
+             </sizepolicy>
+            </property>
+            <property name="minimumSize">
+             <size>
+              <width>0</width>
+              <height>0</height>
+             </size>
+            </property>
+            <property name="maximumSize">
+             <size>
+              <width>300</width>
+              <height>16777215</height>
+             </size>
+            </property>
+            <property name="font">
+             <font>
+              <pointsize>11</pointsize>
+             </font>
+            </property>
+            <property name="text">
+             <string notr="true"/>
+            </property>
+            <property name="icon">
+             <iconset resource="ikonoj.qrc">
+              <normaloff>:/ikonoj/kie_mi_haltis.png</normaloff>:/ikonoj/kie_mi_haltis.png</iconset>
+            </property>
+            <property name="iconSize">
+             <size>
+              <width>32</width>
+              <height>32</height>
+             </size>
+            </property>
+            <property name="default">
+             <bool>true</bool>
+            </property>
+            <property name="flat">
+             <bool>true</bool>
+            </property>
+           </widget>
+          </item>
+          <item row="7" column="78" colspan="30">
+           <widget class="QPushButton" name="Leciono8">
+            <property name="sizePolicy">
+             <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
+              <horstretch>0</horstretch>
+              <verstretch>0</verstretch>
+             </sizepolicy>
+            </property>
+            <property name="minimumSize">
+             <size>
+              <width>0</width>
+              <height>0</height>
+             </size>
+            </property>
+            <property name="maximumSize">
+             <size>
+              <width>147</width>
+              <height>42</height>
+             </size>
+            </property>
+            <property name="font">
+             <font>
+              <pointsize>11</pointsize>
+             </font>
+            </property>
+            <property name="iconSize">
+             <size>
+              <width>24</width>
+              <height>24</height>
+             </size>
+            </property>
+            <property name="flat">
+             <bool>true</bool>
+            </property>
+            <property name="tipo" stdset="0">
+             <string>leciona</string>
+            </property>
+           </widget>
+          </item>
+          <item row="8" column="86" colspan="30">
+           <widget class="QPushButton" name="Leciono9">
+            <property name="sizePolicy">
+             <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
+              <horstretch>0</horstretch>
+              <verstretch>0</verstretch>
+             </sizepolicy>
+            </property>
+            <property name="minimumSize">
+             <size>
+              <width>0</width>
+              <height>0</height>
+             </size>
+            </property>
+            <property name="maximumSize">
+             <size>
+              <width>147</width>
+              <height>42</height>
+             </size>
+            </property>
+            <property name="font">
+             <font>
+              <pointsize>11</pointsize>
+             </font>
+            </property>
+            <property name="iconSize">
+             <size>
+              <width>24</width>
+              <height>24</height>
+             </size>
+            </property>
+            <property name="flat">
+             <bool>true</bool>
+            </property>
+            <property name="tipo" stdset="0">
+             <string>leciona</string>
+            </property>
+           </widget>
+          </item>
+          <item row="10" column="2" colspan="60">
+           <widget class="QPushButton" name="KioEstas">
+            <property name="sizePolicy">
+             <sizepolicy hsizetype="Preferred" vsizetype="Maximum">
+              <horstretch>0</horstretch>
+              <verstretch>0</verstretch>
+             </sizepolicy>
+            </property>
+            <property name="minimumSize">
+             <size>
+              <width>0</width>
+              <height>0</height>
+             </size>
+            </property>
+            <property name="maximumSize">
+             <size>
+              <width>300</width>
+              <height>16777215</height>
+             </size>
+            </property>
+            <property name="font">
+             <font>
+              <pointsize>11</pointsize>
+             </font>
+            </property>
+            <property name="text">
+             <string notr="true"/>
+            </property>
+            <property name="icon">
+             <iconset resource="ikonoj.qrc">
+              <normaloff>:/ikonoj/e_flago.png</normaloff>:/ikonoj/e_flago.png</iconset>
+            </property>
+            <property name="iconSize">
+             <size>
+              <width>32</width>
+              <height>32</height>
+             </size>
+            </property>
+            <property name="flat">
+             <bool>true</bool>
+            </property>
+           </widget>
+          </item>
+          <item row="9" column="94" colspan="30">
+           <widget class="QPushButton" name="Leciono10">
+            <property name="sizePolicy">
+             <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
+              <horstretch>0</horstretch>
+              <verstretch>0</verstretch>
+             </sizepolicy>
+            </property>
+            <property name="minimumSize">
+             <size>
+              <width>0</width>
+              <height>0</height>
+             </size>
+            </property>
+            <property name="maximumSize">
+             <size>
+              <width>147</width>
+              <height>42</height>
+             </size>
+            </property>
+            <property name="font">
+             <font>
+              <pointsize>11</pointsize>
+             </font>
+            </property>
+            <property name="iconSize">
+             <size>
+              <width>24</width>
+              <height>24</height>
+             </size>
+            </property>
+            <property name="flat">
+             <bool>true</bool>
+            </property>
+            <property name="tipo" stdset="0">
+             <string>leciona</string>
+            </property>
+           </widget>
+          </item>
+          <item row="10" column="104" colspan="30">
+           <widget class="QPushButton" name="Leciono11">
+            <property name="sizePolicy">
+             <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
+              <horstretch>0</horstretch>
+              <verstretch>0</verstretch>
+             </sizepolicy>
+            </property>
+            <property name="minimumSize">
+             <size>
+              <width>0</width>
+              <height>0</height>
+             </size>
+            </property>
+            <property name="maximumSize">
+             <size>
+              <width>147</width>
+              <height>42</height>
+             </size>
+            </property>
+            <property name="font">
+             <font>
+              <pointsize>11</pointsize>
+             </font>
+            </property>
+            <property name="iconSize">
+             <size>
+              <width>24</width>
+              <height>24</height>
+             </size>
+            </property>
+            <property name="flat">
+             <bool>true</bool>
+            </property>
+            <property name="tipo" stdset="0">
+             <string>leciona</string>
+            </property>
+           </widget>
+          </item>
+          <item row="11" column="2" colspan="60">
+           <widget class="QPushButton" name="Kreditoj">
+            <property name="sizePolicy">
+             <sizepolicy hsizetype="Preferred" vsizetype="Maximum">
+              <horstretch>0</horstretch>
+              <verstretch>0</verstretch>
+             </sizepolicy>
+            </property>
+            <property name="minimumSize">
+             <size>
+              <width>0</width>
+              <height>0</height>
+             </size>
+            </property>
+            <property name="maximumSize">
+             <size>
+              <width>300</width>
+              <height>16777215</height>
+             </size>
+            </property>
+            <property name="font">
+             <font>
+              <pointsize>11</pointsize>
+             </font>
+            </property>
+            <property name="text">
+             <string notr="true"/>
+            </property>
+            <property name="icon">
+             <iconset resource="ikonoj.qrc">
+              <normaloff>:/ikonoj/kreditoj.png</normaloff>:/ikonoj/kreditoj.png</iconset>
+            </property>
+            <property name="iconSize">
+             <size>
+              <width>32</width>
+              <height>32</height>
+             </size>
+            </property>
+            <property name="flat">
+             <bool>true</bool>
+            </property>
+           </widget>
+          </item>
+          <item row="11" column="114" colspan="30">
+           <widget class="QPushButton" name="Leciono12">
+            <property name="sizePolicy">
+             <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
+              <horstretch>0</horstretch>
+              <verstretch>0</verstretch>
+             </sizepolicy>
+            </property>
+            <property name="minimumSize">
+             <size>
+              <width>0</width>
+              <height>0</height>
+             </size>
+            </property>
+            <property name="maximumSize">
+             <size>
+              <width>147</width>
+              <height>42</height>
+             </size>
+            </property>
+            <property name="font">
+             <font>
+              <pointsize>11</pointsize>
+             </font>
+            </property>
+            <property name="iconSize">
+             <size>
+              <width>24</width>
+              <height>24</height>
+             </size>
+            </property>
+            <property name="flat">
+             <bool>true</bool>
+            </property>
+            <property name="tipo" stdset="0">
+             <string>leciona</string>
+            </property>
+           </widget>
+          </item>
+          <item row="12" column="2" colspan="60">
+           <widget class="QPushButton" name="Eliri">
+            <property name="sizePolicy">
+             <sizepolicy hsizetype="Preferred" vsizetype="Maximum">
+              <horstretch>0</horstretch>
+              <verstretch>0</verstretch>
+             </sizepolicy>
+            </property>
+            <property name="minimumSize">
+             <size>
+              <width>0</width>
+              <height>0</height>
+             </size>
+            </property>
+            <property name="maximumSize">
+             <size>
+              <width>300</width>
+              <height>16777215</height>
+             </size>
+            </property>
+            <property name="font">
+             <font>
+              <pointsize>11</pointsize>
+             </font>
+            </property>
+            <property name="text">
+             <string notr="true"/>
+            </property>
+            <property name="icon">
+             <iconset resource="ikonoj.qrc">
+              <normaloff>:/ikonoj/fermi.png</normaloff>:/ikonoj/fermi.png</iconset>
+            </property>
+            <property name="iconSize">
+             <size>
+              <width>32</width>
+              <height>32</height>
+             </size>
+            </property>
+            <property name="flat">
+             <bool>true</bool>
+            </property>
+           </widget>
+          </item>
+          <item row="12" column="74" colspan="40">
+           <widget class="QLabel" name="ligilo">
+            <property name="sizePolicy">
+             <sizepolicy hsizetype="Preferred" vsizetype="Minimum">
+              <horstretch>0</horstretch>
+              <verstretch>0</verstretch>
+             </sizepolicy>
+            </property>
+            <property name="text">
+             <string>&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;
 &lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;
 p, li { white-space: pre-wrap; }
 &lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:'DejaVu Sans'; font-size:8.25pt; font-weight:400; font-style:normal;&quot;&gt;
 &lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;a href=&quot;http://www.kurso.com.br&quot;&gt;&lt;span style=&quot; font-size:16px; font-weight:600; text-decoration: underline; color:#0000ff;&quot;&gt;www.kurso.com.br&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
-          </property>
-          <property name="openExternalLinks">
-           <bool>true</bool>
-          </property>
-         </widget>
-         <widget class="QPushButton" name="Leciono13">
-          <property name="geometry">
-           <rect>
-            <x>643</x>
-            <y>503</y>
-            <width>44</width>
-            <height>25</height>
-           </rect>
-          </property>
-          <property name="sizePolicy">
-           <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
-            <horstretch>0</horstretch>
-            <verstretch>0</verstretch>
-           </sizepolicy>
-          </property>
-          <property name="minimumSize">
-           <size>
-            <width>0</width>
-            <height>0</height>
-           </size>
-          </property>
-          <property name="maximumSize">
-           <size>
-            <width>16777215</width>
-            <height>16777215</height>
-           </size>
-          </property>
-          <property name="font">
-           <font>
-            <pointsize>11</pointsize>
-           </font>
-          </property>
-          <property name="text">
-           <string notr="true"/>
-          </property>
-          <property name="iconSize">
-           <size>
-            <width>24</width>
-            <height>24</height>
-           </size>
-          </property>
-          <property name="flat">
-           <bool>true</bool>
-          </property>
-          <property name="tipo" stdset="0">
-           <string>leciona</string>
-          </property>
-         </widget>
-         <widget class="QWidget" name="layoutWidget">
-          <property name="geometry">
-           <rect>
-            <x>20</x>
-            <y>370</y>
-            <width>320</width>
-            <height>176</height>
-           </rect>
-          </property>
-          <layout class="QVBoxLayout" name="verticalLayout_26">
-           <property name="bottomMargin">
-            <number>5</number>
-           </property>
-           <item>
-            <widget class="QPushButton" name="KioEstas">
-             <property name="sizePolicy">
-              <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
-               <horstretch>0</horstretch>
-               <verstretch>0</verstretch>
-              </sizepolicy>
-             </property>
-             <property name="minimumSize">
-              <size>
-               <width>0</width>
-               <height>0</height>
-              </size>
-             </property>
-             <property name="maximumSize">
-              <size>
-               <width>16777215</width>
-               <height>16777215</height>
-              </size>
-             </property>
-             <property name="font">
-              <font>
-               <pointsize>11</pointsize>
-              </font>
-             </property>
-             <property name="text">
-              <string notr="true"/>
-             </property>
-             <property name="icon">
-              <iconset resource="ikonoj.qrc">
-               <normaloff>:/ikonoj/e_flago.png</normaloff>:/ikonoj/e_flago.png</iconset>
-             </property>
-             <property name="iconSize">
-              <size>
-               <width>32</width>
-               <height>32</height>
-              </size>
-             </property>
-             <property name="flat">
-              <bool>false</bool>
-             </property>
-            </widget>
-           </item>
-           <item>
-            <widget class="QPushButton" name="Kreditoj">
-             <property name="sizePolicy">
-              <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
-               <horstretch>0</horstretch>
-               <verstretch>0</verstretch>
-              </sizepolicy>
-             </property>
-             <property name="minimumSize">
-              <size>
-               <width>0</width>
-               <height>0</height>
-              </size>
-             </property>
-             <property name="maximumSize">
-              <size>
-               <width>16777215</width>
-               <height>16777215</height>
-              </size>
-             </property>
-             <property name="font">
-              <font>
-               <pointsize>11</pointsize>
-              </font>
-             </property>
-             <property name="layoutDirection">
-              <enum>Qt::LeftToRight</enum>
-             </property>
-             <property name="text">
-              <string notr="true"/>
-             </property>
-             <property name="icon">
-              <iconset resource="ikonoj.qrc">
-               <normaloff>:/ikonoj/kreditoj.png</normaloff>:/ikonoj/kreditoj.png</iconset>
-             </property>
-             <property name="iconSize">
-              <size>
-               <width>32</width>
-               <height>32</height>
-              </size>
-             </property>
-             <property name="flat">
-              <bool>false</bool>
-             </property>
-            </widget>
-           </item>
-           <item>
-            <widget class="QPushButton" name="Eliri">
-             <property name="sizePolicy">
-              <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
-               <horstretch>0</horstretch>
-               <verstretch>0</verstretch>
-              </sizepolicy>
-             </property>
-             <property name="minimumSize">
-              <size>
-               <width>0</width>
-               <height>0</height>
-              </size>
-             </property>
-             <property name="maximumSize">
-              <size>
-               <width>16777215</width>
-               <height>16777215</height>
-              </size>
-             </property>
-             <property name="font">
-              <font>
-               <pointsize>11</pointsize>
-              </font>
-             </property>
-             <property name="text">
-              <string notr="true"/>
-             </property>
-             <property name="icon">
-              <iconset resource="ikonoj.qrc">
-               <normaloff>:/ikonoj/fermi.png</normaloff>:/ikonoj/fermi.png</iconset>
-             </property>
-             <property name="iconSize">
-              <size>
-               <width>32</width>
-               <height>32</height>
-              </size>
-             </property>
-             <property name="flat">
-              <bool>false</bool>
-             </property>
-            </widget>
-           </item>
-          </layout>
-         </widget>
+            </property>
+            <property name="openExternalLinks">
+             <bool>true</bool>
+            </property>
+           </widget>
+          </item>
+          <item row="12" column="126" colspan="30">
+           <widget class="QPushButton" name="Leciono13">
+            <property name="sizePolicy">
+             <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
+              <horstretch>0</horstretch>
+              <verstretch>0</verstretch>
+             </sizepolicy>
+            </property>
+            <property name="minimumSize">
+             <size>
+              <width>0</width>
+              <height>0</height>
+             </size>
+            </property>
+            <property name="maximumSize">
+             <size>
+              <width>147</width>
+              <height>42</height>
+             </size>
+            </property>
+            <property name="font">
+             <font>
+              <pointsize>11</pointsize>
+             </font>
+            </property>
+            <property name="iconSize">
+             <size>
+              <width>24</width>
+              <height>24</height>
+             </size>
+            </property>
+            <property name="flat">
+             <bool>true</bool>
+            </property>
+            <property name="tipo" stdset="0">
+             <string>leciona</string>
+            </property>
+           </widget>
+          </item>
+          <item row="3" column="53" colspan="30">
+           <widget class="QPushButton" name="Leciono4">
+            <property name="sizePolicy">
+             <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
+              <horstretch>0</horstretch>
+              <verstretch>0</verstretch>
+             </sizepolicy>
+            </property>
+            <property name="minimumSize">
+             <size>
+              <width>0</width>
+              <height>0</height>
+             </size>
+            </property>
+            <property name="maximumSize">
+             <size>
+              <width>147</width>
+              <height>42</height>
+             </size>
+            </property>
+            <property name="font">
+             <font>
+              <pointsize>11</pointsize>
+             </font>
+            </property>
+            <property name="iconSize">
+             <size>
+              <width>24</width>
+              <height>24</height>
+             </size>
+            </property>
+            <property name="flat">
+             <bool>true</bool>
+            </property>
+            <property name="tipo" stdset="0">
+             <string>leciona</string>
+            </property>
+           </widget>
+          </item>
+         </layout>
         </widget>
         <widget class="QWidget" name="Pagho01">
          <layout class="QVBoxLayout" name="verticalLayout_12">
@@ -1801,7 +1656,7 @@ p, li { white-space: pre-wrap; }
           <item>
            <widget class="QTabWidget" name="Kredit">
             <property name="currentIndex">
-             <number>1</number>
+             <number>0</number>
             </property>
             <property name="iconSize">
              <size>
@@ -1858,12 +1713,8 @@ p, li { white-space: pre-wrap; }
                       <item>
                        <widget class="QLabel" name="label_8">
                         <property name="text">
-                         <string notr="true">&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;
-&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;
-p, li { white-space: pre-wrap; }
-&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:'DejaVu Sans'; font-size:15px; font-weight:400; font-style:normal;&quot;&gt;
-&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-weight:600;&quot;&gt;Carlos Alberto Alves Pereira&lt;/span&gt;  (Brazilo)&lt;/p&gt;
-&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;karlo@kurso.com.br&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+                         <string notr="true">Carlos Alberto Alves Pereira  (Brazilo)
+karlo@kurso.com.br</string>
                         </property>
                         <property name="wordWrap">
                          <bool>true</bool>
@@ -1903,16 +1754,11 @@ p, li { white-space: pre-wrap; }
                       </item>
                       <item>
                        <widget class="QLabel" name="Tradukinto">
-                        <property name="styleSheet">
-                         <string notr="true">font-size: 15px;</string>
-                        </property>
                         <property name="text">
-                         <string notr="true">&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;
-&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;
-p, li { white-space: pre-wrap; }
-&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:'Arial'; font-size:11pt; font-weight:400; font-style:normal;&quot;&gt;
-&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;Carlos Alberto Alves Pereira  (Brazilo)&lt;/p&gt;
-&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;karlo@kurso.com.br&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+                         <string notr="true">Carlos</string>
+                        </property>
+                        <property name="textFormat">
+                         <enum>Qt::PlainText</enum>
                         </property>
                         <property name="wordWrap">
                          <bool>true</bool>
@@ -1953,16 +1799,15 @@ p, li { white-space: pre-wrap; }
                       <item>
                        <widget class="QLabel" name="label_12">
                         <property name="text">
-                         <string notr="true">&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;
-&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;
-p, li { white-space: pre-wrap; }
-&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:'DejaVu Sans'; font-size:15px; font-weight:400; font-style:normal;&quot;&gt;
-&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;• André Yokowo dos Santos ( Brazilo )&lt;/p&gt;
-&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;• Carlos Alberto Alves Pereira ( Brazilo ) &lt;/p&gt;
-&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;• Corrado Schreiber ( Italio )&lt;/p&gt;
-&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;• Ilson Pereira dos Santos ( Brazilo )&lt;/p&gt;
-&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;• Norberto Ackermann ( Italio ) &lt;/p&gt;
-&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;• Pedro Battaglini  ( Brazilo )&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+                         <string notr="true">• André Yokowo dos Santos ( Brazilo )
+• Carlos Alberto Alves Pereira ( Brazilo ) 
+• Corrado Schreiber ( Italio )
+• Ilson Pereira dos Santos ( Brazilo )
+• Norberto Ackermann ( Italio ) 
+• Pedro Battaglini  ( Brazilo )</string>
+                        </property>
+                        <property name="textFormat">
+                         <enum>Qt::PlainText</enum>
                         </property>
                         <property name="wordWrap">
                          <bool>true</bool>
@@ -2003,15 +1848,11 @@ p, li { white-space: pre-wrap; }
                       <item>
                        <widget class="QLabel" name="label_14">
                         <property name="text">
-                         <string notr="true">&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;
-&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;
-p, li { white-space: pre-wrap; }
-&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:'DejaVu Sans'; font-size:15px; font-weight:400; font-style:normal;&quot;&gt;
-&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;• Daniele Battaglini ( Brazilo )&lt;/p&gt;
-&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;• Edvige Tantin Ackermann ( Italio )&lt;/p&gt;
-&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;• Giovanna Tantin Schreiber ( Italio )&lt;/p&gt;
-&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;• Mirna Duarte  ( Brazilo )&lt;/p&gt;
-&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;• Suely Tiemi Yokowo dos Santos  ( Brazilo )&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+                         <string notr="true">• Daniele Battaglini ( Brazilo )
+• Edvige Tantin Ackermann ( Italio )
+• Giovanna Tantin Schreiber ( Italio )
+• Mirna Duarte  ( Brazilo )
+• Suely Tiemi Yokowo dos Santos  ( Brazilo )</string>
                         </property>
                         <property name="wordWrap">
                          <bool>true</bool>
@@ -2069,14 +1910,10 @@ p, li { white-space: pre-wrap; }
                       <item>
                        <widget class="QLabel" name="label_10">
                         <property name="text">
-                         <string notr="true">&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;
-&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;
-p, li { white-space: pre-wrap; }
-&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:'DejaVu Sans'; font-size:15px; font-weight:400; font-style:normal;&quot;&gt;
-&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'DejaVu Sans';&quot;&gt;• André Yokowo dos Santos  ( Brazilo )&lt;/span&gt;&lt;/p&gt;
-&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'DejaVu Sans';&quot;&gt;• Emmanuelle Richard ( Francio )&lt;/span&gt;&lt;/p&gt;
-&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'DejaVu Sans';&quot;&gt;• Fernando Pita ( Brazilo )&lt;/span&gt;&lt;/p&gt;
-&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'DejaVu Sans';&quot;&gt;• Ilson Pereira dos Santos ( Brazilo )&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+                         <string notr="true">• André Yokowo dos Santos  ( Brazilo )
+• Emmanuelle Richard ( Francio )
+• Fernando Pita ( Brazilo )
+• Ilson Pereira dos Santos ( Brazilo )</string>
                         </property>
                         <property name="wordWrap">
                          <bool>true</bool>
@@ -2117,19 +1954,15 @@ p, li { white-space: pre-wrap; }
                       <item>
                        <widget class="QLabel" name="label_18">
                         <property name="text">
-                         <string notr="true">&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;
-&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;
-p, li { white-space: pre-wrap; }
-&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:'DejaVu Sans'; font-size:15px; font-weight:400; font-style:normal;&quot;&gt;
-&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;• Aguinaldo C. Gobira Jr.  ( Brazilo )&lt;/p&gt;
-&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;• Alberto Vuicik ( Brazilo )&lt;/p&gt;
-&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;• Alex Rousseau ( Francio )&lt;/p&gt;
-&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;• Aroldo Paniago Jr. ( Brazilo )&lt;/p&gt;
-&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;• Carlos &lt;span style=&quot; font-style:italic;&quot;&gt;&amp;quot;Denttynho&amp;quot;&lt;/span&gt; Machado ( Brazilo ) &lt;/p&gt;
-&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;• Leonardo Lacerda Alves  ( Brazilo )&lt;/p&gt;
-&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;• Luiz Portella  ( Brazilo )&lt;/p&gt;
-&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;• Philippe Bérizzi  ( Francio ) &lt;/p&gt;
-&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;• Rubén Torres  ( Kolombio )&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+                         <string notr="true">• Aguinaldo C. Gobira Jr.  ( Brazilo )
+• Alberto Vuicik ( Brazilo )
+• Alex Rousseau ( Francio )
+• Aroldo Paniago Jr. ( Brazilo )
+• Carlos &quot;Denttynho&quot; Machado ( Brazilo ) 
+• Leonardo Lacerda Alves  ( Brazilo )
+• Luiz Portella  ( Brazilo )
+• Philippe Bérizzi  ( Francio ) 
+• Rubén Torres  ( Kolombio )</string>
                         </property>
                         <property name="wordWrap">
                          <bool>true</bool>
@@ -2159,12 +1992,11 @@ p, li { white-space: pre-wrap; }
               </item>
               <item>
                <widget class="QLabel" name="label_22">
+                <property name="styleSheet">
+                 <string notr="true">color: rgb(0, 0, 176);</string>
+                </property>
                 <property name="text">
-                 <string notr="true">&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;
-&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;
-p, li { white-space: pre-wrap; }
-&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:'DejaVu Sans'; font-size:15px; font-weight:400; font-style:normal;&quot;&gt;
-&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; color:#00007f;&quot;&gt;Tiun ĉi programon mi dediĉas al Edna, Álvaro kaj Felipe, sen kies helpo kaj subteno tia laboro ne estus ebla.&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+                 <string notr="true">Tiun ĉi programon mi dediĉas al Edna, Álvaro kaj Felipe, sen kies helpo kaj subteno tia laboro ne estus ebla.</string>
                 </property>
                 <property name="alignment">
                  <set>Qt::AlignCenter</set>
@@ -2224,15 +2056,11 @@ p, li { white-space: pre-wrap; }
                      <layout class="QVBoxLayout" name="verticalLayout_35">
                       <item>
                        <widget class="QLabel" name="Kredit_Label7">
-                        <property name="styleSheet">
-                         <string notr="true">font-size: 15px;</string>
-                        </property>
                         <property name="text">
-                         <string notr="true">&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;
-&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;
-p, li { white-space: pre-wrap; }
-&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:'Arial'; font-size:15px; font-weight:400; font-style:normal;&quot;&gt;
-&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;Este curso foi baseado, com autorização,  no curso em dez lições pela rede, da Esperanto- Societo Kebekia (&lt;a href=&quot;http://www3.sympatico.ca/esperanto/esk.htm&quot;&gt;&lt;span style=&quot; text-decoration: underline; color:#0000ff;&quot;&gt;www3.sympatico.ca/esperanto/esk.htm&lt;/span&gt;&lt;/a&gt;). Outras obras consultadas:&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+                         <string notr="true">Este curso foi baseado, com autorização,  no curso em dez lições pela rede, da Esperanto- Societo Kebekia (www3.sympatico.ca/esperanto/esk.htm). Outras obras consultadas:</string>
+                        </property>
+                        <property name="textFormat">
+                         <enum>Qt::PlainText</enum>
                         </property>
                         <property name="wordWrap">
                          <bool>true</bool>
@@ -2242,13 +2070,12 @@ p, li { white-space: pre-wrap; }
                       <item>
                        <widget class="QLabel" name="label_33">
                         <property name="text">
-                         <string notr="true">&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;
-&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;
-p, li { white-space: pre-wrap; }
-&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:'DejaVu Sans'; font-size:15px; font-weight:400; font-style:normal;&quot;&gt;
-&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;• Lorenz, Francisco. Esperanto sem Mestre, 7a. eld., FEB, Rio de Janeiro, 1978.&lt;/p&gt;
-&lt;p style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;/p&gt;
-&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;• Wennergren, Bertilo. PMEG-Plena Manlibro de Esperanta Gramatiko, &lt;a href=&quot;http://bertilow.com/pmeg/&quot;&gt;&lt;span style=&quot; text-decoration: underline; color:#0000ff;&quot;&gt;http://bertilow.com/pmeg/&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+                         <string notr="true">• Lorenz, Francisco. Esperanto sem Mestre, 7a. eld., FEB, Rio de Janeiro, 1978.
+
+• Wennergren, Bertilo. PMEG-Plena Manlibro de Esperanta Gramatiko, http://bertilow.com/pmeg/</string>
+                        </property>
+                        <property name="textFormat">
+                         <enum>Qt::PlainText</enum>
                         </property>
                         <property name="wordWrap">
                          <bool>true</bool>
@@ -2306,15 +2133,11 @@ p, li { white-space: pre-wrap; }
                     </item>
                     <item>
                      <widget class="QLabel" name="Kredit_Label9">
-                      <property name="styleSheet">
-                       <string notr="true">font-size: 15px;</string>
-                      </property>
                       <property name="text">
-                       <string notr="true">&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;
-&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;
-p, li { white-space: pre-wrap; }
-&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:'Arial'; font-size:11pt; font-weight:400; font-style:normal;&quot;&gt;
-&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;A canção &amp;quot;Bluaj Fragoj&amp;quot;  inserida e distribuída com o programa segundo a gentil permissão da Banda Merlin (www.merlin.art.br); &amp;quot;Jen&amp;quot; inserida segundo gentil permissão de Alejandro Cossavella.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+                       <string notr="true">A canção &quot;Bluaj Fragoj&quot;  inserida e distribuída com o programa segundo a gentil permissão da Banda Merlin (www.merlin.art.br); &quot;Jen&quot; inserida segundo gentil permissão de Alejandro Cossavella.</string>
+                      </property>
+                      <property name="textFormat">
+                       <enum>Qt::PlainText</enum>
                       </property>
                       <property name="wordWrap">
                        <bool>true</bool>
@@ -2371,15 +2194,11 @@ p, li { white-space: pre-wrap; }
                     </item>
                     <item>
                      <widget class="QLabel" name="Versio_Kredit">
-                      <property name="styleSheet">
-                       <string notr="true">font-size: 15px;</string>
-                      </property>
                       <property name="text">
-                       <string notr="true">&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;
-&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;
-p, li { white-space: pre-wrap; }
-&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:'Arial'; font-weight:400; font-style:normal;&quot;&gt;
-&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;4.0.1 (marto/2012)&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+                       <string notr="true">4.0.2 (aprilo/2012)</string>
+                      </property>
+                      <property name="textFormat">
+                       <enum>Qt::PlainText</enum>
                       </property>
                       <property name="wordWrap">
                        <bool>true</bool>
@@ -2436,15 +2255,11 @@ p, li { white-space: pre-wrap; }
                        <layout class="QVBoxLayout" name="verticalLayout_32">
                         <item>
                          <widget class="QLabel" name="GPL_Kredit">
-                          <property name="styleSheet">
-                           <string notr="true">font-size: 15px;</string>
-                          </property>
                           <property name="text">
-                           <string notr="true">&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;
-&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;
-p, li { white-space: pre-wrap; }
-&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:'Arial'; font-weight:400; font-style:normal;&quot;&gt;
-&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;GNU GPL v.3&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+                           <string notr="true">GNU GPL v.3</string>
+                          </property>
+                          <property name="textFormat">
+                           <enum>Qt::PlainText</enum>
                           </property>
                           <property name="wordWrap">
                            <bool>true</bool>
@@ -2477,15 +2292,11 @@ p, li { white-space: pre-wrap; }
                        <layout class="QVBoxLayout" name="verticalLayout_33">
                         <item>
                          <widget class="QLabel" name="Kredit_FontKodo">
-                          <property name="styleSheet">
-                           <string notr="true">font-size: 15px;</string>
-                          </property>
                           <property name="text">
-                           <string notr="true">&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;
-&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;
-p, li { white-space: pre-wrap; }
-&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:'Arial'; font-weight:400; font-style:normal;&quot;&gt;
-&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;Código-fonte deste programa:&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+                           <string notr="true">Código-fonte deste programa:</string>
+                          </property>
+                          <property name="textFormat">
+                           <enum>Qt::PlainText</enum>
                           </property>
                           <property name="wordWrap">
                            <bool>true</bool>
@@ -2558,15 +2369,11 @@ p, li { white-space: pre-wrap; }
                     </property>
                     <item>
                      <widget class="QLabel" name="Kredit_Nokia">
-                      <property name="styleSheet">
-                       <string notr="true">font-size: 15px;</string>
-                      </property>
                       <property name="text">
-                       <string notr="true">&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;
-&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;
-p, li { white-space: pre-wrap; }
-&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:'Arial'; font-weight:400; font-style:normal;&quot;&gt;
-&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;Este programa foi desenvolvido em C++ / Nokia Qt:&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+                       <string notr="true">Este programa foi desenvolvido em C++ / Nokia Qt:</string>
+                      </property>
+                      <property name="textFormat">
+                       <enum>Qt::PlainText</enum>
                       </property>
                       <property name="alignment">
                        <set>Qt::AlignCenter</set>
@@ -2669,13 +2476,13 @@ p, li { white-space: pre-wrap; }
         <property name="minimumSize">
          <size>
           <width>0</width>
-          <height>50</height>
+          <height>45</height>
          </size>
         </property>
         <property name="maximumSize">
          <size>
           <width>16777215</width>
-          <height>50</height>
+          <height>45</height>
          </size>
         </property>
         <property name="frameShape">
@@ -2695,7 +2502,7 @@ p, li { white-space: pre-wrap; }
           <number>0</number>
          </property>
          <property name="bottomMargin">
-          <number>5</number>
+          <number>0</number>
          </property>
          <item>
           <layout class="QHBoxLayout" name="horizontalLayout_15">
@@ -2785,7 +2592,7 @@ p, li { white-space: pre-wrap; }
             <enum>Qt::Horizontal</enum>
            </property>
            <property name="sizeType">
-            <enum>QSizePolicy::Fixed</enum>
+            <enum>QSizePolicy::Maximum</enum>
            </property>
            <property name="sizeHint" stdset="0">
             <size>
@@ -2892,7 +2699,7 @@ p, li { white-space: pre-wrap; }
             <enum>Qt::Horizontal</enum>
            </property>
            <property name="sizeType">
-            <enum>QSizePolicy::Fixed</enum>
+            <enum>QSizePolicy::Maximum</enum>
            </property>
            <property name="sizeHint" stdset="0">
             <size>

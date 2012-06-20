@@ -14,5 +14,6 @@
         <file>stiloj/lec11.qss</file>
         <file>stiloj/lec12.qss</file>
         <file>stiloj/lec13.qss</file>
+        <file>stiloj/kurso_eta.qss</file>
     </qresource>
 </RCC>

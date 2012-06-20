@@ -60,48 +60,74 @@ void lingvoelekto::komencas()
 {
     QLocale LokaLingvo;
     QString LingvoID = LokaLingvo.name().left(2);
-    QSettings Tradukoj(Loko + "tradukoj/tradukoj.ini", QSettings::IniFormat);
-    Tradukoj.setIniCodec("UTF-8");
-    LingvoListo = Tradukoj.childGroups();
 
-    for (int i = 0; i < LingvoListo.count(); i++)
+    //
+    QDir dosierujo(Loko + "tradukoj/");
+    dosierujo.setFilter(QDir::Files);
+
+    QStringList filtroj;
+    filtroj << "*.trd";
+
+    dosierujo.setNameFilters(filtroj);
+
+    QFileInfoList Dosieroj;
+
+    Dosieroj = dosierujo.entryInfoList();
+    QString DosierNomo;
+
+    int Itemo = -1;
+    int ItemoAngla = -1;
+
+    for (int i = 0; i < Dosieroj.size(); ++i)
     {
-        ui->Lingvo->addItem(Tradukoj.value(LingvoListo[i]+"/Lingvo", "English (Angla)").toString());
-        LingvoNomoj << Tradukoj.value(LingvoListo[i]+"/Lingvo", "English (Angla)").toString();
-        LingvoDosieroj << Tradukoj.value(LingvoListo[i]+"/Dosiero", "angla.trd").toString();
+        QFileInfo fileInfo = Dosieroj.at(i);
+        DosierNomo = fileInfo.fileName();
+
+        QSettings Tradukado(Loko + "tradukoj/" + DosierNomo, QSettings::IniFormat);
+        Tradukado.setIniCodec("UTF-8");
+
+        Tradukado.beginGroup("Traduko");
+        QStringList lingvo;
+        lingvo << Tradukado.value("LingvoID", "??").toString();
+        lingvo << Tradukado.value("Lingvo", "?????????").toString();
+        lingvo << DosierNomo;
+        LingvoListo.append(lingvo);
+        ui->Lingvo->addItem( lingvo.at(1));
+        Tradukado.endGroup();
+        if (lingvo.at(0) == LingvoID)
+            Itemo = i;
+
+        if (lingvo.at(0) == "en")
+            ItemoAngla = i;
     }
 
 
-    int Itemo = LingvoListo.indexOf(LingvoID);
-    QString LingvoNomo;
+    if (Itemo < 0)
+        Itemo = ItemoAngla;
+
+
     if (Itemo >= 0)
-        LingvoNomo = LingvoNomoj[Itemo];
-    else
     {
-        Itemo = LingvoListo.indexOf("en");
-        if (Itemo >= 0)
-            LingvoNomo = LingvoNomoj[Itemo];
+        QString LingvoNomo = LingvoListo[Itemo][1];
+        QList<QListWidgetItem *> chiuj_itemoj = ui->Lingvo->findItems(LingvoNomo, Qt::MatchStartsWith);
+        if (chiuj_itemoj.count() > 0 )
+            ui->Lingvo->setCurrentItem(chiuj_itemoj[0]);
     }
-
-    QList<QListWidgetItem *> chiuj_itemoj = ui->Lingvo->findItems(LingvoNomo, Qt::MatchStartsWith);
-    if (chiuj_itemoj.count() > 0 )
-        ui->Lingvo->setCurrentItem(chiuj_itemoj[0]);
 }
 
 void lingvoelekto::on_pushButton_clicked()
 {
     if (ui->Lingvo->isItemSelected(ui->Lingvo->currentItem()))
-        sLingvo = ui->Lingvo->currentItem()->text();
-    else
-        sLingvo = "en";
-    int itemo = LingvoNomoj.indexOf(sLingvo);
-    if ( itemo >= 0)
-        sTradukoDosiero = LingvoDosieroj[itemo];
+    {
+        sLingvo = LingvoListo[ui->Lingvo->currentRow()][1];
+        sTradukoDosiero = LingvoListo[ui->Lingvo->currentRow()][2];
+    }
     else
     {
-        sLingvo = "English (Angla)";
+        sLingvo = "English - angla";
         sTradukoDosiero = "angla.trd";
     }
+
     this->close();
 }
 

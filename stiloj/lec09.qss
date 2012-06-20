@@ -6,10 +6,6 @@ QTabWidget::pane {
 	 border-top: 0px;
 	 }
 
-QTabBar::tab {
-	height: 0px;
-	width:  0px;
- }
 
 indikilo {
     background-image: url(:paneloj/lec-09-parto.png);
@@ -18,22 +14,12 @@ indikilo {
 QLabel#titolo_leciono {
     background-image: url(:paneloj/lec-09-titolo.png);
 }
-/*
-neklakebla {
-	 color: #627291;
+
+panelo {
+	background-color: #E4F4FC;
 }
 
- klakbutono {
-	 color: #627291;
-}
- 
-klakbutono:hover {
-   	 background: qlineargradient( x1:0, y1:0.2, x2:0, y2:1, stop:0 transparent, stop:0.89 transparent, 
-	 stop:0.9 #627291, 
-	 stop:1   #627291); 
-}
-*/
-panelo {
+QFrame[tipo="shilda"], QSpinBox[tipo="shilda"] {
 	background-color: #E4F4FC;
 }
 

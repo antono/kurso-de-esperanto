@@ -380,28 +380,30 @@ void Trad(QWidget * Pagxaro, QString Patro)
     QList<label_sago *> chiuj_sagoj = Pagxaro->findChildren<label_sago *>();
     QPixmap Bildo1, Bildo2;
     QString RTL_Marko, LTR_Marko;
+    LTR_Marko = QString::fromUtf8("\u200E");
+    RTL_Marko = QString::fromUtf8("\u200F");
 
     if (Direkto == "LTR")
     {
          Bildo1 = QPixmap(":ikonoj/sago_revena.png");
          Bildo2 = QPixmap(":ikonoj/sago_antauen.png");
-         RTL_Marko = "";
-         LTR_Marko = "";
     }
     else
     {
          Bildo1 = QPixmap(":ikonoj/sago_revena_RTL.png");
          Bildo2 = QPixmap(":ikonoj/sago_antauen_RTL.png");
-         LTR_Marko = QString::fromUtf8("\u200E");
-         RTL_Marko = QString::fromUtf8("\u200F");
+
     }
-    /*
+
     for (j = 0; j < chiuj_sagoj_reversaj.count(); j++)
+    {
         chiuj_sagoj_reversaj[j]->setPixmap(Bildo1);
+        chiuj_sagoj_reversaj[j]->setStyleSheet( Direkto == "LTR" ?  "margin-left: 15px;" : "margin-right: 15px;");
+    }
 
     for (j = 0; j < chiuj_sagoj.count(); j++)
         chiuj_sagoj[j]->setPixmap(Bildo2);
-    */
+
 
     for (j = 0; j < chiuj_neklakebla.count(); j++)
         chiuj_neklakebla[j]->setText(chiuj_neklakebla[j]->text() + LTR_Marko);
@@ -416,13 +418,13 @@ void Trad(QWidget * Pagxaro, QString Patro)
 
             Tradukota = (qobject_cast<label_klakebla *>(chiuj_label[i]) ) ?   chiuj_label[i]->objectName().mid(12) : chiuj_label[i]->objectName().mid(6);
             /* REVIZII TIUN CHI PARTON KIAM ESTOS TRADUKO DE RTL-LINGVO
-            if (Direkto == "LTR")
-                chiuj_label[i]->setAlignment(Qt::AlignLeft | Qt::AlignVCenter | Qt::AlignAbsolute);
+            if (Direkto == "RTL")
+               chiuj_label[i]->setAlignment(Qt::AlignLeft | Qt::AlignVCenter | Qt::AlignAbsolute);
             else
-                chiuj_label[i]->setAlignment(Qt::AlignRight | Qt::AlignVCenter | Qt::AlignAbsolute);
+               chiuj_label[i]->setAlignment(Qt::AlignRight | Qt::AlignVCenter | Qt::AlignAbsolute);
             */
 
-            chiuj_label[i]->setText( LTR_Marko + Tradukado.value(Patro + "/" + Tradukota, "Ne Tradukita").toString() );
+            chiuj_label[i]->setText( Tradukado.value(Patro + "/" + Tradukota, "Ne Tradukita").toString() );
 
         }
         else

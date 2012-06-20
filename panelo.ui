@@ -16,6 +16,11 @@
     <verstretch>0</verstretch>
    </sizepolicy>
   </property>
+  <property name="font">
+   <font>
+    <pointsize>12</pointsize>
+   </font>
+  </property>
   <property name="windowTitle">
    <string>Frame</string>
   </property>
@@ -87,11 +92,18 @@
               <verstretch>0</verstretch>
              </sizepolicy>
             </property>
+            <property name="font">
+             <font>
+              <pointsize>12</pointsize>
+              <weight>75</weight>
+              <bold>true</bold>
+             </font>
+            </property>
             <property name="styleSheet">
              <string notr="true">font-weight: bold;</string>
             </property>
             <property name="text">
-             <string>1.</string>
+             <string>1</string>
             </property>
            </widget>
           </item>
@@ -192,11 +204,18 @@
               <verstretch>0</verstretch>
              </sizepolicy>
             </property>
+            <property name="font">
+             <font>
+              <pointsize>12</pointsize>
+              <weight>75</weight>
+              <bold>true</bold>
+             </font>
+            </property>
             <property name="styleSheet">
              <string notr="true">font-weight: bold;</string>
             </property>
             <property name="text">
-             <string>2.</string>
+             <string>2</string>
             </property>
            </widget>
           </item>
@@ -291,11 +310,18 @@
               <verstretch>0</verstretch>
              </sizepolicy>
             </property>
+            <property name="font">
+             <font>
+              <pointsize>12</pointsize>
+              <weight>75</weight>
+              <bold>true</bold>
+             </font>
+            </property>
             <property name="styleSheet">
              <string notr="true">font-weight: bold;</string>
             </property>
             <property name="text">
-             <string>3.</string>
+             <string>3</string>
             </property>
            </widget>
           </item>
@@ -390,11 +416,18 @@
               <verstretch>0</verstretch>
              </sizepolicy>
             </property>
+            <property name="font">
+             <font>
+              <pointsize>12</pointsize>
+              <weight>75</weight>
+              <bold>true</bold>
+             </font>
+            </property>
             <property name="styleSheet">
              <string notr="true">font-weight: bold;</string>
             </property>
             <property name="text">
-             <string>4.</string>
+             <string>4</string>
             </property>
            </widget>
           </item>
@@ -489,11 +522,18 @@
               <verstretch>0</verstretch>
              </sizepolicy>
             </property>
+            <property name="font">
+             <font>
+              <pointsize>12</pointsize>
+              <weight>75</weight>
+              <bold>true</bold>
+             </font>
+            </property>
             <property name="styleSheet">
              <string notr="true">font-weight: bold;</string>
             </property>
             <property name="text">
-             <string>5.</string>
+             <string>5</string>
             </property>
            </widget>
           </item>
@@ -588,11 +628,18 @@
               <verstretch>0</verstretch>
              </sizepolicy>
             </property>
+            <property name="font">
+             <font>
+              <pointsize>12</pointsize>
+              <weight>75</weight>
+              <bold>true</bold>
+             </font>
+            </property>
             <property name="styleSheet">
              <string notr="true">font-weight: bold;</string>
             </property>
             <property name="text">
-             <string>6.</string>
+             <string>6</string>
             </property>
            </widget>
           </item>
@@ -687,11 +734,18 @@
               <verstretch>0</verstretch>
              </sizepolicy>
             </property>
+            <property name="font">
+             <font>
+              <pointsize>12</pointsize>
+              <weight>75</weight>
+              <bold>true</bold>
+             </font>
+            </property>
             <property name="styleSheet">
              <string notr="true">font-weight: bold;</string>
             </property>
             <property name="text">
-             <string>7.</string>
+             <string>7</string>
             </property>
            </widget>
           </item>
@@ -786,11 +840,18 @@
               <verstretch>0</verstretch>
              </sizepolicy>
             </property>
+            <property name="font">
+             <font>
+              <pointsize>12</pointsize>
+              <weight>75</weight>
+              <bold>true</bold>
+             </font>
+            </property>
             <property name="styleSheet">
              <string notr="true">font-weight: bold;</string>
             </property>
             <property name="text">
-             <string>8.</string>
+             <string>8</string>
             </property>
            </widget>
           </item>
@@ -885,11 +946,18 @@
               <verstretch>0</verstretch>
              </sizepolicy>
             </property>
+            <property name="font">
+             <font>
+              <pointsize>12</pointsize>
+              <weight>75</weight>
+              <bold>true</bold>
+             </font>
+            </property>
             <property name="styleSheet">
              <string notr="true">font-weight: bold;</string>
             </property>
             <property name="text">
-             <string>9.</string>
+             <string>9</string>
             </property>
            </widget>
           </item>
@@ -984,11 +1052,18 @@
               <verstretch>0</verstretch>
              </sizepolicy>
             </property>
+            <property name="font">
+             <font>
+              <pointsize>12</pointsize>
+              <weight>75</weight>
+              <bold>true</bold>
+             </font>
+            </property>
             <property name="styleSheet">
              <string notr="true">font-weight: bold;</string>
             </property>
             <property name="text">
-             <string>10.</string>
+             <string>10</string>
             </property>
            </widget>
           </item>
@@ -1083,11 +1158,18 @@
               <verstretch>0</verstretch>
              </sizepolicy>
             </property>
+            <property name="font">
+             <font>
+              <pointsize>12</pointsize>
+              <weight>75</weight>
+              <bold>true</bold>
+             </font>
+            </property>
             <property name="styleSheet">
              <string notr="true">font-weight: bold;</string>
             </property>
             <property name="text">
-             <string>11.</string>
+             <string>11</string>
             </property>
            </widget>
           </item>
@@ -1182,11 +1264,18 @@
               <verstretch>0</verstretch>
              </sizepolicy>
             </property>
+            <property name="font">
+             <font>
+              <pointsize>12</pointsize>
+              <weight>75</weight>
+              <bold>true</bold>
+             </font>
+            </property>
             <property name="styleSheet">
              <string notr="true">font-weight: bold;</string>
             </property>
             <property name="text">
-             <string>12.</string>
+             <string>12</string>
             </property>
            </widget>
           </item>
@@ -1281,11 +1370,18 @@
               <verstretch>0</verstretch>
              </sizepolicy>
             </property>
+            <property name="font">
+             <font>
+              <pointsize>12</pointsize>
+              <weight>75</weight>
+              <bold>true</bold>
+             </font>
+            </property>
             <property name="styleSheet">
              <string notr="true">font-weight: bold;</string>
             </property>
             <property name="text">
-             <string>13.</string>
+             <string>13</string>
             </property>
            </widget>
           </item>
@@ -1380,11 +1476,18 @@
               <verstretch>0</verstretch>
              </sizepolicy>
             </property>
+            <property name="font">
+             <font>
+              <pointsize>12</pointsize>
+              <weight>75</weight>
+              <bold>true</bold>
+             </font>
+            </property>
             <property name="styleSheet">
              <string notr="true">font-weight: bold;</string>
             </property>
             <property name="text">
-             <string>14.</string>
+             <string>14</string>
             </property>
            </widget>
           </item>
@@ -1485,11 +1588,18 @@
               <verstretch>0</verstretch>
              </sizepolicy>
             </property>
+            <property name="font">
+             <font>
+              <pointsize>12</pointsize>
+              <weight>75</weight>
+              <bold>true</bold>
+             </font>
+            </property>
             <property name="styleSheet">
              <string notr="true">font-weight: bold;</string>
             </property>
             <property name="text">
-             <string>15.</string>
+             <string>15</string>
             </property>
            </widget>
           </item>

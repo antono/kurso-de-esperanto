@@ -104,11 +104,14 @@ void audkompreno::novavorto()
         else
             sTeksto = "";
 
+        sTeksto = sTeksto.replace(QString::fromUtf8("\u200E"), "");
+
         sMp3dos = "sonoj/lec" + EkzercoAudado.left(2) + "/btn" + aEk02D[iAleat2] + mp3_finajho;
     }
     else
     {
         sTeksto = CxSist(aEk02D[iAleat2],1);
+        sTeksto = sTeksto.replace(QString::fromUtf8("\u200E"), "");
         if (sTeksto == "aux")
             sTeksto = "auh";
         sMp3dos = "sonoj/lec" + EkzercoAudado.left(2) + "/" + sTeksto + mp3_finajho;
@@ -154,6 +157,9 @@ void audkompreno::analizu()
         }
         else
             sTesto = aEk02D[iAleat2];
+
+        sTesto = sTesto.replace(QString::fromUtf8("\u200E"), "");
+
         sTeksto = purigas(sTeksto, true);
         sTesto  = purigas(sTesto, true);
 

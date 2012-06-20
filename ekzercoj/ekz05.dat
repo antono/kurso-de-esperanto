@@ -1,12 +1,12 @@
 [0502D]
 0="Ili estas la tri fratoj, ~ aĉetis la butikon."
-1=~ estas via nomo? -- Mia nomo estas Paŭlo.
-2=~ vi loĝas? -- Mi loĝas en Kanado.
+1=~ estas via nomo? — Mia nomo estas Paŭlo.
+2=~ vi loĝas? — Mi loĝas en Kanado.
 3="Ĉu vi legis la libron, ~ mi donis al vi?"
-4=~ vi aĉetos la libron? -- Morgaŭ matene.
-5=~ vi vidis la birdojn? -- Mi vidis ilin en la lernejo.
-6=~ estas geografio? -- Geografio estas scienco.
-7=~ venis hieraŭ? -- Neniu venis hieraŭ.
+4=~ vi aĉetos la libron? — Morgaŭ matene.
+5=~ vi vidis la birdojn? — Mi vidis ilin en la lernejo.
+6=~ estas geografio? — Geografio estas scienco.
+7=~ venis hieraŭ? — Neniu venis hieraŭ.
 8=~ libro estas tre bona.
 9=Ĉi ~ knabino estas tre inteligenta.
 10="Ĉu vi estas la infano, ~ petis kukon?"
@@ -16,9 +16,9 @@
 14="Mi loĝas ~, ~ estas la aŭto."
 15="Ĉu vi manĝos ĉi ~  sandviĉon? "
 16="Mi ne vidis ~, ~ loĝas en ĉi tiu domo."
-17=~ viroj fumas en la lernejo? -- ~.
-18=~ estis via unua instruisto? -- Sinjoro Karlo.
-19=~ infanoj unue petis kukon? -- ~ infanoj.
+17=~ viroj fumas en la lernejo? — ~.
+18=~ estis via unua instruisto? — Sinjoro Karlo.
+19=~ infanoj unue petis kukon? — ~ infanoj.
 
 [0502R]
 0=kiuj
@@ -44,13 +44,13 @@
 
 [0502T]
 0=Eles são os três irmãos que compraram a loja.
-1=Qual é o teu nome? -- Meu nome é Paulo.
-2=Onde você mora? -- Eu moro no Canadá.
+1=Qual é o teu nome? — Meu nome é Paulo.
+2=Onde você mora? — Eu moro no Canadá.
 3=Você leu o livro que eu lhe dei?
-4=Quando você vai comprar o livro? -- Amanhã de manhã.
-5=Onde você viu os pássaros? -- Eu os vi na escola.
-6=O que é geografia? -- Geografia é uma ciência.
-7=Quem veio ontem? -- Ninguém veio ontem.
+4=Quando você vai comprar o livro? — Amanhã de manhã.
+5=Onde você viu os pássaros? — Eu os vi na escola.
+6=O que é geografia? — Geografia é uma ciência.
+7=Quem veio ontem? — Ninguém veio ontem.
 8=Aquele livro é muito bom.
 9=Esta menina é muito inteligente.
 10=Você é a criança que pediu bolo?
@@ -60,9 +60,9 @@
 14=Eu moro ali onde está o carro.
 15=Você comerá este sanduíche?
 16=Eu não vi quem mora nesta casa.
-17=Quais homens fumam na escola? -- Nenhum.
-18=Quem foi vosso primeiro professor? -- Senhor Carlos.
-19="Que crianças primeiramente pediram bolo? -- Aquelas crianças.  "
+17=Quais homens fumam na escola? — Nenhum.
+18=Quem foi vosso primeiro professor? — Senhor Carlos.
+19="Que crianças primeiramente pediram bolo? — Aquelas crianças.  "
 
 [0501D]
 0=kiu

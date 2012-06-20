@@ -29,9 +29,9 @@ private slots:
 private:
     Ui::lingvoelekto *ui;
 
-    QStringList LingvoListo;
-    QList<QString> LingvoNomoj;
-    QList<QString> LingvoDosieroj;
+    QList<QStringList> LingvoListo;
+    //QList<QString> LingvoNomoj;
+    //QList<QString> LingvoDosieroj;
 };
 
 #endif // LINGVOELEKTO_H
