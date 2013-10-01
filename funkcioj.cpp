@@ -1,4 +1,4 @@
-﻿/*
+/*
     Kurso de Esperanto - a free multimedia course to teach yourself the
     international language.
     Copyright (C) 2000-2012 Carlos Alberto Alves Pereira
@@ -54,12 +54,12 @@ int NumSec = 3;
 int Ofteco = 400;
 QSettings Konfiguro;
 QSettings Tradukado;
-QString sLingvo, sTiparo, sTradukoDosiero, sKorNomo, sKorAdreso, EkzercoAkuzativoTrad;
-int iSistemo = 0, LastaLeciono = 1, LastaPagxo = 1, iLastaFojo = 0, iLiterGrando;
+QString sLingvo, sTiparo, sTiparoEo, sTradukoDosiero, sKorNomo, sKorAdreso, EkzercoAkuzativoTrad;
+int iSistemo = 0, LastaLeciono = 1, LastaPagxo = 1, iLastaFojo = 0, iLiterGrando, iLiterGrandoEo, iFenestraStilo;
 bool lKorektanto, lCxapeligo, Tradukilo, NeEkzistasTraduko, lSxaltilo, lNoteto;
 QString sTradukinto;
 QString Loko;
-
+QString Direkto;
 
 
 // eksteraj variabloj, uzotaj por komunikighi kun la uzulo
@@ -104,7 +104,7 @@ int  _Matriz(QStringList * Mat, QString ek, QString tipo)
     return Listo.count();
 }
 
-int  _Matriz2(std::vector<QStringList> * Mat, QString ek, QString tipo, int minimuma)
+int  _Matriz2(QList<QStringList> * Mat, QString ek, QString tipo, int minimuma)
 {
     int  i = 0, j = 0, k = 0, m = 0;
     QString sTemp, sTemp2 = "";
@@ -114,24 +114,33 @@ int  _Matriz2(std::vector<QStringList> * Mat, QString ek, QString tipo, int mini
     F.setIniCodec("UTF-8");
     F.beginGroup(ek + tipo);
     Listo = F.allKeys();
-    Mat->resize(Listo.size());
+    //Mat->resize(Listo.size());
+    //for (i=0; i < minimuma; i++)
+    //    Malplena << "";
+    Mat->clear();
     for (i = 0; ( i < Listo.count()); i++)
     {
         sTemp = F.value(QString::number(i), "").toString();
         sTemp2 = "";
         k = 0;
+        QStringList Malplena;
+        //Mat->append(Malplena);
         for (j=0; j < sTemp.size(); j++)
             if (sTemp.mid(j,1) != "~")
                 sTemp2 += sTemp.mid(j,1);
             else
             {
-                Mat->at(i).append( sTemp2 );
+                //Mat->at(i).append( sTemp2 );
+                Malplena << sTemp2;
                 k++;
                 sTemp2 = "";
             }
-        Mat->at(i).append(sTemp2);
-        for (m = Mat->at(i).size(); m < minimuma; m++)
-            Mat->at(i).append("");
+        //Mat->at(i).append(sTemp2);
+        Malplena << sTemp2;
+        for (m = Malplena.size(); m < minimuma; m++)
+            //Mat->at(i).append("");
+            Malplena << "";
+        Mat->append(Malplena);
     }
     return Listo.count();
 }
@@ -229,7 +238,6 @@ void Ne()
         Pauzu(2);
     }
 
-
     if (lSxaltilo)
     {
         int iAleat = 0;
@@ -244,7 +252,6 @@ void Ne()
 
         mp3(dosiernomo);
     }
-
 }
 
 void Jes()
@@ -368,7 +375,7 @@ void Trad(QWidget * Pagxaro, QString Patro)
 {
     QSettings Tradukado(Loko + "tradukoj/" + sTradukoDosiero, QSettings::IniFormat);
     Tradukado.setIniCodec("UTF-8");
-    QString Direkto = Tradukado.value("Traduko/Direkto", "LTR").toString();
+    // QString Direkto = Tradukado.value("Traduko/Direkto", "LTR").toString();
     QList<QLabel *> chiuj_label =  Pagxaro->findChildren<QLabel *>();
     QList<neklakebla *> chiuj_neklakebla =  Pagxaro->findChildren<neklakebla *>();
     QList<klakbutono *> chiuj_klak =  Pagxaro->findChildren<klakbutono *>();
@@ -392,7 +399,6 @@ void Trad(QWidget * Pagxaro, QString Patro)
     {
          Bildo1 = QPixmap(":ikonoj/sago_revena_RTL.png");
          Bildo2 = QPixmap(":ikonoj/sago_antauen_RTL.png");
-
     }
 
     for (j = 0; j < chiuj_sagoj_reversaj.count(); j++)
@@ -404,44 +410,29 @@ void Trad(QWidget * Pagxaro, QString Patro)
     for (j = 0; j < chiuj_sagoj.count(); j++)
         chiuj_sagoj[j]->setPixmap(Bildo2);
 
-
+    // Aldonas LTR-markon  al la komenco/fino de ĉiu butona frazo en Eo, por ke Qt korekte montru la interpunkcion, kiam la tradukita lingvo estas RTL.
     for (j = 0; j < chiuj_neklakebla.count(); j++)
-        chiuj_neklakebla[j]->setText(chiuj_neklakebla[j]->text() + LTR_Marko);
+        chiuj_neklakebla[j]->setText( LTR_Marko + chiuj_neklakebla[j]->text() + LTR_Marko );
 
     for (j = 0; j < chiuj_klak.count(); j++)
         chiuj_klak[j]->setText(chiuj_klak[j]->text() + LTR_Marko);
+    //
 
     for (int i = 0; i < chiuj_label.count(); i++)
     {
         if ( chiuj_label[i]->objectName().left(5) == Patro )
         {
-
             Tradukota = (qobject_cast<label_klakebla *>(chiuj_label[i]) ) ?   chiuj_label[i]->objectName().mid(12) : chiuj_label[i]->objectName().mid(6);
-            /* REVIZII TIUN CHI PARTON KIAM ESTOS TRADUKO DE RTL-LINGVO
-            if (Direkto == "RTL")
-               chiuj_label[i]->setAlignment(Qt::AlignLeft | Qt::AlignVCenter | Qt::AlignAbsolute);
-            else
-               chiuj_label[i]->setAlignment(Qt::AlignRight | Qt::AlignVCenter | Qt::AlignAbsolute);
-            */
-
-            chiuj_label[i]->setText( Tradukado.value(Patro + "/" + Tradukota, "Ne Tradukita").toString() );
-
+            chiuj_label[i]->setText(  Tradukado.value(Patro + "/" + Tradukota, "Ne Tradukita").toString() );
         }
         else
         {
+
             QString objekto_nomo = (qobject_cast<label_klakebla *>(chiuj_label[i]) ) ?  chiuj_label[i]->objectName().mid(12) : chiuj_label[i]->objectName();
             if ( objekto_nomo == "Ekz_Plen2" )
             {
                 Tradukota = ( chiuj_label[i]->parentWidget()->objectName().mid(5,1) != "B") ?  "TFrame41.Label84" : "Frame42.Label84";
-                chiuj_label[i]->setText( LTR_Marko + Tradukado.value(Patro + "/" + Tradukota, "Ne Tradukita").toString());
-
-                /* REVIZII TIUN CHI PARTON KIAM ESTOS TRADUKO DE RTL-LINGVO
-                if (Direkto == "LTR")
-                    chiuj_label[i]->setAlignment(Qt::AlignLeft | Qt::AlignVCenter | Qt::AlignAbsolute);
-                else
-                    chiuj_label[i]->setAlignment(Qt::AlignRight | Qt::AlignVCenter | Qt::AlignAbsolute);
-                */
-
+                chiuj_label[i]->setText( Tradukado.value(Patro + "/" + Tradukota, "Ne Tradukita").toString());
             }
             else
             {
@@ -471,17 +462,31 @@ void Trad(QWidget * Pagxaro, QString Patro)
 
 
                 if (Tradukota != "")
+                    chiuj_label[i]->setText( Tradukado.value("Gheneralaj/" + Tradukota, "Ne Tradukita").toString());
+                else
                 {
-                    chiuj_label[i]->setText( LTR_Marko + Tradukado.value("Gheneralaj/" + Tradukota, "Ne Tradukita").toString());
-
-                    /* REVIZII TIUN CHI PARTON KIAM ESTOS TRADUKO DE RTL-LINGVO
-                    if (Direkto == "LTR")
-                        chiuj_label[i]->setAlignment(Qt::AlignLeft | Qt::AlignVCenter | Qt::AlignAbsolute);
-                    else
-                        chiuj_label[i]->setAlignment(Qt::AlignRight | Qt::AlignVCenter | Qt::AlignAbsolute);
-                    */
-
+                    QVariant tipo =  chiuj_label[i]->property("tipo");
+                    if ( tipo.isValid() && tipo == "esperanta")
+                    {
+                        if (Direkto == "RTL")
+                        {
+                            chiuj_label[i]->setText( chiuj_label[i]->text() + LTR_Marko);
+                            chiuj_label[i]->setAlignment(Qt::AlignRight | Qt::AlignVCenter);
+                        }
+                        else
+                            chiuj_label[i]->setAlignment(Qt::AlignLeft | Qt::AlignVCenter);
+                    }
+                    if (chiuj_label[i]->objectName().left(8) == "ripetata")
+                    {
+                        if (Direkto == "LTR")
+                        {
+                            chiuj_label.at(i)->setText(QString::fromUtf8("   \u201D   \u201D   \u201D"));
+                        }
+                        else
+                            chiuj_label.at(i)->setText( "===" + RTL_Marko );
+                    }
                 }
+
             }
         }
     }
@@ -797,21 +802,21 @@ QString helpdosiero(QString tipo)
     QString dosiernomo = sTradukoDosiero;
     if (tipo == "kio")
     {
-        dosiernomo = Loko + "tradukoj/kio/" + dosiernomo.replace(".trd", ".html");
+        dosiernomo = Loko + "tradukoj/kio/kio_" + dosiernomo.replace(".trd", ".html");
         dosiero.setFileName(dosiernomo);
         if (dosiero.exists())
             return("file:///" + dosiernomo);
         else
-            return("file:///" + Loko + "tradukoj/kio/angla.html" );
+            return("file:///" + Loko + "tradukoj/kio/kio_angla.html" );
     }
     else
     {
-        dosiernomo = Loko + "tradukoj/kiel/" + dosiernomo.replace(".trd", ".html");
+        dosiernomo = Loko + "tradukoj/kiel/kiel_" + dosiernomo.replace(".trd", ".html");
         dosiero.setFileName(dosiernomo);
         if (dosiero.exists())
             return("file:///" + dosiernomo);
         else
-            return("file:///" + Loko + "tradukoj/kiel/angla.html" );
+            return("file:///" + Loko + "tradukoj/kiel/kiel_angla.html" );
 
     }
 }

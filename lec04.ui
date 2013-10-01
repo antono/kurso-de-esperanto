@@ -51,7 +51,7 @@
       </sizepolicy>
      </property>
      <property name="currentIndex">
-      <number>0</number>
+      <number>1</number>
      </property>
      <property name="iconSize">
       <size>
@@ -909,7 +909,7 @@
                   </size>
                  </property>
                  <property name="text">
-                  <string>ĵaudo</string>
+                  <string>ĵaŭdo</string>
                  </property>
                 </widget>
                </item>
@@ -1621,6 +1621,12 @@ geralmente não é necessário mencioná-las.</string>
              <property name="alignment">
               <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
              </property>
+             <property name="lingvo" stdset="0">
+              <string>eo</string>
+             </property>
+             <property name="tipo" stdset="0">
+              <string>esperanta</string>
+             </property>
             </widget>
            </item>
            <item>
@@ -1656,6 +1662,12 @@ geralmente não é necessário mencioná-las.</string>
              <property name="wordWrap">
               <bool>true</bool>
              </property>
+             <property name="lingvo" stdset="0">
+              <string>eo</string>
+             </property>
+             <property name="tipo" stdset="0">
+              <string>esperanta</string>
+             </property>
             </widget>
            </item>
           </layout>
@@ -1681,6 +1693,12 @@ geralmente não é necessário mencioná-las.</string>
              </property>
              <property name="alignment">
               <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+             </property>
+             <property name="lingvo" stdset="0">
+              <string>eo</string>
+             </property>
+             <property name="tipo" stdset="0">
+              <string>esperanta</string>
              </property>
             </widget>
            </item>
@@ -1717,6 +1735,12 @@ geralmente não é necessário mencioná-las.</string>
              <property name="wordWrap">
               <bool>true</bool>
              </property>
+             <property name="lingvo" stdset="0">
+              <string>eo</string>
+             </property>
+             <property name="tipo" stdset="0">
+              <string>esperanta</string>
+             </property>
             </widget>
            </item>
           </layout>
@@ -1742,6 +1766,12 @@ geralmente não é necessário mencioná-las.</string>
              </property>
              <property name="alignment">
               <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+             </property>
+             <property name="lingvo" stdset="0">
+              <string>eo</string>
+             </property>
+             <property name="tipo" stdset="0">
+              <string>esperanta</string>
              </property>
             </widget>
            </item>
@@ -1777,6 +1807,12 @@ geralmente não é necessário mencioná-las.</string>
              </property>
              <property name="wordWrap">
               <bool>true</bool>
+             </property>
+             <property name="lingvo" stdset="0">
+              <string>eo</string>
+             </property>
+             <property name="tipo" stdset="0">
+              <string>esperanta</string>
              </property>
             </widget>
            </item>
@@ -2891,6 +2927,9 @@ ou &quot;não&quot;.</string>
          <property name="tipo" stdset="0">
           <string>teksta</string>
          </property>
+         <property name="lingvo" stdset="0">
+          <string>eo</string>
+         </property>
         </widget>
        </item>
        <item>
@@ -3635,17 +3674,13 @@ ou &quot;não&quot;.</string>
              <property name="buddy">
               <cstring>lineEdit_53</cstring>
              </property>
+             <property name="lingvo" stdset="0">
+              <string>eo</string>
+             </property>
             </widget>
            </item>
            <item>
-            <widget class="cx_edit" name="lineEdit_53">
-             <property name="maximumSize">
-              <size>
-               <width>500</width>
-               <height>16777215</height>
-              </size>
-             </property>
-            </widget>
+            <widget class="cx_edit" name="lineEdit_53"/>
            </item>
           </layout>
          </item>
@@ -3665,17 +3700,13 @@ ou &quot;não&quot;.</string>
              <property name="buddy">
               <cstring>lineEdit_54</cstring>
              </property>
+             <property name="lingvo" stdset="0">
+              <string>eo</string>
+             </property>
             </widget>
            </item>
            <item>
-            <widget class="cx_edit" name="lineEdit_54">
-             <property name="maximumSize">
-              <size>
-               <width>500</width>
-               <height>16777215</height>
-              </size>
-             </property>
-            </widget>
+            <widget class="cx_edit" name="lineEdit_54"/>
            </item>
           </layout>
          </item>
@@ -3695,17 +3726,13 @@ ou &quot;não&quot;.</string>
              <property name="buddy">
               <cstring>lineEdit_55</cstring>
              </property>
+             <property name="lingvo" stdset="0">
+              <string>eo</string>
+             </property>
             </widget>
            </item>
            <item>
-            <widget class="cx_edit" name="lineEdit_55">
-             <property name="maximumSize">
-              <size>
-               <width>500</width>
-               <height>16777215</height>
-              </size>
-             </property>
-            </widget>
+            <widget class="cx_edit" name="lineEdit_55"/>
            </item>
           </layout>
          </item>
@@ -3725,17 +3752,13 @@ ou &quot;não&quot;.</string>
              <property name="buddy">
               <cstring>lineEdit_56</cstring>
              </property>
+             <property name="lingvo" stdset="0">
+              <string>eo</string>
+             </property>
             </widget>
            </item>
            <item>
-            <widget class="cx_edit" name="lineEdit_56">
-             <property name="maximumSize">
-              <size>
-               <width>500</width>
-               <height>16777215</height>
-              </size>
-             </property>
-            </widget>
+            <widget class="cx_edit" name="lineEdit_56"/>
            </item>
           </layout>
          </item>
@@ -3755,17 +3778,13 @@ ou &quot;não&quot;.</string>
              <property name="buddy">
               <cstring>lineEdit_57</cstring>
              </property>
+             <property name="lingvo" stdset="0">
+              <string>eo</string>
+             </property>
             </widget>
            </item>
            <item>
-            <widget class="cx_edit" name="lineEdit_57">
-             <property name="maximumSize">
-              <size>
-               <width>500</width>
-               <height>16777215</height>
-              </size>
-             </property>
-            </widget>
+            <widget class="cx_edit" name="lineEdit_57"/>
            </item>
           </layout>
          </item>
@@ -3820,15 +3839,15 @@ ou &quot;não&quot;.</string>
    </slots>
   </customwidget>
   <customwidget>
+   <class>cx_edit</class>
+   <extends>QLineEdit</extends>
+   <header>cx_edit.h</header>
+  </customwidget>
+  <customwidget>
    <class>vortoludo</class>
    <extends>QFrame</extends>
    <header>vortoludo.h</header>
    <container>1</container>
-  </customwidget>
-  <customwidget>
-   <class>cx_edit</class>
-   <extends>QLineEdit</extends>
-   <header>cx_edit.h</header>
   </customwidget>
   <customwidget>
    <class>audkompreno</class>

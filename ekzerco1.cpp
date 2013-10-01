@@ -66,9 +66,11 @@ void ekzerco1::on_BitBtn1_clicked()
     iKorektaj = 0;
     iEraraj = 0;
     //bool aEk01A[iEk01D];
-    aEk01A.resize(iEk01D);
+    //aEk01A.clear(iEk01D);
+    aEk01A.clear();
     for (int i = 0; i < iEk01D; i++)
-        aEk01A[i] = false;
+        //aEk01A[i] = false;
+        aEk01A << false;
     //randomize();
     novafrazo();
 }

@@ -108,6 +108,9 @@ font-weight: bold;</string>
             <property name="alignment">
              <set>Qt::AlignCenter</set>
             </property>
+            <property name="lingvo" stdset="0">
+             <string>eo</string>
+            </property>
            </widget>
           </item>
           <item>
@@ -326,6 +329,9 @@ font-weight: bold;</string>
             </property>
             <property name="alignment">
              <set>Qt::AlignCenter</set>
+            </property>
+            <property name="lingvo" stdset="0">
+             <string>eo</string>
             </property>
            </widget>
           </item>
@@ -546,6 +552,9 @@ font-weight: bold;</string>
             <property name="alignment">
              <set>Qt::AlignCenter</set>
             </property>
+            <property name="lingvo" stdset="0">
+             <string>eo</string>
+            </property>
            </widget>
           </item>
           <item>
@@ -764,6 +773,9 @@ font-weight: bold;</string>
             </property>
             <property name="alignment">
              <set>Qt::AlignCenter</set>
+            </property>
+            <property name="lingvo" stdset="0">
+             <string>eo</string>
             </property>
            </widget>
           </item>
@@ -1008,6 +1020,9 @@ font-weight: bold;</string>
             <property name="alignment">
              <set>Qt::AlignCenter</set>
             </property>
+            <property name="lingvo" stdset="0">
+             <string>eo</string>
+            </property>
            </widget>
           </item>
           <item>
@@ -1226,6 +1241,9 @@ font-weight: bold;</string>
             </property>
             <property name="alignment">
              <set>Qt::AlignCenter</set>
+            </property>
+            <property name="lingvo" stdset="0">
+             <string>eo</string>
             </property>
            </widget>
           </item>
@@ -1547,6 +1565,9 @@ font-weight: bold;</string>
             <property name="alignment">
              <set>Qt::AlignCenter</set>
             </property>
+            <property name="lingvo" stdset="0">
+             <string>eo</string>
+            </property>
            </widget>
           </item>
           <item>
@@ -1765,6 +1786,9 @@ font-weight: bold;</string>
             </property>
             <property name="alignment">
              <set>Qt::AlignCenter</set>
+            </property>
+            <property name="lingvo" stdset="0">
+             <string>eo</string>
             </property>
            </widget>
           </item>
@@ -2012,6 +2036,9 @@ font-weight: bold;</string>
             <property name="alignment">
              <set>Qt::AlignCenter</set>
             </property>
+            <property name="lingvo" stdset="0">
+             <string>eo</string>
+            </property>
            </widget>
           </item>
           <item>
@@ -2230,6 +2257,9 @@ font-weight: bold;</string>
             </property>
             <property name="alignment">
              <set>Qt::AlignCenter</set>
+            </property>
+            <property name="lingvo" stdset="0">
+             <string>eo</string>
             </property>
            </widget>
           </item>
@@ -2615,6 +2645,9 @@ font-weight: bold;</string>
             <property name="alignment">
              <set>Qt::AlignCenter</set>
             </property>
+            <property name="lingvo" stdset="0">
+             <string>eo</string>
+            </property>
            </widget>
           </item>
           <item>
@@ -2858,6 +2891,9 @@ font-weight: bold;</string>
             <property name="alignment">
              <set>Qt::AlignCenter</set>
             </property>
+            <property name="lingvo" stdset="0">
+             <string>eo</string>
+            </property>
            </widget>
           </item>
           <item>
@@ -3077,6 +3113,9 @@ font-weight: bold;</string>
             <property name="alignment">
              <set>Qt::AlignCenter</set>
             </property>
+            <property name="lingvo" stdset="0">
+             <string>eo</string>
+            </property>
            </widget>
           </item>
           <item>
@@ -3295,6 +3334,9 @@ font-weight: bold;</string>
             </property>
             <property name="alignment">
              <set>Qt::AlignCenter</set>
+            </property>
+            <property name="lingvo" stdset="0">
+             <string>eo</string>
             </property>
            </widget>
           </item>
@@ -3517,6 +3559,9 @@ font-weight: bold;</string>
             </property>
             <property name="alignment">
              <set>Qt::AlignCenter</set>
+            </property>
+            <property name="lingvo" stdset="0">
+             <string>eo</string>
             </property>
            </widget>
           </item>
@@ -3837,7 +3882,7 @@ font-weight: bold;</string>
                      </widget>
                     </item>
                     <item>
-                     <widget class="neklakebla" name="Lec09_Button69">
+                     <widget class="neklakebla" name="Lec09_Button68">
                       <property name="sizePolicy">
                        <sizepolicy hsizetype="Maximum" vsizetype="Fixed">
                         <horstretch>0</horstretch>
@@ -3928,6 +3973,9 @@ font-weight: bold;</string>
             </property>
             <property name="alignment">
              <set>Qt::AlignCenter</set>
+            </property>
+            <property name="lingvo" stdset="0">
+             <string>eo</string>
             </property>
            </widget>
           </item>
@@ -4039,7 +4087,7 @@ font-weight: bold;</string>
                 <item>
                  <layout class="QHBoxLayout" name="horizontalLayout_663" stretch="3,1">
                   <item>
-                   <widget class="neklakebla" name="Lec08_Button32_6">
+                   <widget class="neklakebla" name="Lec09_Button69">
                     <property name="sizePolicy">
                      <sizepolicy hsizetype="Maximum" vsizetype="Fixed">
                       <horstretch>0</horstretch>
@@ -4082,7 +4130,7 @@ font-weight: bold;</string>
                    </widget>
                   </item>
                   <item>
-                   <widget class="neklakebla" name="Lec08_Button33_6">
+                   <widget class="neklakebla" name="Lec09_Button70">
                     <property name="sizePolicy">
                      <sizepolicy hsizetype="Maximum" vsizetype="Fixed">
                       <horstretch>0</horstretch>
@@ -4141,6 +4189,9 @@ font-weight: bold;</string>
             </property>
             <property name="alignment">
              <set>Qt::AlignCenter</set>
+            </property>
+            <property name="lingvo" stdset="0">
+             <string>eo</string>
             </property>
            </widget>
           </item>
@@ -4335,7 +4386,7 @@ font-weight: bold;</string>
                   <item>
                    <layout class="QHBoxLayout" name="horizontalLayout_658" stretch="3,1">
                     <item>
-                     <widget class="neklakebla" name="Lec08_Button41_5">
+                     <widget class="neklakebla" name="Lec09_Button71">
                       <property name="sizePolicy">
                        <sizepolicy hsizetype="Maximum" vsizetype="Fixed">
                         <horstretch>0</horstretch>
@@ -4378,7 +4429,7 @@ font-weight: bold;</string>
                      </widget>
                     </item>
                     <item>
-                     <widget class="neklakebla" name="Lec08_Button42_5">
+                     <widget class="neklakebla" name="Lec09_Button72">
                       <property name="sizePolicy">
                        <sizepolicy hsizetype="Maximum" vsizetype="Fixed">
                         <horstretch>0</horstretch>
@@ -4876,16 +4927,32 @@ font-weight: bold;</string>
               </widget>
              </item>
              <item>
-              <widget class="cx_edit" name="lineEdit_2"/>
+              <widget class="cx_edit" name="lineEdit_2">
+               <property name="lingvo" stdset="0">
+                <string>traduko</string>
+               </property>
+              </widget>
              </item>
              <item>
-              <widget class="cx_edit" name="lineEdit_3"/>
+              <widget class="cx_edit" name="lineEdit_3">
+               <property name="lingvo" stdset="0">
+                <string>traduko</string>
+               </property>
+              </widget>
              </item>
              <item>
-              <widget class="cx_edit" name="lineEdit_4"/>
+              <widget class="cx_edit" name="lineEdit_4">
+               <property name="lingvo" stdset="0">
+                <string>traduko</string>
+               </property>
+              </widget>
              </item>
              <item>
-              <widget class="cx_edit" name="lineEdit_5"/>
+              <widget class="cx_edit" name="lineEdit_5">
+               <property name="lingvo" stdset="0">
+                <string>traduko</string>
+               </property>
+              </widget>
              </item>
             </layout>
            </item>
@@ -5026,16 +5093,32 @@ font-weight: bold;</string>
               </widget>
              </item>
              <item>
-              <widget class="cx_edit" name="lineEdit_10"/>
+              <widget class="cx_edit" name="lineEdit_10">
+               <property name="lingvo" stdset="0">
+                <string>traduko</string>
+               </property>
+              </widget>
              </item>
              <item>
-              <widget class="cx_edit" name="lineEdit_11"/>
+              <widget class="cx_edit" name="lineEdit_11">
+               <property name="lingvo" stdset="0">
+                <string>traduko</string>
+               </property>
+              </widget>
              </item>
              <item>
-              <widget class="cx_edit" name="lineEdit_12"/>
+              <widget class="cx_edit" name="lineEdit_12">
+               <property name="lingvo" stdset="0">
+                <string>traduko</string>
+               </property>
+              </widget>
              </item>
              <item>
-              <widget class="cx_edit" name="lineEdit_13"/>
+              <widget class="cx_edit" name="lineEdit_13">
+               <property name="lingvo" stdset="0">
+                <string>traduko</string>
+               </property>
+              </widget>
              </item>
             </layout>
            </item>
@@ -5195,16 +5278,32 @@ font-weight: bold;</string>
               </widget>
              </item>
              <item>
-              <widget class="cx_edit" name="lineEdit_6"/>
+              <widget class="cx_edit" name="lineEdit_6">
+               <property name="lingvo" stdset="0">
+                <string>traduko</string>
+               </property>
+              </widget>
              </item>
              <item>
-              <widget class="cx_edit" name="lineEdit_7"/>
+              <widget class="cx_edit" name="lineEdit_7">
+               <property name="lingvo" stdset="0">
+                <string>traduko</string>
+               </property>
+              </widget>
              </item>
              <item>
-              <widget class="cx_edit" name="lineEdit_8"/>
+              <widget class="cx_edit" name="lineEdit_8">
+               <property name="lingvo" stdset="0">
+                <string>traduko</string>
+               </property>
+              </widget>
              </item>
              <item>
-              <widget class="cx_edit" name="lineEdit_9"/>
+              <widget class="cx_edit" name="lineEdit_9">
+               <property name="lingvo" stdset="0">
+                <string>traduko</string>
+               </property>
+              </widget>
              </item>
             </layout>
            </item>
@@ -5360,16 +5459,32 @@ font-weight: bold;</string>
               </widget>
              </item>
              <item>
-              <widget class="cx_edit" name="lineEdit_14"/>
+              <widget class="cx_edit" name="lineEdit_14">
+               <property name="lingvo" stdset="0">
+                <string>traduko</string>
+               </property>
+              </widget>
              </item>
              <item>
-              <widget class="cx_edit" name="lineEdit_15"/>
+              <widget class="cx_edit" name="lineEdit_15">
+               <property name="lingvo" stdset="0">
+                <string>traduko</string>
+               </property>
+              </widget>
              </item>
              <item>
-              <widget class="cx_edit" name="lineEdit_16"/>
+              <widget class="cx_edit" name="lineEdit_16">
+               <property name="lingvo" stdset="0">
+                <string>traduko</string>
+               </property>
+              </widget>
              </item>
              <item>
-              <widget class="cx_edit" name="lineEdit_17"/>
+              <widget class="cx_edit" name="lineEdit_17">
+               <property name="lingvo" stdset="0">
+                <string>traduko</string>
+               </property>
+              </widget>
              </item>
             </layout>
            </item>
@@ -6110,6 +6225,9 @@ font-weight: bold;</string>
            <property name="tipo" stdset="0">
             <string>teksta</string>
            </property>
+           <property name="lingvo" stdset="0">
+            <string>eo</string>
+           </property>
           </widget>
          </item>
          <item>
@@ -6424,6 +6542,9 @@ font-weight: bold;</string>
            </property>
            <property name="tipo" stdset="0">
             <string>teksta</string>
+           </property>
+           <property name="lingvo" stdset="0">
+            <string>eo</string>
            </property>
           </widget>
          </item>

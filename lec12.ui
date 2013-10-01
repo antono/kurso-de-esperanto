@@ -2512,6 +2512,9 @@
 • Ho! Mia kor'
    Brazila Esperanto-Ligo - 2000</string>
                  </property>
+                 <property name="lingvo" stdset="0">
+                  <string>eo</string>
+                 </property>
                 </widget>
                </item>
               </layout>
@@ -2682,6 +2685,20 @@ p, li { white-space: pre-wrap; }
                    </property>
                   </widget>
                  </item>
+                 <item>
+                  <widget class="QLabel" name="label_131">
+                   <property name="text">
+                    <string>&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;
+&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;
+p, li { white-space: pre-wrap; }
+&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:'Arial'; font-size:11pt; font-weight:400; font-style:normal;&quot;&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;a href=&quot;http://www.vinilkosmo-mp3.com/&quot;&gt;&lt;span style=&quot; text-decoration: underline; color:#0000ff;&quot;&gt;http://www.vinilkosmo-mp3.com&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+                   </property>
+                   <property name="openExternalLinks">
+                    <bool>true</bool>
+                   </property>
+                  </widget>
+                 </item>
                 </layout>
                </item>
               </layout>
@@ -2786,6 +2803,9 @@ p, li { white-space: pre-wrap; }
            <verstretch>0</verstretch>
           </sizepolicy>
          </property>
+         <property name="layoutDirection">
+          <enum>Qt::LeftToRight</enum>
+         </property>
          <property name="frameShape">
           <enum>QFrame::Panel</enum>
          </property>
@@ -2859,6 +2879,12 @@ Scii tutan la veron
 Marŝi sub la pluvo
 Baniĝi en la lumo</string>
                 </property>
+                <property name="alignment">
+                 <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignTop</set>
+                </property>
+                <property name="lingvo" stdset="0">
+                 <string>eo</string>
+                </property>
                </widget>
               </item>
              </layout>
@@ -2887,6 +2913,12 @@ Kaj doni al ĝi mian koron
 En kesto de bluaj fragoj
 Ĝis kie mi povas ....
 ...En kesto de bluaj fragoj...</string>
+              </property>
+              <property name="alignment">
+               <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignTop</set>
+              </property>
+              <property name="lingvo" stdset="0">
+               <string>eo</string>
               </property>
              </widget>
             </item>
@@ -3304,6 +3336,9 @@ En kesto de bluaj fragoj
          <property name="tipo" stdset="0">
           <string>teksta</string>
          </property>
+         <property name="lingvo" stdset="0">
+          <string>eo</string>
+         </property>
         </widget>
        </item>
        <item>
@@ -3713,7 +3748,11 @@ En kesto de bluaj fragoj
         </layout>
        </item>
        <item>
-        <widget class="cx_plainedit" name="plainTextEdit"/>
+        <widget class="cx_plainedit" name="plainTextEdit">
+         <property name="lingvo" stdset="0">
+          <string>traduko</string>
+         </property>
+        </widget>
        </item>
       </layout>
      </widget>
@@ -3722,6 +3761,11 @@ En kesto de bluaj fragoj
   </layout>
  </widget>
  <customwidgets>
+  <customwidget>
+   <class>cx_plainedit</class>
+   <extends>QPlainTextEdit</extends>
+   <header>cx_plainedit.h</header>
+  </customwidget>
   <customwidget>
    <class>titolo</class>
    <extends>QLabel</extends>
@@ -3751,20 +3795,15 @@ En kesto de bluaj fragoj
    </slots>
   </customwidget>
   <customwidget>
-   <class>akuzativo</class>
-   <extends>QFrame</extends>
-   <header>akuzativo.h</header>
-   <container>1</container>
-  </customwidget>
-  <customwidget>
    <class>neklakebla</class>
    <extends>QPushButton</extends>
    <header>neklakebla.h</header>
   </customwidget>
   <customwidget>
-   <class>cx_plainedit</class>
-   <extends>QPlainTextEdit</extends>
-   <header>cx_plainedit.h</header>
+   <class>akuzativo</class>
+   <extends>QFrame</extends>
+   <header>akuzativo.h</header>
+   <container>1</container>
   </customwidget>
  </customwidgets>
  <resources>

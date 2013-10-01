@@ -51,7 +51,7 @@
       </sizepolicy>
      </property>
      <property name="currentIndex">
-      <number>8</number>
+      <number>1</number>
      </property>
      <property name="iconSize">
       <size>
@@ -468,6 +468,9 @@ terminação do plural (-j).</string>
                <property name="alignment">
                 <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
                </property>
+               <property name="lingvo" stdset="0">
+                <string>eo</string>
+               </property>
               </widget>
              </item>
              <item>
@@ -483,6 +486,9 @@ terminação do plural (-j).</string>
                </property>
                <property name="alignment">
                 <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+               </property>
+               <property name="lingvo" stdset="0">
+                <string>eo</string>
                </property>
               </widget>
              </item>
@@ -500,6 +506,9 @@ terminação do plural (-j).</string>
                <property name="alignment">
                 <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
                </property>
+               <property name="lingvo" stdset="0">
+                <string>eo</string>
+               </property>
               </widget>
              </item>
              <item>
@@ -515,6 +524,9 @@ terminação do plural (-j).</string>
                </property>
                <property name="alignment">
                 <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+               </property>
+               <property name="lingvo" stdset="0">
+                <string>eo</string>
                </property>
               </widget>
              </item>
@@ -532,6 +544,9 @@ terminação do plural (-j).</string>
                <property name="alignment">
                 <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
                </property>
+               <property name="lingvo" stdset="0">
+                <string>eo</string>
+               </property>
               </widget>
              </item>
              <item>
@@ -547,6 +562,9 @@ terminação do plural (-j).</string>
                </property>
                <property name="alignment">
                 <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+               </property>
+               <property name="lingvo" stdset="0">
+                <string>eo</string>
                </property>
               </widget>
              </item>
@@ -564,6 +582,9 @@ terminação do plural (-j).</string>
                <property name="alignment">
                 <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
                </property>
+               <property name="lingvo" stdset="0">
+                <string>eo</string>
+               </property>
               </widget>
              </item>
              <item>
@@ -579,6 +600,9 @@ terminação do plural (-j).</string>
                </property>
                <property name="alignment">
                 <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+               </property>
+               <property name="lingvo" stdset="0">
+                <string>eo</string>
                </property>
               </widget>
              </item>
@@ -596,6 +620,9 @@ terminação do plural (-j).</string>
                <property name="alignment">
                 <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
                </property>
+               <property name="lingvo" stdset="0">
+                <string>eo</string>
+               </property>
               </widget>
              </item>
              <item>
@@ -611,6 +638,9 @@ terminação do plural (-j).</string>
                </property>
                <property name="alignment">
                 <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+               </property>
+               <property name="lingvo" stdset="0">
+                <string>eo</string>
                </property>
               </widget>
              </item>
@@ -786,6 +816,9 @@ terminação do plural (-j).</string>
                <property name="alignment">
                 <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
                </property>
+               <property name="lingvo" stdset="0">
+                <string>eo</string>
+               </property>
               </widget>
              </item>
              <item>
@@ -795,6 +828,9 @@ terminação do plural (-j).</string>
                </property>
                <property name="alignment">
                 <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+               </property>
+               <property name="lingvo" stdset="0">
+                <string>eo</string>
                </property>
               </widget>
              </item>
@@ -806,6 +842,9 @@ terminação do plural (-j).</string>
                <property name="alignment">
                 <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
                </property>
+               <property name="lingvo" stdset="0">
+                <string>eo</string>
+               </property>
               </widget>
              </item>
              <item>
@@ -815,6 +854,9 @@ terminação do plural (-j).</string>
                </property>
                <property name="alignment">
                 <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+               </property>
+               <property name="lingvo" stdset="0">
+                <string>eo</string>
                </property>
               </widget>
              </item>
@@ -826,6 +868,9 @@ terminação do plural (-j).</string>
                <property name="alignment">
                 <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
                </property>
+               <property name="lingvo" stdset="0">
+                <string>eo</string>
+               </property>
               </widget>
              </item>
              <item>
@@ -835,6 +880,9 @@ terminação do plural (-j).</string>
                </property>
                <property name="alignment">
                 <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+               </property>
+               <property name="lingvo" stdset="0">
+                <string>eo</string>
                </property>
               </widget>
              </item>
@@ -846,6 +894,9 @@ terminação do plural (-j).</string>
                <property name="alignment">
                 <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
                </property>
+               <property name="lingvo" stdset="0">
+                <string>eo</string>
+               </property>
               </widget>
              </item>
              <item>
@@ -855,6 +906,9 @@ terminação do plural (-j).</string>
                </property>
                <property name="alignment">
                 <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+               </property>
+               <property name="lingvo" stdset="0">
+                <string>eo</string>
                </property>
               </widget>
              </item>
@@ -866,6 +920,9 @@ terminação do plural (-j).</string>
                <property name="alignment">
                 <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
                </property>
+               <property name="lingvo" stdset="0">
+                <string>eo</string>
+               </property>
               </widget>
              </item>
              <item>
@@ -875,6 +932,9 @@ terminação do plural (-j).</string>
                </property>
                <property name="alignment">
                 <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+               </property>
+               <property name="lingvo" stdset="0">
+                <string>eo</string>
                </property>
               </widget>
              </item>
@@ -1050,6 +1110,9 @@ terminação do plural (-j).</string>
                <property name="alignment">
                 <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
                </property>
+               <property name="lingvo" stdset="0">
+                <string>eo</string>
+               </property>
               </widget>
              </item>
              <item>
@@ -1059,6 +1122,9 @@ terminação do plural (-j).</string>
                </property>
                <property name="alignment">
                 <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+               </property>
+               <property name="lingvo" stdset="0">
+                <string>eo</string>
                </property>
               </widget>
              </item>
@@ -1070,6 +1136,9 @@ terminação do plural (-j).</string>
                <property name="alignment">
                 <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
                </property>
+               <property name="lingvo" stdset="0">
+                <string>eo</string>
+               </property>
               </widget>
              </item>
              <item>
@@ -1079,6 +1148,9 @@ terminação do plural (-j).</string>
                </property>
                <property name="alignment">
                 <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+               </property>
+               <property name="lingvo" stdset="0">
+                <string>eo</string>
                </property>
               </widget>
              </item>
@@ -1090,6 +1162,9 @@ terminação do plural (-j).</string>
                <property name="alignment">
                 <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
                </property>
+               <property name="lingvo" stdset="0">
+                <string>eo</string>
+               </property>
               </widget>
              </item>
              <item>
@@ -1099,6 +1174,9 @@ terminação do plural (-j).</string>
                </property>
                <property name="alignment">
                 <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+               </property>
+               <property name="lingvo" stdset="0">
+                <string>eo</string>
                </property>
               </widget>
              </item>
@@ -1110,6 +1188,9 @@ terminação do plural (-j).</string>
                <property name="alignment">
                 <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
                </property>
+               <property name="lingvo" stdset="0">
+                <string>eo</string>
+               </property>
               </widget>
              </item>
              <item>
@@ -1119,6 +1200,9 @@ terminação do plural (-j).</string>
                </property>
                <property name="alignment">
                 <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+               </property>
+               <property name="lingvo" stdset="0">
+                <string>eo</string>
                </property>
               </widget>
              </item>
@@ -1130,6 +1214,9 @@ terminação do plural (-j).</string>
                <property name="alignment">
                 <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
                </property>
+               <property name="lingvo" stdset="0">
+                <string>eo</string>
+               </property>
               </widget>
              </item>
              <item>
@@ -1139,6 +1226,9 @@ terminação do plural (-j).</string>
                </property>
                <property name="alignment">
                 <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+               </property>
+               <property name="lingvo" stdset="0">
+                <string>eo</string>
                </property>
               </widget>
              </item>
@@ -1314,6 +1404,9 @@ terminação do plural (-j).</string>
                <property name="alignment">
                 <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
                </property>
+               <property name="lingvo" stdset="0">
+                <string>eo</string>
+               </property>
               </widget>
              </item>
              <item>
@@ -1323,6 +1416,9 @@ terminação do plural (-j).</string>
                </property>
                <property name="alignment">
                 <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+               </property>
+               <property name="lingvo" stdset="0">
+                <string>eo</string>
                </property>
               </widget>
              </item>
@@ -1334,6 +1430,9 @@ terminação do plural (-j).</string>
                <property name="alignment">
                 <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
                </property>
+               <property name="lingvo" stdset="0">
+                <string>eo</string>
+               </property>
               </widget>
              </item>
              <item>
@@ -1343,6 +1442,9 @@ terminação do plural (-j).</string>
                </property>
                <property name="alignment">
                 <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+               </property>
+               <property name="lingvo" stdset="0">
+                <string>eo</string>
                </property>
               </widget>
              </item>
@@ -1354,6 +1456,9 @@ terminação do plural (-j).</string>
                <property name="alignment">
                 <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
                </property>
+               <property name="lingvo" stdset="0">
+                <string>eo</string>
+               </property>
               </widget>
              </item>
              <item>
@@ -1363,6 +1468,9 @@ terminação do plural (-j).</string>
                </property>
                <property name="alignment">
                 <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+               </property>
+               <property name="lingvo" stdset="0">
+                <string>eo</string>
                </property>
               </widget>
              </item>
@@ -1374,6 +1482,9 @@ terminação do plural (-j).</string>
                <property name="alignment">
                 <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
                </property>
+               <property name="lingvo" stdset="0">
+                <string>eo</string>
+               </property>
               </widget>
              </item>
              <item>
@@ -1383,6 +1494,9 @@ terminação do plural (-j).</string>
                </property>
                <property name="alignment">
                 <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+               </property>
+               <property name="lingvo" stdset="0">
+                <string>eo</string>
                </property>
               </widget>
              </item>
@@ -1394,6 +1508,9 @@ terminação do plural (-j).</string>
                <property name="alignment">
                 <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
                </property>
+               <property name="lingvo" stdset="0">
+                <string>eo</string>
+               </property>
               </widget>
              </item>
              <item>
@@ -1403,6 +1520,9 @@ terminação do plural (-j).</string>
                </property>
                <property name="alignment">
                 <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+               </property>
+               <property name="lingvo" stdset="0">
+                <string>eo</string>
                </property>
               </widget>
              </item>

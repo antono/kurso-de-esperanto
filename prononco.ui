@@ -387,6 +387,9 @@ color: blue;</string>
            <property name="alignment">
             <set>Qt::AlignCenter</set>
            </property>
+           <property name="lingvo" stdset="0">
+            <string>eo</string>
+           </property>
           </widget>
          </item>
          <item>

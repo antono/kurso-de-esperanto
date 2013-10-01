@@ -53,6 +53,7 @@ kurso::kurso(QWidget *parent) :
     QIcon kurso_ikono(":kurso4.ico");
     QApplication::setWindowIcon(kurso_ikono);
     ui->prog_printilo->setVisible(false);
+    ui->kurso3_stilo_leciono->setVisible(false);
 
     Malalta_Fenestro = false;
     Eta_Fenestro = false;
@@ -77,14 +78,11 @@ kurso::kurso(QWidget *parent) :
     }
     // fino de la sxargxado
 
-
-
-    Stilo(); // Shanghas la stilon de la lecionoj
-
-
     ui->Paghujo->setCurrentIndex(0); // iras al la komenca pagho
 
+    tradukilo = 0;
 
+    antaua = 0;
 
 }
 
@@ -96,18 +94,12 @@ kurso::~kurso()
 
 void kurso::on_Hejmo_clicked()
 {
-    QList<QTabWidget *> chiuj_tab =  ui->Paghujo->currentWidget()->findChildren<QTabWidget *>();
-    if (chiuj_tab.count() > 0)
-        if (chiuj_tab[0]->objectName().left(3) == "Lec")
-        {
-            LastaLeciono = ui->Paghujo->currentIndex();
-            LastaPagxo = chiuj_tab[0]->currentIndex();
-        }
-
     ui->Paghujo->setCurrentIndex(0);
     ui->Hejmo->setEnabled(false);
     ui->printilo->setEnabled(false);
     ui->Sendas->setEnabled(false);
+    if (iFenestraStilo == 1)
+        ui->kurso3_stilo_leciono->setVisible(false);
 }
 
 void kurso::komencakonfiguro()
@@ -118,20 +110,26 @@ void kurso::komencakonfiguro()
     Konfiguro.beginGroup("Gxenerala");
     sLingvo = Konfiguro.value("Lingvo", "").toString();
     sTradukoDosiero = Konfiguro.value("Dosiero", "").toString();
+
+    iLiterGrando = Konfiguro.value("LiterGrando", 13).toInt();
+
     if (sLingvo == "" || sTradukoDosiero == "")
     {
         lingvoelekto nova;
         nova.exec();
+        iLiterGrando = -1; // La grandeco estos difinita de la traduka dosiero
     }
+
     sTiparo     = Konfiguro.value("Tiparo", "DejaVu Sans").toString();
+    sTiparoEo   = Konfiguro.value("TiparoEo", "DejaVu Sans").toString();
     lCxapeligo  = Konfiguro.value("Cxapeligo", true).toBool();
     iSistemo    = Konfiguro.value("Sistemo", 0).toInt();
     LastaLeciono = Konfiguro.value("LastaLeciono", 1).toInt();
     LastaPagxo  = Konfiguro.value("LastaPagxo", 0).toInt();
     lSxaltilo   = Konfiguro.value("Sxaltilo", true).toBool();
     lNoteto     = Konfiguro.value("Noteto", true).toBool();
-    iLiterGrando= Konfiguro.value("LiterGrando", 13).toInt();
-
+    iLiterGrandoEo= Konfiguro.value("LiterGrandoEo", 13).toInt();
+    iFenestraStilo= Konfiguro.value("FenestraStilo", 0).toInt();
 }
 
 void kurso::Traduku()
@@ -147,11 +145,11 @@ void kurso::Traduku()
             msgBox.setIcon(QMessageBox::Warning);
             msgBox.exec();
             sTradukoDosiero = "angla.trd";
-            sLingvo = "English (Angla)";
+            sLingvo = "English נAngla";
         }
         else
         {
-            msgBox.setText("The translation file " + sTradukoDosiero + " could not be found. English translation could not be found either. \nPlease check the path or reinstall Kurso. \nProgram will quit now.");
+            msgBox.setText("The translation file " + sTradukoDosiero + " could not be found. The English translation file (angla.trd) could not be found either. \nPlease check the path or reinstall Kurso. \nProgram will quit now.");
             msgBox.setIcon(QMessageBox::Critical);
             msgBox.exec();
             NeEkzistasTraduko = true;
@@ -164,6 +162,22 @@ void kurso::Traduku()
 
     Tradukado.beginGroup("Traduko");
     sTradukinto = Tradukado.value("Tradukinto", "").toString();
+
+    // Uzas litergrandon indikitan en la traduko, se tiu ekzistas
+
+    if (JamMontrita)
+    {
+        int novaLiterGrando = Tradukado.value( "LiterGrando", 13 ).toInt();
+        if (novaLiterGrando != iLiterGrando)
+        {
+            iLiterGrando = novaLiterGrando;
+            ui->LiterGrando->setValue(novaLiterGrando);
+        }
+    }
+    else
+        if (iLiterGrando < 0)
+           iLiterGrando = Tradukado.value( "LiterGrando", 13 ).toInt();
+
     Tradukado.endGroup();
 
     Tradukado.beginGroup("Mesagxoj");
@@ -183,23 +197,14 @@ void kurso::Traduku()
     smNeSono    = Tradukado.value("smNeSono",    "Ne Tradukita").toString();
     Tradukado.endGroup();
 
-    QString Direkto = Tradukado.value("Traduko/Direkto", "LTR").toString();
+    Direkto = Tradukado.value("Traduko/Direkto", "LTR").toString();
     QString RTL_Marko, LTR_Marko;
+    LTR_Marko = QString::fromUtf8("\u200E");
+    RTL_Marko = QString::fromUtf8("\u200F");
     if (Direkto == "LTR")
-    {
          QApplication::setLayoutDirection(Qt::LeftToRight);
-         RTL_Marko = "";
-         LTR_Marko = "";
-
-    }
     else
-    {
          QApplication::setLayoutDirection(Qt::RightToLeft);
-         LTR_Marko = QString::fromUtf8("\u200E");
-         RTL_Marko = QString::fromUtf8("\u200F");
-         //RTL_Marko = "";
-         //LTR_Marko = "";
-    }
 
 
     Tradukado.beginGroup("Menuo");
@@ -227,11 +232,6 @@ void kurso::Traduku()
     {
         if ( chiuj_label[i]->objectName().left(6) == "Konfig" )
         {
-            /* REVIZII CHI TIUN PARTON KIAM ESTOS LINGVO RTL
-            if (Direkto == "RTL")
-                chiuj_label[i]->setAlignment(Qt::AlignRight | Qt::AlignVCenter | Qt::AlignAbsolute);
-            */
-
             Tradukota = chiuj_label[i]->objectName().mid(7);
             Tradukita = Tradukado.value(Tradukota, "Ne Tradukita").toString();
             chiuj_label[i]->setText(Tradukita);
@@ -249,13 +249,6 @@ void kurso::Traduku()
     {
         if ( chiuj_label[i]->objectName().left(6) == "Kredit" )
         {
-            /* REVIZII CHI TIUN PARTON KIAM ESTOS LINGVO RTL
-            if (Direkto == "LTR")
-                chiuj_label[i]->setAlignment(Qt::AlignLeft | Qt::AlignVCenter | Qt::AlignAbsolute);
-            else
-                chiuj_label[i]->setAlignment(Qt::AlignRight | Qt::AlignVCenter | Qt::AlignAbsolute);
-            */
-
             Tradukota = chiuj_label[i]->objectName().mid(7);
             chiuj_label[i]->setText( Tradukado.value(Tradukota, "Ne Tradukita").toString());
         }
@@ -316,9 +309,11 @@ void kurso::Konfiguru()
     {
 
     int trovita = ui->Lingvo->findText(sLingvo);
+    ui->Lingvo->blockSignals(true);
     ui->Lingvo->setCurrentIndex(trovita);
+    ui->Lingvo->blockSignals(false);
 
-    ui->label_120->setText(QString::fromUtf8("eĥoŝanĝo ĉiuĵaŭda - ")  + sLingvo);
+    // ui->label_120->setText(QString::fromUtf8("eĥoŝanĝo ĉiuĵaŭda - ")  + sLingvo);
 
 
     if (iSistemo == 0)
@@ -331,6 +326,27 @@ void kurso::Konfiguru()
     ui->Cxapeligo->setChecked(lCxapeligo);
     ui->Parolo->setChecked(lSxaltilo);
     ui->Noteto->setChecked(lNoteto);
+
+    QFont novaTiparo(sTiparo);
+    QFont novaTiparoEo(sTiparoEo);
+
+    ui->Tiparo->blockSignals(true);
+    ui->TiparoEo->blockSignals(true);
+    ui->LiterGrando->blockSignals(true);
+    ui->LiterGrandoEo->blockSignals(true);
+
+    ui->Tiparo->setCurrentFont(novaTiparo);
+    ui->TiparoEo->setCurrentFont(novaTiparoEo);
+    ui->LiterGrando->setValue(iLiterGrando);
+    ui->LiterGrandoEo->setValue(iLiterGrandoEo);
+
+    ui->Tiparo->blockSignals(false);
+    ui->LiterGrando->blockSignals(false);
+    ui->TiparoEo->blockSignals(false);
+    ui->LiterGrandoEo->blockSignals(false);
+
+    QApplication::processEvents();
+
 }
 
 
@@ -382,7 +398,11 @@ void kurso::on_Lingvo_activated(int index)
     //sTradukoDosiero = Tradukoj.value(LingvoListo[index] + "/Dosiero", "NeValida").toString();
     sLingvo = LingvoListo[index][1];
     sTradukoDosiero = LingvoListo[index][2];
-    ui->label_120->setText(QString::fromUtf8("eĥoŝanĝo ĉiuĵaŭda - ")  + sLingvo);
+
+    // Se TiparGrando malsama ol antaua TiparGrando, shanghi la TiparGrandon
+
+    // ui->label_120->setText(QString::fromUtf8("eĥoŝanĝo ĉiuĵaŭda - ")  + sLingvo);
+
     Traduku();
 }
 
@@ -393,7 +413,8 @@ void kurso::SavasKonfig()
     Konfiguro.setIniCodec("UTF-8");
     Konfiguro.beginGroup("Gxenerala");
     Konfiguro.setValue("Lingvo", sLingvo);
-    Konfiguro.setValue("Tiparo", ui->Tiparo->currentText());
+    Konfiguro.setValue("Tiparo", sTiparo);
+    Konfiguro.setValue("TiparoEo", sTiparoEo);
     Konfiguro.setValue("Dosiero", sTradukoDosiero);
     Konfiguro.setValue("Cxapeligo", lCxapeligo);
     Konfiguro.setValue("Sistemo", iSistemo);
@@ -401,7 +422,9 @@ void kurso::SavasKonfig()
     Konfiguro.setValue("LastaPagxo", LastaPagxo);
     Konfiguro.setValue("Sxaltilo", lSxaltilo);
     Konfiguro.setValue("Noteto", lNoteto);
-    Konfiguro.setValue("LiterGrando", ui->LiterGrando->value());
+    Konfiguro.setValue("LiterGrando", iLiterGrando );
+    Konfiguro.setValue("LiterGrandoEo", iLiterGrandoEo );
+    Konfiguro.setValue("FenestraStilo", iFenestraStilo);
     Konfiguro.endGroup();
     Konfiguro.sync();
 
@@ -420,22 +443,22 @@ void kurso::closeEvent(QCloseEvent *event)
             SxargxasEk(chiuj_tab.at(i), true);
     }
 
-
     SavasKonfig();
 
     QString Provizorujo = QDir::tempPath();
     if (Provizorujo.right(1) != "/")
         Provizorujo.append("/");
 
-
     // KODO POR FORIGI LA PORTEMPAJN PRONONCAJN DOSIEROJN
     for (i = 0; i < 4; i++)
         QFile::remove(Provizorujo + "prononco" + QString::number(i) + ".raw");
 
 
-
     if (lSxaltilo)
-        Pauzu(2); //pauzo necesa por ke la mp3-dosiero estu ludita ghis la fino.
+    {
+        while (this->ludilo->state() == Phonon::LoadingState || this->ludilo->state() == Phonon::PlayingState || this->ludilo->state() == Phonon::BufferingState )
+            QApplication::processEvents();
+    }
 
     // QFontDatabase::removeAllApplicationFonts();
 
@@ -461,10 +484,20 @@ void kurso::on_KieButono_clicked()
             if (chiuj_tab[0]->objectName().left(5) == "Lec06")
                 EkzercoAkuzativoTrad = "0605";
             chiuj_tab[0]->setCurrentIndex(LastaPagxo);
+
+            if ( chiuj_tab[0]->widget(LastaPagxo)->objectName().left(6) == "Sendas")
+                ui->Sendas->setEnabled( true );
+
+            if (iFenestraStilo == 1)
+            {
+                ui->kurso3_stilo_leciono->setStyleSheet("border-image: url(:ikonoj/hejmo/leciono" + chiuj_tab[0]->objectName().right(2) +  ".png) 0; min-width: 125px; min-height: 36px;  max-width: 125px; max-height: 36px;");
+                ui->kurso3_stilo_leciono->setVisible(true);
+            }
         }
 
     ui->Hejmo->setEnabled(true);
     ui->printilo->setEnabled(true);
+
 }
 
 void kurso::Stilo()
@@ -473,7 +506,7 @@ void kurso::Stilo()
     if (QApplication::applicationDirPath().contains("Debug"))
     {
     #ifdef Q_WS_X11
-        Loko = "/home/user/kurso4/";
+        Loko = "home/user/kurso4/";
     #endif
     #ifdef Q_WS_WIN
         if (QApplication::applicationDirPath().contains("TROCA"))
@@ -519,41 +552,63 @@ void kurso::Stilo()
 
 void kurso::on_Tiparo_currentIndexChanged(const QString &arg1)
 {
-    this->setUpdatesEnabled(false);
-
-    QRect grandeco = QApplication::desktop()->availableGeometry();
-    QRect ekstera_grandeco = this->frameGeometry();
-    QRect interna_grandeco = this->geometry();
-    int alteco_nuna = interna_grandeco.height();
-    // int largheco_nuna = interna_grandeco.width();
-
-    int alteco = grandeco.height() - (ekstera_grandeco.height() - interna_grandeco.height());
-    int largheco = grandeco.width() - (ekstera_grandeco.width() - interna_grandeco.width()) ;
-    int kroma_alteco = ( ui->LiterGrando->value() - 14 ) * 15;
-    int kroma_largheco = ( ui->LiterGrando->value() - 14 ) * 24;
-
-    if (kroma_alteco > 0)
-    {
-        if ( ( (alteco_originala + kroma_alteco) < alteco)  && ( (largheco_originala + kroma_largheco) < largheco) )
-        {
-            this->setMinimumSize(largheco_originala + kroma_largheco, alteco_originala + kroma_alteco);
-            this->resize(largheco_originala + kroma_largheco, alteco_originala + kroma_alteco);
-        }
-    }
-    else
-        if (alteco_nuna > alteco_originala)
-        {
-            this->setMinimumSize(largheco_originala,alteco_originala);
-            this->resize(largheco_originala,alteco_originala);
-        }
-
-    this->setUpdatesEnabled(true);
-
-    ui->Paghujo->setStyleSheet("titolo { font-size: " + QString::number( int(ui->LiterGrando->value() * 1.3) ) + "px; font-weight: bold; min-height: 1.5em;}");
-
-    this->setStyleSheet("font-family: \"" + arg1 + "\"; font-size: " + QString::number(ui->LiterGrando->value()) + "px;");
-
+    sTiparo = arg1;
+    ShanghasTiparon();
 }
+
+void kurso::on_TiparoEo_currentIndexChanged(const QString &arg1)
+{
+    sTiparoEo = arg1;
+    ShanghasTiparon();
+}
+
+
+void kurso::on_LiterGrando_valueChanged(int arg1)
+{
+    iLiterGrando = arg1;
+    ShanghasTiparon();
+}
+
+
+void kurso::on_LiterGrandoEo_valueChanged(int arg1)
+{
+    iLiterGrandoEo = arg1;
+    ShanghasTiparon();
+}
+
+void kurso::ShanghasTiparon()
+{
+    QCursor malnova = this->cursor();
+    QCursor atendu = QCursor( Qt::WaitCursor);
+    this->setCursor( atendu );
+    QApplication::processEvents();
+
+    ShanghasTiparStilon();
+
+    ReGrandigas_Fenestron();
+
+    QApplication::processEvents();
+
+    this->setCursor( malnova );
+}
+
+void kurso::ShanghasTiparStilon()
+{
+    QString NovaStilo;
+    NovaStilo.append( "QRadioButton[lingvo=\"traduko\"]      { font-family: \""+ sTiparo + "\";  font-size: " + QString::number( iLiterGrando ) + "px;} " );
+    NovaStilo.append( "QLineEdit[lingvo=\"traduko\"]         { font-family: \""+ sTiparo + "\";  font-size: " + QString::number( iLiterGrando ) + "px;} " );
+    NovaStilo.append( "QPlainTextEdit[lingvo=\"traduko\"]    { font-family: \""+ sTiparo + "\";  font-size: " + QString::number( iLiterGrando ) + "px;} " );
+    NovaStilo.append( "QPushButton[lingvo=\"traduko\"]    { font-family: \""+ sTiparo + "\";  font-size: " + QString::number( iLiterGrando ) + "px;} " );
+    NovaStilo.append(                "QLabel { font-family: \""+ sTiparo + "\";  font-size: " + QString::number( iLiterGrando ) + "px;} " );
+    NovaStilo.append( "QLabel[lingvo=\"eo\"] { font-family: \""+ sTiparoEo + "\";  font-size: " + QString::number( iLiterGrandoEo ) + "px;} " );
+    NovaStilo.append(                "titolo { font-family: \""+ sTiparo +   "\"; font-size: " + QString::number( int(iLiterGrando   * 1.3) ) + "px; font-weight: bold; min-height: 1.5em;} " );
+    NovaStilo.append( "titolo[lingvo=\"eo\"] { font-family: \""+ sTiparoEo + "\"; font-size: " + QString::number( int(iLiterGrandoEo * 1.3) ) + "px; font-weight: bold; min-height: 1.5em;} " );
+
+    ui->Paghujo->setStyleSheet(NovaStilo);
+
+    this->setStyleSheet("font-family: \"" + sTiparoEo + "\"; font-size: " + QString::number(iLiterGrandoEo) + "px;");
+}
+
 
 
 /* CHI TIU PARTO ENIROS EN ESTONTA VERSIO
@@ -568,19 +623,13 @@ void kurso::on_BildoLudo_clicked()
 
 void kurso::on_Konfigurado_clicked()
 {
-    QList<QTabWidget *> chiuj_tab =  ui->Paghujo->currentWidget()->findChildren<QTabWidget *>();
-    if (chiuj_tab.count() > 0)
-        if (chiuj_tab[0]->objectName().left(3) == "Lec")
-        {
-            LastaLeciono = ui->Paghujo->currentIndex();
-            LastaPagxo = chiuj_tab[0]->currentIndex();
-        }
 
     QList<QWidget *> chiuj_paghoj = ui->Paghujo->findChildren<QWidget *>("Pagho_Konfigurado");
     if (chiuj_paghoj.size() > 0)
         ui->Paghujo->setCurrentWidget(chiuj_paghoj.at(0));
     ui->Hejmo->setEnabled(true);
-
+    if (iFenestraStilo == 1)
+        ui->kurso3_stilo_leciono->setVisible(false);
 }
 
 void kurso::on_KioEstas_clicked()
@@ -618,93 +667,99 @@ void kurso::on_Noteto_toggled(bool checked)
 }
 
 
-
-void kurso::on_LiterGrando_valueChanged(int arg1)
-{
-    on_Tiparo_currentIndexChanged(ui->Tiparo->currentText());
-}
-
-
 void kurso::ShanghasPaghon(QString Nomo)
 {
     QList<QWidget *> chiuj_paghoj = ui->Paghujo->findChildren<QWidget *>(Nomo);
     if (chiuj_paghoj.size() > 0)
     {
+        ui->Paghujo->setCurrentWidget(chiuj_paghoj.at(0));
         QList<QTabWidget *> chiuj_tab = chiuj_paghoj.at(0)->findChildren<QTabWidget *>();
         if (chiuj_tab.count() > 0)
         {
-            ui->Paghujo->setCurrentWidget(chiuj_paghoj.at(0));
             chiuj_tab.at(0)->setCurrentIndex(0);
             ui->Hejmo->setEnabled(true);
             ui->printilo->setEnabled(true);
+            if (iFenestraStilo == 1)
+            {
+                ui->kurso3_stilo_leciono->setStyleSheet("border-image: url(:ikonoj/hejmo/leciono" + Nomo.right(2) +  ".png) 0; min-width: 125px; min-height: 36px;  max-width: 125px; max-height: 36px;");
+                ui->kurso3_stilo_leciono->setVisible(true);
+
+            }
         }
     }
 }
 
+void kurso::paghoshanghita(QWidget *arg1)
+{
+    ui->Sendas->setEnabled( (arg1->objectName().left(6) == "Sendas") );
+    LastaLeciono = ui->Paghujo->currentIndex();
+    LastaPagxo = qobject_cast<QTabWidget *>(arg1->parentWidget()->parentWidget())->currentIndex();
+}
+
 void kurso::on_Lec01_currentChanged(QWidget *arg1)
 {
-    ui->Sendas->setEnabled((arg1->objectName().left(6) == "Sendas"));
+    paghoshanghita(arg1);
 }
 
 void kurso::on_Lec02_currentChanged(QWidget *arg1)
 {
-    ui->Sendas->setEnabled((arg1->objectName().left(6) == "Sendas"));
+    paghoshanghita(arg1);
 }
 
 void kurso::on_Lec03_currentChanged(QWidget *arg1)
 {
-    ui->Sendas->setEnabled((arg1->objectName().left(6) == "Sendas"));
+    paghoshanghita(arg1);
 }
 
 void kurso::on_Lec04_currentChanged(QWidget *arg1)
 {
-    ui->Sendas->setEnabled((arg1->objectName().left(6) == "Sendas"));
+    paghoshanghita(arg1);
 }
 
 void kurso::on_Lec05_currentChanged(QWidget *arg1)
 {
-    ui->Sendas->setEnabled((arg1->objectName().left(6) == "Sendas"));
+    paghoshanghita(arg1);
 }
 
 void kurso::on_Lec06_currentChanged(QWidget *arg1)
 {
-    ui->Sendas->setEnabled((arg1->objectName().left(6) == "Sendas"));
+    paghoshanghita(arg1);
 }
 
 void kurso::on_Lec07_currentChanged(QWidget *arg1)
 {
-    ui->Sendas->setEnabled((arg1->objectName().left(6) == "Sendas"));
+    paghoshanghita(arg1);
 }
 
 
 void kurso::on_Lec08_currentChanged(QWidget *arg1)
 {
-    ui->Sendas->setEnabled((arg1->objectName().left(6) == "Sendas"));
+    paghoshanghita(arg1);
 }
 
 void kurso::on_Lec09_currentChanged(QWidget *arg1)
 {
-    ui->Sendas->setEnabled((arg1->objectName().left(6) == "Sendas"));
+    paghoshanghita(arg1);
 }
 
 void kurso::on_Lec10_currentChanged(QWidget *arg1)
 {
-    ui->Sendas->setEnabled((arg1->objectName().left(6) == "Sendas"));
+    paghoshanghita(arg1);
 }
 
 void kurso::on_Lec11_currentChanged(QWidget *arg1)
 {
-    ui->Sendas->setEnabled((arg1->objectName().left(6) == "Sendas"));
+    paghoshanghita(arg1);
 }
 
 void kurso::on_Lec12_currentChanged(QWidget *arg1)
 {
-    ui->Sendas->setEnabled((arg1->objectName().left(6) == "Sendas"));
+    paghoshanghita(arg1);
 }
 
 void kurso::on_Lec13_currentChanged(QWidget *arg1)
 {
-    ui->Sendas->setEnabled((arg1->objectName().left(6) == "Sendas"));
+    paghoshanghita(arg1);
 }
 
 
@@ -776,94 +831,11 @@ void kurso::on_checkBox_clicked(bool checked)
 }
 
 
-
 void kurso::on_butono_stilo_clicked()
 {
     Stilo();
-}
 
-
-void kurso::Ghustigas_fenestron()
-{
-
-    QRect grandeco = QApplication::desktop()->availableGeometry();
-    QRect ekstera_grandeco = frameGeometry();
-    QRect interna_grandeco = geometry();
-    alteco_originala = interna_grandeco.height();
-    largheco_originala = interna_grandeco.width();
-
-    int i;
-    int alteco = grandeco.height() - (ekstera_grandeco.height() - interna_grandeco.height());
-    int largheco = grandeco.width() - (ekstera_grandeco.width() - interna_grandeco.width()) ;
-    if (largheco < largheco_originala)
-    {
-        Eta_Fenestro = true;
-        largheco_originala = largheco;
-        QList<panelo *> chiuj_paneloj = ui->Paghujo->findChildren<panelo *>();
-        int i;
-        for (i=0; i < chiuj_paneloj.count(); i++)
-            chiuj_paneloj.at(i)->setVisible(false);
-        QList<QTabWidget *> chiuj_tab = ui->Paghujo->findChildren<QTabWidget *>();
-        for (i=0; i < chiuj_tab.count(); i++)
-            if ( chiuj_tab.at(i)->objectName().left(3) == "Lec")
-            {
-                QList<QTabBar *> chiuj_bar = chiuj_tab.at(i)->findChildren<QTabBar *>();
-                if (chiuj_bar.count() > 0)
-                {
-                    chiuj_bar.at(0)->setStyleSheet("QTabBar::tab {max-width: " + QString::number( int(interna_grandeco.width()/chiuj_bar.count()) ) + "px; }");
-                }
-            }
-    }
-    else
-    {
-        QList<QTabWidget *> chiuj_tab = ui->Paghujo->findChildren<QTabWidget *>();
-        for (i=0; i < chiuj_tab.count(); i++)
-            if ( chiuj_tab.at(i)->objectName().left(3) == "Lec")
-            {
-                QList<QTabBar *> chiuj_bar = chiuj_tab.at(i)->findChildren<QTabBar *>();
-                if (chiuj_bar.count() > 0)
-                {
-                    chiuj_bar.at(0)->setStyleSheet("QTabBar::tab {height: 0px; width: 0px;}");
-                    chiuj_bar.at(0)->setVisible(false);
-                }
-            }
-
-    }
-    if (alteco < alteco_originala)
-    {
-        Malalta_Fenestro = true;
-        alteco_originala = alteco;
-    }
-
-    this->setMaximumSize(largheco,alteco);
-
-    QFont novaTiparo(sTiparo);
-    ui->Tiparo->setCurrentFont(novaTiparo);
-    ui->LiterGrando->setValue(iLiterGrando);
-    QApplication::processEvents();
-
-    if (Malalta_Fenestro || Eta_Fenestro)
-    {
-        QSize Ikono(24,24);
-        ui->Eliri->setIconSize(Ikono);
-        ui->KieButono->setIconSize(Ikono);
-        ui->KioEstas->setIconSize(Ikono);
-        ui->Kreditoj->setIconSize(Ikono);
-        ui->label_2->resize( ui->label_2->width() * 0.85 , ui->label_2->height() * 0.85);
-        ui->label_3->resize( ui->label_3->width() * 0.85 , ui->label_3->height() * 0.85);
-        QPixmap Bildo1(":ikonoj/hejmo/Esperanto_125_eta.png");
-        QPixmap Bildo2(":ikonoj/hejmo/kurso_fono_eta.png");
-        ui->label_2->setPixmap(Bildo1);
-        ui->label_3->setPixmap(Bildo2);
-
-        QFile file5(":stiloj/kurso_eta.qss" );
-        file5.open(QFile::ReadOnly);
-        QString kurso = QLatin1String(file5.readAll());
-        ui->centralWidget->setStyleSheet(kurso);
-
-        resize(1,1);
-    }
-
+    // listigas_trad();
 }
 
 void kurso::Saluton()
@@ -901,6 +873,7 @@ void kurso::Saluton()
         int kvanto = sonoj.count();
         iAleat6 = random(kvanto);
         QString dosiernomo = "sonoj/" + sonoj.entryList().at(iAleat6);
+
         ludilo->setCurrentSource(Loko + dosiernomo.toLower());
         ludilo->play();
 
@@ -909,8 +882,48 @@ void kurso::Saluton()
 
 }
 
+
+void kurso::Ghustigas_fenestron()
+{
+
+    ShanghasTiparStilon();
+    Stilo();
+
+    QApplication::processEvents();
+    resize(1,1);
+    QApplication::processEvents();
+
+    QRect grandeco = QApplication::desktop()->availableGeometry();
+    QRect ekstera_grandeco = frameGeometry();
+    QRect interna_grandeco = geometry();
+
+    alteco_originala = interna_grandeco.height();
+    largheco_originala = interna_grandeco.width();
+
+    alteco_maksimuma = grandeco.height() - (ekstera_grandeco.height() - interna_grandeco.height());
+    largheco_maksimuma = grandeco.width() - (ekstera_grandeco.width() - interna_grandeco.width()) ;
+
+
+    if (largheco_maksimuma < largheco_originala)
+    {
+        Eta_Fenestro = true;
+        largheco_originala = largheco_maksimuma;
+    }
+
+
+    if (alteco_maksimuma < alteco_originala)
+    {
+        Malalta_Fenestro = true;
+        alteco_originala = alteco_maksimuma;
+    }
+
+    this->setMaximumSize(largheco_maksimuma, alteco_maksimuma);
+
+}
+
 void kurso::Centrigas_Fenestron()
 {
+    QApplication::processEvents();
     QRect frect = frameGeometry();
     frect.moveCenter(QDesktopWidget().availableGeometry().center());
     move(frect.topLeft());
@@ -921,39 +934,257 @@ void kurso::showEvent ( QShowEvent * event )
     if (!JamMontrita)
     {
         Ghustigas_fenestron();
-        Centrigas_Fenestron();
+
+        if (Eta_Fenestro)
+            iFenestraStilo = 1;
+
+        ui->stilo_kurso3->blockSignals(true);
+        ui->stilo_kurso4->blockSignals(true);
+        if (iFenestraStilo == 0)
+            ui->stilo_kurso4->setChecked(true);
+        else
+            ui->stilo_kurso3->setChecked(true);
+        Fenestra_Stilo();
+        ui->stilo_kurso3->blockSignals(false);
+        ui->stilo_kurso4->blockSignals(false);
+
+        ui->Fenestra_Stilo->setEnabled(! Eta_Fenestro);
+
         JamMontrita = true;
     }
 }
 
-/* LISTIGAS LA PRONONCATAJN FRAZOJN KAJ VORTOJN
-void kurso::on_butono_listo_clicked()
+
+void kurso::Fenestra_Stilo()
 {
-    ui->Paghujo->setCurrentIndex(17);
-    int i, j;
-
-    QList<QTabWidget *> chiuj_tab = ui->Paghujo->findChildren<QTabWidget *>();
-    for (i=0; i < chiuj_tab.count(); i++)
+    int i;
+    if ( ui->stilo_kurso3->isChecked() )
     {
-        if ( (chiuj_tab.at(i)->objectName().left(3) == "Lec") )
-        {
-            QList<klakbutono *> chiuj_klak = chiuj_tab.at(i)->findChildren<klakbutono *>();
-            QList<QLabel *> chiuj_label = chiuj_tab.at(i)->findChildren<QLabel *>();
-            ui->listo->appendPlainText("\n[" + chiuj_tab.at(i)->objectName() + "]");
-            for (j = 0; j < chiuj_klak.count(); j++)
-            {
-                ui->listo->appendPlainText(chiuj_klak.at(j)->objectName() + "= " +  chiuj_klak.at(j)->text());
-            }
+        iFenestraStilo = 1;
 
-            for (j = 0; j < chiuj_label.count(); j++)
+        QList<panelo *> chiuj_paneloj = ui->Paghujo->findChildren<panelo *>();
+        for (i=0; i < chiuj_paneloj.count(); i++)
+            chiuj_paneloj.at(i)->setVisible(false);
+
+        QList<QTabWidget *> chiuj_tab = ui->Paghujo->findChildren<QTabWidget *>();
+        for (i=0; i < chiuj_tab.count(); i++)
+        {
+            if ( chiuj_tab.at(i)->objectName().left(3) == "Lec")
             {
-                if (chiuj_label.at(j)->objectName().left(4) == "Memo")
-                    ui->listo->appendPlainText(chiuj_label.at(j)->objectName() + "= " +  chiuj_label.at(j)->text() + "\n");
+                QList<QTabBar *> chiuj_bar = chiuj_tab.at(i)->findChildren<QTabBar *>();
+                if (chiuj_bar.count() > 0)
+                {
+                    chiuj_bar.at(0)->setStyleSheet("");
+                    chiuj_bar.at(0)->setVisible(true);
+                }
             }
         }
+    }
+    else
+    {
+        iFenestraStilo = 0;
 
+        ui->kurso3_stilo_leciono->setVisible(false);
+
+        QList<panelo *> chiuj_paneloj = ui->Paghujo->findChildren<panelo *>();
+        for (i=0; i < chiuj_paneloj.count(); i++)
+            chiuj_paneloj.at(i)->setVisible(true);
+
+        QList<QTabWidget *> chiuj_tab = ui->Paghujo->findChildren<QTabWidget *>();
+        for (i=0; i < chiuj_tab.count(); i++)
+            if ( chiuj_tab.at(i)->objectName().left(3) == "Lec")
+            {
+                QList<QTabBar *> chiuj_bar = chiuj_tab.at(i)->findChildren<QTabBar *>();
+                if (chiuj_bar.count() > 0)
+                {
+                    chiuj_bar.at(0)->setStyleSheet("QTabBar::tab {height: 0px; width: 0px;}");
+                    chiuj_bar.at(0)->setVisible(false);
+                }
+            }
+    }
+
+    Malgrandigas();
+
+    if (!JamMontrita)
+        if (Eta_Fenestro || Malalta_Fenestro)
+            Stilo();
+
+    ReGrandigas_Fenestron();
+
+}
+
+void kurso::ReGrandigas_Fenestron()
+{
+    QApplication::processEvents();
+
+    if (Eta_Fenestro || Malalta_Fenestro)
+    {
+        if (iFenestraStilo == 0)
+            resize( alteco_maksimuma * 1.6, alteco_maksimuma);
+        else
+            resize( alteco_maksimuma * 1.4, alteco_maksimuma);
+    }
+    else
+    {
+        if (iFenestraStilo == 0)
+            resize( alteco_originala * 1.6, alteco_originala);
+        else
+            resize( alteco_originala * 1.4, alteco_originala);
+    }
+
+    Centrigas_Fenestron();
+}
+
+void kurso::Malgrandigas()
+{
+    if ( Malalta_Fenestro || Eta_Fenestro )
+    {
+        QSize Ikono(24,24);
+        ui->Eliri->setIconSize(Ikono);
+        ui->KieButono->setIconSize(Ikono);
+        ui->KioEstas->setIconSize(Ikono);
+        ui->Kreditoj->setIconSize(Ikono);
+        QPixmap Bildo1(":ikonoj/hejmo/Esperanto_125_eta.png");
+        QPixmap Bildo2(":ikonoj/hejmo/kurso_fono_eta.png");
+        ui->label_2->resize( Bildo1.width(), Bildo1.height() );
+        ui->label_3->resize( Bildo2.width(), Bildo2.height() );
+        ui->label_2->setPixmap(Bildo1);
+        ui->label_3->setPixmap(Bildo2);
+    }
+}
+
+void kurso::keyPressEvent(QKeyEvent *k)
+{
+    /*
+    if ( k->key() == Qt::Key_T && k->modifiers() == Qt::ControlModifier)
+    {
+        k->accept();
+
+        if (!tradukilo)
+        {
+            tradukilo = new traduko(this);
+            tradukilo->setWindowModality(Qt::NonModal);
+            QApplication::processEvents();
+            connect(tradukilo, SIGNAL(novapagho(QString)), this, SLOT(lokigas_paghotrad(QString)), Qt::DirectConnection);
+            connect(tradukilo, SIGNAL(novafrazo(QString, QString)), this, SLOT(lokigas_frazotrad(QString, QString)), Qt::DirectConnection);
+        }
+
+        tradukilo->show();
+        tradukilo->raise();
+        tradukilo->activateWindow();
+    }
+    else
+    {
+        k->ignore();
+    }
+    */
+}
+
+void kurso::lokigas_paghotrad(QString novapagho)
+{
+    ShanghasPaghon(novapagho);
+}
+
+void kurso::lokigas_frazotrad(QString novapagho, QString novafrazo)
+{
+    QList<QWidget *> chiuj_paghoj = ui->Paghujo->findChildren<QWidget *>(novapagho);
+    if (chiuj_paghoj.size() > 0)
+    {
+        if (novafrazo.left(3) == "Lec" || novapagho == "Pagho_Kreditoj" )
+        {
+            QList<QTabWidget *> chiuj_tab = chiuj_paghoj.at(0)->findChildren<QTabWidget *>();
+            if (chiuj_tab.count() > 0)
+            {
+
+                QList<QLabel *> chiuj_label = chiuj_tab.at(0)->findChildren<QLabel *>(novafrazo);
+                if (chiuj_label.size() > 0)
+                {
+                    int indice;
+
+                    indice = chiuj_tab.at(0)->indexOf( chiuj_label.at(0)->parentWidget() );
+
+                    chiuj_tab.at(0)->setCurrentIndex(indice);
+
+                    if (antaua)
+                        antaua->setFrameShape(QFrame::NoFrame);
+
+                    chiuj_label.at(0)->setFrameShape(QFrame::Box);
+
+                    antaua = chiuj_label.at(0);
+
+                }
+            }
+        }
+        if (novapagho == "Pagho_Konfigurado")
+        {
+            QList<QLabel *> chiuj_label = chiuj_paghoj.at(0)->findChildren<QLabel *>(novafrazo);
+            if (chiuj_label.size() > 0)
+            {
+                if (antaua)
+                    antaua->setFrameShape(QFrame::NoFrame);
+
+                chiuj_label.at(0)->setFrameShape(QFrame::Box);
+
+                antaua = chiuj_label.at(0);
+
+            }
+
+        }
     }
 
 }
-*/
 
+void kurso::listigas_trad()
+{
+    QString nome_arq ("R:/tradukoj_qt/tradukendaj.tdf");
+    QSettings traduko(nome_arq, QSettings::IniFormat);
+    traduko.setIniCodec("UTF-8");
+    QString sekcio = "Eraro", teksto, nomo;
+
+    QList<QTabWidget *> chiuj_paghoj = ui->Paghujo->findChildren<QTabWidget *>();
+    int i, j, k, contador;
+
+    for (i = 0; i < chiuj_paghoj.size(); i++)
+    {
+        sekcio = chiuj_paghoj.at(i)->objectName();
+
+        traduko.beginGroup(sekcio);
+
+        contador = 0;
+
+        for (k = 0; k < chiuj_paghoj.at(i)->count(); k++)
+        {
+
+
+            QList<QLabel *> chiuj_label = chiuj_paghoj.at(i)->widget(k)->findChildren<QLabel *>();
+
+
+            for (j = 0; j < chiuj_label.size(); j++)
+            {
+                if ((chiuj_label.at(j)->objectName().contains(sekcio + "_") || chiuj_label.at(j)->objectName() == "Ekz_Plen2" ) &&
+                        !( chiuj_label.at(j)->objectName().contains("Pan") || (chiuj_label.at(j)->objectName().contains("Memo"))) )
+                {
+                    nomo = "";
+                    if ( chiuj_label.at(j)->objectName().contains(sekcio + "_"))
+                        nomo = chiuj_label.at(j)->objectName().replace(sekcio + "_", "");
+                    else
+                        if (chiuj_label.at(j)->objectName() == "Ekz_Plen2")
+                            nomo = ( chiuj_label[j]->parentWidget()->objectName().mid(5,1) != "B") ?  "TFrame41.Label84" : "Frame42.Label84";
+
+                    if (nomo != "")
+                    {
+                        teksto = "000" + QString::number(contador);
+                        traduko.setValue(teksto.right(3), nomo);
+                        contador++;
+                    }
+                }
+            }
+        }
+
+        traduko.endGroup();
+
+
+    }
+
+    traduko.sync();
+}

@@ -47,7 +47,7 @@ private:
     QString sMp3dos;
     bool JamKlakis, lNovaFrazo;
     QStringList aEk01D;
-    std::vector<bool> aEk01A;
+    QList<bool> aEk01A;
     bool aFrazoElek[6];
     int Selektitaj[4];
     int PozicioSelektitaj[4];

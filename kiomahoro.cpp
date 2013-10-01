@@ -67,9 +67,11 @@ void kiomahoro::on_BitBtn1_clicked()
     iEraraj = 0;
     this->ui->Vorto0->setText("");
     this->ui->BitBtn2->setEnabled(true);
-    aEk01A.resize(iEk01D);
+    //aEk01A.clear(iEk01D);
+    aEk01A.clear();
     for (int i = 0; i < iEk01D; i++)
-        aEk01A[i] = false;
+        //aEk01A[i] = false;
+        aEk01A << false;
     novafrazo();
 
 }
@@ -166,11 +168,18 @@ void kiomahoro::on_printilo_ps_clicked()
     if (dialog->exec() != QDialog::Accepted)
         return;
 
+    QString LTR_Marko = QString::fromUtf8("\u200E");
+    QString RTL_Marko = QString::fromUtf8("\u200F");
+    QString PDF_Marko = QString::fromUtf8("\u202C");
+    QString RLE_Marko = QString::fromUtf8("\u202B");
+    QString LRE_Marko = QString::fromUtf8("\u202A");
+    QString RLO_Marko = QString::fromUtf8("\u202E");
+    QString LRO_Marko = QString::fromUtf8("\u202D");
 
-    QString HTML_Teksto = "<body style=\" font-family:'" ;
+    QString HTML_Teksto = "<body dir=" + Direkto + " style=\" font-family:'" ;
     HTML_Teksto.append(this->parentWidget()->font().family() + "'; font-size:");
     HTML_Teksto.append( QString::number(qRound(this->parentWidget()->font().pixelSize() / 1.33333 )) + "pt; font-weight:400; font-style:normal;\">");
-    HTML_Teksto.append("<P><h2>Kurso de Esperanto   -   " + this->objectName() + "   (kurso.com.br)</h2></P>");
+    HTML_Teksto.append("<P><h2>Kurso de Esperanto   -   " + this->objectName() + "   (kurso.com.br)" + LTR_Marko + "</h2></P>");
     HTML_Teksto.append("<P><B>" + this->ui->Lec11_Label3->text() + "</B></P>");
     HTML_Teksto.append("<P><B>" + this->ui->label->text() + "</B></P>");
     HTML_Teksto.append("<P>" + this->ui->Lec11_Label12->text() + "</P>");
@@ -178,11 +187,11 @@ void kiomahoro::on_printilo_ps_clicked()
     iEk01D =  _Matriz(&aEk01D, "1101","D");
     _Matriz(&aEk01R, "1101", "R");
     HTML_Teksto.append("<ol>");
-    QString HTML_Respondo = "<P>Respondoj: <br>";
+    QString HTML_Respondo = "<P dir=\"ltr\">Respondoj: <br>";
     QString SubaLinio = "______:______";
     for (int i = 0; i < iEk01D; i++)
     {
-        HTML_Teksto.append("<li>" + aEk01D[i] + " : " + SubaLinio + "<br></li>");
+        HTML_Teksto.append("<li>" + (Direkto == "RTL" ? LRE_Marko : "")  + aEk01D[i] + " : " + SubaLinio + (Direkto == "RTL" ? PDF_Marko : "") +  "<br></li>");
         HTML_Respondo.append(QString::number(i+1) + ")&nbsp;");
         HTML_Respondo.append(aEk01R[i] + "&nbsp;&nbsp;&nbsp; ");
     }

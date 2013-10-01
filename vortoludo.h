@@ -40,8 +40,8 @@ private:
     int iKorektaj3, iEraraj3, iAleat3, iPozicio;
     QStringList aEk03D;
     QStringList aEk03R;
-    std::vector<bool> aEk03A;
-    std::vector<bool> aPozicio;
+    QList<bool> aEk03A;
+    QList<bool> aPozicio;
 
 
     int     iEk03D;

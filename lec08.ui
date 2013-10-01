@@ -51,7 +51,7 @@
       </sizepolicy>
      </property>
      <property name="currentIndex">
-      <number>8</number>
+      <number>9</number>
      </property>
      <property name="iconSize">
       <size>
@@ -811,6 +811,9 @@ font-weight: bold;</string>
             <property name="alignment">
              <set>Qt::AlignCenter</set>
             </property>
+            <property name="lingvo" stdset="0">
+             <string>eo</string>
+            </property>
            </widget>
           </item>
           <item>
@@ -991,6 +994,9 @@ font-weight: bold;</string>
             </property>
             <property name="alignment">
              <set>Qt::AlignCenter</set>
+            </property>
+            <property name="lingvo" stdset="0">
+             <string>eo</string>
             </property>
            </widget>
           </item>
@@ -1173,6 +1179,9 @@ font-weight: bold;</string>
             <property name="alignment">
              <set>Qt::AlignCenter</set>
             </property>
+            <property name="lingvo" stdset="0">
+             <string>eo</string>
+            </property>
            </widget>
           </item>
           <item>
@@ -1353,6 +1362,9 @@ font-weight: bold;</string>
             </property>
             <property name="alignment">
              <set>Qt::AlignCenter</set>
+            </property>
+            <property name="lingvo" stdset="0">
+             <string>eo</string>
             </property>
            </widget>
           </item>
@@ -1559,6 +1571,9 @@ font-weight: bold;</string>
             <property name="alignment">
              <set>Qt::AlignCenter</set>
             </property>
+            <property name="lingvo" stdset="0">
+             <string>eo</string>
+            </property>
            </widget>
           </item>
           <item>
@@ -1756,6 +1771,9 @@ font-weight: bold;</string>
             <property name="alignment">
              <set>Qt::AlignCenter</set>
             </property>
+            <property name="lingvo" stdset="0">
+             <string>eo</string>
+            </property>
            </widget>
           </item>
           <item>
@@ -1936,6 +1954,9 @@ font-weight: bold;</string>
             </property>
             <property name="alignment">
              <set>Qt::AlignCenter</set>
+            </property>
+            <property name="lingvo" stdset="0">
+             <string>eo</string>
             </property>
            </widget>
           </item>
@@ -2149,6 +2170,9 @@ font-weight: bold;</string>
             </property>
             <property name="alignment">
              <set>Qt::AlignCenter</set>
+            </property>
+            <property name="lingvo" stdset="0">
+             <string>eo</string>
             </property>
            </widget>
           </item>
@@ -2441,6 +2465,9 @@ font-weight: bold;</string>
             <property name="alignment">
              <set>Qt::AlignCenter</set>
             </property>
+            <property name="lingvo" stdset="0">
+             <string>eo</string>
+            </property>
            </widget>
           </item>
           <item>
@@ -2621,6 +2648,9 @@ font-weight: bold;</string>
             </property>
             <property name="alignment">
              <set>Qt::AlignCenter</set>
+            </property>
+            <property name="lingvo" stdset="0">
+             <string>eo</string>
             </property>
            </widget>
           </item>
@@ -2936,6 +2966,9 @@ font-weight: bold;</string>
             <property name="alignment">
              <set>Qt::AlignCenter</set>
             </property>
+            <property name="lingvo" stdset="0">
+             <string>eo</string>
+            </property>
            </widget>
           </item>
           <item>
@@ -3234,6 +3267,9 @@ font-weight: bold;</string>
             <property name="alignment">
              <set>Qt::AlignCenter</set>
             </property>
+            <property name="lingvo" stdset="0">
+             <string>eo</string>
+            </property>
            </widget>
           </item>
           <item>
@@ -3446,6 +3482,9 @@ font-weight: bold;</string>
             </property>
             <property name="alignment">
              <set>Qt::AlignCenter</set>
+            </property>
+            <property name="lingvo" stdset="0">
+             <string>eo</string>
             </property>
            </widget>
           </item>
@@ -3660,6 +3699,9 @@ font-weight: bold;</string>
             <property name="alignment">
              <set>Qt::AlignCenter</set>
             </property>
+            <property name="lingvo" stdset="0">
+             <string>eo</string>
+            </property>
            </widget>
           </item>
           <item>
@@ -3872,6 +3914,9 @@ font-weight: bold;</string>
             </property>
             <property name="alignment">
              <set>Qt::AlignCenter</set>
+            </property>
+            <property name="lingvo" stdset="0">
+             <string>eo</string>
             </property>
            </widget>
           </item>
@@ -4157,6 +4202,9 @@ font-weight: bold;</string>
             <property name="alignment">
              <set>Qt::AlignCenter</set>
             </property>
+            <property name="lingvo" stdset="0">
+             <string>eo</string>
+            </property>
            </widget>
           </item>
           <item>
@@ -4370,6 +4418,9 @@ font-weight: bold;</string>
             <property name="alignment">
              <set>Qt::AlignCenter</set>
             </property>
+            <property name="lingvo" stdset="0">
+             <string>eo</string>
+            </property>
            </widget>
           </item>
           <item>
@@ -4582,6 +4633,9 @@ font-weight: bold;</string>
             </property>
             <property name="alignment">
              <set>Qt::AlignCenter</set>
+            </property>
+            <property name="lingvo" stdset="0">
+             <string>eo</string>
             </property>
            </widget>
           </item>
@@ -4897,6 +4951,9 @@ font-weight: bold;</string>
             <property name="alignment">
              <set>Qt::AlignCenter</set>
             </property>
+            <property name="lingvo" stdset="0">
+             <string>eo</string>
+            </property>
            </widget>
           </item>
           <item>
@@ -5134,6 +5191,9 @@ font-weight: bold;</string>
             <property name="alignment">
              <set>Qt::AlignCenter</set>
             </property>
+            <property name="lingvo" stdset="0">
+             <string>eo</string>
+            </property>
            </widget>
           </item>
           <item>
@@ -5346,6 +5406,9 @@ font-weight: bold;</string>
             </property>
             <property name="alignment">
              <set>Qt::AlignCenter</set>
+            </property>
+            <property name="lingvo" stdset="0">
+             <string>eo</string>
             </property>
            </widget>
           </item>
@@ -5661,6 +5724,9 @@ font-weight: bold;</string>
             <property name="alignment">
              <set>Qt::AlignCenter</set>
             </property>
+            <property name="lingvo" stdset="0">
+             <string>eo</string>
+            </property>
            </widget>
           </item>
           <item>
@@ -5873,6 +5939,9 @@ font-weight: bold;</string>
             </property>
             <property name="alignment">
              <set>Qt::AlignCenter</set>
+            </property>
+            <property name="lingvo" stdset="0">
+             <string>eo</string>
             </property>
            </widget>
           </item>
@@ -6402,28 +6471,6 @@ vizinha (najbarino).</string>
    </slots>
   </customwidget>
   <customwidget>
-   <class>label_sago_reversa</class>
-   <extends>QLabel</extends>
-   <header>label_sago_reversa.h</header>
-  </customwidget>
-  <customwidget>
-   <class>vortoludo</class>
-   <extends>QFrame</extends>
-   <header>vortoludo.h</header>
-   <container>1</container>
-  </customwidget>
-  <customwidget>
-   <class>cx_edit</class>
-   <extends>QLineEdit</extends>
-   <header>cx_edit.h</header>
-  </customwidget>
-  <customwidget>
-   <class>akuzativo</class>
-   <extends>QFrame</extends>
-   <header>akuzativo.h</header>
-   <container>1</container>
-  </customwidget>
-  <customwidget>
    <class>plenigas_spacon</class>
    <extends>QFrame</extends>
    <header>plenigas_spacon.h</header>
@@ -6433,6 +6480,28 @@ vizinha (najbarino).</string>
    <class>neklakebla</class>
    <extends>QPushButton</extends>
    <header>neklakebla.h</header>
+  </customwidget>
+  <customwidget>
+   <class>akuzativo</class>
+   <extends>QFrame</extends>
+   <header>akuzativo.h</header>
+   <container>1</container>
+  </customwidget>
+  <customwidget>
+   <class>label_sago_reversa</class>
+   <extends>QLabel</extends>
+   <header>label_sago_reversa.h</header>
+  </customwidget>
+  <customwidget>
+   <class>cx_edit</class>
+   <extends>QLineEdit</extends>
+   <header>cx_edit.h</header>
+  </customwidget>
+  <customwidget>
+   <class>vortoludo</class>
+   <extends>QFrame</extends>
+   <header>vortoludo.h</header>
+   <container>1</container>
   </customwidget>
  </customwidgets>
  <resources>

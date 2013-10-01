@@ -51,7 +51,8 @@ SOURCES += main.cpp\
     panelo_klak.cpp \
     panelo.cpp \
     dividilo.cpp \
-    panelo_bildo.cpp
+    panelo_bildo.cpp \
+    traduko.cpp
 
 HEADERS  += kurso.h \
     ekzerco1.h \
@@ -93,7 +94,8 @@ HEADERS  += kurso.h \
     panelo_klak.h \
     panelo.h \
     dividilo.h \
-    panelo_bildo.h
+    panelo_bildo.h \
+    traduko.h
 
 FORMS    += kurso.ui \
     ekzerco1.ui \
@@ -120,7 +122,8 @@ FORMS    += kurso.ui \
     lec05.ui \
     lec06.ui \
     videoludilo.ui \
-    panelo.ui
+    panelo.ui \
+    traduko.ui
 
 RESOURCES += \
     stiloj.qrc \

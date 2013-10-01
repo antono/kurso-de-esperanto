@@ -41,10 +41,10 @@ private slots:
 private:
     Ui::plenigas_spacon *ui;
 
-    std::vector<QStringList> aEk04D;
+    QList<QStringList> aEk04D;
     QStringList aEk04T;
-    std::vector<QStringList> aEk04R;
-    std::vector<bool> aEk04A;
+    QList<QStringList> aEk04R;
+    QList<bool> aEk04A;
     int iKorektaj4, iEraraj4, iAleat4, iAktualaPagho, iEk04D;
     QString sEkzerco;
     bool    Atendu;

@@ -51,7 +51,7 @@
       </sizepolicy>
      </property>
      <property name="currentIndex">
-      <number>7</number>
+      <number>0</number>
      </property>
      <property name="iconSize">
       <size>
@@ -3821,15 +3821,26 @@
    </slots>
   </customwidget>
   <customwidget>
-   <class>vortoludo</class>
-   <extends>QFrame</extends>
-   <header>vortoludo.h</header>
-   <container>1</container>
+   <class>neklakebla</class>
+   <extends>QPushButton</extends>
+   <header>neklakebla.h</header>
   </customwidget>
   <customwidget>
    <class>cx_edit</class>
    <extends>QLineEdit</extends>
    <header>cx_edit.h</header>
+  </customwidget>
+  <customwidget>
+   <class>plenigas_spacon</class>
+   <extends>QFrame</extends>
+   <header>plenigas_spacon.h</header>
+   <container>1</container>
+  </customwidget>
+  <customwidget>
+   <class>vortoludo</class>
+   <extends>QFrame</extends>
+   <header>vortoludo.h</header>
+   <container>1</container>
   </customwidget>
   <customwidget>
    <class>audkompreno</class>
@@ -3847,17 +3858,6 @@
    <extends>QFrame</extends>
    <header>prononco.h</header>
    <container>1</container>
-  </customwidget>
-  <customwidget>
-   <class>plenigas_spacon</class>
-   <extends>QFrame</extends>
-   <header>plenigas_spacon.h</header>
-   <container>1</container>
-  </customwidget>
-  <customwidget>
-   <class>neklakebla</class>
-   <extends>QPushButton</extends>
-   <header>neklakebla.h</header>
   </customwidget>
  </customwidgets>
  <resources>

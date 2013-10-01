@@ -575,20 +575,20 @@ resposta, use a tecla Enter ou clique no botão ao lado. Tente acertar no mínim
               </property>
               <property name="font">
                <font>
-                <pointsize>16</pointsize>
-                <weight>75</weight>
-                <bold>true</bold>
+                <pointsize>-1</pointsize>
                </font>
               </property>
               <property name="styleSheet">
-               <string notr="true">font-size: 16pt;
-</string>
+               <string notr="true">font-size: 20px;</string>
               </property>
               <property name="text">
                <string notr="true"/>
               </property>
               <property name="alignment">
                <set>Qt::AlignCenter</set>
+              </property>
+              <property name="lingvo" stdset="0">
+               <string>eo</string>
               </property>
              </widget>
             </item>
@@ -602,19 +602,20 @@ resposta, use a tecla Enter ou clique no botão ao lado. Tente acertar no mínim
            </property>
            <property name="font">
             <font>
-             <pointsize>16</pointsize>
-             <weight>75</weight>
-             <bold>true</bold>
+             <pointsize>-1</pointsize>
             </font>
            </property>
            <property name="styleSheet">
-            <string notr="true">font-size: 16pt;</string>
+            <string notr="true">font-size: 20px;</string>
            </property>
            <property name="text">
             <string notr="true"/>
            </property>
            <property name="alignment">
             <set>Qt::AlignCenter</set>
+           </property>
+           <property name="lingvo" stdset="0">
+            <string>eo</string>
            </property>
           </widget>
          </item>
@@ -662,12 +663,12 @@ resposta, use a tecla Enter ou clique no botão ao lado. Tente acertar no mínim
              </property>
              <property name="font">
               <font>
-               <pointsize>16</pointsize>
+               <pointsize>-1</pointsize>
               </font>
              </property>
              <property name="styleSheet">
               <string notr="true">background-color: rgb(255, 255, 127);
-font-size: 16pt;
+font-size: 20px;
 </string>
              </property>
              <property name="inputMask">

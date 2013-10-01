@@ -82,10 +82,12 @@ void plenigas_spacon::on_BitBtn4_clicked()
     iKorektaj4 = 0;
     iEraraj4 = 0;
     Atendu = false;
-    aEk04A.resize(iEk04D);
+    //aEk04A.clear(iEk04D);
+    aEk04A.clear();
     this->ui->BitBtn6->setEnabled(true);
-    for ( int i=0; i > iEk04D ; i++) {
-        aEk04A[i] = false;
+    for ( int i=0; i < iEk04D ; i++) {
+        //aEk04A[i] = false;
+        aEk04A << false;
     }
 
     novafrazo();
@@ -257,9 +259,9 @@ void plenigas_spacon::on_printilo_ps_clicked()
 {
 
     // Uzas lokajn variablojn, por ke ili ne miksiĝu kun tiuj de la ekzerco mem
-    std::vector<QStringList> aEk04D;
+    QList<QStringList> aEk04D;
     QStringList aEk04T;
-    std::vector<QStringList> aEk04R;
+    QList<QStringList> aEk04R;
     int iEk04D;
     QString sEkzerco;
     //
@@ -273,11 +275,18 @@ void plenigas_spacon::on_printilo_ps_clicked()
     if (dialog->exec() != QDialog::Accepted)
         return;
 
+    QString LTR_Marko = QString::fromUtf8("\u200E");
+    QString RTL_Marko = QString::fromUtf8("\u200F");
+    QString PDF_Marko = QString::fromUtf8("\u202C");
+    QString RLE_Marko = QString::fromUtf8("\u202B");
+    QString LRE_Marko = QString::fromUtf8("\u202A");
+    QString RLO_Marko = QString::fromUtf8("\u202E");
+    QString LRO_Marko = QString::fromUtf8("\u202D");
 
-    QString HTML_Teksto = "<body style=\" font-family:'" ;
+    QString HTML_Teksto = "<body dir=" + Direkto + " style=\" font-family:'" ;
     HTML_Teksto.append(this->parentWidget()->font().family() + "'; font-size:");
     HTML_Teksto.append( QString::number(qRound(this->parentWidget()->font().pixelSize() / 1.33333 )) + "pt; font-weight:400; font-style:normal;\">");
-    HTML_Teksto.append("<P><h2>Kurso de Esperanto   -   " + this->objectName() + "   (kurso.com.br)</h2></P>");
+    HTML_Teksto.append("<P><h2>Kurso de Esperanto   -   " + this->objectName() + "   (kurso.com.br)" + LTR_Marko + "</h2></P>");
     HTML_Teksto.append("<P><B>" + this->ui->Ekz_Plen1->text() + "</B></P>");
     HTML_Teksto.append("<P>" + this->ui->Ekz_Plen2->text() + "</P><P>&nbsp;</P>");
 
@@ -285,14 +294,21 @@ void plenigas_spacon::on_printilo_ps_clicked()
     _Matriz2(&aEk04R,sEkzerco,"R",6);
     _Matriz(&aEk04T,sEkzerco,"T");
 
+    int i;
+    for ( i = aEk04T.size(); i < iEk04D; i++)
+        aEk04T << "";
+
     HTML_Teksto.append("<ol>");
-    QString HTML_Respondo = "<P>Respondoj: <br>";
+    QString HTML_Respondo = "<P dir=\"ltr\">Respondoj: <br>";
     int j;
     QString SubaLinio = "__";
-    for (int i = 0; i < iEk04D; i++)
+    for ( i = 0; i < iEk04D; i++)
     {
         HTML_Teksto.append("<li>" + aEk04T[i] + "<br>");
         HTML_Respondo.append(QString::number(i+1) + ")&nbsp;");
+
+        if (Direkto == "RTL")
+            HTML_Teksto.append(LRE_Marko);
 
         for (j = 0; j < 6; j++)
         {
@@ -315,6 +331,9 @@ void plenigas_spacon::on_printilo_ps_clicked()
             }
 
         }
+        if (Direkto == "RTL")
+            HTML_Teksto.append(PDF_Marko);
+
 
         HTML_Respondo.append( "&nbsp;&nbsp;&nbsp; "  );
         HTML_Teksto.append("<br></li>");

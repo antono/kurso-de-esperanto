@@ -51,7 +51,7 @@
       </sizepolicy>
      </property>
      <property name="currentIndex">
-      <number>5</number>
+      <number>10</number>
      </property>
      <property name="iconSize">
       <size>
@@ -2036,6 +2036,9 @@
                  <property name="text">
                   <string>06:40</string>
                  </property>
+                 <property name="lingvo" stdset="0">
+                  <string>eo</string>
+                 </property>
                 </widget>
                </item>
                <item>
@@ -2095,6 +2098,9 @@
                  </property>
                  <property name="text">
                   <string>07:00</string>
+                 </property>
+                 <property name="lingvo" stdset="0">
+                  <string>eo</string>
                  </property>
                 </widget>
                </item>
@@ -2156,6 +2162,9 @@
                  <property name="text">
                   <string>07:15</string>
                  </property>
+                 <property name="lingvo" stdset="0">
+                  <string>eo</string>
+                 </property>
                 </widget>
                </item>
                <item>
@@ -2215,6 +2224,9 @@
                  </property>
                  <property name="text">
                   <string>07:45</string>
+                 </property>
+                 <property name="lingvo" stdset="0">
+                  <string>eo</string>
                  </property>
                 </widget>
                </item>
@@ -2276,6 +2288,9 @@
                  <property name="text">
                   <string>07:53</string>
                  </property>
+                 <property name="lingvo" stdset="0">
+                  <string>eo</string>
+                 </property>
                 </widget>
                </item>
                <item>
@@ -2335,6 +2350,9 @@
                  </property>
                  <property name="text">
                   <string>12:00</string>
+                 </property>
+                 <property name="lingvo" stdset="0">
+                  <string>eo</string>
                  </property>
                 </widget>
                </item>
@@ -2470,6 +2488,9 @@
                  <property name="text">
                   <string>14:00</string>
                  </property>
+                 <property name="lingvo" stdset="0">
+                  <string>eo</string>
+                 </property>
                 </widget>
                </item>
                <item>
@@ -2529,6 +2550,9 @@
                  </property>
                  <property name="text">
                   <string>19:00</string>
+                 </property>
+                 <property name="lingvo" stdset="0">
+                  <string>eo</string>
                  </property>
                 </widget>
                </item>
@@ -2590,6 +2614,9 @@
                  <property name="text">
                   <string>24:00</string>
                  </property>
+                 <property name="lingvo" stdset="0">
+                  <string>eo</string>
+                 </property>
                 </widget>
                </item>
                <item>
@@ -2649,6 +2676,9 @@
                  </property>
                  <property name="text">
                   <string>02:00</string>
+                 </property>
+                 <property name="lingvo" stdset="0">
+                  <string>eo</string>
                  </property>
                 </widget>
                </item>
@@ -4275,6 +4305,9 @@
                <property name="wordWrap">
                 <bool>true</bool>
                </property>
+               <property name="lingvo" stdset="0">
+                <string>eo</string>
+               </property>
               </widget>
              </item>
              <item>
@@ -4292,6 +4325,9 @@
                  </property>
                  <property name="buddy">
                   <cstring>lineEdit</cstring>
+                 </property>
+                 <property name="lingvo" stdset="0">
+                  <string>eo</string>
                  </property>
                 </widget>
                </item>
@@ -4315,6 +4351,9 @@
                  </property>
                  <property name="buddy">
                   <cstring>lineEdit_2</cstring>
+                 </property>
+                 <property name="lingvo" stdset="0">
+                  <string>eo</string>
                  </property>
                 </widget>
                </item>
@@ -4341,6 +4380,9 @@
                <property name="wordWrap">
                 <bool>true</bool>
                </property>
+               <property name="lingvo" stdset="0">
+                <string>eo</string>
+               </property>
               </widget>
              </item>
              <item>
@@ -4358,6 +4400,9 @@
                  </property>
                  <property name="buddy">
                   <cstring>lineEdit_3</cstring>
+                 </property>
+                 <property name="lingvo" stdset="0">
+                  <string>eo</string>
                  </property>
                 </widget>
                </item>
@@ -4381,6 +4426,9 @@
                  </property>
                  <property name="buddy">
                   <cstring>lineEdit_4</cstring>
+                 </property>
+                 <property name="lingvo" stdset="0">
+                  <string>eo</string>
                  </property>
                 </widget>
                </item>
@@ -4407,6 +4455,9 @@
                <property name="wordWrap">
                 <bool>true</bool>
                </property>
+               <property name="lingvo" stdset="0">
+                <string>eo</string>
+               </property>
               </widget>
              </item>
              <item>
@@ -4424,6 +4475,9 @@
                  </property>
                  <property name="buddy">
                   <cstring>lineEdit_5</cstring>
+                 </property>
+                 <property name="lingvo" stdset="0">
+                  <string>eo</string>
                  </property>
                 </widget>
                </item>
@@ -4447,6 +4501,9 @@
                  </property>
                  <property name="buddy">
                   <cstring>lineEdit_6</cstring>
+                 </property>
+                 <property name="lingvo" stdset="0">
+                  <string>eo</string>
                  </property>
                 </widget>
                </item>
@@ -4473,6 +4530,9 @@
                <property name="wordWrap">
                 <bool>true</bool>
                </property>
+               <property name="lingvo" stdset="0">
+                <string>eo</string>
+               </property>
               </widget>
              </item>
              <item>
@@ -4490,6 +4550,9 @@
                  </property>
                  <property name="buddy">
                   <cstring>lineEdit_7</cstring>
+                 </property>
+                 <property name="lingvo" stdset="0">
+                  <string>eo</string>
                  </property>
                 </widget>
                </item>
@@ -4513,6 +4576,9 @@
                  </property>
                  <property name="buddy">
                   <cstring>lineEdit_8</cstring>
+                 </property>
+                 <property name="lingvo" stdset="0">
+                  <string>eo</string>
                  </property>
                 </widget>
                </item>
@@ -4539,6 +4605,9 @@
                <property name="wordWrap">
                 <bool>true</bool>
                </property>
+               <property name="lingvo" stdset="0">
+                <string>eo</string>
+               </property>
               </widget>
              </item>
              <item>
@@ -4556,6 +4625,9 @@
                  </property>
                  <property name="buddy">
                   <cstring>lineEdit_9</cstring>
+                 </property>
+                 <property name="lingvo" stdset="0">
+                  <string>eo</string>
                  </property>
                 </widget>
                </item>
@@ -4579,6 +4651,9 @@
                  </property>
                  <property name="buddy">
                   <cstring>lineEdit_10</cstring>
+                 </property>
+                 <property name="lingvo" stdset="0">
+                  <string>eo</string>
                  </property>
                 </widget>
                </item>
@@ -4643,6 +4718,9 @@
                  <property name="buddy">
                   <cstring>lineEdit_11</cstring>
                  </property>
+                 <property name="lingvo" stdset="0">
+                  <string>eo</string>
+                 </property>
                 </widget>
                </item>
                <item>
@@ -4659,6 +4737,9 @@
                  </property>
                  <property name="buddy">
                   <cstring>lineEdit_12</cstring>
+                 </property>
+                 <property name="lingvo" stdset="0">
+                  <string>eo</string>
                  </property>
                 </widget>
                </item>
@@ -4697,6 +4778,9 @@
                  <property name="buddy">
                   <cstring>lineEdit_13</cstring>
                  </property>
+                 <property name="lingvo" stdset="0">
+                  <string>eo</string>
+                 </property>
                 </widget>
                </item>
                <item>
@@ -4713,6 +4797,9 @@
                  </property>
                  <property name="buddy">
                   <cstring>lineEdit_14</cstring>
+                 </property>
+                 <property name="lingvo" stdset="0">
+                  <string>eo</string>
                  </property>
                 </widget>
                </item>
@@ -4751,6 +4838,9 @@
                  <property name="buddy">
                   <cstring>lineEdit_15</cstring>
                  </property>
+                 <property name="lingvo" stdset="0">
+                  <string>eo</string>
+                 </property>
                 </widget>
                </item>
                <item>
@@ -4767,6 +4857,9 @@
                  </property>
                  <property name="buddy">
                   <cstring>lineEdit_16</cstring>
+                 </property>
+                 <property name="lingvo" stdset="0">
+                  <string>eo</string>
                  </property>
                 </widget>
                </item>
@@ -4805,6 +4898,9 @@
                  <property name="buddy">
                   <cstring>lineEdit_17</cstring>
                  </property>
+                 <property name="lingvo" stdset="0">
+                  <string>eo</string>
+                 </property>
                 </widget>
                </item>
                <item>
@@ -4821,6 +4917,9 @@
                  </property>
                  <property name="buddy">
                   <cstring>lineEdit_18</cstring>
+                 </property>
+                 <property name="lingvo" stdset="0">
+                  <string>eo</string>
                  </property>
                 </widget>
                </item>
@@ -4859,6 +4958,9 @@
                  <property name="buddy">
                   <cstring>lineEdit_19</cstring>
                  </property>
+                 <property name="lingvo" stdset="0">
+                  <string>eo</string>
+                 </property>
                 </widget>
                </item>
                <item>
@@ -4875,6 +4977,9 @@
                  </property>
                  <property name="buddy">
                   <cstring>lineEdit_20</cstring>
+                 </property>
+                 <property name="lingvo" stdset="0">
+                  <string>eo</string>
                  </property>
                 </widget>
                </item>
@@ -4924,11 +5029,6 @@
    </slots>
   </customwidget>
   <customwidget>
-   <class>neklakebla</class>
-   <extends>QPushButton</extends>
-   <header>neklakebla.h</header>
-  </customwidget>
-  <customwidget>
    <class>vortoludo</class>
    <extends>QFrame</extends>
    <header>vortoludo.h</header>
@@ -4938,6 +5038,11 @@
    <class>cx_edit</class>
    <extends>QLineEdit</extends>
    <header>cx_edit.h</header>
+  </customwidget>
+  <customwidget>
+   <class>neklakebla</class>
+   <extends>QPushButton</extends>
+   <header>neklakebla.h</header>
   </customwidget>
   <customwidget>
    <class>kiomahoro</class>

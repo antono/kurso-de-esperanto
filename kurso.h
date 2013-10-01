@@ -3,6 +3,8 @@
 
 #include <QMainWindow>
 #include <phonon/mediaobject.h>
+#include <traduko.h>
+#include <QLabel>
 
 namespace Ui {
     class kurso;
@@ -20,20 +22,25 @@ public:
 public slots:
     void Saluton();
 
-
 private slots:
 
     void Centrigas_Fenestron();
     void Ghustigas_fenestron();
+    void ReGrandigas_Fenestron();
     void Traduku();
     void ListigasLingvojn();
     void Konfiguru();
     void komencakonfiguro();
     void SavasKonfig();
     void Stilo();
+    void Fenestra_Stilo();
+    void Malgrandigas();
+    void ShanghasTiparon();
+    void ShanghasTiparStilon();
 
     void closeEvent(QCloseEvent *event);
     void showEvent ( QShowEvent * event ) ;
+    void keyPressEvent(QKeyEvent *);
 
     void on_Hejmo_clicked();
 
@@ -54,6 +61,10 @@ private slots:
     void on_KieButono_clicked();
 
     void on_Tiparo_currentIndexChanged(const QString &arg1);
+
+    void lokigas_paghotrad(QString novapagho);
+
+    void lokigas_frazotrad(QString novapagho, QString novafrazo);
 
 
     /* CHI TIU PARTO ENIROS EN ESTONTA VERSIO
@@ -77,6 +88,7 @@ private slots:
 
     void ShanghasPaghon(QString Nomo);
 
+    void paghoshanghita(QWidget *arg1);
     void on_Lec01_currentChanged(QWidget *arg1);
     void on_Lec02_currentChanged(QWidget *arg1);
     void on_Lec03_currentChanged(QWidget *arg1);
@@ -114,15 +126,24 @@ private slots:
 
     //void on_butono_listo_clicked();
 
+    void on_TiparoEo_currentIndexChanged(const QString &arg1);
+
+    void on_LiterGrandoEo_valueChanged(int arg1);
+
+    void listigas_trad();
+
 private:
     Ui::kurso *ui;
+
+    traduko *tradukilo;
 
     QList<QStringList> LingvoListo;
 
 
-    int alteco_originala, largheco_originala;
+    int alteco_originala, largheco_originala, alteco_maksimuma, largheco_maksimuma;
     bool Eta_Fenestro, Malalta_Fenestro, JamMontrita;
 
+    QLabel * antaua;
 
 };
 

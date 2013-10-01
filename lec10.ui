@@ -51,7 +51,7 @@
       </sizepolicy>
      </property>
      <property name="currentIndex">
-      <number>5</number>
+      <number>10</number>
      </property>
      <property name="iconSize">
       <size>
@@ -2433,6 +2433,9 @@
              </property>
              <item>
               <widget class="QFrame" name="frame">
+               <property name="layoutDirection">
+                <enum>Qt::LeftToRight</enum>
+               </property>
                <property name="frameShape">
                 <enum>QFrame::StyledPanel</enum>
                </property>
@@ -2477,6 +2480,9 @@
                     <property name="tipo" stdset="0">
                      <string>neklakebla</string>
                     </property>
+                    <property name="lingvo" stdset="0">
+                     <string>eo</string>
+                    </property>
                    </widget>
                   </item>
                   <item>
@@ -2501,6 +2507,9 @@
                       <property name="tipo" stdset="0">
                        <string>neklakebla</string>
                       </property>
+                      <property name="lingvo" stdset="0">
+                       <string>eo</string>
+                      </property>
                      </widget>
                     </item>
                     <item>
@@ -2520,6 +2529,9 @@
                       <property name="tipo" stdset="0">
                        <string>neklakebla</string>
                       </property>
+                      <property name="lingvo" stdset="0">
+                       <string>eo</string>
+                      </property>
                      </widget>
                     </item>
                    </layout>
@@ -2531,6 +2543,9 @@
              </item>
              <item>
               <widget class="QFrame" name="frame_2">
+               <property name="layoutDirection">
+                <enum>Qt::LeftToRight</enum>
+               </property>
                <property name="frameShape">
                 <enum>QFrame::StyledPanel</enum>
                </property>
@@ -2572,6 +2587,9 @@
                     <property name="tipo" stdset="0">
                      <string>neklakebla</string>
                     </property>
+                    <property name="lingvo" stdset="0">
+                     <string>eo</string>
+                    </property>
                    </widget>
                   </item>
                   <item>
@@ -2596,6 +2614,9 @@
                       <property name="tipo" stdset="0">
                        <string>neklakebla</string>
                       </property>
+                      <property name="lingvo" stdset="0">
+                       <string>eo</string>
+                      </property>
                      </widget>
                     </item>
                     <item>
@@ -2615,6 +2636,9 @@
                       <property name="tipo" stdset="0">
                        <string>neklakebla</string>
                       </property>
+                      <property name="lingvo" stdset="0">
+                       <string>eo</string>
+                      </property>
                      </widget>
                     </item>
                    </layout>
@@ -2626,6 +2650,9 @@
              </item>
              <item>
               <widget class="QFrame" name="frame_3">
+               <property name="layoutDirection">
+                <enum>Qt::LeftToRight</enum>
+               </property>
                <property name="frameShape">
                 <enum>QFrame::StyledPanel</enum>
                </property>
@@ -2670,6 +2697,9 @@
                     <property name="tipo" stdset="0">
                      <string>neklakebla</string>
                     </property>
+                    <property name="lingvo" stdset="0">
+                     <string>eo</string>
+                    </property>
                    </widget>
                   </item>
                   <item>
@@ -2694,6 +2724,9 @@
                       <property name="tipo" stdset="0">
                        <string>neklakebla</string>
                       </property>
+                      <property name="lingvo" stdset="0">
+                       <string>eo</string>
+                      </property>
                      </widget>
                     </item>
                     <item>
@@ -2712,6 +2745,9 @@
                       </property>
                       <property name="tipo" stdset="0">
                        <string>neklakebla</string>
+                      </property>
+                      <property name="lingvo" stdset="0">
+                       <string>eo</string>
                       </property>
                      </widget>
                     </item>
@@ -2781,6 +2817,9 @@
              </property>
              <item>
               <widget class="QFrame" name="frame_4">
+               <property name="layoutDirection">
+                <enum>Qt::LeftToRight</enum>
+               </property>
                <property name="frameShape">
                 <enum>QFrame::StyledPanel</enum>
                </property>
@@ -2822,6 +2861,9 @@
                     <property name="tipo" stdset="0">
                      <string>neklakebla</string>
                     </property>
+                    <property name="lingvo" stdset="0">
+                     <string>eo</string>
+                    </property>
                    </widget>
                   </item>
                   <item>
@@ -2843,6 +2885,9 @@
                       <property name="tipo" stdset="0">
                        <string>neklakebla</string>
                       </property>
+                      <property name="lingvo" stdset="0">
+                       <string>eo</string>
+                      </property>
                      </widget>
                     </item>
                     <item>
@@ -2862,6 +2907,9 @@
                       <property name="tipo" stdset="0">
                        <string>neklakebla</string>
                       </property>
+                      <property name="lingvo" stdset="0">
+                       <string>eo</string>
+                      </property>
                      </widget>
                     </item>
                    </layout>
@@ -2873,6 +2921,9 @@
              </item>
              <item>
               <widget class="QFrame" name="frame_5">
+               <property name="layoutDirection">
+                <enum>Qt::LeftToRight</enum>
+               </property>
                <property name="frameShape">
                 <enum>QFrame::StyledPanel</enum>
                </property>
@@ -2914,6 +2965,9 @@
                     <property name="tipo" stdset="0">
                      <string>neklakebla</string>
                     </property>
+                    <property name="lingvo" stdset="0">
+                     <string>eo</string>
+                    </property>
                    </widget>
                   </item>
                   <item>
@@ -2935,6 +2989,9 @@
                       <property name="tipo" stdset="0">
                        <string>neklakebla</string>
                       </property>
+                      <property name="lingvo" stdset="0">
+                       <string>eo</string>
+                      </property>
                      </widget>
                     </item>
                     <item>
@@ -2954,6 +3011,9 @@
                       <property name="tipo" stdset="0">
                        <string>neklakebla</string>
                       </property>
+                      <property name="lingvo" stdset="0">
+                       <string>eo</string>
+                      </property>
                      </widget>
                     </item>
                    </layout>
@@ -2965,6 +3025,9 @@
              </item>
              <item>
               <widget class="QFrame" name="frame_6">
+               <property name="layoutDirection">
+                <enum>Qt::LeftToRight</enum>
+               </property>
                <property name="frameShape">
                 <enum>QFrame::StyledPanel</enum>
                </property>
@@ -3006,6 +3069,9 @@
                     <property name="tipo" stdset="0">
                      <string>neklakebla</string>
                     </property>
+                    <property name="lingvo" stdset="0">
+                     <string>eo</string>
+                    </property>
                    </widget>
                   </item>
                   <item>
@@ -3027,6 +3093,9 @@
                       <property name="tipo" stdset="0">
                        <string>neklakebla</string>
                       </property>
+                      <property name="lingvo" stdset="0">
+                       <string>eo</string>
+                      </property>
                      </widget>
                     </item>
                     <item>
@@ -3045,6 +3114,9 @@
                       </property>
                       <property name="tipo" stdset="0">
                        <string>neklakebla</string>
+                      </property>
+                      <property name="lingvo" stdset="0">
+                       <string>eo</string>
                       </property>
                      </widget>
                     </item>
@@ -3123,6 +3195,9 @@
            </property>
            <item>
             <widget class="QFrame" name="frame_7">
+             <property name="layoutDirection">
+              <enum>Qt::LeftToRight</enum>
+             </property>
              <property name="frameShape">
               <enum>QFrame::StyledPanel</enum>
              </property>
@@ -3167,6 +3242,9 @@
                   <property name="tipo" stdset="0">
                    <string>neklakebla</string>
                   </property>
+                  <property name="lingvo" stdset="0">
+                   <string>eo</string>
+                  </property>
                  </widget>
                 </item>
                 <item>
@@ -3191,6 +3269,9 @@
                     <property name="tipo" stdset="0">
                      <string>neklakebla</string>
                     </property>
+                    <property name="lingvo" stdset="0">
+                     <string>eo</string>
+                    </property>
                    </widget>
                   </item>
                   <item>
@@ -3210,6 +3291,9 @@
                     <property name="tipo" stdset="0">
                      <string>neklakebla</string>
                     </property>
+                    <property name="lingvo" stdset="0">
+                     <string>eo</string>
+                    </property>
                    </widget>
                   </item>
                  </layout>
@@ -3221,6 +3305,9 @@
            </item>
            <item>
             <widget class="QFrame" name="frame_8">
+             <property name="layoutDirection">
+              <enum>Qt::LeftToRight</enum>
+             </property>
              <property name="frameShape">
               <enum>QFrame::StyledPanel</enum>
              </property>
@@ -3262,6 +3349,9 @@
                   <property name="tipo" stdset="0">
                    <string>neklakebla</string>
                   </property>
+                  <property name="lingvo" stdset="0">
+                   <string>eo</string>
+                  </property>
                  </widget>
                 </item>
                 <item>
@@ -3286,6 +3376,9 @@
                     <property name="tipo" stdset="0">
                      <string>neklakebla</string>
                     </property>
+                    <property name="lingvo" stdset="0">
+                     <string>eo</string>
+                    </property>
                    </widget>
                   </item>
                   <item>
@@ -3305,6 +3398,9 @@
                     <property name="tipo" stdset="0">
                      <string>neklakebla</string>
                     </property>
+                    <property name="lingvo" stdset="0">
+                     <string>eo</string>
+                    </property>
                    </widget>
                   </item>
                  </layout>
@@ -3316,6 +3412,9 @@
            </item>
            <item>
             <widget class="QFrame" name="frame_9">
+             <property name="layoutDirection">
+              <enum>Qt::LeftToRight</enum>
+             </property>
              <property name="frameShape">
               <enum>QFrame::StyledPanel</enum>
              </property>
@@ -3360,6 +3459,9 @@
                   <property name="tipo" stdset="0">
                    <string>neklakebla</string>
                   </property>
+                  <property name="lingvo" stdset="0">
+                   <string>eo</string>
+                  </property>
                  </widget>
                 </item>
                 <item>
@@ -3384,6 +3486,9 @@
                     <property name="tipo" stdset="0">
                      <string>neklakebla</string>
                     </property>
+                    <property name="lingvo" stdset="0">
+                     <string>eo</string>
+                    </property>
                    </widget>
                   </item>
                   <item>
@@ -3402,6 +3507,9 @@
                     </property>
                     <property name="tipo" stdset="0">
                      <string>neklakebla</string>
+                    </property>
+                    <property name="lingvo" stdset="0">
+                     <string>eo</string>
                     </property>
                    </widget>
                   </item>
@@ -3476,6 +3584,9 @@ Akuzato: Mi pensis, ke ŝi estas mia edzino!</string>
          <property name="tipo" stdset="0">
           <string>teksta</string>
          </property>
+         <property name="lingvo" stdset="0">
+          <string>eo</string>
+         </property>
         </widget>
        </item>
        <item>
@@ -3504,6 +3615,9 @@ Joĉjo:  Ne! Ne plaĉas al mi vidi starantajn maljunulinojn...</string>
          </property>
          <property name="tipo" stdset="0">
           <string>teksta</string>
+         </property>
+         <property name="lingvo" stdset="0">
+          <string>eo</string>
          </property>
         </widget>
        </item>
@@ -3865,6 +3979,9 @@ Joĉjo:  Ne! Ne plaĉas al mi vidi starantajn maljunulinojn...</string>
            <verstretch>0</verstretch>
           </sizepolicy>
          </property>
+         <property name="lingvo" stdset="0">
+          <string>traduko</string>
+         </property>
         </widget>
        </item>
       </layout>
@@ -4187,7 +4304,7 @@ Joĉjo:  Ne! Ne plaĉas al mi vidi starantajn maljunulinojn...</string>
       </attribute>
       <layout class="QVBoxLayout" name="verticalLayout_58">
        <item>
-        <widget class="plenigas_spacon" name="Lec10_Ekz_Plen_1001">
+        <widget class="plenigas_spacon" name="Lec10B_Ekz_Plen_1001">
          <property name="frameShape">
           <enum>QFrame::StyledPanel</enum>
          </property>
@@ -4262,6 +4379,9 @@ Joĉjo:  Ne! Ne plaĉas al mi vidi starantajn maljunulinojn...</string>
          <property name="tipo" stdset="0">
           <string>teksta</string>
          </property>
+         <property name="lingvo" stdset="0">
+          <string>eo</string>
+         </property>
         </widget>
        </item>
        <item>
@@ -4291,6 +4411,9 @@ Joĉjo:  Ne! Ne plaĉas al mi vidi starantajn maljunulinojn...</string>
          </property>
          <property name="tipo" stdset="0">
           <string>teksta</string>
+         </property>
+         <property name="lingvo" stdset="0">
+          <string>eo</string>
          </property>
         </widget>
        </item>
@@ -4622,6 +4745,9 @@ Joĉjo:  Ne! Ne plaĉas al mi vidi starantajn maljunulinojn...</string>
            <verstretch>0</verstretch>
           </sizepolicy>
          </property>
+         <property name="lingvo" stdset="0">
+          <string>traduko</string>
+         </property>
         </widget>
        </item>
       </layout>
@@ -4662,6 +4788,9 @@ Joĉjo:  Ne! Ne plaĉas al mi vidi starantajn maljunulinojn...</string>
          </property>
          <property name="tipo" stdset="0">
           <string>teksta</string>
+         </property>
+         <property name="lingvo" stdset="0">
+          <string>eo</string>
          </property>
         </widget>
        </item>
@@ -5113,6 +5242,9 @@ Joĉjo:  Ne! Ne plaĉas al mi vidi starantajn maljunulinojn...</string>
            <verstretch>0</verstretch>
           </sizepolicy>
          </property>
+         <property name="lingvo" stdset="0">
+          <string>traduko</string>
+         </property>
         </widget>
        </item>
       </layout>
@@ -5146,12 +5278,6 @@ Joĉjo:  Ne! Ne plaĉas al mi vidi starantajn maljunulinojn...</string>
    </slots>
   </customwidget>
   <customwidget>
-   <class>akuzativo</class>
-   <extends>QFrame</extends>
-   <header>akuzativo.h</header>
-   <container>1</container>
-  </customwidget>
-  <customwidget>
    <class>plenigas_spacon</class>
    <extends>QFrame</extends>
    <header>plenigas_spacon.h</header>
@@ -5166,6 +5292,12 @@ Joĉjo:  Ne! Ne plaĉas al mi vidi starantajn maljunulinojn...</string>
    <class>cx_plainedit</class>
    <extends>QPlainTextEdit</extends>
    <header>cx_plainedit.h</header>
+  </customwidget>
+  <customwidget>
+   <class>akuzativo</class>
+   <extends>QFrame</extends>
+   <header>akuzativo.h</header>
+   <container>1</container>
   </customwidget>
  </customwidgets>
  <resources>

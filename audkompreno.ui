@@ -553,12 +553,18 @@
              <property name="text">
               <string notr="true"/>
              </property>
+             <property name="lingvo" stdset="0">
+              <string>eo</string>
+             </property>
             </widget>
            </item>
            <item>
             <widget class="QLabel" name="label_62">
              <property name="text">
               <string notr="true"/>
+             </property>
+             <property name="lingvo" stdset="0">
+              <string>eo</string>
              </property>
             </widget>
            </item>
@@ -567,12 +573,18 @@
              <property name="text">
               <string notr="true"/>
              </property>
+             <property name="lingvo" stdset="0">
+              <string>eo</string>
+             </property>
             </widget>
            </item>
            <item>
             <widget class="QLabel" name="label_64">
              <property name="text">
               <string notr="true"/>
+             </property>
+             <property name="lingvo" stdset="0">
+              <string>eo</string>
              </property>
             </widget>
            </item>
@@ -581,12 +593,18 @@
              <property name="text">
               <string notr="true"/>
              </property>
+             <property name="lingvo" stdset="0">
+              <string>eo</string>
+             </property>
             </widget>
            </item>
            <item>
             <widget class="QLabel" name="label_66">
              <property name="text">
               <string notr="true"/>
+             </property>
+             <property name="lingvo" stdset="0">
+              <string>eo</string>
              </property>
             </widget>
            </item>
@@ -599,12 +617,18 @@
              <property name="text">
               <string notr="true"/>
              </property>
+             <property name="lingvo" stdset="0">
+              <string>eo</string>
+             </property>
             </widget>
            </item>
            <item>
             <widget class="QLabel" name="label_52">
              <property name="text">
               <string notr="true"/>
+             </property>
+             <property name="lingvo" stdset="0">
+              <string>eo</string>
              </property>
             </widget>
            </item>
@@ -613,12 +637,18 @@
              <property name="text">
               <string notr="true"/>
              </property>
+             <property name="lingvo" stdset="0">
+              <string>eo</string>
+             </property>
             </widget>
            </item>
            <item>
             <widget class="QLabel" name="label_58">
              <property name="text">
               <string notr="true"/>
+             </property>
+             <property name="lingvo" stdset="0">
+              <string>eo</string>
              </property>
             </widget>
            </item>
@@ -627,12 +657,18 @@
              <property name="text">
               <string notr="true"/>
              </property>
+             <property name="lingvo" stdset="0">
+              <string>eo</string>
+             </property>
             </widget>
            </item>
            <item>
             <widget class="QLabel" name="label_60">
              <property name="text">
               <string notr="true"/>
+             </property>
+             <property name="lingvo" stdset="0">
+              <string>eo</string>
              </property>
             </widget>
            </item>
@@ -645,12 +681,18 @@
              <property name="text">
               <string notr="true"/>
              </property>
+             <property name="lingvo" stdset="0">
+              <string>eo</string>
+             </property>
             </widget>
            </item>
            <item>
             <widget class="QLabel" name="label_46">
              <property name="text">
               <string notr="true"/>
+             </property>
+             <property name="lingvo" stdset="0">
+              <string>eo</string>
              </property>
             </widget>
            </item>
@@ -659,12 +701,18 @@
              <property name="text">
               <string notr="true"/>
              </property>
+             <property name="lingvo" stdset="0">
+              <string>eo</string>
+             </property>
             </widget>
            </item>
            <item>
             <widget class="QLabel" name="label_48">
              <property name="text">
               <string notr="true"/>
+             </property>
+             <property name="lingvo" stdset="0">
+              <string>eo</string>
              </property>
             </widget>
            </item>
@@ -673,12 +721,18 @@
              <property name="text">
               <string notr="true"/>
              </property>
+             <property name="lingvo" stdset="0">
+              <string>eo</string>
+             </property>
             </widget>
            </item>
            <item>
             <widget class="QLabel" name="label_51">
              <property name="text">
               <string notr="true"/>
+             </property>
+             <property name="lingvo" stdset="0">
+              <string>eo</string>
              </property>
             </widget>
            </item>
@@ -691,12 +745,18 @@
              <property name="text">
               <string notr="true"/>
              </property>
+             <property name="lingvo" stdset="0">
+              <string>eo</string>
+             </property>
             </widget>
            </item>
            <item>
             <widget class="QLabel" name="label_38">
              <property name="text">
               <string notr="true"/>
+             </property>
+             <property name="lingvo" stdset="0">
+              <string>eo</string>
              </property>
             </widget>
            </item>
@@ -705,12 +765,18 @@
              <property name="text">
               <string notr="true"/>
              </property>
+             <property name="lingvo" stdset="0">
+              <string>eo</string>
+             </property>
             </widget>
            </item>
            <item>
             <widget class="QLabel" name="label_40">
              <property name="text">
               <string notr="true"/>
+             </property>
+             <property name="lingvo" stdset="0">
+              <string>eo</string>
              </property>
             </widget>
            </item>
@@ -719,12 +785,18 @@
              <property name="text">
               <string notr="true"/>
              </property>
+             <property name="lingvo" stdset="0">
+              <string>eo</string>
+             </property>
             </widget>
            </item>
            <item>
             <widget class="QLabel" name="label_43">
              <property name="text">
               <string notr="true"/>
+             </property>
+             <property name="lingvo" stdset="0">
+              <string>eo</string>
              </property>
             </widget>
            </item>
@@ -737,12 +809,18 @@
              <property name="text">
               <string notr="true"/>
              </property>
+             <property name="lingvo" stdset="0">
+              <string>eo</string>
+             </property>
             </widget>
            </item>
            <item>
             <widget class="QLabel" name="label_30">
              <property name="text">
               <string notr="true"/>
+             </property>
+             <property name="lingvo" stdset="0">
+              <string>eo</string>
              </property>
             </widget>
            </item>
@@ -751,12 +829,18 @@
              <property name="text">
               <string notr="true"/>
              </property>
+             <property name="lingvo" stdset="0">
+              <string>eo</string>
+             </property>
             </widget>
            </item>
            <item>
             <widget class="QLabel" name="label_32">
              <property name="text">
               <string notr="true"/>
+             </property>
+             <property name="lingvo" stdset="0">
+              <string>eo</string>
              </property>
             </widget>
            </item>
@@ -765,12 +849,18 @@
              <property name="text">
               <string notr="true"/>
              </property>
+             <property name="lingvo" stdset="0">
+              <string>eo</string>
+             </property>
             </widget>
            </item>
            <item>
             <widget class="QLabel" name="label_35">
              <property name="text">
               <string notr="true"/>
+             </property>
+             <property name="lingvo" stdset="0">
+              <string>eo</string>
              </property>
             </widget>
            </item>
@@ -783,12 +873,18 @@
              <property name="text">
               <string notr="true"/>
              </property>
+             <property name="lingvo" stdset="0">
+              <string>eo</string>
+             </property>
             </widget>
            </item>
            <item>
             <widget class="QLabel" name="label_22">
              <property name="text">
               <string notr="true"/>
+             </property>
+             <property name="lingvo" stdset="0">
+              <string>eo</string>
              </property>
             </widget>
            </item>
@@ -797,12 +893,18 @@
              <property name="text">
               <string notr="true"/>
              </property>
+             <property name="lingvo" stdset="0">
+              <string>eo</string>
+             </property>
             </widget>
            </item>
            <item>
             <widget class="QLabel" name="label_24">
              <property name="text">
               <string notr="true"/>
+             </property>
+             <property name="lingvo" stdset="0">
+              <string>eo</string>
              </property>
             </widget>
            </item>
@@ -811,12 +913,18 @@
              <property name="text">
               <string notr="true"/>
              </property>
+             <property name="lingvo" stdset="0">
+              <string>eo</string>
+             </property>
             </widget>
            </item>
            <item>
             <widget class="QLabel" name="label_27">
              <property name="text">
               <string notr="true"/>
+             </property>
+             <property name="lingvo" stdset="0">
+              <string>eo</string>
              </property>
             </widget>
            </item>
@@ -829,12 +937,18 @@
              <property name="text">
               <string notr="true"/>
              </property>
+             <property name="lingvo" stdset="0">
+              <string>eo</string>
+             </property>
             </widget>
            </item>
            <item>
             <widget class="QLabel" name="label_14">
              <property name="text">
               <string notr="true"/>
+             </property>
+             <property name="lingvo" stdset="0">
+              <string>eo</string>
              </property>
             </widget>
            </item>
@@ -843,12 +957,18 @@
              <property name="text">
               <string notr="true"/>
              </property>
+             <property name="lingvo" stdset="0">
+              <string>eo</string>
+             </property>
             </widget>
            </item>
            <item>
             <widget class="QLabel" name="label_16">
              <property name="text">
               <string notr="true"/>
+             </property>
+             <property name="lingvo" stdset="0">
+              <string>eo</string>
              </property>
             </widget>
            </item>
@@ -857,12 +977,18 @@
              <property name="text">
               <string notr="true"/>
              </property>
+             <property name="lingvo" stdset="0">
+              <string>eo</string>
+             </property>
             </widget>
            </item>
            <item>
             <widget class="QLabel" name="label_19">
              <property name="text">
               <string notr="true"/>
+             </property>
+             <property name="lingvo" stdset="0">
+              <string>eo</string>
              </property>
             </widget>
            </item>
@@ -875,12 +1001,18 @@
              <property name="text">
               <string notr="true"/>
              </property>
+             <property name="lingvo" stdset="0">
+              <string>eo</string>
+             </property>
             </widget>
            </item>
            <item>
             <widget class="QLabel" name="label_6">
              <property name="text">
               <string notr="true"/>
+             </property>
+             <property name="lingvo" stdset="0">
+              <string>eo</string>
              </property>
             </widget>
            </item>
@@ -889,12 +1021,18 @@
              <property name="text">
               <string notr="true"/>
              </property>
+             <property name="lingvo" stdset="0">
+              <string>eo</string>
+             </property>
             </widget>
            </item>
            <item>
             <widget class="QLabel" name="label_8">
              <property name="text">
               <string notr="true"/>
+             </property>
+             <property name="lingvo" stdset="0">
+              <string>eo</string>
              </property>
             </widget>
            </item>
@@ -903,12 +1041,18 @@
              <property name="text">
               <string notr="true"/>
              </property>
+             <property name="lingvo" stdset="0">
+              <string>eo</string>
+             </property>
             </widget>
            </item>
            <item>
             <widget class="QLabel" name="label_11">
              <property name="text">
               <string notr="true"/>
+             </property>
+             <property name="lingvo" stdset="0">
+              <string>eo</string>
              </property>
             </widget>
            </item>
@@ -960,6 +1104,9 @@ font-weight: bold;</string>
               </property>
               <property name="alignment">
                <set>Qt::AlignCenter</set>
+              </property>
+              <property name="lingvo" stdset="0">
+               <string>eo</string>
               </property>
              </widget>
             </item>

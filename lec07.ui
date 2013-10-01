@@ -63,7 +63,7 @@
       </sizepolicy>
      </property>
      <property name="currentIndex">
-      <number>9</number>
+      <number>14</number>
      </property>
      <property name="iconSize">
       <size>
@@ -170,6 +170,12 @@
              <property name="wordWrap">
               <bool>true</bool>
              </property>
+             <property name="tipo" stdset="0">
+              <string>esperanta</string>
+             </property>
+             <property name="lingvo" stdset="0">
+              <string>eo</string>
+             </property>
             </widget>
            </item>
           </layout>
@@ -248,6 +254,12 @@
              </property>
              <property name="wordWrap">
               <bool>true</bool>
+             </property>
+             <property name="tipo" stdset="0">
+              <string>esperanta</string>
+             </property>
+             <property name="lingvo" stdset="0">
+              <string>eo</string>
              </property>
             </widget>
            </item>
@@ -328,6 +340,12 @@
              <property name="wordWrap">
               <bool>true</bool>
              </property>
+             <property name="tipo" stdset="0">
+              <string>esperanta</string>
+             </property>
+             <property name="lingvo" stdset="0">
+              <string>eo</string>
+             </property>
             </widget>
            </item>
           </layout>
@@ -407,6 +425,12 @@
              <property name="wordWrap">
               <bool>true</bool>
              </property>
+             <property name="tipo" stdset="0">
+              <string>esperanta</string>
+             </property>
+             <property name="lingvo" stdset="0">
+              <string>eo</string>
+             </property>
             </widget>
            </item>
           </layout>
@@ -485,6 +509,12 @@
              </property>
              <property name="wordWrap">
               <bool>true</bool>
+             </property>
+             <property name="tipo" stdset="0">
+              <string>esperanta</string>
+             </property>
+             <property name="lingvo" stdset="0">
+              <string>eo</string>
              </property>
             </widget>
            </item>
@@ -592,6 +622,12 @@
              <property name="wordWrap">
               <bool>true</bool>
              </property>
+             <property name="tipo" stdset="0">
+              <string>esperanta</string>
+             </property>
+             <property name="lingvo" stdset="0">
+              <string>eo</string>
+             </property>
             </widget>
            </item>
           </layout>
@@ -670,6 +706,12 @@
              </property>
              <property name="wordWrap">
               <bool>true</bool>
+             </property>
+             <property name="tipo" stdset="0">
+              <string>esperanta</string>
+             </property>
+             <property name="lingvo" stdset="0">
+              <string>eo</string>
              </property>
             </widget>
            </item>
@@ -750,6 +792,12 @@
              <property name="wordWrap">
               <bool>true</bool>
              </property>
+             <property name="tipo" stdset="0">
+              <string>esperanta</string>
+             </property>
+             <property name="lingvo" stdset="0">
+              <string>eo</string>
+             </property>
             </widget>
            </item>
           </layout>
@@ -828,6 +876,12 @@
              </property>
              <property name="wordWrap">
               <bool>true</bool>
+             </property>
+             <property name="tipo" stdset="0">
+              <string>esperanta</string>
+             </property>
+             <property name="lingvo" stdset="0">
+              <string>eo</string>
              </property>
             </widget>
            </item>
@@ -908,6 +962,12 @@
              <property name="wordWrap">
               <bool>true</bool>
              </property>
+             <property name="tipo" stdset="0">
+              <string>esperanta</string>
+             </property>
+             <property name="lingvo" stdset="0">
+              <string>eo</string>
+             </property>
             </widget>
            </item>
           </layout>
@@ -986,6 +1046,12 @@
              </property>
              <property name="wordWrap">
               <bool>true</bool>
+             </property>
+             <property name="tipo" stdset="0">
+              <string>esperanta</string>
+             </property>
+             <property name="lingvo" stdset="0">
+              <string>eo</string>
              </property>
             </widget>
            </item>
@@ -1066,6 +1132,12 @@
              <property name="wordWrap">
               <bool>true</bool>
              </property>
+             <property name="tipo" stdset="0">
+              <string>esperanta</string>
+             </property>
+             <property name="lingvo" stdset="0">
+              <string>eo</string>
+             </property>
             </widget>
            </item>
           </layout>
@@ -1140,6 +1212,9 @@
          </property>
          <property name="tipo" stdset="0">
           <string>teksta</string>
+         </property>
+         <property name="lingvo" stdset="0">
+          <string>eo</string>
          </property>
         </widget>
        </item>
@@ -1719,6 +1794,9 @@
              <property name="buddy">
               <cstring>lineEdit_63</cstring>
              </property>
+             <property name="lingvo" stdset="0">
+              <string>eo</string>
+             </property>
             </widget>
            </item>
            <item>
@@ -1748,6 +1826,9 @@
              </property>
              <property name="buddy">
               <cstring>lineEdit_64</cstring>
+             </property>
+             <property name="lingvo" stdset="0">
+              <string>eo</string>
              </property>
             </widget>
            </item>
@@ -1779,6 +1860,9 @@
              <property name="buddy">
               <cstring>lineEdit_65</cstring>
              </property>
+             <property name="lingvo" stdset="0">
+              <string>eo</string>
+             </property>
             </widget>
            </item>
            <item>
@@ -1808,6 +1892,9 @@
              </property>
              <property name="buddy">
               <cstring>lineEdit_66</cstring>
+             </property>
+             <property name="lingvo" stdset="0">
+              <string>eo</string>
              </property>
             </widget>
            </item>
@@ -1839,6 +1926,9 @@
              <property name="buddy">
               <cstring>lineEdit_67</cstring>
              </property>
+             <property name="lingvo" stdset="0">
+              <string>eo</string>
+             </property>
             </widget>
            </item>
            <item>
@@ -1868,6 +1958,9 @@
              </property>
              <property name="buddy">
               <cstring>lineEdit_68</cstring>
+             </property>
+             <property name="lingvo" stdset="0">
+              <string>eo</string>
              </property>
             </widget>
            </item>
@@ -1996,6 +2089,12 @@
                  <property name="wordWrap">
                   <bool>true</bool>
                  </property>
+                 <property name="tipo" stdset="0">
+                  <string>esperanta</string>
+                 </property>
+                 <property name="lingvo" stdset="0">
+                  <string>eo</string>
+                 </property>
                 </widget>
                </item>
               </layout>
@@ -2074,6 +2173,12 @@
                  </property>
                  <property name="wordWrap">
                   <bool>true</bool>
+                 </property>
+                 <property name="tipo" stdset="0">
+                  <string>esperanta</string>
+                 </property>
+                 <property name="lingvo" stdset="0">
+                  <string>eo</string>
                  </property>
                 </widget>
                </item>
@@ -2154,6 +2259,12 @@
                  <property name="wordWrap">
                   <bool>true</bool>
                  </property>
+                 <property name="tipo" stdset="0">
+                  <string>esperanta</string>
+                 </property>
+                 <property name="lingvo" stdset="0">
+                  <string>eo</string>
+                 </property>
                 </widget>
                </item>
               </layout>
@@ -2233,6 +2344,12 @@
                  <property name="wordWrap">
                   <bool>true</bool>
                  </property>
+                 <property name="tipo" stdset="0">
+                  <string>esperanta</string>
+                 </property>
+                 <property name="lingvo" stdset="0">
+                  <string>eo</string>
+                 </property>
                 </widget>
                </item>
               </layout>
@@ -2311,6 +2428,12 @@
                  </property>
                  <property name="wordWrap">
                   <bool>true</bool>
+                 </property>
+                 <property name="tipo" stdset="0">
+                  <string>esperanta</string>
+                 </property>
+                 <property name="lingvo" stdset="0">
+                  <string>eo</string>
                  </property>
                 </widget>
                </item>
@@ -2398,6 +2521,12 @@
                  <property name="wordWrap">
                   <bool>true</bool>
                  </property>
+                 <property name="tipo" stdset="0">
+                  <string>esperanta</string>
+                 </property>
+                 <property name="lingvo" stdset="0">
+                  <string>eo</string>
+                 </property>
                 </widget>
                </item>
               </layout>
@@ -2476,6 +2605,12 @@
                  </property>
                  <property name="wordWrap">
                   <bool>true</bool>
+                 </property>
+                 <property name="tipo" stdset="0">
+                  <string>esperanta</string>
+                 </property>
+                 <property name="lingvo" stdset="0">
+                  <string>eo</string>
                  </property>
                 </widget>
                </item>
@@ -2556,6 +2691,12 @@
                  <property name="wordWrap">
                   <bool>true</bool>
                  </property>
+                 <property name="tipo" stdset="0">
+                  <string>esperanta</string>
+                 </property>
+                 <property name="lingvo" stdset="0">
+                  <string>eo</string>
+                 </property>
                 </widget>
                </item>
               </layout>
@@ -2635,6 +2776,12 @@
                  <property name="wordWrap">
                   <bool>true</bool>
                  </property>
+                 <property name="tipo" stdset="0">
+                  <string>esperanta</string>
+                 </property>
+                 <property name="lingvo" stdset="0">
+                  <string>eo</string>
+                 </property>
                 </widget>
                </item>
               </layout>
@@ -2713,6 +2860,12 @@
                  </property>
                  <property name="wordWrap">
                   <bool>true</bool>
+                 </property>
+                 <property name="tipo" stdset="0">
+                  <string>esperanta</string>
+                 </property>
+                 <property name="lingvo" stdset="0">
+                  <string>eo</string>
                  </property>
                 </widget>
                </item>
@@ -2828,6 +2981,12 @@
                  <property name="wordWrap">
                   <bool>true</bool>
                  </property>
+                 <property name="tipo" stdset="0">
+                  <string>esperanta</string>
+                 </property>
+                 <property name="lingvo" stdset="0">
+                  <string>eo</string>
+                 </property>
                 </widget>
                </item>
               </layout>
@@ -2906,6 +3065,12 @@
                  </property>
                  <property name="wordWrap">
                   <bool>true</bool>
+                 </property>
+                 <property name="tipo" stdset="0">
+                  <string>esperanta</string>
+                 </property>
+                 <property name="lingvo" stdset="0">
+                  <string>eo</string>
                  </property>
                 </widget>
                </item>
@@ -2986,6 +3151,12 @@
                  <property name="wordWrap">
                   <bool>true</bool>
                  </property>
+                 <property name="tipo" stdset="0">
+                  <string>esperanta</string>
+                 </property>
+                 <property name="lingvo" stdset="0">
+                  <string>eo</string>
+                 </property>
                 </widget>
                </item>
               </layout>
@@ -3064,6 +3235,12 @@
                  </property>
                  <property name="wordWrap">
                   <bool>true</bool>
+                 </property>
+                 <property name="tipo" stdset="0">
+                  <string>esperanta</string>
+                 </property>
+                 <property name="lingvo" stdset="0">
+                  <string>eo</string>
                  </property>
                 </widget>
                </item>
@@ -3151,6 +3328,12 @@
                  <property name="wordWrap">
                   <bool>true</bool>
                  </property>
+                 <property name="tipo" stdset="0">
+                  <string>esperanta</string>
+                 </property>
+                 <property name="lingvo" stdset="0">
+                  <string>eo</string>
+                 </property>
                 </widget>
                </item>
               </layout>
@@ -3229,6 +3412,12 @@
                  </property>
                  <property name="wordWrap">
                   <bool>true</bool>
+                 </property>
+                 <property name="tipo" stdset="0">
+                  <string>esperanta</string>
+                 </property>
+                 <property name="lingvo" stdset="0">
+                  <string>eo</string>
                  </property>
                 </widget>
                </item>
@@ -3309,6 +3498,12 @@
                  <property name="wordWrap">
                   <bool>true</bool>
                  </property>
+                 <property name="tipo" stdset="0">
+                  <string>esperanta</string>
+                 </property>
+                 <property name="lingvo" stdset="0">
+                  <string>eo</string>
+                 </property>
                 </widget>
                </item>
               </layout>
@@ -3388,6 +3583,12 @@
                  <property name="wordWrap">
                   <bool>true</bool>
                  </property>
+                 <property name="tipo" stdset="0">
+                  <string>esperanta</string>
+                 </property>
+                 <property name="lingvo" stdset="0">
+                  <string>eo</string>
+                 </property>
                 </widget>
                </item>
               </layout>
@@ -3465,6 +3666,9 @@
          </property>
          <property name="tipo" stdset="0">
           <string>teksta</string>
+         </property>
+         <property name="lingvo" stdset="0">
+          <string>eo</string>
          </property>
         </widget>
        </item>
@@ -4255,6 +4459,9 @@
              <property name="buddy">
               <cstring>lineEdit_76</cstring>
              </property>
+             <property name="lingvo" stdset="0">
+              <string>eo</string>
+             </property>
             </widget>
            </item>
            <item>
@@ -4284,6 +4491,9 @@
              </property>
              <property name="buddy">
               <cstring>lineEdit_75</cstring>
+             </property>
+             <property name="lingvo" stdset="0">
+              <string>eo</string>
              </property>
             </widget>
            </item>
@@ -4315,6 +4525,9 @@
              <property name="buddy">
               <cstring>lineEdit_77</cstring>
              </property>
+             <property name="lingvo" stdset="0">
+              <string>eo</string>
+             </property>
             </widget>
            </item>
            <item>
@@ -4344,6 +4557,9 @@
              </property>
              <property name="buddy">
               <cstring>lineEdit_78</cstring>
+             </property>
+             <property name="lingvo" stdset="0">
+              <string>eo</string>
              </property>
             </widget>
            </item>
@@ -4375,6 +4591,9 @@
              <property name="buddy">
               <cstring>lineEdit_79</cstring>
              </property>
+             <property name="lingvo" stdset="0">
+              <string>eo</string>
+             </property>
             </widget>
            </item>
            <item>
@@ -4404,6 +4623,9 @@
              </property>
              <property name="buddy">
               <cstring>lineEdit_80</cstring>
+             </property>
+             <property name="lingvo" stdset="0">
+              <string>eo</string>
              </property>
             </widget>
            </item>
@@ -5570,15 +5792,21 @@
    </slots>
   </customwidget>
   <customwidget>
+   <class>cx_edit</class>
+   <extends>QLineEdit</extends>
+   <header>cx_edit.h</header>
+  </customwidget>
+  <customwidget>
+   <class>plenigas_spacon</class>
+   <extends>QFrame</extends>
+   <header>plenigas_spacon.h</header>
+   <container>1</container>
+  </customwidget>
+  <customwidget>
    <class>vortoludo</class>
    <extends>QFrame</extends>
    <header>vortoludo.h</header>
    <container>1</container>
-  </customwidget>
-  <customwidget>
-   <class>cx_edit</class>
-   <extends>QLineEdit</extends>
-   <header>cx_edit.h</header>
   </customwidget>
   <customwidget>
    <class>audkompreno</class>
@@ -5601,12 +5829,6 @@
    <class>label_sago</class>
    <extends>QLabel</extends>
    <header>label_sago.h</header>
-  </customwidget>
-  <customwidget>
-   <class>plenigas_spacon</class>
-   <extends>QFrame</extends>
-   <header>plenigas_spacon.h</header>
-   <container>1</container>
   </customwidget>
  </customwidgets>
  <resources>

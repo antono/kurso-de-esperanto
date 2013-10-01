@@ -53,7 +53,7 @@ private:
     QString aEk09T[4][2];
     int     aEk09F[4];
 
-    std::vector<bool> aEk09A;
+    QList<bool> aEk09A;
 
     int iAleat9, iEk09D, Kiome, KiomFoje, RegistraLongo;
     QFile SonDosiero;   // class member.

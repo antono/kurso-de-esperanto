@@ -39,6 +39,7 @@
 #include <QFontDatabase>
 #include "kurso.h"
 #include "funkcioj.h"
+#include "traduko.h"
 
 int main(int argc, char *argv[])
 {
@@ -53,6 +54,10 @@ int main(int argc, char *argv[])
     QFontDatabase::addApplicationFont(":tiparoj/DejaVuSans-Bold.ttf");
 
     kurso w;
+
+    //traduko tradukilo;
+    //tradukilo.setWindowModality(Qt::NonModal);
+
     w.show();
 
     w.Saluton();

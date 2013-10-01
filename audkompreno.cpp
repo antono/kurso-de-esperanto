@@ -45,6 +45,8 @@ audkompreno::audkompreno(QWidget *parent) :
     ui(new Ui::audkompreno)
 {
     ui->setupUi(this);
+    LTR_Marko = QString::fromUtf8("\u200E");
+
 }
 
 
@@ -74,16 +76,20 @@ void audkompreno::on_BitBtn8_clicked()
     this->ui->Placar4->setValue(0);
     iKorektaj2 = 0;
     iEraraj2 = 0;
-    aEk02A.resize(iEk02D);
+    //aEk02A.clear(iEk02D);
+    aEk02A.clear();
+
     int i;
     for ( i = 0; i < 48; i++)
     {
         chiuj_label[i]->setText("          ");
-        aEk02A[i] = false;
+        //aEk02A[i] = false;
     }
+
     for ( i = 0; i < iEk02D; i++)
     {
-        aEk02A[i] = false;
+        //aEk02A[i] = false;
+        aEk02A << false;
     }
     novavorto();
 
@@ -100,18 +106,15 @@ void audkompreno::novavorto()
         chiuj_butonoj =
                 this->parentWidget()->parentWidget()->parentWidget()->findChildren<QPushButton *>(Leciono + "_Button"  + aEk02D[iAleat2]);
         if (chiuj_butonoj.count() > 0)
-            sTeksto = chiuj_butonoj[0]->text();
+            sTeksto = chiuj_butonoj[0]->text().remove(LTR_Marko);
         else
             sTeksto = "";
-
-        sTeksto = sTeksto.replace(QString::fromUtf8("\u200E"), "");
 
         sMp3dos = "sonoj/lec" + EkzercoAudado.left(2) + "/btn" + aEk02D[iAleat2] + mp3_finajho;
     }
     else
     {
         sTeksto = CxSist(aEk02D[iAleat2],1);
-        sTeksto = sTeksto.replace(QString::fromUtf8("\u200E"), "");
         if (sTeksto == "aux")
             sTeksto = "auh";
         sMp3dos = "sonoj/lec" + EkzercoAudado.left(2) + "/" + sTeksto + mp3_finajho;
@@ -151,15 +154,12 @@ void audkompreno::analizu()
             QList<QPushButton *> chiuj_butonoj =
                     this->parentWidget()->parentWidget()->parentWidget()->findChildren<QPushButton *>(Leciono + "_Button" + aEk02D[iAleat2]);
             if (chiuj_butonoj.count() > 0)
-                sTesto = chiuj_butonoj[0]->text();
+                sTesto = chiuj_butonoj[0]->text().remove(LTR_Marko);
             else
                 sTesto = "";
         }
         else
             sTesto = aEk02D[iAleat2];
-
-        sTesto = sTesto.replace(QString::fromUtf8("\u200E"), "");
-
         sTeksto = purigas(sTeksto, true);
         sTesto  = purigas(sTesto, true);
 

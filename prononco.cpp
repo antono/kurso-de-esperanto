@@ -82,9 +82,11 @@ void prononco::on_PP_Startu_clicked()
     QString EkzercoPrononco = this->objectName().right(4);
     iEk09D = _Matriz(&aEk09D,EkzercoPrononco,"D");
     this->ui->Placar->setValue(iEk09D);
-    aEk09A.resize(iEk09D);
+    //aEk09A.clear(iEk09D);
+    aEk09A.clear();
     for (int i=0; i < iEk09D; i++)
-        aEk09A[i] = false;
+        //aEk09A[i] = false;
+        aEk09A << false;
 
     this->ui->PP_Haltu->setFocus();
 

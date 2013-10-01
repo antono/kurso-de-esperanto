@@ -587,25 +587,15 @@
             <number>12</number>
            </property>
            <item>
-            <widget class="QLabel" name="Vorto">
-             <property name="minimumSize">
-              <size>
-               <width>300</width>
-               <height>0</height>
-              </size>
-             </property>
-             <property name="maximumSize">
-              <size>
-               <width>300</width>
-               <height>30</height>
-              </size>
-             </property>
-             <property name="styleSheet">
-              <string notr="true">font-weight: bold;
-font-size: 14pt;</string>
-             </property>
+            <widget class="titolo" name="Vorto">
              <property name="text">
               <string notr="true"/>
+             </property>
+             <property name="tipo" stdset="0">
+              <string>esperanta</string>
+             </property>
+             <property name="lingvo" stdset="0">
+              <string>eo</string>
              </property>
             </widget>
            </item>
@@ -624,6 +614,9 @@ font-size: 14pt;</string>
                <property name="text">
                 <string notr="true"/>
                </property>
+               <property name="lingvo" stdset="0">
+                <string>traduko</string>
+               </property>
               </widget>
              </item>
              <item>
@@ -635,6 +628,9 @@ font-size: 14pt;</string>
                </property>
                <property name="text">
                 <string notr="true"/>
+               </property>
+               <property name="lingvo" stdset="0">
+                <string>traduko</string>
                </property>
               </widget>
              </item>
@@ -648,6 +644,9 @@ font-size: 14pt;</string>
                <property name="text">
                 <string notr="true"/>
                </property>
+               <property name="lingvo" stdset="0">
+                <string>traduko</string>
+               </property>
               </widget>
              </item>
              <item>
@@ -660,6 +659,9 @@ font-size: 14pt;</string>
                <property name="text">
                 <string notr="true"/>
                </property>
+               <property name="lingvo" stdset="0">
+                <string>traduko</string>
+               </property>
               </widget>
              </item>
              <item>
@@ -671,6 +673,9 @@ font-size: 14pt;</string>
                </property>
                <property name="text">
                 <string notr="true"/>
+               </property>
+               <property name="lingvo" stdset="0">
+                <string>traduko</string>
                </property>
               </widget>
              </item>

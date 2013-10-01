@@ -55,6 +55,13 @@ vortoludo::~vortoludo()
 
 void vortoludo::on_BitBtn18_clicked()
 {
+    /*
+    if (Direkto == "RTL")
+        ui->Vorto->setStyleSheet("qproperty-alignment: AlignRight;");
+    else
+        ui->Vorto->setStyleSheet("qproperty-alignment: AlignLeft;");
+    */
+
     chiuj_radioj = this->ui->Grupo->findChildren<QRadioButton *>();
     QString EkzercoVortoLudo = this->objectName().right(4);
     Leciono = this->objectName().left(6);
@@ -64,10 +71,16 @@ void vortoludo::on_BitBtn18_clicked()
     this->ui->BitBtn18->setEnabled(false);
     this->ui->BitBtn20->setEnabled(true);
     // this->ui->printilo_ps->setEnabled(false);
-    aEk03A.resize(iEk03D);
-    aPozicio.resize(iEk03D);
+    //aEk03A.clear(iEk03D);
+    //aPozicio.clear(iEk03D);
+    aEk03A.clear();
+    aPozicio.clear();
     for (int i = 0; i < iEk03D; i++)
-        aEk03A[i] = false;
+    {
+        //aEk03A[i] = false;
+        aEk03A << false;
+        aPozicio << false;
+    }
     this->ui->Placar1->setValue(iEk03D);
     this->ui->Placar2->setValue(0);
     this->ui->Placar3->setValue(0);
@@ -222,11 +235,11 @@ void vortoludo::on_frazo4_clicked(bool checked)
 
 void vortoludo::on_printilo_ps_clicked()
 {
-    // Uzas lokajn variablojn, por ke ili ne miksiƒùu kun tiuj de la ekzerco mem
+    // Uzas lokajn variablojn, por ke ili ne miksighùu kun tiuj de la ekzerco mem
     int iAleat3, iPozicio;
     QStringList aEk03D;
     QStringList aEk03R;
-    std::vector<bool> aPozicio;
+    QList<bool> aPozicio;
     int     iEk03D;
     QString Leciono;
     //
@@ -241,17 +254,32 @@ void vortoludo::on_printilo_ps_clicked()
 
     QString EkzercoVortoLudo = this->objectName().right(4);
     Leciono = this->objectName().left(6);
+    QString LTR_Marko = QString::fromUtf8("\u200E");
+    QString RTL_Marko = QString::fromUtf8("\u200F");
+    QString PDF_Marko = QString::fromUtf8("\u202C");
+    QString RLE_Marko = QString::fromUtf8("\u202B");
+    QString LRE_Marko = QString::fromUtf8("\u202A");
+    QString RLO_Marko = QString::fromUtf8("\u202E");
+    QString LRO_Marko = QString::fromUtf8("\u202D");
 
-    QString HTML_Teksto = "<body style=\" font-family:'" ;
+
+    QString HTML_Teksto;
+
+    HTML_Teksto.append( "<body  dir=" + Direkto + " style=\" font-family:'" );
     HTML_Teksto.append(this->parentWidget()->font().family() + "'; font-size:");
     HTML_Teksto.append( QString::number(qRound(this->parentWidget()->font().pixelSize() / 1.33333 )) + "pt; font-weight:400; font-style:normal;\">");
-    HTML_Teksto.append("<P><h2>Kurso de Esperanto   -   " + this->objectName() + "   (kurso.com.br)</h2></P>");
+    HTML_Teksto.append("<P><h2>Kurso de Esperanto   -   " + this->objectName() + "   (kurso.com.br)" + LTR_Marko + "</h2></P>");
     HTML_Teksto.append("<P><B>" + this->ui->Ekz_Vort1->text() + "</B></P>");
     HTML_Teksto.append("<P>" + this->ui->Ekz_Vort2->text() + "</P><P>&nbsp;</P>");
 
     iEk03D = _Matriz(&aEk03D,EkzercoVortoLudo,"D");
     _Matriz(&aEk03R,EkzercoVortoLudo,"R");
-    aPozicio.resize(iEk03D);
+    aPozicio.clear();
+    for (int i = 0; i < iEk03D; i++)
+    {
+        aPozicio << false;
+    }
+
     QString sTekstoD, sTekstoR;
     QList<QLabel *> chiuj_label;
     QList<QPushButton *> chiuj_butonoj;
@@ -266,9 +294,13 @@ void vortoludo::on_printilo_ps_clicked()
 
     HTML_Teksto.append("<table>");
 
-    QString HTML_Respondo = "<P>Respondoj: <br>";
+    QString HTML_Respondo = "<P dir=\"LTR\">Respondoj: <br>";
     int j, iAleat2;
-    QString SubaLinio = "[&nbsp;&nbsp;]&nbsp;";
+    QString SubaLinio ;
+    if (Direkto == "LTR")
+        SubaLinio = "[&nbsp;&nbsp;]&nbsp;";
+    else
+        SubaLinio = "&nbsp;[&nbsp;&nbsp;]" + LTR_Marko;
     for (int i = 0; i < iEk03D; i++)
     {
         for (int k = 0; k < iEk03D; k++)
@@ -288,10 +320,21 @@ void vortoludo::on_printilo_ps_clicked()
         else
             sTekstoD = aEk03D[iAleat3];
 
-        if ( i % 2 == 0)
-            HTML_Teksto.append("<tr><td><B>" + QString::number(i+1) + ") " + sTekstoD + "</B><br>");
+        if (Direkto == "LTR")
+        {
+            if ( i % 2 == 0)
+                HTML_Teksto.append("<tr><td><B>" + QString::number(i+1) + ") " + sTekstoD + "</B><br>");
+            else
+                HTML_Teksto.append(    "<td><B>" + QString::number(i+1) + ") " + sTekstoD + "</B><br>");
+        }
         else
-            HTML_Teksto.append(    "<td><B>" + QString::number(i+1) + ") " + sTekstoD + "</B><br>");
+        {
+            if ( i % 2 == 0)
+                HTML_Teksto.append("<tr><td><B>" + sTekstoD.replace(LTR_Marko, "") + " (" + QString::number(i+1) + "</B><br>");
+            else
+                HTML_Teksto.append(    "<td><B>" + sTekstoD.replace(LTR_Marko, "") + " (" + QString::number(i+1) + "</B><br>");
+        }
+
 
         chiuj_label =
                 this->parentWidget()->parentWidget()->parentWidget()->findChildren<QLabel *>(Leciono + "Label"  + aEk03R[iAleat3]);
@@ -326,7 +369,19 @@ void vortoludo::on_printilo_ps_clicked()
         }
 
         for (j = 0; j < 5; j++)
-            HTML_Teksto.append( Literoj[j] + ") " + SubaLinio +  chiuj_radioj[j] + "<br>");
+        {
+            if (Direkto == "LTR")
+                HTML_Teksto.append( Literoj[j] + ") " + SubaLinio +  chiuj_radioj[j] + "<br>");
+            else
+            {
+                chiuj_radioj[j].replace("(", RLO_Marko + "(" + PDF_Marko );
+                chiuj_radioj[j].replace(")", RLO_Marko + ")" + PDF_Marko );
+                HTML_Teksto.append(RLE_Marko +
+                                   chiuj_radioj[j]  +
+                                   PDF_Marko + LRE_Marko +  SubaLinio +  "(" + Literoj[j]  + PDF_Marko + "<br>");
+            }
+        }
+
 
         if ( i % 2 == 0)
             HTML_Teksto.append("<br></td>");

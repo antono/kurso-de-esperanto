@@ -5,7 +5,7 @@
 #include <QProgressBar>
 
 int random(int limo);
-int  _Matriz2(std::vector<QStringList> * Mat, QString ek, QString tipo, int minimuma);
+int  _Matriz2(QList<QStringList> * Mat, QString ek, QString tipo, int minimuma);
 int  _Matriz(QStringList * Mat, QString ek, QString tipo);
 void Pauzu(int sekundoj);
 QString CxSist(QString frazo, int iSistemo);
@@ -32,7 +32,7 @@ const QString mp3_finajho=".ogg";
 const QString video_finajho=".ogv";
 #endif
 #ifdef Q_WS_WIN
-const QString mp3_finajho=".mp3";
+const QString mp3_finajho=".wma";
 const QString video_finajho=".wmv";
 #endif
 #ifdef Q_WS_MACX
@@ -47,11 +47,12 @@ extern int NumSec;
 extern int Ofteco;
 extern QSettings Konfiguro;
 extern QSettings Tradukado;
-extern QString sLingvo, sTiparo, sTradukoDosiero, sKorNomo, sKorAdreso, EkzercoAkuzativoTrad;
-extern int iSistemo, LastaLeciono, LastaPagxo, iLastaFojo, iLiterGrando;
+extern QString sLingvo, sTiparo, sTiparoEo, sTradukoDosiero, sKorNomo, sKorAdreso, EkzercoAkuzativoTrad;
+extern int iSistemo, LastaLeciono, LastaPagxo, iLastaFojo, iLiterGrando, iLiterGrandoEo, iFenestraStilo;
 extern bool lKorektanto, lCxapeligo, Tradukilo, NeEkzistasTraduko, lSxaltilo, lNoteto;
 extern QString sTradukinto;
 extern QString Loko;
+extern QString Direkto;
 
 
 // eksteraj varibloj, uzotaj por komunikighi kun la uzulo

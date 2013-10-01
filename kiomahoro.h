@@ -34,7 +34,7 @@ private:
     int iKorektaj, iEraraj, iAleat1;
     QStringList aEk01D;
     QStringList aEk01R;
-    std::vector<bool> aEk01A;
+    QList<bool> aEk01A;
 
     int     iEk01D;
 

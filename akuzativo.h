@@ -52,10 +52,10 @@ private:
 
     int iAleat2, iKorektaj, iEraraj;
 
-    std::vector<QStringList> aEk02D;
-    std::vector<QStringList> aEk02R;
-    std::vector<QStringList> aEk02K;
-    std::vector<bool>        aEk02A;
+    QList<QStringList> aEk02D;
+    QList<QStringList> aEk02R;
+    QList<QStringList> aEk02K;
+    QList<bool>        aEk02A;
     QStringList              aEk02T;
     QStringList              Klarigoj;
 

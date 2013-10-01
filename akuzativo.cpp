@@ -74,6 +74,9 @@ void akuzativo::on_BitBtn1_clicked()
 
     _Matriz(&Klarigoj, "Klarigoj", "T");
 
+    while (Klarigoj.size() < 13)
+        Klarigoj.append("");
+
     this->ui->BitBtn1->setEnabled(false);
     this->ui->BitBtn3->setEnabled(true);
     this->ui->Placar1->setValue(iEk02D);
@@ -82,9 +85,12 @@ void akuzativo::on_BitBtn1_clicked()
     this->ui->Placar4->setValue(0);
     iKorektaj = 0;
     iEraraj = 0;
-    aEk02A.resize(iEk02D);
+    //aEk02A.clear(iEk02D);
+
+    aEk02A.clear();
     for (int i = 0; i < iEk02D; i++)
-        aEk02A[i] = false;
+        //aEk02A[i] = false;
+        aEk02A << false;
     novafrazo();
     this->ui->Vortoj->setEnabled(true);
 

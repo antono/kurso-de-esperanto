@@ -37,13 +37,13 @@ private:
     QString EkzercoAudado;
     int iEk02D;
 
-    std::vector<bool> aEk02A;
+    QList<bool> aEk02A;
 
     QStringList aEk02D;
     int iKorektaj2;
     int iEraraj2;
     int iAleat2;
-    QString sMp3dos, Leciono;
+    QString sMp3dos, Leciono, LTR_Marko;
 
 };
 
