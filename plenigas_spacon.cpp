@@ -40,6 +40,8 @@
 #include <cstdlib>
 #include <QtGui>
 #include <QtCore>
+#include <QPrinter>
+#include <QPrintDialog>
 #include "funkcioj.h"
 using namespace std;
 

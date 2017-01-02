@@ -39,6 +39,8 @@
 #include "funkcioj.h"
 #include <QtGui>
 #include <QtCore>
+#include <QPrinter>
+#include <QPrintDialog>
 
 vortoludo::vortoludo(QWidget *parent) :
     QFrame(parent),

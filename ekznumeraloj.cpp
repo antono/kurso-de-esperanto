@@ -39,6 +39,8 @@
 #include "funkcioj.h"
 #include <QtGui>
 #include <QtCore>
+#include <QPrinter>
+#include <QPrintDialog>
 
 ekznumeraloj::ekznumeraloj(QWidget *parent) :
     QFrame(parent),

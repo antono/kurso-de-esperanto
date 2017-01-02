@@ -39,6 +39,13 @@
 #include "sleeper.h"
 #include <QtGui>
 #include <QtCore>
+#include <QApplication>
+#include <QMessageBox>
+#include <QRadioButton>
+#include <QLineEdit>
+#include <QPrinter>
+#include <QPrintDialog>
+#include <QPlainTextEdit>
 #include <funkcioj.h>
 #include "kurso.h"
 #include <neklakebla.h>
