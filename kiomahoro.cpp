@@ -39,6 +39,8 @@
 #include "funkcioj.h"
 #include <QtGui>
 #include <QtCore>
+#include <QPrinter>
+#include <QPrintDialog>
 
 kiomahoro::kiomahoro(QWidget *parent) :
     QFrame(parent),

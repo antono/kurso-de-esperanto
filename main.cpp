@@ -34,7 +34,7 @@
     kune kun ĉi tiu programo. Se ne, iru al <http://www.gnu.org/licenses/>.
 */
 
-#include <QtGui/QApplication>
+#include <QApplication>
 #include <QtCore>
 #include <QFontDatabase>
 #include "kurso.h"

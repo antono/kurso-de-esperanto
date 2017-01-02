@@ -2,6 +2,8 @@
 #include "ui_traduko.h"
 #include "QtGui"
 #include "QtCore"
+#include "QMessageBox"
+#include "QFileDialog"
 #include "funkcioj.h"
 //#include "kurso.h"
 
@@ -85,7 +87,7 @@ void traduko::konfiguro()
     Referenca2  = Konfiguro.value("Referenca2", "angla.trd").toString();
     Leciono     = Konfiguro.value("LastaLeciono", 0).toInt();
     Pozicio     = Konfiguro.value("Pozicio", 0).toInt();
-    QString Provizora = QDesktopServices::storageLocation(QDesktopServices::DocumentsLocation) ;
+    QString Provizora = QStandardPaths::writableLocation(QStandardPaths::DocumentsLocation) ;
     Dosierujo   = Konfiguro.value("Dosierujo", Provizora ).toString();
 
     QDir ProvDosierujo(Dosierujo);

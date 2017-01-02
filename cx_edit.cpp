@@ -46,7 +46,7 @@ void cx_edit::keyPressEvent(QKeyEvent *event)
     if ( (event->key() == Qt::Key_X) && (lCxapeligo))
     {
         int arg1 = this->cursorPosition()-1;
-        QByteArray antaualitero = (this->text().mid(arg1,1)).toAscii();
+        QByteArray antaualitero = (this->text().mid(arg1,1)).toLatin1();
         QString novalitero;
         switch (antaualitero[0]) {
         case 'c':

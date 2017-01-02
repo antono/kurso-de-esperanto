@@ -27,15 +27,15 @@ void mp3(QString Dosiero);
 void tekstoblinko(QWidget * korekta);
 QString helpdosiero(QString);
 
-#ifdef Q_WS_X11
+#ifdef Q_OS_UNIX
 const QString mp3_finajho=".ogg";
 const QString video_finajho=".ogv";
 #endif
-#ifdef Q_WS_WIN
+#ifdef Q_OS_WIN
 const QString mp3_finajho=".wma";
 const QString video_finajho=".wmv";
 #endif
-#ifdef Q_WS_MACX
+#ifdef Q_OS_MACOS
 const QString mp3_finajho=".mp3";
 const QString video_finajho=".mov";
 #endif

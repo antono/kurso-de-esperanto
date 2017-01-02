@@ -52,8 +52,8 @@ prononco::prononco(QWidget *parent) :
     if (Provizorujo.right(1) != "/")
         Provizorujo.append("/");
 
-    formato.setFrequency(44100);
-    formato.setChannels(1);
+    formato.setSampleRate(44100);
+    formato.setChannelCount(1);
     formato.setSampleSize(8);
     formato.setCodec("audio/pcm");
     formato.setByteOrder( QAudioFormat::LittleEndian );

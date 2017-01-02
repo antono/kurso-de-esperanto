@@ -49,9 +49,9 @@ void cx_plainedit::keyPressEvent(QKeyEvent *event)
         QChar antaualitero = this->document()->characterAt(arg1);
 
         //int arg1 = this->cursorPosition()-1;
-        //QByteArray antaualitero = (this->text().mid(arg1,1)).toAscii();
+        //QByteArray antaualitero = (this->text().mid(arg1,1)).toLatin1();
         QString novalitero;
-        switch (antaualitero.toAscii()) {
+        switch (antaualitero.toLatin1()) {
         case 'c':
             novalitero = QString::fromUtf8("ĉ");
             break;

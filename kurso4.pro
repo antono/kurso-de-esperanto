@@ -4,7 +4,7 @@
 #
 #-------------------------------------------------
 
-QT       += core gui phonon  multimedia
+QT       += core gui widgets phonon4qt5 multimedia printsupport
 
 TARGET = kurso4
 TEMPLATE = app

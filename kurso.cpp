@@ -38,6 +38,8 @@
 #include "kurso.h"
 #include "ui_kurso.h"
 #include <QtGui>
+#include <QMessageBox>
+#include <QDesktopWidget>
 #include <QtCore>
 #include <funkcioj.h>
 #include <lingvoelekto.h>
